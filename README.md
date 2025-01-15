@@ -20,6 +20,10 @@ This repository contains a translation for WolfRPGEditor
 
 ---
 
+[Tutorial](https://github.com/WoditorTrans2000/WoditorTranslationGallery#tutorial) | [Se quer Traduzir | If you want to Translate Wiki}
+
+---
+
 ## Status 
 
 POR 🇧🇷 - Incompleta -Tradução feita por mim, usando a versão inglês(2.24Z) como referência.
