@@ -11,7 +11,7 @@
 
 **(PT)**
 
-Esse repósitorio contêm tradução para WolfRPGEditor
+Esse repositório contêm tradução para WolfRPGEditor
 
 
 **(ENG)**
