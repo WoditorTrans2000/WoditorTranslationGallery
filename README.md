@@ -93,16 +93,20 @@ What will be translated into Russian: Main menu, map list and game settings. The
 
 ## Tutorial
 
-**(PT)**
-- 1.Instale a seu idioma de preferência no release
-- 2.Extraia o zip.
-- 3.Coloque o .dll e os dois .txt no mesmo local do Editor.exe
-- 4.Execute o Editor.exe
-- 5.Você saberá que está funcionando, quando o banner do carregamento dizer "Editor.lang.dll mode"
+**PT ENG**
 
-**(ENG)**
-- 1.Install your preferred language in the release
-- 2.Extract the zip.
-- 3.Place the .dll and the two .txt files in the same location as Editor.exe
-- 4.Run Editor.exe
-- 5.You'll know it's working when the loading banner says "Editor.lang.dll mode"
+* Instale a seu idioma de preferência. | Install your preferred language. -> [Releases](https://github.com/WoditorTrans2000/WoditorTranslationGallery/releases)
+
+
+
+* Extraia o zip. | Extract the zip.
+
+* Coloque o .dll e os dois .txt no mesmo local do Editor.exe. | Place the .dll and the two .txt files in the same location as Editor.exe
+
+
+
+* Execute o Editor.exe | Run Editor.exe
+
+* Você saberá que está funcionando, quando o banner do carregamento dizer "Editor.lang.dll mode" |
+
+  You'll know it's working when the loading banner says "Editor.lang.dll mode" |
