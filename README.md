@@ -20,7 +20,7 @@ This repository contains a translation for WolfRPGEditor
 
 ---
 
-[Tutorial](https://github.com/WoditorTrans2000/WoditorTranslationGallery#tutorial) | [Se quer Traduzir | If you want to Translate Wiki}
+[Tutorial](https://github.com/WoditorTrans2000/WoditorTranslationGallery#tutorial) | [[Se quer Traduzir](https://github.com/WoditorTrans2000/WoditorTranslationGallery/wiki/Como-traduzir%3F(PT))] | [[If you want to Translate](https://github.com/WoditorTrans2000/WoditorTranslationGallery/wiki/If-you-want-to-Translate-(ING))]Wiki
 
 ---
 
