@@ -20,18 +20,97 @@ This repository contains a translation for WolfRPGEditor
 
 ---
 
+[Tutorial](https://github.com/WoditorTrans2000/WoditorTranslationGallery#tutorial) | [[Se quer Traduzir](https://github.com/WoditorTrans2000/WoditorTranslationGallery/wiki/Como-traduzir%3F(PT))] | [[If you want to Translate](https://github.com/WoditorTrans2000/WoditorTranslationGallery/wiki/If-you-want-to-Translate-(ING))]Wiki
+
+---
+
+## Status 
+
+POR 🇧🇷 - Incompleta -Tradução feita por mim, usando a versão inglês(2.24Z) como referência.
+
+MENU - ( :white_check_mark: ) Tudo
+
+DIALOG - ( ⏳ )
+
+STRINGTABLE - ( ⏳ )
+
+SystemString.txt ( ⏳ )
+
+SystemValue.txt ( ⏳ )
+
+Menu principal, Comandos, configuração e etc estão traduzido, porem não é perfeita e pode ter erro ortográfico. Apesar de está quase tudo traduzido, ainda falta muita coisa.
+Não estou focando na tradução, por enquanto.
+
+---
+
+ENG 🇺🇸 - In progress - Picking up things that were translated in 2.24Z(KeroKeroCoder; Widderune) and 3.16 (Sugy) for 3.39x.
+
+MENU - ( :white_check_mark: ) All
+
+DIALOG - ( ⏳ )
+
+STRINGTABLE - ( ⏳ )
+
+SystemString.txt ( ⏳ )
+
+SystemValue.txt ( ⏳ )
+
+Main menu, right-click menus, Basic configuration, Map list, all commands, Event editing and CommonEv editing have been translated. The rest has not. Focusing on the translation.
+
+---
+
+POL 🇵🇱 - In progress - Same process as ENG, taking what was translated in 2.264 (Reptile) for 3.39x.
+
+MENU - ( :white_check_mark: ) All
+
+DIALOG - ( ⏳ )
+
+STRINGTABLE - ( ⏳ )
+
+SystemString.txt ( ⏳ )
+
+SystemValue.txt ( ⏳ )
+
+Only the main menu, the right-click popup, Basic Setup and Map List have been translated. The rest has not.
+Focusing on the translation.
+
+---
+
+RUS 🇷🇺 - Incomplete - Same process as ENG, taking what was translated in 2.21(Andy.Whitebird) for 3.39x.
+
+
+MENU - ( :white_check_mark: :x: ) Not all
+
+DIALOG - ( ⏳ )
+
+STRINGTABLE - ( ⏳ )
+
+SystemString.txt ( ⏳ )
+
+SystemValue.txt ( ⏳ )
+
+Only the main menu, the right-click popup, Basic configuration (not everything) and Map list have been translated. The rest has not.
+This translation will unfortunately be incomplete, as I'm using screenshots to get the translation, since the download link doesn't work.
+What will be translated into Russian: Main menu, map list and game settings. The rest will be in ENG.
+
+---
+
 ## Tutorial
 
-**(PT)**
-- 1.Instale a seu idioma de preferência no release
-- 2.Extraia o zip.
-- 3.Coloque o .dll e os dois .txt no mesmo local do Editor.exe
-- 4.Execute o Editor.exe
-- 5.Você saberá que está funcionando, quando o banner do carregamento dizer "Editor.lang.dll mode"
+**PT ENG**
 
-**(ENG)**
-- 1.Install your preferred language in the release
-- 2.Extract the zip.
-- 3.Place the .dll and the two .txt files in the same location as Editor.exe
-- 4.Run Editor.exe
-- 5.You'll know it's working when the loading banner says "Editor.lang.dll mode"
+* Instale a seu idioma de preferência. | Install your preferred language. -> [Releases](https://github.com/WoditorTrans2000/WoditorTranslationGallery/releases)
+
+
+
+* Extraia o zip. | Extract the zip.
+
+* Coloque o .dll e os dois .txt no mesmo local do Editor.exe. | Place the .dll and the two .txt files in the same location as Editor.exe
+
+
+
+* Execute o Editor.exe | Run Editor.exe
+
+* Você saberá que está funcionando, quando o banner do carregamento dizer "Editor.lang.dll mode" |
+
+  You'll know it's working when the loading banner says "Editor.lang.dll mode" |
