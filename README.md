@@ -49,7 +49,7 @@ ENG 🇺🇸 - In progress - Picking up things that were translated in 2.24Z(Vgp
 
 MENU - ( :white_check_mark: ) All
 
-DIALOG - ( :white_check_mark: ) Not all are not translated, due some changes not show up when using the Editor or the translation that i used (2.24Z by Vgperson and Widderune/3.16 by Sugy) are missing the part.
+DIALOG - ( :white_check_mark: ) Not everthing are translated, due some changes not show up when using the Editor or the translation that i used (2.24Z by Vgperson and Widderune/3.16 by Sugy) are missing the part.
 
 STRINGTABLE - ( ⏳ )
 
