@@ -49,7 +49,7 @@ ENG 🇺🇸 - In progress - Picking up things that were translated in 2.24Z(Ker
 
 MENU - ( :white_check_mark: ) All
 
-DIALOG - ( ⏳ )
+DIALOG - ( :white_check_mark: ) Not all are not translated, due some changes not show up when using the Editor or the translation that i used (2.24Z by Vgperson and Widderune/3.16 by Sugy) are missing the part.
 
 STRINGTABLE - ( ⏳ )
 
@@ -57,7 +57,7 @@ SystemString.txt ( ⏳ )
 
 SystemValue.txt ( ⏳ )
 
-Main menu, right-click menus, Basic configuration, Map list, all commands, Event editing and CommonEv editing have been translated. The rest has not. Focusing on the translation.
+All the resources from Menu have been finished and All the resources from Dialog have been finished.
 
 ---
 
