@@ -13,12 +13,12 @@
 
 **(PT)**
 
-Esse repositório contêm tradução para WolfRPGEditor
+Esse repositório contêm traduções para WolfRPGEditor
 
 
 **(ENG)**
 
-This repository contains a translation for WolfRPGEditor
+This repository contains translations for WolfRPGEditor
 
 ---
 
@@ -41,7 +41,7 @@ SystemString.txt ( ⏳ )
 SystemValue.txt ( ⏳ )
 
 Menu principal, Comandos, configuração e etc estão traduzido, porem não é perfeita e pode ter erro ortográfico. Apesar de está quase tudo traduzido, ainda falta muita coisa.
-Não estou focando na tradução, por enquanto.
+Focando na tradução.
 
 ---
 
@@ -73,27 +73,27 @@ SystemString.txt ( ⏳ )
 
 SystemValue.txt ( ⏳ )
 
-Only the main menu, the right-click popup, Basic Setup and Map List have been translated. The rest has not.
-Focusing on the translation.
+Only the main menu, the right-click popup, Basic configuration and Map List have been translated. The rest has not.
+Not focusing on the translation. I'll probably finish this translation last.
 
 ---
 
-RUS 🇷🇺 - Incomplete - Same process as ENG, taking what was translated in 2.21(Andy.Whitebird) for 3.39x.
+RUS 🇷🇺 - DONE but Incomplete - Same process as ENG, taking what was translated in 2.21(Andy.Whitebird) for 3.39x.
 
 
-MENU - ( :white_check_mark: :x: ) Not all
+MENU - ( :white_check_mark: :x: ) Main menu and the right-click menu
 
-DIALOG - ( ⏳ )
+DIALOG - ( :white_check_mark: :x: ) Basic configuration (not everything) and Map list
 
-STRINGTABLE - ( ⏳ )
+STRINGTABLE - ( :x: )
 
-SystemString.txt ( ⏳ )
+SystemString.txt ( :x: )
 
-SystemValue.txt ( ⏳ )
+SystemValue.txt ( :x: )
 
-Only the main menu, the right-click popup, Basic configuration (not everything) and Map list have been translated. The rest has not.
-This translation will unfortunately be incomplete, as I'm using screenshots to get the translation, since the download link doesn't work.
-What will be translated into Russian: Main menu, map list and game settings. The rest will be in ENG.
+Only the main menu, the right-click menu, Basic configuration (not everything) and Map list have been translated. The rest is in ENG.
+
+It will be incomplete, since I don't know Russian. But if anyone knows, feel free to translate.
 
 ---
 
