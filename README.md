@@ -28,7 +28,7 @@ This repository contains a translation for WolfRPGEditor
 
 ## Status 
 
-POR 🇧🇷 - Incompleta -Tradução feita por mim, usando a versão inglês(2.24Z) como referência.
+POR 🇧🇷 - Incompleta -Tradução feita por mim, usando a versão inglês 2.24Z(Vgperson; Widderune) e 3.16 (Sugy) como referência.
 
 MENU - ( :white_check_mark: ) Tudo
 
@@ -47,17 +47,17 @@ Não estou focando na tradução, por enquanto.
 
 ENG 🇺🇸 - In progress - Picking up things that were translated in 2.24Z(Vgperson; Widderune) and 3.16 (Sugy) for 3.39x.
 
-MENU - ( :white_check_mark: ) All
+MENU - ( :white_check_mark: )
 
-DIALOG - ( :white_check_mark: ) Not everthing are translated, due some changes not show up when using the Editor or the translation that i used (2.24Z by Vgperson and Widderune/3.16 by Sugy) are missing the part.
+DIALOG - ( :white_check_mark: ) 
 
-STRINGTABLE - ( ⏳ )
+STRINGTABLE - ( :white_check_mark: )
 
-SystemString.txt ( ⏳ )
+SystemString.txt ( :white_check_mark: )
 
-SystemValue.txt ( ⏳ )
+SystemValue.txt ( :white_check_mark: )
 
-All the resources from Menu have been finished and All the resources from Dialog have been finished.
+Not everything is translated, because the translation I used (2.24Z by Vgperson and Widderune | 3.16 by Sugy) is missing parts of the latest version.
 
 ---
 
