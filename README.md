@@ -45,7 +45,7 @@ Não estou focando na tradução, por enquanto.
 
 ---
 
-ENG 🇺🇸 - In progress - Picking up things that were translated in 2.24Z(Vgperson; Widderune) and 3.16 (Sugy) for 3.39x.
+ENG 🇺🇸 - DONE - Picking up things that were translated in 2.24Z(Vgperson; Widderune) and 3.16 (Sugy) for 3.39x.
 
 MENU - ( :white_check_mark: )
 
