@@ -100,6 +100,18 @@ It will be incomplete, since I don't know Russian. But if anyone knows, feel fre
 
 **PT ENG**
 
+[ENG]All versions 1 -> [Releases](https://github.com/WoditorTrans2000/WoditorTranslationGallery/releases/tag/AllVersions1)
+
+Set your system location to Japanese.
+
+Extract the zip.
+
+Run Editor.EXE.
+
+<br/>
+
+Version 3
+
 * Instale a seu idioma de preferência. | Install your preferred language. -> [Releases](https://github.com/WoditorTrans2000/WoditorTranslationGallery/releases)
 
 
