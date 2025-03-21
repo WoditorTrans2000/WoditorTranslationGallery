@@ -1,0 +1,205 @@
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+
+127 MENU
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  POPUP "File(&F)"
+  {
+    MENUITEM "New Map",  32819
+    MENUITEM "Load Map",  57601
+    MENUITEM "Save Map \tCtrl+S(&S)",  57603
+    MENUITEM "Save as...\t(&A)",  57604
+    MENUITEM SEPARATOR
+    MENUITEM "Create Game Data\t(&Ｇ)",  32846
+    MENUITEM SEPARATOR
+    MENUITEM "Exit Editor\t(&X)",  57665
+  }
+  POPUP "Edit(&E)"
+  {
+    MENUITEM "Event Cut \tX",  57635
+    MENUITEM "Event Copy \tC",  57634
+    MENUITEM "Event Paste \tV",  57637
+    MENUITEM "Delete\tDel or BS",  32794
+    MENUITEM "Map Settings",  32814
+  }
+  POPUP "View(&V)"
+  {
+    MENUITEM "Toolbar\t(&T)",  59392
+    MENUITEM "Tileset Editor",  32792
+    MENUITEM "System Database",  32797
+    MENUITEM "User Database",  32790
+    MENUITEM "Variable Database",  32831
+    MENUITEM "Common Events",  32815
+    MENUITEM "Map Selection",  32823
+  }
+  POPUP "Layer"
+  {
+    MENUITEM "Layer 1",  32771
+    MENUITEM "Layer 2",  32772
+    MENUITEM "Layer 3",  32773
+    MENUITEM "Events",  32774
+  }
+  POPUP "Game Settings"
+  {
+    MENUITEM "Open Game Settings",  32830
+    MENUITEM SEPARATOR
+    MENUITEM "Open Config",  32865
+    MENUITEM "Use Debug Window [Check = Use]",  32942,  CHECKED
+  }
+  POPUP "Options"
+  {
+    MENUITEM "Editor Options",  32943
+  }
+  POPUP "Help(&H)"
+  {
+    MENUITEM "WOLF RPG Editor Version Info \t(&A)",  57664
+    MENUITEM "WOLF RPG Editor Manual [Japanese] \t(&M)",  32861
+    MENUITEM "WOLF RPG Editor Official Site [Japanese]",  32871
+    MENUITEM "Perfect Guide Site [Japanese]",  32872
+    MENUITEM "Variable Reference/Special Characters Index",  32868
+  }
+}
+
+146 MENU
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  POPUP "Move Command"
+  {
+    MENUITEM "Move Down",  32798
+    MENUITEM "Move Left",  32799
+    MENUITEM "Move Right",  32800
+    MENUITEM "Move Up",  32801
+    MENUITEM "Move Down-Left",  32802
+    MENUITEM "Move Down-Right",  32803
+    MENUITEM "Move Up-Left",  32804
+    MENUITEM "Move Up-Right",  32805
+  }
+  POPUP "Direction Command"
+  {
+    MENUITEM "Face Down",  32806
+    MENUITEM "Face Left",  32807
+    MENUITEM "Face Right",  32808
+    MENUITEM "Face Up",  32809
+    MENUITEM "Face Down-Left",  32810
+    MENUITEM "Face Down-Right",  32811
+    MENUITEM "Face Up-Left",  32812
+    MENUITEM "Face Up-Right",  32813
+  }
+  POPUP "Edit"
+  {
+    MENUITEM "Cut \t&X",  33048
+    MENUITEM "Copy \t&C",  33050
+    MENUITEM "Paste \t&V",  33052
+    MENUITEM "Delete\t&Del",  33054
+  }
+}
+
+172 MENU
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  POPUP "TEST"
+  {
+    MENUITEM "Event Create/Edit",  32852
+    MENUITEM SEPARATOR
+    MENUITEM "Event Cut \t&X",  57635
+    MENUITEM "Event Copy \t&C",  57634
+    MENUITEM "Event Paste \t&V",  57637
+    MENUITEM "Delete \t&Del",  32794
+    MENUITEM SEPARATOR
+    MENUITEM "Manual Map Chip Update",  32818
+    MENUITEM SEPARATOR
+    MENUITEM "Set Game Start Position",  32855
+    MENUITEM "Save Position to DB",  32853
+  }
+}
+
+216 MENU
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  POPUP "EDITMENU"
+  {
+    MENUITEM "Open Command Insert Window \t&Enter",  32954
+    MENUITEM "Edit Command \t&Space",  32953
+    MENUITEM SEPARATOR
+    MENUITEM "Cut \t&X",  32946
+    MENUITEM "Copy \t&C",  32958
+    MENUITEM "Paste \t&V",  32959
+    MENUITEM "Delete \t&Del",  32960
+    MENUITEM "Select All \t&A",  33044
+    MENUITEM SEPARATOR
+    MENUITEM "Jump to Start of Selection \t&T",  33032
+    MENUITEM "Jump to End of Selection \t&B",  33034
+    MENUITEM SEPARATOR
+    MENUITEM "Copy Command String to Clipboard \t&Q",  32962
+    MENUITEM SEPARATOR
+    MENUITEM "Copy Event Code to Clipboard \t&W",  32963
+    MENUITEM "Paste Event Code from Clipboard \t&E",  32957
+  }
+  POPUP "SUB"
+  {
+    MENUITEM "ResetNotUseTimer",  33042
+  }
+}
+
+217 MENU
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  POPUP "EDITMENU"
+  {
+    MENUITEM "Event Cut \t&X",  32978
+    MENUITEM "Event Copy \t&C",  32979
+    MENUITEM "Event Multi Copy \t&M",  32980
+    MENUITEM "Event Paste \t&V",  32981
+    MENUITEM "Delete \t&Del",  32982
+  }
+}
+
+218 MENU
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  POPUP "EDITMENU"
+  {
+    MENUITEM "Cut \t&X",  32983
+    MENUITEM "Copy \t&C",  32984
+    MENUITEM "Multi Copy \t&M",  32985
+    MENUITEM "Paste \t&V",  32986
+    MENUITEM "Delete \t&Del",  32987
+    MENUITEM SEPARATOR
+    MENUITEM "Export Type Settings to File",  32988
+    MENUITEM "Export Type and All Data to File",  32989
+  }
+}
+
+219 MENUEX
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  POPUP "EDITMENU", 65535, MFT_STRING, MFS_ENABLED, 0
+  {
+    MENUITEM "Cut \t&X", 32990, MFT_STRING, MFS_ENABLED
+    MENUITEM "Copy \t&C", 32991, MFT_STRING, MFS_ENABLED
+    MENUITEM "Multi Copy \t&M", 32992, MFT_STRING, MFS_ENABLED
+    MENUITEM "Paste \t&V", 32993, MFT_STRING, MFS_ENABLED
+    MENUITEM "Delete \t&Del", 32994, MFT_STRING, MFS_ENABLED
+    MENUITEM "", 0, MFT_SEPARATOR, MFS_ENABLED
+    MENUITEM "Export Data to File", 32995, MFT_STRING, MFS_ENABLED
+    MENUITEM "Export Data as CSV File", 32996, MFT_STRING | MFT_RIGHTJUSTIFY, MFS_ENABLED
+  }
+}
+
+220 MENU
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  POPUP "EDITMENU"
+  {
+    MENUITEM "Create New Map \t(&N)",  33007
+    MENUITEM "Copy Map \t(&C)",  33013
+    MENUITEM "Paste Map \t(&V)",  33014
+    MENUITEM "Delete Map \t(&D)",  33015
+    MENUITEM SEPARATOR
+    MENUITEM "[←] Move to Parent Level \tShift+[←]",  33020
+    MENUITEM "[→] Move to Child Level \tShift+[→]",  33017
+    MENUITEM "[↑] Move Up \tShift+[↑]",  33018
+    MENUITEM "[↓] Move Down \tShift+[↓]",  33019
+  }
+}
+

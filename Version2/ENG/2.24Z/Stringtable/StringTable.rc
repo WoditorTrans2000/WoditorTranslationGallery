@@ -1,0 +1,2286 @@
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  128, 	"WOLF RPG Editor\n\nMainEditor\n\nMainEditor\n\n\nMainEditor.Document\nMainEditor.Document"
+  129, 	"Now loading... "
+  130, 	"|"
+  131, 	":"
+  132, 	"JP"
+  133, 	" "
+  134, 	" "
+  135, 	"Run As Old Version 2.10"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10000, 	"Layer 1;Layer 2;Layer 3;"
+  10001, 	"Simplest;Simple;Average;Complex;Most Complex;"
+  10002, 	"Do nothing"
+  10003, 	"Don't use"
+  10004, 	"Fill with transparent"
+  10005, 	"Auto-Tile %d"
+  10006, 	"Base Tile %d"
+  10007, 	"MS Gothic"
+  10008, 	"} Message"
+  10009, 	"} Choice"
+  10010, 	"} Debug"
+  10011, 	"#"
+  10012, 	"} Condition"
+  10013, 	"} Set Variable"
+  10014, 	"} Set String"
+  10015, 	"} DB Management"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10016, 	"} Write to VarDB"
+  10017, 	"} Load DB"
+  10018, 	"} Input"
+  10019, 	"} Transfer:"
+  10020, 	"} Sound:"
+  10021, 	"} Synth:"
+  10022, 	"} Picture"
+  10023, 	"} Effect Picture"
+  10024, 	"} Effect Character"
+  10025, 	"} Effect Map"
+  10026, 	"} Set Transition:"
+  10027, 	"} Transition"
+  10028, 	"} Loop Start"
+  10029, 	"} Break Loop"
+  10030, 	"} Image Update"
+  10031, 	"} Exit Event"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10032, 	"} Erase Event"
+  10033, 	"} Wait"
+  10034, 	"} Move Route:"
+  10035, 	"} Party Graphics:"
+  10036, 	"} Wait For Movement"
+  10037, 	"} Change Color"
+  10038, 	"} Call Event:"
+  10039, 	"} Call Event [Name]:"
+  10040, 	"} Reserve Next Event:"
+  10041, 	"} Save Data:"
+  10042, 	"} Load Data:"
+  10043, 	"} Replay Data:"
+  10044, 	"} Load Save Data:"
+  10045, 	"} Write Save Data:"
+  10046, 	"} Map Chip"
+  10047, 	"} Chipset"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10048, 	"- Label"
+  10049, 	"-+Condition:"
+  10050, 	"-+Case"
+  10051, 	"-+Else"
+  10052, 	"+Case: Cancel"
+  10053, 	"+Loop End Point"
+  10054, 	"+End"
+  10055, 	"} Checkpoint|"
+  10056, 	"} [Special] Checkpoint|"
+  10057, 	"Show Message"
+  10058, 	"Choice"
+  10059, 	"Set Variable"
+  10060, 	"Condition"
+  10061, 	"Set String"
+  10062, 	"DB Management"
+  10063, 	"Input Key"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10064, 	"Transfer"
+  10065, 	"Chip Processing"
+  10066, 	"Party Graphics"
+  10067, 	"Effect"
+  10068, 	"Sound"
+  10069, 	"Synth"
+  10070, 	"Picture"
+  10071, 	"Save"
+  10072, 	"Common Event"
+  10073, 	"Black;Red;Blue;Green;Purple;Yellow;Gray;"
+  10074, 	"Call Only;Auto-Start;Parallel Process;Parallel Process (Always);"
+  10075, 	"Greater than;Greater or equal;Equal;Less or equal;Less than;Not equal;Bitwise &;"
+  10076, 	"Failed to create event insert dialog.\n"
+  10077, 	"} Insert Common Event Command"
+  10078, 	"Failed to create search dialog.\n"
+  10079, 	"- Search Commands"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10080, 	"%.3i: %s%s"
+  10081, 	"Game.exe not found."
+  10082, 	"Warning"
+  10083, 	"<"
+  10084, 	">"
+  10085, 	"|"
+  10086, 	"/"
+  10087, 	"\\"
+  10088, 	":"
+  10089, 	";"
+  10090, 	","
+  10091, 	"?"
+  10092, 	"”"
+  10093, 	"Text File (*.txt)|*.txt|All files(*.*)|*.*||"
+  10094, 	"Common Event File (*.common)|*.common|All files(*.*)|*.*||"
+  10095, 	"Num x%d  Str x%d / Return "
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10096, 	"[Nothing]"
+  10097, 	"This file contains multiple events. Commons %d to %d will be overwritten.\r\nIs this okay?"
+  10098, 	"Common Event Editor - Event Copied (CommonEv %d)"
+  10099, 	"*Indents are not normal!"
+  10100, 	"Common Event Editor - Command Copied (CommonEv %d Line %d)%s"
+  10101, 	"Common Event Editor - Commands Copied (CommonEv %d Lines %d~%d)%s"
+  10102, 	"[Move Route]*Move routes cannot be put on clipboard"
+  10103, 	"Recognized as event code,\r\nbut indents do not properly match.\r\n\r\nPaste canceled to avoid potential event corruption."
+  10104, 	"Recognized as event code,\r\nbut no end point recognized.\r\n\r\nThe copied text must end with the line WoditorEvCOMMAND_END."
+  10105, 	"Not recognized as event code.\r\n\r\nThe copied text must start with the line WoditorEvCOMMAND_START."
+  10106, 	"File\r\n\"%s\"\r\nis not a Common Event file\r\n\r\nOnly \".common\" files can be drag-and-dropped."
+  10107, 	"This file is not Common Event data."
+  10108, 	"Load Error"
+  10109, 	"This is a single Common Event file.\r\nIs it okay to overwrite\r\nCommon Event %d?"
+  10110, 	"Load One"
+  10111, 	"This is a multi-Common-Event file.\r\nIs it okay to overwrite\r\nCommon Events %d to %d?"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10112, 	"Load Multiple"
+  10113, 	"} "
+  10114, 	"-"
+  10115, 	"Data"
+  10116, 	"Event Multi-Copy"
+  10117, 	"Data Multi-Copy"
+  10118, 	"Type Multi-Copy"
+  10119, 	"From [Ev%.3i:%s]\r\nTo [Ev%.3i:%s]\r\nSave %d Common Events to file"
+  10120, 	"From [Data %.3i:%s]\r\nTo [Data %.3i:%s]\r\nSave %d Data entries to file"
+  10121, 	"From [Ev%.3i:%s]\r\nTo [Ev%.3i:%s]\r\nCopy %d Events"
+  10122, 	"From [Data %.3i:%s]\r\nTo [Data %.3i:%s]\r\nCopy %d Data entries"
+  10123, 	"From [Type %.3i:%s]\r\nTo [Type %.3i:%s]\r\nCopy %d Data Types"
+  10124, 	"System DB;User DB;Variable DB;"
+  10125, 	"CSelf%d%s: %s"
+  10126, 	"[Str]"
+  10127, 	"[Num]"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10128, 	"Value not enough for choice processing!"
+  10129, 	"Call Common Event by name."
+  10130, 	"Deleting position is behind Value!"
+  10131, 	"Deleting position is behind ValueString!"
+  10132, 	"Database Editor"
+  10133, 	"[%d]: %s [User %d]"
+  10134, 	"[%d]: %s [Var %d]"
+  10135, 	"[%d]: %s [CommonEv]"
+  10136, 	"An error occurred in DB Type Load"
+  10137, 	"-"
+  10138, 	"  <<|[Selected]\r\n"
+  10139, 	"Type Count"
+  10140, 	"Is it okay to overwrite Data %d ~ %d?"
+  10141, 	"%s  Paste Complete"
+  10142, 	"%s /  Cannot paste Data. Please copy first."
+  10143, 	"%s /  Copy Type %d Data %d"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10144, 	"%s /  Multi-Copy Type %d Data %d ~ %d"
+  10145, 	"Is it okay to overwrite Type %d ~ %d?"
+  10146, 	"%s /  Paste Complete Type %d ~ %d"
+  10147, 	"%s Cannot paste Type. Please copy first."
+  10148, 	"%s /  Copy Type %d"
+  10149, 	"%s /  Multi-Copy Type %d ~ %d"
+  10150, 	"Do you really want to delete Type %d [%s] entirely?"
+  10151, 	"Type Definition_%.3i_%s"
+  10152, 	"<"
+  10153, 	">"
+  10154, 	"|"
+  10155, 	"/"
+  10156, 	"\\"
+  10157, 	":"
+  10158, 	";"
+  10159, 	","
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10160, 	"?"
+  10161, 	"”"
+  10162, 	"DB Field Definition File (*.dbtypeset)|*.dbtypeset|All files(*.*)|*.*||"
+  10163, 	"Type With Data_%.3i_%s"
+  10164, 	"DB Type & Data File (*.dbtype)|*.dbtype|All files(*.*)|*.*||"
+  10165, 	"%s_Data_%.3ito%.3i_%s"
+  10166, 	"DB Data File (*.dbdata)|*.dbdata|All files(*.*)|*.*||"
+  10167, 	"DB Data File (CSV Format) (*.csv)|*.csv|All files(*.*)|*.*||"
+  10168, 	"DB Output File (*.db*;*.csv)|*.db*; *.csv|All files(*.*)|*.*||"
+  10169, 	"This file is not Type definition data."
+  10170, 	"Load error."
+  10171, 	"%s is a Type definition file\r\nOverwrite the Type definition?"
+  10172, 	"Load Type Definition"
+  10173, 	"This file is not Type data."
+  10174, 	"%s is a Type Definition & Full Data file.\r\nOverwrite the entire Type, Data and all?"
+  10175, 	"Load Type & Data"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10176, 	"This file is not Data."
+  10177, 	"%s is a Data file with %d entries.\r\nOverwrite Data %d~%d?"
+  10178, 	"Load Data"
+  10179, 	"This file is not Data, or there is no Data."
+  10180, 	"%s \r\nThis file has an extension not supported for the database.\r\nReadable extensions are dbtype / dbtypeset / dbdata / csv."
+  10181, 	"This database has been changed.\r\nSave before closing?"
+  10182, 	"Save"
+  10183, 	"Field %d"
+  10184, 	"Manual;Same As First String Data;Same As Preceding Type Data ID;From Type in DB;"
+  10185, 	"System DB;User DB;Variable DB;"
+  10186, 	"Cannot add any more Fields."
+  10187, 	"System DB;User DB;Variable DB;Common Event;"
+  10188, 	"Set specification method for Data of Field [ %s ]"
+  10189, 	"Value not enough for choice processing!"
+  10190, 	"Call Common Event by name."
+  10191, 	"Deleting position is behind Value!"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10192, 	"Deleting position is behind ValueString!"
+  10193, 	"Insufficient memory error."
+  10194, 	"Manual.chm not found."
+  10195, 	"Warning"
+  10196, 	"Right-click this window\r\nto close it."
+  10197, 	"*Specify variables by numeric reference.\r\n (Ex: 1600004 = This Event's CSelf4)"
+  10198, 	"Not found."
+  10199, 	"End Search"
+  10200, 	"Show;Don't Show;"
+  10201, 	"100%;75%;50%;25%(Recommended);Don't Show;"
+  10202, 	"Type 1 (Standard);Type 2 (No Red or Green);"
+  10203, 	"Black (Slightly faster);Pretty Dark;Somewhat Dark;Faintly Darker;No Dimming (Same as Ev);"
+  10204, 	"Editor option variables not linked."
+  10205, 	"Show Message"
+  10206, 	"Show Choice"
+  10207, 	"Set Variable"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10208, 	"DB Management"
+  10209, 	"Set String"
+  10210, 	"Set Variable+"
+  10211, 	"Condition (Number)"
+  10212, 	"Condition (String)"
+  10213, 	"Input Key"
+  10214, 	"Picture"
+  10215, 	"Effect"
+  10216, 	"Sound"
+  10217, 	"Save/Load"
+  10218, 	"Party Graphics"
+  10219, 	"Chip Management"
+  10220, 	"Transfer"
+  10221, 	"Event Control"
+  10222, 	"Common Event"
+  10223, 	"Download"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10224, 	"Don't Move;Custom;Random;Toward Hero;"
+  10225, 	"0: Slowest;1;2;3: Standard;4;5;6: Fastest;"
+  10226, 	"0: Every Frame;1: Very Rapid;2: Quick;3: Medium;4: Delayed;5: Very Delayed;"
+  10227, 	"Confirm Key;Autorun;Parallel Process;Player Touch;Event Touch;"
+  10228, 	"Greater than;Greater or equal;Equal;Less or equal;Less than;Not equal;Bitwise &;"
+  10229, 	"%d: %s"
+  10230, 	"Failed to create event insert dialog.\n"
+  10231, 	"%.2i: %s"
+  10232, 	"Self%d: SelfVar%d"
+  10233, 	"Cannot create any more pages."
+  10234, 	"MS PGothic"
+  10235, 	"\r\nGraphic\r\n\r\nDouble-click\r\nto pick graphic"
+  10236, 	"*Indents are not normal!"
+  10237, 	"%s - Command Copied (Line %d) %s"
+  10238, 	"%s - Commands Copied (Lines %d~%d) %s"
+  10239, 	"Map File (*.mps)|*.mps|All files(*.*)|*.*||"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10240, 	"- WOLF RPG Editor"
+  10241, 	"Cannot paste any more pages."
+  10242, 	"%s Position (%d,%d) [ Selected Event: %d - %s ]"
+  10243, 	"[Move Route] *Move routes cannot be put on clipboard"
+  10244, 	"Recognized as event code,\r\nbut indents do not properly match.\r\n\r\nPaste canceled to avoid potential event corruption."
+  10245, 	"Recognized as event code,\r\nbut no end point recognized.\r\n\r\nThe copied text must end with the line WoditorEvCOMMAND_END."
+  10246, 	"Not recognized as event code.\r\n\r\nThe copied text must start with the line WoditorEvCOMMAND_START."
+  10247, 	"Could not paste at X:%d, Y:%d,\r\nso event pasting was canceled.\r\n\r\nPlease Paste from the Map screen."
+  10248, 	"=;+=;-=;*=;/=;%=;Lower Bound;Upper Bound;"
+  10249, 	"=;+=;"
+  10250, 	" SysDB Type %d %s/Data %d %s/Field %d %s\r\n- %s"
+  10251, 	" UserDB Type %d %s/Data %d %s/Field %d %s\r\n- %s"
+  10252, 	" VarDB Type %d %s/Data %d %s/Field %d %s\r\n- %s"
+  10253, 	"%s\r\n*Always refer to variables with 1000000~!"
+  10254, 	"^ ^ ^ Value or Reference ^ ^ ^"
+  10255, 	"Value or Reference v v v v v v"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10256, 	"Get Type # [Num]"
+  10257, 	"Get Type Name [Str]"
+  10258, 	"Get Data # [Num]"
+  10259, 	"Get Data Name [Str]"
+  10260, 	"Get Field # [Num]"
+  10261, 	"Get Field Name [Str]"
+  10262, 	"Insert Data from CSV into DB"
+  10263, 	"Into given position, copy"
+  10264, 	"Data entries max"
+  10265, 	"File to Load"
+  10266, 	"Save Data to CSV File"
+  10267, 	"From given position, save"
+  10268, 	"Data entries"
+  10269, 	"File to Save"
+  10270, 	"[Num]This Event: Self%d"
+  10271, 	"This Event: Self%d"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10272, 	"[Num]CSelf%d: %s"
+  10273, 	"[Str]CSelf%d: %s"
+  10274, 	"[Num]V%d: %s"
+  10275, 	"[Num]V%d-%d: %s"
+  10276, 	"[Str]S%d: %s"
+  10277, 	"<"
+  10278, 	">"
+  10279, 	"|"
+  10280, 	":"
+  10281, 	";"
+  10282, 	","
+  10283, 	"?"
+  10284, 	"”"
+  10285, 	"Data File (*.csv)|*.csv|All files(*.*)|*.*||"
+  10286, 	"Push Characters To Front;Erase All Characters;Warp Party to Hero;Start Hero/Party Synchro;Cancel Hero/Party Synchro;Make Party Transparent;Cancel Party Transparency;Save Party Members;Load Party Members;Turn Party Following On (Default);Turn Party Following Off (Stop);"
+  10287, 	"Chip %d: %s"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10288, 	"SelfVar%d"
+  10289, 	"This CommonEv: Self%d"
+  10290, 	"Picture;Character;Map;"
+  10291, 	"Power 1;Power 2;Power 3;Power 4;Power 5;Power 6;Power 7;"
+  10292, 	"Speed 1 (Slow);Speed 2;Speed 3;Speed 4;Speed 5;Speed 6;Speed 7 (Fast);"
+  10293, 	"Vert. Shake;Horz. Shake;Stop Shake;"
+  10294, 	"Move Screen;Back to Hero;Lock Scroll;Unlock Scroll;"
+  10295, 	"1/8x Speed;1/4x Speed;1/2x Speed;1x Speed;2x Speed;4x Speed;8x Speed;16x Speed;32x Speed;64x Speed;Instant;"
+  10296, 	"Duration"
+  10297, 	"~"
+  10298, 	"Flash"
+  10299, 	"Color Correct"
+  10300, 	"Draw Position Shift"
+  10301, 	"Shake"
+  10302, 	"Zoom"
+  10303, 	"Switch A (Flicker)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10304, 	"Switch B (Auto-Flash)"
+  10305, 	"Auto-Enlarge [%]"
+  10306, 	"Auto-Pattern-Switch (One)"
+  10307, 	"Auto-Pattern-Switch (Loop)"
+  10308, 	"Auto-Pattern-Switch (Round Trip)"
+  10309, 	"Red\xB1"
+  10310, 	"Green\xB1"
+  10311, 	"Blue\xB1"
+  10312, 	"Shift X"
+  10313, 	"Shift Y"
+  10314, 	"Shake X"
+  10315, 	"Shake Y"
+  10316, 	"Times"
+  10317, 	"1x Duration"
+  10318, 	"Center X"
+  10319, 	"Center Y"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10320, 	"Zoom"
+  10321, 	"Interval (0 to Cancel)"
+  10322, 	"Horz. %\xB1"
+  10323, 	"Vert. %\xB1"
+  10324, 	"Rest Frame"
+  10325, 	"Start P"
+  10326, 	"End P"
+  10327, 	"This Event"
+  10328, 	"Calling Event"
+  10329, 	"Hero"
+  10330, 	"Member 1"
+  10331, 	"Member 2"
+  10332, 	"Member 3"
+  10333, 	"Member 4"
+  10334, 	"Member 5"
+  10335, 	"Moving Ev: Self%d"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10336, 	"This CommonEv: Self%d"
+  10337, 	"[ Instant Display ]"
+  10338, 	"%d: %s"
+  10339, 	"[ This Event ]"
+  10340, 	"This Event: Self%d"
+  10341, 	"  Self%d store in"
+  10342, 	"CommonEv%d [%s]: %s"
+  10343, 	"CommonEv%d [%s]: xError: That Common Event does not exist"
+  10344, 	"Normal Event"
+  10345, 	"Return [%s]"
+  10346, 	"Return [?]"
+  10347, 	"<Don't Store Anywhere>"
+  10348, 	"No Return Value"
+  10349, 	"%d: %s [User%d]"
+  10350, 	"%d: %s [Var%d]"
+  10351, 	"An error occurred in DB Type Load"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10352, 	"Common%d: %s"
+  10353, 	"This Event"
+  10354, 	"Ev %d: %s"
+  10355, 	"This Event: Self%d"
+  10356, 	"From This Common, %d Events %s"
+  10357, 	"Up"
+  10358, 	"Down"
+  10359, 	"This CommonEv"
+  10360, 	"Called Map Ev"
+  10361, 	"This CSelf%d"
+  10362, 	"CSelf%d: %s"
+  10363, 	"This Event: Self%d"
+  10364, 	"This CommonEv: Self%d"
+  10365, 	"The CommonEv: Self%d [Str]"
+  10366, 	"Greater than;Greater or equal;Equal;Less or equal;Less than;Not equal;Bitwise &;"
+  10367, 	"This Event: Self%d"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10368, 	"This Event: Self%d"
+  10369, 	"This CSelf%d: %s"
+  10370, 	"["
+  10371, 	"] <- "
+  10372, 	"Equal;Not equal;Includes;Starts with;"
+  10373, 	"Basic (OK/Cancel/Sub/Dir);All Keyboard Keys (100~);Mouse Click/Position;Pad Buttons (300~);"
+  10374, 	"Don't Accept;4-Dir (2, 4, 6, 8);8-Dir (1~9);Up-Down (8, 2);Left-Right (4, 6);Up Only (8);Down Only (2);Left Only (4);Right Only (6);"
+  10375, 	"Basic Input;Keyboard;Mouse;"
+  10376, 	"Keyboard Key (-1 for All);All Mouse Input;All Pad Input;All Devices;"
+  10377, 	"Movement OK / Key Input OK;Movement NO / Key Input OK;Movement NO / Key Input NO;"
+  10378, 	"Enable;Disable;"
+  10379, 	"\r\nCorresponds to [ "
+  10380, 	" ] (Keyboard)"
+  10381, 	"Don't Accept"
+  10382, 	"4-Dir (2, 4, 6, 8)"
+  10383, 	"8-Dir (1~9)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10384, 	"Up-Down (8, 2)"
+  10385, 	"Left-Right (4, 6)"
+  10386, 	"Up Only (8)"
+  10387, 	"Down Only (2)"
+  10388, 	"Left Only (4)"
+  10389, 	"Right Only (6)"
+  10390, 	"Direction Keys"
+  10391, 	"OK (10)"
+  10392, 	"Cancel (11)"
+  10393, 	"Sub-Key (12)"
+  10394, 	"Click State"
+  10395, 	"Mouse X Pos"
+  10396, 	"Mouse Y Pos"
+  10397, 	"Wheel Delta"
+  10398, 	"Target"
+  10399, 	"L. Click (20)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10400, 	"R. Click (21)"
+  10401, 	"M. Click (22)"
+  10402, 	"OK"
+  10403, 	"Cancel"
+  10404, 	"Sub"
+  10405, 	"L. Click"
+  10406, 	"R. Click"
+  10407, 	"M. Click"
+  10408, 	"Position   Y"
+  10409, 	"Wheel"
+  10410, 	"Position"
+  10411, 	"This Event: Self%d"
+  10412, 	"This CSelf%d: %s"
+  10413, 	"No Transition [Fastest];Do Transition [No Fade, Fast];Do Transition [Fade, Slow];"
+  10414, 	"[ Hero ]"
+  10415, 	"[ This Event ]"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10416, 	"This Event: Self%d"
+  10417, 	"This CommonEv: Self%d"
+  10418, 	"SystemDB Type7-%.2i   Map %.2i: %s   X: %d   Y: %d"
+  10419, 	"[Refer to Variable]"
+  10420, 	"Map #%d does not exist"
+  10421, 	"[L] Erase after extracting downloaded ZIP"
+  10422, 	"[L] Open Site"
+  10423, 	"<Don't Store in Variable>"
+  10424, 	"Top-Left;Bottom-Left;Center;Top-Right;Bottom-Right;"
+  10425, 	"[1] Load File (Direct Specification);[2] Load File (By String Variable);[3] Show String as Picture (Special Chars \\s, \\v, etc. OK);[4] Simple Window (3x3 Divisible Base Graphic + Size);[5] Simple Window (File by String Variable);"
+  10426, 	"Normal;Add;Subtract;Multiply;"
+  10427, 	"Size W"
+  10428, 	"Divisions  W"
+  10429, 	"Filename: "
+  10430, 	"By Filename;From SystemDB Directly;From SystemDB by Variable;"
+  10431, 	"Fade Time"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10432, 	"Delay Playback"
+  10433, 	"(Stop)"
+  10434, 	"%2d: %s"
+  10435, 	"="
+  10436, 	"+="
+  10437, 	"Copy First Line Of..."
+  10438, 	"Cut First Line Of..."
+  10439, 	"Cut First Character Of..."
+  10440, 	"Load File Contents..."
+  10441, 	"Load File Contents... [Decrypt]"
+  10442, 	"Export Variable to File..."
+  10443, 	"Export Variable to File... [Encrypt]"
+  10444, 	"Get File List of Folder..."
+  10445, 	"Remove Instances of String..."
+  10446, 	"Replace Strings As Below..."
+  10447, 	"<Cut From Variable Up To String...>"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10448, 	"<Cut From Variable After String...>"
+  10449, 	"Set Variable Name  Common%d [%s]"
+  10450, 	"Filename (Ex: Data/BasicData/test.txt - Forward slashes advised)"
+  10451, 	"Load Folder (Data/BasicData/ - Forward slashes advised)"
+  10452, 	"Cut contents of [above] up to [below string]. If not there, <<NotFound>>"
+  10453, 	"Cut contents of [above] after [below string]. If not there,<<NotFound>>"
+  10454, 	"String to Set"
+  10455, 	"This Event: Self%d"
+  10456, 	"This CSelf%d: %s"
+  10457, 	"This CommonEv: Self%d"
+  10458, 	"=;+=;-=;*=;/=;%=;Lower Bound;Upper Bound;Absolute;Angle[x10] of Slope;sin[x1000] of Angle[x10];cos[x1000] of Angle[x10];"
+  10459, 	"+;-;*;/;%;Bitwise &;~;"
+  10460, 	"Set Variable Name  Common %d [%s]"
+  10461, 	"Variable above will be operated on with value below.\r\n= Assign, += Add, -= Subtract, *= Multiply, /= Divide, %= Remainder"
+  10462, 	" VarDB Type %d %s/Data %d %s/Field %d %s"
+  10463, 	"This Event: Self%d"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10464, 	"This CSelf%d: %s"
+  10465, 	"=;+=;-=;*=;/=;%=;Lower Bound;Upper Bound;Absolute;"
+  10466, 	"X (Standard);Y (Standard);X (Precise);Y (Precise);Height Off Ground (pixels);Direction (1~9, Matches Numpad);Screen X;Screen Y;Shadow Graphic #;Current Tile Tag;Event ID;On Screen? (1=YES 0=NO);Active Page 0=None 1~=Page #;Run Condition (0: Confirm - 4: Ev Touch);Range Extend X;Range Extend Y;Animation Pattern [0-4];Moving? [1=YES 0=NO]"
+  10467, 	"Uppermost Tile Tag;Event ID (N/A: -1);Passable (Tile Only; YES=0, NO=1);Passable (Tile + Event);Uppermost Chip # (Clear: 0/1-15: Auto/16-: etc);Layer 1 Chip #;Layer 2 Chip #;Layer 3 Chip #;Layer 1 Tile Tag;Layer 2 Tile Tag;Layer 3 Tile Tag;"
+  10468, 	"Current Map Number;Playing BGM # (Only BGM Picked from SysDB);Playing BGS # (Only BGS Picked from SysDB);BGM Position (ms Up to First Loop / For MIDI, Ticks);BGS Position (ms Up to First Loop / MIDI Ticks);Current BGM Length (ms/MIDI Ticks);Current BGS Length (ms);Mouse Left Click (Normal=0, Hold=1, Press=2);Mouse Right Click (Normal=0, Hold=1, Press=2);Mouse Middle Click (Normal=0, Hold=1, Press=2);Mouse Wheel Delta (Change from Last Frame);Mouse X Delta (Change from Last Frame);Mouse Y Delta (Change from Last Frame);Event ID at Mouse Position (Smaller ID Priority, -1 for None);ID of This Map Event (In Common, Caller's ID);Map Size [Width];Map Size [Height];ID of This Common Event (-1 Outside Common);Active Auto/Touch/Confirm Event ID [+500000 For Common];Active Event Line [Auto/Touch/Confirm Events];"
+  10469, 	"X Position;Y Position;Image Size (Width);Image Size (Height);Pattern #;Opacity;Angle;Zoom (Width or Overall);Zoom (Height);Mouse Cursor Hover? (1=YES, Angle 0 Only);Picture In Use? (1=YES);String Done Displaying? (1=YES);"
+  10470, 	"Event ID (N/A: -1)"
+  10471, 	"Passable: Tile (YES=0, NO=1)"
+  10472, 	"Passable: Tile + Event"
+  10473, 	"Uppermost Chip # (0: Clear, 1-15: Auto, 16-: etc)"
+  10474, 	"Layer 1 Chip # (0: Clear, 1-15: Auto, 16-: etc)"
+  10475, 	"Layer 2 Chip # (0: Clear, 1-15: Auto, 16-: etc)"
+  10476, 	"Layer 3 Chip # (0: Clear, 1-15: Auto, 16-: etc)"
+  10477, 	"Uppermost Tile Tag"
+  10478, 	"Layer 1 Tile Tag"
+  10479, 	"Layer 2 Tile Tag"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10480, 	"Layer 3 Tile Tag"
+  10481, 	"X Position"
+  10482, 	"Y Position"
+  10483, 	"Image Size (Width)"
+  10484, 	"Image Size (Height)"
+  10485, 	"Pattern #"
+  10486, 	"Opacity"
+  10487, 	"Angle"
+  10488, 	"Zoom (Width)"
+  10489, 	"Zoom (Height)"
+  10490, 	"Mouse Cursor Hover? (1=YES)"
+  10491, 	"Picture In Use? (1=YES)"
+  10492, 	"String Done Displaying? (1=YES)"
+  10493, 	"[Free Mode] Top-Left X [-1 If Not Free Mode]"
+  10494, 	"[Free Mode] Top-Left Y [-1 If Not Free Mode]"
+  10495, 	"[Free Mode] Top-Right X [-1 If Not Free Mode]"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10496, 	"[Free Mode] Top-Right Y [-1 If Not Free Mode]"
+  10497, 	"[Free Mode] Bottom-Left X [-1 If Not Free Mode]"
+  10498, 	"[Free Mode] Bottom-Left Y [-1 If Not Free Mode]"
+  10499, 	"[Free Mode] Bottom-Right X [-1 If Not Free Mode]"
+  10500, 	"[Free Mode] Bottom-Right Y [-1 If Not Free Mode]"
+  10501, 	"Current Map ID"
+  10502, 	"Playing BGM # (Only BGM Picked from SysDB)"
+  10503, 	"Playing BGS # (Only BGS Picked from SysDB)"
+  10504, 	"BGM Position (ms Up to First Loop/For MIDI, Ticks)"
+  10505, 	"BGS Position (ms Up to First Loop/For MIDI, Ticks)"
+  10506, 	"Current BGM Length (ms/For MIDI, Ticks)"
+  10507, 	"Current BGS Length (ms/For MIDI, Ticks)"
+  10508, 	"Mouse X"
+  10509, 	"Mouse Y"
+  10510, 	"Mouse Left Click (Normal=0, Hold=1, Press=2)"
+  10511, 	"Mouse Right Click (Normal=0, Hold=1, Press=2)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10512, 	"Mouse Middle Click (Normal=0, Hold=1, Press=2)"
+  10513, 	"Mouse Wheel Delta (Change from Last Frame)"
+  10514, 	"Mouse X Delta (Change from Last Frame)"
+  10515, 	"Mouse Y Delta (Change from Last Frame)"
+  10516, 	"Event ID at Mouse Position (Smaller ID Priority, -1 for None)"
+  10517, 	"Map Width"
+  10518, 	"Map Height"
+  10519, 	"ID of This Map Event (In Common, Caller's ID)"
+  10520, 	"ID of This Common Event (-1 Outside Common)"
+  10521, 	"Active Auto/Touch/Confirm Event ID [+500000 For Common]"
+  10522, 	"Active Event Line [Auto/Touch/Confirm Events]"
+  10523, 	"This Event: Self%d"
+  10524, 	"This CSelf%d: %s"
+  10525, 	"This Event"
+  10526, 	"Hero"
+  10527, 	"Member 1"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10528, 	"Member 2"
+  10529, 	"Member 3"
+  10530, 	"Member 4"
+  10531, 	"Member 5"
+  10532, 	"This Event: Self%d"
+  10533, 	"Caller Map Event"
+  10534, 	"This CommonEv: Self%d"
+  10535, 	"[Valid Characters] Hiragana, comma, period, ?, accent symbols ' ; + , (4 types),\r\n  and accent-stop symbol / are only valid symbols. No kanji.\r\n"
+  10536, 	"\r\n[Reading Numbers] Read By Digits→ <NUMK VAL=15>  \r\n  Add Counter→<NUMK VAL=16 COUNTER=Hon>\r\n  (In this case, read as ip\"pon,\" ni\"hon\"...)\r\n"
+  10537, 	" *Counters fun, nichi, gatsu, hiki, etc. are supported.\r\n\r\n"
+  10538, 	"[Other] Reading speed can be set from 50% ~ 300%.\r\n"
+  10539, 	" Any text which does not follow specifications will not play.\r\n"
+  10540, 	"\r\n  The AquesTalk official Voice Synth Format Guide\r\n  contains more detailed info, so please refer to that as well."
+  10541, 	"\r\n  Also, if you use AquesTalk.dll, you must include the\r\n  Terms of Use file alongside the DLL when distributing the game."
+  10542, 	"This is a sample. It is a little/complex/for you."
+  10543, 	"[Playback] Voice synthesis successful."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10544, 	"[Error] Text does not follow specifications. Please check it over."
+  10545, 	"[Stop] Voice stopped."
+  10546, 	"Event Command Insert"
+  10547, 	"[Map] Event Command Insert ["
+  10548, 	"[Common] Event Command Insert ["
+  10549, 	"]"
+  10550, 	"Edit Event Command"
+  10551, 	"[L] You cannot use this function in the normal version."
+  10552, 	"Error"
+  10553, 	"Cannot create Game Data in the current development folder."
+  10554, 	"Processing stopped."
+  10555, 	"Successfully created Game Data!"
+  10556, 	"Select the folder to export the data to."
+  10557, 	"Select a target folder."
+  10558, 	"1x;1.25x;1.5x;1.75x;2.0x;Custom;"
+  10559, 	"Japanese [Standard];Hangul;Chinese Traditional;Chinese Simplified;1-Byte Chars Only [English, etc.]"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10560, 	"Run As Latest Version [Recommended]"
+  10561, 	"Run As Old Version 2.02"
+  10562, 	"Current speed limit is [ %d ]\r\nUnits are [0.25 pixels / 1 frame]"
+  10563, 	"Saved data for game %s."
+  10564, 	"Done With Basic Settings"
+  10565, 	"Saved data for game %s.\r\nSince screen size was changed, the editor will restart."
+  10566, 	"Add"
+  10567, 	"Subtract"
+  10568, 	"Multiply"
+  10569, 	"Normal"
+  10570, 	"[Music]"
+  10571, 	"[Sound]"
+  10572, 	"[Picture]"
+  10573, 	"[Chara Chip]"
+  10574, 	"(No Image)"
+  10575, 	"(Tileset)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10576, 	"Select File"
+  10577, 	"(No Image)"
+  10578, 	"(Tileset)"
+  10579, 	"(No Image)"
+  10580, 	"(Tileset)"
+  10581, 	"[L] License mode on, please restart. (Not implementing, will delete soon)"
+  10582, 	"[L] Could not find license, turning special functions off.\r\nPlease restart. (Not implementing, will delete soon)"
+  10583, 	"This Map's Tileset setting does not exist.\r\nForcibly opening with Tileset #0."
+  10584, 	"Auto-Tile %s\nuses animated frames of size [%dx%d pixels].\n\nOn Windows 7 64bit or other environments,\nanimated Auto-Tiles may not display in-editor (but work in-game).\n\nIf they do not show in the editor, make the image %d pixels wide.\nThis warning will be displayed only once on startup."
+  10585, 	"Auto-Tile Warning"
+  10586, 	"Basic Tileset %s has incorrect size (currently %d pixels wide).\nPlease make the image %d pixels wide.\n\n[How do you want to handle this?]\r\nYes: Open Basic Game Settings to change game resolution.\r\nNo: Open Tileset Settings to change tile graphic.\r\nCancel: Do nothing.\r\n\r\n(If ignored, there may be a forced quit after this!)"
+  10587, 	"The width of Basic Tileset %s is not a multiple of %d (currently %d pixels).\n\n[How do you want to handle this?]\r\nYes: Open Basic Game Settings to change game resolution.\r\nNo: Open Tileset Settings to change tile graphic.\r\nCancel: Do nothing.\r\n\r\n(If ignored, there may be a forced quit after this!)"
+  10588, 	"Auto-Tile\r\n%s\r\nhas non-standard width and/or height. It is %dx%d pixels (default is %dx%d or more).\n\n[How do you want to handle this?]\r\nYes: Open Basic Game Settings to change game resolution.\r\nNo: Open Tileset Settings to change tile graphic.\r\nCancel: Do nothing.\r\n\r\n(If ignored, there may be a forced quit after this!)"
+  10589, 	"Could not load background file.\r\n%s"
+  10590, 	"File Load Error"
+  10591, 	"Failed to create Map Chip dialog.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10592, 	"Failed to create Variable Reference List dialog.\n"
+  10593, 	"BGM Filename [BGM #=-3]"
+  10594, 	"BGS Filename [BGS #=-3]"
+  10595, 	"BG Filename [BG #=-3]"
+  10596, 	"By Filename"
+  10597, 	"Failed to create Database Editor dialog.\n"
+  10598, 	"User Database Editor"
+  10599, 	"Failed to create System Database Editor dialog.\n"
+  10600, 	"System Database Editor"
+  10601, 	"Variable Database Editor"
+  10602, 	"Failed to create Event Editor dialog.\n"
+  10603, 	"Failed to create Common Event Editor dialog.\n"
+  10604, 	"Untitled - WOLF RPG Editor"
+  10605, 	"Failed to create Map Editor.\n"
+  10606, 	"Failed to create Manual dialog.\n"
+  10607, 	" - WOLF RPG Editor"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10608, 	"Failed to load file %s.\r\nCreate a New Map from the Map Select window,\r\nor open an already-existing Map."
+  10609, 	"Could not find image file\r\n%s\r\nfor event display use.\r\nEvents without graphics will not be visible."
+  10610, 	"No File"
+  10611, 	"Time Spent %d:%02d (%d:%02d)"
+  10612, 	"%s Position (%d,%d) [ Selected Event: %d - %s ] %s"
+  10613, 	"%s Position (%d,%d) [ Selected Event: %d - %s ]"
+  10614, 	"%s Position (%d,%d) %s - %s"
+  10615, 	"%s - Moved Event %d"
+  10616, 	"ZZZPosition X%d Y%d"
+  10617, 	"MS PGothic"
+  10618, 	"Map is not open.\r\nSelect a Map from the Map Select window,\r\nor right click and select Create New Map."
+  10619, 	"- WOLF RPG Editor"
+  10620, 	"%s - Saved / %s"
+  10621, 	"Map File (*.mps)|*.mps|All files(*.*)|*.*||"
+  10622, 	"%s - Saved"
+  10623, 	"The current Map has been changed.\r\nSave changes first?"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10624, 	"Save"
+  10625, 	"%s - Event %d Deleted"
+  10626, 	"New Map - WOLF RPG Editor"
+  10627, 	"The current Map has been changed. Save changes?"
+  10628, 	"%s - Copied Event %d"
+  10629, 	"%s - Cut Event %d"
+  10630, 	"%s - Pasted Event %d as Event %d"
+  10631, 	"The current Map has been changed.\r\nSave changes before quitting?"
+  10632, 	"Config.exe not found."
+  10633, 	"Warning"
+  10634, 	"Editor options saved.\r\nRestarting editor."
+  10635, 	"Failed to create the Toolbar.\n"
+  10636, 	"Failed to create the Status bar.\n"
+  10637, 	"Failed to create Map Chip dialog.\n"
+  10638, 	"No manual data."
+  10639, 	"Please double-click chip."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10640, 	"*"
+  10641, 	"^"
+  10642, 	"[-]"
+  10643, 	"O"
+  10644, 	"X"
+  10645, 	"Map Chip / Blank Chip / Passable %s [If Layer 1]"
+  10646, 	"Map Chip / Chip ID %d / Tag # %d / Passable %s"
+  10647, 	"Map Chip"
+  10648, 	"No Loop;Loop Horizontal;Loop Vertical;Loop Both Ways;"
+  10649, 	"Don't Link;Link BG with Map;"
+  10650, 	"%d: %s"
+  10651, 	"Map Data"
+  10652, 	"Create New Map"
+  10653, 	"Input Map save folder and filename."
+  10654, 	"*Currently unregistered"
+  10655, 	"Must save at least once to register."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10656, 	"-2: Leave to Events"
+  10657, 	"-1: Stop BGM"
+  10658, 	"%2d: %s"
+  10659, 	"-1: Stop BGS"
+  10660, 	"-1: No Background"
+  10661, 	"<Input Map Name>"
+  10662, 	"Map size must be at least Width 8, Height 6!"
+  10663, 	"No filename input!"
+  10664, 	"<"
+  10665, 	">"
+  10666, 	"|"
+  10667, 	"/"
+  10668, 	"\\"
+  10669, 	":"
+  10670, 	";"
+  10671, 	","
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10672, 	"?"
+  10673, 	"”"
+  10674, 	"The file you're trying to create already exists.\r\nOverwrite it?"
+  10675, 	"Please input filename."
+  10676, 	"Error"
+  10677, 	"Map filename is not set."
+  10678, 	"Load error.\r\nMap file "
+  10679, 	" does not exist."
+  10680, 	"The current Map has been changed.\r\nSave changes first?"
+  10681, 	"Save"
+  10682, 	"[Selected Map] [N/A]"
+  10683, 	"[Selected Map] [%d:%s]"
+  10684, 	"The current Map has been changed.\r\nSave changes before making new Map?"
+  10685, 	"Could not copy Map.\r\n\r\nEither Map file being copied was not found,\r\nor there was an unexpected error."
+  10686, 	"Map Copy"
+  10687, 	"The Map file below was copied with a new name.\r\nOld File: %s - New File: %s"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10688, 	"Delete Map %s?\r\nJust selecting Yes will not delete the mps file.\r\n\r\nIf you want to delete the file as well,\r\nhold Shift as you select Yes (cannot be undone).\r\n\r\n%s"
+  10689, 	"Confirm Delete"
+  10690, 	"Map data was deleted,\r\nbut the Map file %s was not.\r\nEither it did not exist or there was a file access error.\r\nPlease delete it manually."
+  10691, 	"Map File Delete"
+  10692, 	"Along with the Map data, the Map file %s was deleted."
+  10693, 	"[Map]"
+  10694, 	"[Map Data]"
+  10695, 	"Map filename is not set."
+  10696, 	"Load error.\r\nMap file "
+  10697, 	" does not exist."
+  10698, 	"The current Map has been changed.\r\nSave changes first?"
+  10699, 	"Save"
+  10700, 	"Map File (*.mps)|*.mps|All files(*.*)|*.*||"
+  10701, 	"Data Count"
+  10702, 	" Setting"
+  10703, 	"The currently-open Map file\r\n%s\r\nis not registered in the System Database.\r\nIt could not be opened."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10704, 	"Select Transfer Point"
+  10705, 	"[ERROR!] Map %d does not have a filename set!"
+  10706, 	"[ERROR!] Not a Map file! SystemDB (Type 0 Data %d) Filename: %s"
+  10707, 	"Basic Tileset %s not found.\r\nYou can change the image in Tileset Settings."
+  10708, 	"Basic Tileset %s is incorrect size.\nPlease make image %d pixels wide.\n\nYou can change the image in Tileset Settings."
+  10709, 	"Width of Basic Tileset %s is not a multiple of %d (currently %d pixels).\n\nYou can change the image in Tileset Settings."
+  10710, 	"Auto-Tile %s Width/Height is less than standard. Currently %dx%d pixels (default is %dx%d or more).\r\n\nYou can change the image in Tileset Settings."
+  10711, 	"No Data"
+  10712, 	"[Map Position] Map #: %d  X Pos: %d Y Pos: %d"
+  10713, 	"[Map Position] Parameters display here"
+  10714, 	"This Map is not registered in the SystemDB,\r\nso saved position cannot be used.\r\n\r\nRegister this Map to SystemDB from Map Settings."
+  10715, 	"Map %.2i: %s (%s)"
+  10716, 	"SystemDB Type 7-%.2i   Map %.2i: %s   X: %d   Y: %d"
+  10717, 	"0: Slowest/Every Frame;1;2;3: Standard;4;5;6: Fastest/Low Freq.;"
+  10718, 	"Move Ev: Self%d"
+  10719, 	"This Event"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10720, 	"Hero"
+  10721, 	"Member 1"
+  10722, 	"Member 2"
+  10723, 	"Member 3"
+  10724, 	"Member 4"
+  10725, 	"Member 5"
+  10726, 	"Move Ev: Self%d"
+  10727, 	"Call Ev: Self%d"
+  10728, 	"Caller Event"
+  10729, 	"This CommonEv: Self%d"
+  10730, 	"Move Down"
+  10731, 	"Move Left"
+  10732, 	"Move Right"
+  10733, 	"Move Up"
+  10734, 	"Move Down-Left"
+  10735, 	"Move Down-Right"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10736, 	"Move Up-Left"
+  10737, 	"Move Up-Right"
+  10738, 	"Face Down"
+  10739, 	"Face Left"
+  10740, 	"Face Right"
+  10741, 	"Face Up"
+  10742, 	"Face Down-Left"
+  10743, 	"Face Down-Right"
+  10744, 	"Face Up-Left"
+  10745, 	"Face Up-Right"
+  10746, 	"Move Random"
+  10747, 	"Move Toward Hero"
+  10748, 	"Move Away From Hero"
+  10749, 	"Step Forward"
+  10750, 	"Step Backward"
+  10751, 	"Jump: Right %s Down %s"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10752, 	"Turn Right"
+  10753, 	"Turn Left"
+  10754, 	"Turn Left or Right Random"
+  10755, 	"Face Random Direction"
+  10756, 	"Face Toward Hero"
+  10757, 	"Face Away From Hero"
+  10758, 	"Set Var %s=%s"
+  10759, 	"Set Move Speed -> %d"
+  10760, 	"Set Move Frequency -> %d"
+  10761, 	"Set Animation Speed -> %d"
+  10762, 	"Idle Animation ON"
+  10763, 	"Idle Animation OFF"
+  10764, 	"Move Animation ON"
+  10765, 	"Move Animation OFF"
+  10766, 	"Fixed Direction ON"
+  10767, 	"Fixed Direction OFF"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10768, 	"Slip-Through ON"
+  10769, 	"Slip-Through OFF"
+  10770, 	"Always On Top ON"
+  10771, 	"Always On Top OFF"
+  10772, 	"Set Graphic to %s:%s"
+  10773, 	"Set Opacity to %s"
+  10774, 	"Play Sound %s:%s"
+  10775, 	"Wait %s Frame(s)"
+  10776, 	"Set Half-Tile Movement"
+  10777, 	"Set Full-Tile Movement"
+  10778, 	"Switch to Pattern 1"
+  10779, 	"Switch to Pattern 2"
+  10780, 	"Switch to Pattern 3"
+  10781, 	"Approach Event %s"
+  10782, 	"Approach X:%s,Y:%s"
+  10783, 	"Set Var %s+=%s"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10784, 	"Switch to Pattern 4"
+  10785, 	"Switch to Pattern 5"
+  10786, 	"Set Height -> Height %s"
+  10787, 	"Approach Ev%s"
+  10788, 	"Approach X:%s,Y:%s"
+  10789, 	"[Graphic %s]\n%s\n[Sound %s]\n%s"
+  10790, 	"[Graphic %d]\n%s\n[Sound %d]\n%s"
+  10791, 	" Creating"
+  10792, 	"\r\n Encrypting..."
+  10793, 	"\r\n Copying..."
+  10794, 	"||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||\r\n"
+  10795, 	"||| Variable Reference List |||\r\n"
+  10796, 	"o When you put a number over 1000000 (1 million)\r\n"
+  10797, 	"   in a number field, it will substitute the number\r\n"
+  10798, 	"   for \"the value of a variable.\"\r\n\r\n"
+  10799, 	"-> Map Event Y's SelfX\r\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10800, 	" -> This Map Event's SelfX\r\n"
+  10801, 	" -> CommonEv Y's CSelfX\r\n   (X: 0-4, 10-99 are number variables, 5-9 are strings)\r\n"
+  10802, 	" -> This CommonEv's CSelfX\r\n"
+  10803, 	" -> Normal Variable #X\r\n"
+  10804, 	" -> Spare Variable Set Y's #X\r\n   (Ex: 2100003 = Spare Variables 1, #3)\r\n"
+  10805, 	" -> String Variable #X\r\n"
+  10806, 	" -> Return Random Value from 0 to X\r\n"
+  10807, 	" -> System Variable #X\r\n"
+  10808, 	" -> Get or Set Event Y's Position (*1)\r\n"
+  10809, 	"(X = 0: Map X Position (Normal [1 tile = 1 unit])\r\n       1: Map Y Position (Normal)\r\n       2: Map X Position (Precise [0.5 tiles = 1 unit])\r\n       3: Map Y Position (Precise)\r\n"
+  10810, 	"       4: Event Height (Pixels)\r\n       5: Event Shadow Number\r\n"
+  10811, 	"       6: Event Direction (1-9)\r\n       9: Event Character Graphic [String]\r\n"
+  10812, 	" -> Get or Set Hero/Member Position\r\n      X works the same way as (*1).\r\n"
+  10813, 	" -> Get or Set This Event's Position\r\n      X works the same way as (*1).\r\n"
+  10814, 	"- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\r\n"
+  10815, 	" -> System String #X\r\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10816, 	" -> UserDB Type A/Data B/Field C\r\n"
+  10817, 	" -> VarDB Type A/Data B/Field C\r\n"
+  10818, 	" -> SysDB Type A/Data B/Field C\r\n"
+  10819, 	"*-999999 to +999999 (999,999) are standard numbers\r\n"
+  10820, 	"- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\r\n\r\n"
+  10821, 	"|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||\r\n"
+  10822, 	"||| Special Character List |||\r\n"
+  10823, 	"|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||\r\n\r\n"
+  10824, 	"[Insert Number or String]\r\n"
+  10825, 	"\\v[XXX]\r\n"
+  10826, 	"  Replaced by the value of the XXXth Normal Variable.\r\n"
+  10827, 	"\\v?[XXX]\r\n"
+  10828, 	"  Replaced by the XXXth variable in Spare Variable set ?.\r\n"
+  10829, 	"       (Example: \\v1[30])\r\n"
+  10830, 	"\\s[XXX]\r\n"
+  10831, 	"  Replaced by the XXXth String Variable.\r\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10832, 	"\\sys[XXX]\r\n"
+  10833, 	"  Replaced by the XXXth System Variable.\r\n"
+  10834, 	"\\sysS[XXX]\r\n"
+  10835, 	"  Replaced by the XXXth System String.\r\n"
+  10836, 	"\\self[X] (*X from 0 to 9)\r\n"
+  10837, 	"  Replaced by this Map Event's SelfX variable.\r\n"
+  10838, 	"\\cself[XX] (*XX from 0 to 99)\r\n"
+  10839, 	"  Replaced by this Common Event's SelfX.\r\n"
+  10840, 	" (0~4, 10-99 are number variables, 5-9 are strings)\r\n"
+  10841, 	"\\udb[A:B:C] (*A~C are numbers)\r\n"
+  10842, 	"  Replaced by UserDB Type A, Data B, Field C.\r\n"
+  10843, 	" "
+  10844, 	"\\cdb[A:B:C] (*A~C are numbers)\r\n"
+  10845, 	"  Replaced by VarDB Type A, Data B, Field C.\r\n"
+  10846, 	"\\sdb[A:B:C] (*A~C are numbers)\r\n"
+  10847, 	"  Replaced by SysDB Type A, Data B, Field C.\r\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10848, 	"[[[ Change Text Properties ]]]\r\n"
+  10849, 	"\\f[XX]\r\n"
+  10850, 	"  Changes font size for following text.\r\n"
+  10851, 	"\\m[XX]\r\n"
+  10852, 	"  Put at start of line to set maximum font size for line.\r\n"
+  10853, 	"  Use when vertical text placement is getting messy.\r\n"
+  10854, 	" "
+  10855, 	"\\c[XX]\r\n"
+  10856, 	"  Changes font color.\r\n"
+  10857, 	"  Colors are from SystemDB Type 12.\r\n"
+  10858, 	"\\E Puts edges on following text.\r\n"
+  10859, 	"\\N Removes edges from following text.\r\n"
+  10860, 	"     (*This is the default state)\r\n"
+  10861, 	"\\-[XX]\r\n"
+  10862, 	"  Shortens spacing of following text by XX pixels.\r\n"
+  10863, 	"  If you use a negative value for XX, text spaces out more.\r\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10864, 	"\\font[X]\r\n"
+  10865, 	"  Changes the font to subfont X.\r\n"
+  10866, 	"   \\font[0] reverts to default font.\r\n"
+  10867, 	"\\A+ ... \r\n"
+  10868, 	"  Assigns antialiasing to the following text.\r\n"
+  10869, 	"   This makes text look smoother.\r\n"
+  10870, 	"\\A- ... \r\n"
+  10871, 	"  Disables antialiasing for the following text.\r\n"
+  10872, 	"[[[ Text Display Control ]]]\r\n"
+  10873, 	"\\\\ ... Replaced by a normal \\.\r\n"
+  10874, 	"\\! ... Pauses message until button press.\r\n"
+  10875, 	"\\. ... Waits 0.25 seconds.\r\n"
+  10876, 	"\\^ ... Forces end of message display without input.\r\n"
+  10877, 	"\\> ... Makes rest of line instantly appear.\r\n"
+  10878, 	"\\< ... Stops instant display caused by \\>.\r\n"
+  10879, 	"\\mx[??] (*?? is a number) ... \r\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10880, 	"  Shifts position of following text\r\n"
+  10881, 	"  by ?? pixels in the X direction.\r\n"
+  10882, 	"\\my[??] (*?? is a number) ... \r\n"
+  10883, 	"  by ?? pixels in the Y direction.\r\n"
+  10884, 	"\\ax[??] (*?? is a number) ... \r\n"
+  10885, 	"  Sets internal anchor of following text\r\n"
+  10886, 	"  to X position of ?? pixels.\r\n"
+  10887, 	"\\ay[??] (*?? is a number) ... \r\n"
+  10888, 	"  to Y position of ?? pixels.\r\n"
+  10889, 	"\\sp[??] (*?? is a number) ... \r\n"
+  10890, 	"  Changes typing speed to ?? characters per second.\r\n"
+  10891, 	"\\space[??] (*?? is a number) ... \r\n"
+  10892, 	"  Changes linebreak height to ?? pixels.\r\n"
+  10893, 	"\\r[Base String,Ruby Text] ... \r\n"
+  10894, 	"  Puts \"Ruby Text\" on top of \"Base String.\"\r\n"
+  10895, 	"  Ruby text uses the color defined in\r\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10896, 	"  SystemDB Type 12 (Text Color) Data 13.\r\n"
+  10897, 	"\\i[num] (*From 0 to 999) ...\r\n"
+  10898, 	"  Shows \"icon<num>.png\" icon in text,\r\n"
+  10899, 	"  from the BasicData folder in Data.\r\n"
+  10900, 	"  *Example filename: \"icon002.png\"\r\n"
+  10901, 	"\\img[filename] (*Path inside of Data)\r\n"
+  10902, 	"  Shows the image \"filename\" in the Data folder.\r\n"
+  10903, 	"  Example: \\img[Picture/Test1.png]\r\n"
+  10904, 	"<L> ... Left-align following text. (Default)\r\n"
+  10905, 	"<C> ... Center-align following text.\r\n"
+  10906, 	"<R> ... Right-align following text.\r\n"
+  10907, 	"x"
+  10908, 	"Left-click [O]   Right-click [X]"
+  10909, 	"Left-click [Star]   Right-click [Triangle]"
+  10910, 	"Left-click [Down]   Right-click [Box]"
+  10911, 	"Top-Left Tile = Clear"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10912, 	"Set Tileset"
+  10913, 	"Set Tileset |Error: Could not load Tileset file"
+  10914, 	"Base Tileset file's width is not %d pixels! -> Width: %d pixels\r\nThe game cannot start like this. Please fix the size."
+  10915, 	"Warning"
+  10916, 	"Base Tileset file's size\r\nexceeds a height of 4100 pixels. -> Height: %d pixels\r\n\r\n*In some cases, Tilesets over 4100 pixels\r\n  do not display properly in 320x240 resolution.\r\n  If it displays properly, you may not need to edit it.\r\n\r\n*This warning will appear only once after launch."
+  10917, 	"Tileset Pasted"
+  10918, 	"Tileset Copied"
+  10919, 	"Is it okay to delete this Tileset?"
+  10920, 	"Tileset Cut"
+  10921, 	"Tileset Deleted"
+  10922, 	"<"
+  10923, 	">"
+  10924, 	"|"
+  10925, 	"/"
+  10926, 	"\\"
+  10927, 	":"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10928, 	";"
+  10929, 	","
+  10930, 	"?"
+  10931, 	"”"
+  10932, 	"Tile Settings File (*.tile)|*.tile|All files(*.*)|*.*||"
+  10933, 	"This file is not a Tile settings file."
+  10934, 	"Load Error"
+  10935, 	"This is a single Tile settings entry.\r\nIs it okay to overwrite Tileset %d?"
+  10936, 	"Load One"
+  10937, 	"This file is a single Tile settings entry.\r\nIs it okay to overwrite Tileset %d?"
+  10938, 	"File\r\n%s\r\nis not a Tileset file.\r\n\r\nOnly .tile files can be drag-and-dropped."
+  10939, 	"} "
+  10940, 	"} Checkpoint||||||||||||||||||||||||"
+  10941, 	"} [Special] Checkpoint||||||||||||||||||||||||"
+  10942, 	"} Show Message: "
+  10943, 	"} Show Choice: "
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10944, 	"/ [%d] %s "
+  10945, 	"+Case: Choice [%d] %-40s"
+  10946, 	"#  "
+  10947, 	"} Force Close Choice"
+  10948, 	"} Force Close Message"
+  10949, 	"} Debug Text: "
+  10950, 	"} Debug Text Clear"
+  10951, 	"} Condition (Number):"
+  10952, 	" [%d]"
+  10953, 	"+Condition:"
+  10954, 	" is"
+  10955, 	" greater than"
+  10956, 	" greater or equal"
+  10957, 	" equal"
+  10958, 	" less or equal"
+  10959, 	" less than"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10960, 	" not equal"
+  10961, 	" bitwise &"
+  10962, 	" ] Case"
+  10963, 	"} Condition (String):"
+  10964, 	"This Common's Self%d"
+  10965, 	"CommonEv%d's Self%d"
+  10966, 	"S%d[%s]"
+  10967, 	" equal"
+  10968, 	" not equal"
+  10969, 	" includes"
+  10970, 	" starts with"
+  10971, 	"} Set Variable: "
+  10972, 	"Bound"
+  10973, 	"Real Number Calculation"
+  10974, 	"Lower Bound="
+  10975, 	"Upper Bound="
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10976, 	"Absolute="
+  10977, 	"= Angle[x10] of Slope X: "
+  10978, 	"= sin[x1000] of Angle[x10] ="
+  10979, 	"= cos[x1000] of Angle[x10] ="
+  10980, 	"Bitwise &"
+  10981, 	"~"
+  10982, 	"VarDB[%s:%s:%s]%s%s%s"
+  10983, 	"~%s"
+  10984, 	"} Set String: "
+  10985, 	" =<Copy First Line> "
+  10986, 	" =<Cut First Line> "
+  10987, 	" =<Cut First Character> "
+  10988, 	" =<Load File Contents> "
+  10989, 	" =<Export to File> "
+  10990, 	" =<Get File List of Folder> "
+  10991, 	" =<Remove String> "
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  10992, 	" =<Replace String> "
+  10993, 	" =<Cut Up To String> "
+  10994, 	" =<Cut After String> "
+  10995, 	" =<Load File (Encrypted)> "
+  10996, 	" =<Export to File (Encrypted)> "
+  10997, 	" to "
+  10998, 	"String at Position [%s]"
+  10999, 	"Keyboard Input %s String %s %s"
+  11000, 	"[Cancel]"
+  11001, 	"[Replace]"
+  11002, 	"} Input Key: "
+  11003, 	"This Event's Self%d / "
+  11004, 	"This CommonEv's Self%d / "
+  11005, 	"Variable %s / "
+  11006, 	"[Wait For Input] "
+  11007, 	"Keyboard (100~)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  11008, 	"Pad (300~)"
+  11009, 	" [Key Code [%s] Only]"
+  11010, 	" Key) "
+  11011, 	" 4-Dir"
+  11012, 	" 8-Dir"
+  11013, 	" Up Only (8)"
+  11014, 	" Down Only (2)"
+  11015, 	" Left Only (4)"
+  11016, 	" Right Only (6)"
+  11017, 	" Up-Down (8, 2)"
+  11018, 	" Left-Right (4, 6)"
+  11019, 	" OK (10)"
+  11020, 	" Cancel (11)"
+  11021, 	" Sub-Key (12)"
+  11022, 	" Mouse"
+  11023, 	" Get X Pos"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  11024, 	" Get Y Pos"
+  11025, 	" Get Wheel Delta"
+  11026, 	" Left Click (20)"
+  11027, 	" Right Click (21)"
+  11028, 	" Middle Click (22)"
+  11029, 	"} Set Variable+: "
+  11030, 	"[Bound]"
+  11031, 	"Member %d"
+  11032, 	"Hero"
+  11033, 	"This Map Event"
+  11034, 	"Character [%s]"
+  11035, 	"'s "
+  11036, 	"X Pos (Standard)"
+  11037, 	"Y Pos (Standard)"
+  11038, 	"X Pos (Precise)"
+  11039, 	"Y Pos (Precise)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  11040, 	"Height Off Ground (pixels)"
+  11041, 	"Direction (1~9)"
+  11042, 	"Screen X"
+  11043, 	"Screen Y"
+  11044, 	"Shadow Graphic #"
+  11045, 	"Current Tile Tag"
+  11046, 	"Event ID"
+  11047, 	"On Screen? (1=YES 0=NO)"
+  11048, 	"Active Page 0=None 1~=Page #"
+  11049, 	"Run Condition (0: Confirm - 4: Ev Touch)"
+  11050, 	"Range Extend X"
+  11051, 	"Range Extend Y"
+  11052, 	"Animation Pattern [0-4]"
+  11053, 	"Moving? [1=YES 0=NO / *Hero Only, 0 When Stopped for 1+ Frames]"
+  11054, 	" of "
+  11055, 	"Uppermost Tile Tag"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  11056, 	"Event ID"
+  11057, 	"Passable: Tile (YES=0, NO=1)"
+  11058, 	"Passable: Tile + Event (YES=0, NO=1)"
+  11059, 	"Uppermost Chip # (0: Clear, 1-15: Auto, 16-: etc)"
+  11060, 	"Layer 1 Chip # (0: Clear, 1-15: Auto, 16-: etc)"
+  11061, 	"Layer 2 Chip # (0: Clear, 1-15: Auto, 16-: etc)"
+  11062, 	"Layer 3 Chip # (0: Clear, 1-15: Auto, 16-: etc)"
+  11063, 	"Layer 1 Tile Tag"
+  11064, 	"Layer 2 Tile Tag"
+  11065, 	"Layer 3 Tile Tag"
+  11066, 	"Current Map ID"
+  11067, 	"Playing BGM #"
+  11068, 	"Playing BGS #"
+  11069, 	"BGM Position (ms Up to First Loop)"
+  11070, 	"BGS Position (ms Up to First Loop)"
+  11071, 	"BGM Length (ms)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  11072, 	"BGS Length (ms)"
+  11073, 	"Mouse Left Click"
+  11074, 	"Mouse Right Click"
+  11075, 	"Mouse Middle Click"
+  11076, 	"Mouse Wheel Delta"
+  11077, 	"Mouse X Delta"
+  11078, 	"Mouse Y Delta"
+  11079, 	"Event ID at Mouse Position"
+  11080, 	"ID of This Map Event (In Common, Caller's ID)"
+  11081, 	"Map Width"
+  11082, 	"Map Height"
+  11083, 	"ID of This Common Event (-1 Outside Common)"
+  11084, 	"Active Auto/Touch/Confirm Event ID [+500000 For Common]"
+  11085, 	"Active Event Line [Auto/Touch/Confirm Events]"
+  11086, 	"Mouse X"
+  11087, 	"Mouse Y"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  11088, 	"Picture: "
+  11089, 	"X Position"
+  11090, 	"Y Position"
+  11091, 	"Image Size (Width)"
+  11092, 	"Image Size (Height)"
+  11093, 	"Pattern #"
+  11094, 	"Opacity"
+  11095, 	"Angle"
+  11096, 	"Zoom (If not 100 - for Old Ver)"
+  11097, 	"Mouse Cursor Hover? (1=YES)"
+  11098, 	"Picture In Use? (1=YES)"
+  11099, 	"String Done Displaying? (1=YES)"
+  11100, 	"Zoom (Width)"
+  11101, 	"Zoom (Height)"
+  11102, 	"Top-Left X [-1 If Not Free Mode]"
+  11103, 	"Top-Left Y [-1 If Not Free Mode]"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  11104, 	"Top-Right X [-1 If Not Free Mode]"
+  11105, 	"Top-Right Y [-1 If Not Free Mode]"
+  11106, 	"Bottom-Left X [-1 If Not Free Mode]"
+  11107, 	"Bottom-Left Y [-1 If Not Free Mode]"
+  11108, 	"Bottom-Right X [-1 If Not Free Mode]"
+  11109, 	"Bottom-Right Y [-1 If Not Free Mode]"
+  11110, 	"} Input Auto-Key: "
+  11111, 	"OK "
+  11112, 	"Cancel "
+  11113, 	"Sub "
+  11114, 	"Down "
+  11115, 	"Left "
+  11116, 	"Right "
+  11117, 	"Up "
+  11118, 	"Keyboard Key [ "
+  11119, 	"Mouse "
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  11120, 	"L-Click "
+  11121, 	"R-Click "
+  11122, 	"M-Click "
+  11123, 	"[ Mouse X: "
+  11124, 	"[ Mouse Wheel: "
+  11125, 	"} Input Enable/Disable: "
+  11126, 	"[ Movement OK Key Input OK ]"
+  11127, 	"[ Movement NO Key Input OK ]"
+  11128, 	"[ Movement NO Key Input NO ]"
+  11129, 	"All Mouse Input "
+  11130, 	"All Pad Input "
+  11131, 	"All Devices "
+  11132, 	" [ Enable ]"
+  11133, 	" [ Disable ]"
+  11134, 	"Face: "
+  11135, 	"#"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  11136, 	"} Transfer: "
+  11137, 	"Hero SysDB 7-%.2i: [%s] Position"
+  11138, 	"Hero SysDB 7-[%s]"
+  11139, 	"This Ev "
+  11140, 	"Hero - Current Map "
+  11141, 	"Hero - Map ID %d[%s] "
+  11142, 	"Hero - Map ID XX <%s> "
+  11143, 	"[Precise]"
+  11144, 	" [No Transition]"
+  11145, 	" [Transition - No Fade]"
+  11146, 	" [Transition with Fade]"
+  11147, 	"} Sound: "
+  11148, 	" Play"
+  11149, 	" Load Memory"
+  11150, 	" Free Memory"
+  11151, 	" Stop"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  11152, 	" Stop "
+  11153, 	"%d \"%s\""
+  11154, 	" Variable[%s] "
+  11155, 	" File [%s] Vol %s%% Tempo %s%% "
+  11156, 	"Loop %s ms "
+  11157, 	"  /  Delay: %s Frame(s)"
+  11158, 	"  /  Delay: %s Frame(s)"
+  11159, 	"} Voice Synth: "
+  11160, 	"[%s] Speed [%s]%%/Volume [%s]%%/Pitch [%s]%%/Delay [%s] Frame(s)"
+  11161, 	"Top-Left"
+  11162, 	"Center"
+  11163, 	"Bottom-Left"
+  11164, 	"Top-Right"
+  11165, 	"Bottom-Right"
+  11166, 	"} Picture Show: %s [%s] "
+  11167, 	"} Picture Move: %s "
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  11168, 	"} Picture Erase: %s "
+  11169, 	"} Picture [Delay Reset]: %s "
+  11170, 	"~ %s "
+  11171, 	"File \"%s\""
+  11172, 	"File (%s)"
+  11173, 	"String [%s]"
+  11174, 	"Window \"%s\" Size [%s,%s]"
+  11175, 	"Window (%s) Size [%s,%s]"
+  11176, 	"Relative "
+  11177, 	"%s[Top-L X:%s Y:%s + Top-R X:%s Y:%s + Bot-L X:%s Y:%s + Bot-R X:%s Y:%s]"
+  11178, 	" / %s(%s) Frame(s)"
+  11179, 	"  / Pattern %s / Opac. %s / "
+  11180, 	"Same"
+  11181, 	"Display Type: Normal "
+  11182, 	"Display Type: Add "
+  11183, 	"Display Type: Subtract "
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  11184, 	"Display Type: Multiply "
+  11185, 	"Display Type: Same "
+  11186, 	" / Angle %s "
+  11187, 	"/ Zoom %s%% / "
+  11188, 	"/ Zoom %dx%s%% / "
+  11189, 	"/ Zoom %sx%d%% / "
+  11190, 	"/ Zoom %sx%s%% / "
+  11191, 	"/ Zoom Same / "
+  11192, 	"Color Same"
+  11193, 	"Color R[%s] G[%s] B[%s]"
+  11194, 	"Color R[%d] G[%d] B[%d]"
+  11195, 	"} Set Transition:"
+  11196, 	" [Instant] %d Frame(s)"
+  11197, 	" [%d: %s] %d Frame(s)"
+  11198, 	"[Wait]"
+  11199, 	"} Prepare Transition"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  11200, 	"} Execute Transition"
+  11201, 	"} Loop Start"
+  11202, 	"} Break Loop"
+  11203, 	"} Force Exit Event"
+  11204, 	"} Erase Event: "
+  11205, 	"This Ev [%d Frame(s)]"
+  11206, 	"Ev %s [%d Frame(s)]"
+  11207, 	"} Go to Title"
+  11208, 	"} Game End"
+  11209, 	"} Go to Loop Start"
+  11210, 	"} Non-Picture Graphic Updates [Stop]"
+  11211, 	"} Non-Picture Graphic Updates [Resume]"
+  11212, 	"} Repeat Loop"
+  11213, 	" [ %s ] Times"
+  11214, 	"} Wait: "
+  11215, 	"%s Frame(s)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  11216, 	"} Move Route: "
+  11217, 	"[Wait] "
+  11218, 	"This Event"
+  11219, 	"Down"
+  11220, 	"Left"
+  11221, 	"Right"
+  11222, 	"Up"
+  11223, 	"Face-Down"
+  11224, 	"Face-Left"
+  11225, 	"Face-Right"
+  11226, 	"Face-Up"
+  11227, 	"Face-DL"
+  11228, 	"Face-DR"
+  11229, 	"Face UL"
+  11230, 	"Face-UR"
+  11231, 	"Move-Random"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  11232, 	"Approach Hero"
+  11233, 	"Away From Hero"
+  11234, 	"Step Forward"
+  11235, 	"Step Back"
+  11236, 	"Jump - R: %s D: %s"
+  11237, 	"Turn Right"
+  11238, 	"Turn Left"
+  11239, 	"Turn L/R Random"
+  11240, 	"Turn Full Random"
+  11241, 	"Face Hero"
+  11242, 	"Face Away From Hero"
+  11243, 	"Variable %s=%s"
+  11244, 	"Move Speed -> %d"
+  11245, 	"Move Freq. -> %d"
+  11246, 	"Anim. Speed -> %d"
+  11247, 	"Idle Anim ON"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  11248, 	"Idle Anim OFF"
+  11249, 	"Move Anim ON"
+  11250, 	"Move Anim OFF"
+  11251, 	"Fixed Dir ON"
+  11252, 	"Fixed Dir OFF"
+  11253, 	"Slip Through ON"
+  11254, 	"Slip Through OFF"
+  11255, 	"Always On Top ON"
+  11256, 	"Always On Top OFF"
+  11257, 	"Change Graphic %s: %s"
+  11258, 	"Set Opacity %s"
+  11259, 	"Play Sound %s: %s"
+  11260, 	"Wait %s Frame(s)"
+  11261, 	"Set Half-Tile"
+  11262, 	"Set Full-Tile"
+  11263, 	"Pattern 1"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  11264, 	"Pattern 2"
+  11265, 	"Pattern 3"
+  11266, 	"Approach Ev %s"
+  11267, 	"Approach X:%s,Y:%s"
+  11268, 	"Variable %s+=%s"
+  11269, 	"Pattern 4"
+  11270, 	"Pattern 5"
+  11271, 	"Height -> %s"
+  11272, 	"} Wait For Move Route"
+  11273, 	"} Change Color: "
+  11274, 	"%s R%d G%d B%d / %s Frame(s)"
+  11275, 	"(Flash)"
+  11276, 	"%s R%s G%s B%s / %s Frame(s)"
+  11277, 	"} Call Event: "
+  11278, 	"} Call Event [Name]: "
+  11279, 	"} Reserve Next Event: "
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  11280, 	"Variable [%s]'s Ev Page %d"
+  11281, 	"Variable [%s]'s Ev"
+  11282, 	"[\"%s\"] <CommonEv Not Found> "
+  11283, 	"[\"%s\"] <CommonEv %d> "
+  11284, 	"[From This Common %s%d]  Common %d:[ %s ]"
+  11285, 	"Common%d:[ %s ]"
+  11286, 	"No Common Event"
+  11287, 	" / Corrupted command! Please delete."
+  11288, 	"This Ev > Page %d"
+  11289, 	"This Ev"
+  11290, 	"Ev%d:[ %s ] > Page %d"
+  11291, 	"Event does not exist"
+  11292, 	"Ev%d:[ %s ]"
+  11293, 	"- Label Point \""
+  11294, 	"\" <<<<<<<<<<<<<<<<<<<<<<<<*"
+  11295, 	"- Label Jump \""
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  11296, 	"\" >>>>>>>>>>>>>>>>>>>>>>>>>"
+  11297, 	"} Save Data: "
+  11298, 	"} Load Data: "
+  11299, 	"} Replay Data: "
+  11300, 	"} Load Save Data: "
+  11301, 	" %s = Save Data [%s]'s %s%s%s"
+  11302, 	"} Write Save Data: "
+  11303, 	"Save Data [%s]'s %s%s%s =  %s"
+  11304, 	"} Move During Events ON"
+  11305, 	"} Move During Events OFF"
+  11306, 	"} Map Chip Settings: Reset"
+  11307, 	"} Map Chip Settings: Chip %s = (%s%s%s%s%s%s%s%s%s)"
+  11308, 	"No-Down "
+  11309, 	"No-Left "
+  11310, 	"No-Right "
+  11311, 	"No-Up "
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  11312, 	"Above-Hero "
+  11313, 	"Half-Chip "
+  11314, 	"Half-Transparent "
+  11315, 	"Counter "
+  11316, 	"Match-Lower-Layer "
+  11317, 	"} Chipset Change: [%s]"
+  11318, 	"} Map Chip Overwrite: From [ Layer %s / X %s / Y %s ] Overwrite Area [ Width %s / Height %s ] With Chip [ %s ]"
+  11319, 	"} Write to VarDB: [Reset Type %s]"
+  11320, 	"} Write to VarDB: [Reset Type %s Data %s]"
+  11321, 	"} Write to VarDB: "
+  11322, 	"} Load DB"
+  11323, 	"(Sys):"
+  11324, 	"(User):"
+  11325, 	"(Var):"
+  11326, 	"Lower Bound"
+  11327, 	"Upper Bound"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  11328, 	"%sDB[Type %s Data Count]"
+  11329, 	"Sys"
+  11330, 	"User"
+  11331, 	"Var"
+  11332, 	"%sDB[Type %s Field Count]"
+  11333, 	"%sDB[Type %s's %s]"
+  11334, 	"Type Name"
+  11335, 	"Type #"
+  11336, 	"%sDB[Type %s Data %s's %s]"
+  11337, 	"Data Name"
+  11338, 	"Data #"
+  11339, 	"%sDB[Type %s Field %s's %s]"
+  11340, 	"Field Name"
+  11341, 	"Field #"
+  11342, 	"} Load From CSV to DB: "
+  11343, 	"File "
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  11344, 	" -> "
+  11345, 	"} Save From DB to CSV: "
+  11346, 	"From %sDB[%s:%s]%s%s%s%s%s [%s Data]"
+  11347, 	" -> File "
+  11348, 	"} Download: "
+  11349, 	"<Wait>"
+  11350, 	" Save To [ "
+  11351, 	" ]"
+  11352, 	"} Party Graphics: "
+  11353, 	"Delete"
+  11354, 	"Insert"
+  11355, 	"Replace"
+  11356, 	"Remove "
+  11357, 	" Remove From Party"
+  11358, 	" (Before), Insert "
+  11359, 	" Replace With "
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  11360, 	" "
+  11361, 	" "
+  11362, 	" From Party"
+  11363, 	"Push Characters To Front"
+  11364, 	"Erase All Characters"
+  11365, 	"Warp Party to Hero"
+  11366, 	"Start Hero/Party Synchro"
+  11367, 	"Cancel Hero/Party Synchro"
+  11368, 	"Make Party Transparent"
+  11369, 	"Cancel Party Transparency"
+  11370, 	"Save Party Members"
+  11371, 	"Load Party Members"
+  11372, 	"Turn Party Following On"
+  11373, 	"Turn Party Following Off"
+  11374, 	"Member %s %s"
+  11375, 	"} Effect Map: [Shake]"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  11376, 	" Power %d Speed %d %s (%s) Frame(s)"
+  11377, 	"Vert. Shake"
+  11378, 	"Horz. Shake"
+  11379, 	"Stop Shake"
+  11380, 	"} Scroll Screen: "
+  11381, 	"Move Screen"
+  11382, 	"Back to Hero"
+  11383, 	"Lock Scroll"
+  11384, 	"Unlock Scroll"
+  11385, 	"Instant"
+  11386, 	" Speed "
+  11387, 	"Right: %s Down: %s"
+  11388, 	"[Wait]"
+  11389, 	"} Effect Picture: "
+  11390, 	"[Flash] "
+  11391, 	"R%s/G%s/B%s  (%s) Frame(s)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  11392, 	"[Color Correct] "
+  11393, 	"[Draw Position Shift] "
+  11394, 	"Shift X %s / Shift Y %s (%s) Frame(s)"
+  11395, 	"[Shake] "
+  11396, 	"Shake X %s / Shake Y %s / %s Times  (%s) Frame(s)"
+  11397, 	"[Zoom] "
+  11398, 	"Center X %s / Center Y %s / %s%%  (%s) Frame(s)"
+  11399, 	"[Switch A (Flicker)] "
+  11400, 	"R%s/G%s/B%s  Interval (%s) Frame(s)"
+  11401, 	"[Switch B (Auto-Flash)] "
+  11402, 	"R%s/G%s/B%s  Interval (%s) Frame(s)"
+  11403, 	"[Auto-Enlarge] "
+  11404, 	"H %s%%/V %s%%/ Rest %s Frame(s)  Interval (%s) Frame(s)"
+  11405, 	"[Auto-Pattern-Switch (One)] "
+  11406, 	"Start Pattern [%s] -> End Pattern [%s]  Interval (%s) Frame(s)"
+  11407, 	"[Auto-Pattern-Switch (Loop)] "
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  11408, 	"[Auto-Pattern-Switch (Round Trip)] "
+  11409, 	"Start Pattern [%s] <--> End Pattern [%s]  Interval (%s) Frame(s)"
+  11410, 	"} Effect Character: "
+  11411, 	"} Effect Map:"
+  11412, 	"+Case: Left Key"
+  11413, 	"+Case: Right Key"
+  11414, 	"+Case: Force Exit"
+  11415, 	"-+Else Case"
+  11416, 	"-+Case: Cancel"
+  11417, 	"+Loop End Point++"
+  11418, 	"+End+"
+  11419, 	"} [L]Script Load: "
+  11420, 	"\"%s\""
+  11421, 	"[L] License Startup Check"
+  11422, 	"[L]Get File List"
+  11423, 	"[L]Load Single File [V8-0]"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  11424, 	"[L]Decide Condition [Force Ev]"
+  11425, 	"[L]Decide & Add Condition [Free Move]"
+  11426, 	"[L]Complete Game Reset [Do Before Adding Data]"
+  11427, 	"[L]Basic Data Additional Processing [Char. Etc.]"
+  11428, 	"[L]Execute Dungeon"
+  11429, 	"[L]Load Game Name List"
+  11430, 	"[L]Overwrite Game Settings With File"
+  11431, 	"[L]Check if File Exists > V8[0]"
+  11432, 	"[L]Create BGM List (Specify Base Folder and Subfolders)"
+  11433, 	"[L]Save Already-Read List"
+  11434, 	"[L]Load Already-Read List"
+  11435, 	"[L]Complete Reboot"
+  11436, 	"[L]Reset Voice Synth"
+  11437, 	"} Exclusive Function: ??????????"
+  11438, 	"*Out of Specification"
+  11439, 	"Free Transform"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  11440, 	"[16]Create Folder"
+  11441, 	"[17]Save JPG Screenshot"
+  11442, 	"[18]File Copy (Specify Source >> Destination)"
+  11443, 	"[19]Send Steam Achievement [If argument is -1, stats update only]"
+  11444, 	"Run As Old Version 2.10"
+  11445, 	"File access denied; could not write data.\r\n%s "
+  11446, 	"Game folder name is blank!\r\nGame data could not be created."
+  11447, 	"Map deleted."
+  11448, 	"Editor is already running.\r\nSelect \"Yes\" to force startup."
+  11449, 	"Run As Latest Version 2.20"
+  11450, 	"Japanese [Standard];Hangul;Chinese Traditional;Chinese Simplified;1-Byte Chars Only [English, etc.];Russian [Game.exe only]"
+  11451, 	"[Non-Existent]"
+  11452, 	"Free All Memory"
+  11453, 	"No Backups;Keep only 1 Backup;Keep 3 Backups;Keep 5 Backups;Backup on 1st and 15th each month;Keep only 1, on 1st and 15th each month;Keep 3, on 1st and 15th each month;Keep 5, on 1st and 15th each month;"
+  11454, 	"Register Special Map Graphics (Specify MapChip/XX01.png with 1,0,16 [No,X,Y])"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  11456, 	"Zoom Adjust [Base 100(%)]"
+  11457, 	"Angle Adjust [\xB13600 per rotation]"
+  11458, 	"[Draw Position Shift 2 (Angle/Zoom Applied)] "
+  11459, 	"[Zoom Adjust] "
+  11460, 	"[Angle Adjust [\xB1]] "
+  11461, 	"Width %s%/Height %s%  (%s) frames"
+  11462, 	"Angle Adjust %s  (%s) frames"
+  11463, 	"Width %"
+  11464, 	"Height %"
+  11465, 	"Angle \xB1"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  11487, 	"Run As Latest Version 2.30"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  32771, 	"\nLayer 1"
+  32772, 	"\nLayer 2"
+  32773, 	"\nLayer 3"
+  32774, 	"\nEvent"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  32790, 	"\nUser Database"
+  32792, 	"\nTileset Settings"
+  32797, 	"\nSystem Database"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  32814, 	"\nMap Settings (Size, Tiles)"
+  32815, 	"\nCommon Event Settings"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  32816, 	"\nBegin Test Play"
+  32818, 	"\nUpdate Map With Newest Tileset"
+  32819, 	"\nCreate New Map"
+  32821, 	"\nShow Mini-Manual"
+  32823, 	"\nMap Select"
+  32824, 	"\nShow Map at 1x"
+  32825, 	"\nShow Map at 2x"
+  32826, 	"\nShow Map at 4x"
+  32827, 	"\nShow Map at 4x"
+  32828, 	"\nShow Map at 8x"
+  32829, 	"\nVariable Database"
+  32830, 	"Adjust Game Settings"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  32836, 	"\nPencil Tool"
+  32837, 	"\nFill Tool"
+  32838, 	"\nSquare Fill Tool"
+  32841, 	"\nUndo (*Map Chips Only)"
+  32843, 	"\nPencil Tool"
+  32846, 	"\nCreate game data. Can also encrypt."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  32853, 	"\nSave position to SystemDB Type 7. Can use saved positions with Transfer command."
+  32859, 	"\nAuto-Create Map"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  32866, 	"\nUse for when you change Map Chips and changes are not reflected."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  32942, 	"\nShow Debug Window (ON/OFF)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  32956, 	"\nCopy selected commands to Windows clipboard as text data which WOLF can read as Event commands."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  32996, 	"\nExport data to a CSV file."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  57344, 	"WOLF RPG Editor"
+  57345, 	"Ready"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  57600, 	"Create New File\nNew File"
+  57601, 	"Open Existing Map\nOpen Other Map"
+  57602, 	"Close Current File\nClose"
+  57603, 	"Overwrite Current File\nSave Over"
+  57604, 	"Save Current File With New Name\nSave As"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  57616, 	"Open Specified File"
+  57617, 	"Open Specified File"
+  57618, 	"Open Specified File"
+  57619, 	"Open Specified File"
+  57620, 	"Open Specified File"
+  57621, 	"Open Specified File"
+  57622, 	"Open Specified File"
+  57623, 	"Open Specified File"
+  57624, 	"Open Specified File"
+  57625, 	"Open Specified File"
+  57626, 	"Open Specified File"
+  57627, 	"Open Specified File"
+  57628, 	"Open Specified File"
+  57629, 	"Open Specified File"
+  57630, 	"Open Specified File"
+  57631, 	"Open Specified File"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  57632, 	"Delete selected range.\nDelete"
+  57633, 	"Delete all.\nDelete All"
+  57634, 	"Copy selected range to Clipboard.\nCopy"
+  57635, 	"Cut selected range and put it on the Clipboard.\nCut"
+  57636, 	"Search for the given string.\nFind"
+  57637, 	"Paste the contents of the Clipboard.\nPaste"
+  57640, 	"Redo last action.\nRedo"
+  57641, 	"Replace given string with another string.\nReplace"
+  57642, 	"Select everything in the file.\nSelect All"
+  57643, 	"Undo last action.\nUndo"
+  57644, 	"Redo last action.\nRedo"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  57653, 	"Divide current window.\nSplit"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  57664, 	"Show program info, version, and copyright.\nVersion Info"
+  57665, 	"Close application, asking to save files.\\Quit"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  57680, 	"Switch to the next window.\nNext Pane"
+  57681, 	"Switch to the previous window.\nPrevious Pane"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  59136, 	"EXT"
+  59137, 	"CAP"
+  59138, 	"NUM"
+  59139, 	"SCRL"
+  59140, 	"Overwrite"
+  59141, 	"Record"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  59392, 	"Show or don't show the toolbar.\nToolbar Display Toggle"
+  59393, 	"Show or don't show the status bar.\nStatus Bar Display Toggle"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  61184, 	"Change window size."
+  61185, 	"Change window position."
+  61186, 	"Minimize window."
+  61187, 	"Maximize window."
+  61188, 	"Switch to the next window."
+  61189, 	"Switch to the previous window."
+  61190, 	"Close current window, asking to save changed files."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  61202, 	"Return the window to normal size."
+  61203, 	"Show Task List"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  61440, 	"Open"
+  61441, 	"Save As"
+  61442, 	"All Files (*.*)"
+  61443, 	"Untitled"
+  61446, 	"an unnamed file"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  61457, 	"&Hide"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  61472, 	"No error message is available."
+  61473, 	"An unsupported operation was attempted."
+  61474, 	"A required resource was unavailable."
+  61475, 	"Out of memory."
+  61476, 	"An unknown error has occurred."
+  61477, 	"An invalid argument was encountered."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  61696, 	"Invalid filename."
+  61697, 	"Failed to open document."
+  61698, 	"Failed to save document."
+  61699, 	"Save changes to %1?"
+  61700, 	"Failed to create empty document."
+  61701, 	"The file is too large to open."
+  61702, 	"Could not start print job."
+  61703, 	"Failed to launch help."
+  61704, 	"Internal application error."
+  61705, 	"Command failed."
+  61706, 	"Insufficient memory to perform operation."
+  61707, 	"System registry entries have been removed and the INI file (if any) was deleted."
+  61708, 	"Not all of the system registry entries (or INI file) were removed."
+  61709, 	"This program requires the file %s, which was not found on this system."
+  61710, 	"This program is linked to the missing export %s in the file %s. This machine may have an incompatible version of %s."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  61712, 	"Please enter an integer."
+  61713, 	"Please enter a number."
+  61714, 	"Please enter an integer between %1 and %2."
+  61715, 	"Please enter a number between %1 and %2."
+  61716, 	"Please enter no more than %1 characters."
+  61717, 	"Please select a button."
+  61718, 	"Please enter an integer between 0 and 255."
+  61719, 	"Please enter a positive integer."
+  61720, 	"Please enter a date and/or time."
+  61721, 	"Please enter a currency."
+  61722, 	"Please enter a GUID."
+  61723, 	"Please enter a time."
+  61724, 	"Please enter a date."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  61728, 	"Unexpected file format."
+  61729, 	"%1\nCannot find this file.\nPlease verify that the correct path and file name are given."
+  61730, 	"Destination disk drive is full."
+  61731, 	"Unable to read from %1, it is opened by someone else."
+  61732, 	"Unable to write to %1, it is read-only or opened by someone else."
+  61733, 	"An unexpected error occurred while reading %1."
+  61734, 	"An unexpected error occurred while writing %1."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  61744, 	"%1: %2\nContinue running script?"
+  61745, 	"Dispatch exception: %1"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  61836, 	"Unable to read write-only property."
+  61837, 	"Unable to write read-only property."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  61840, 	"Unable to load mail system support."
+  61841, 	"Mail system DLL is invalid."
+  61842, 	"Send Mail failed to send message."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  61856, 	"No error occurred."
+  61857, 	"An unknown error occurred while accessing %1."
+  61858, 	"%1 was not found."
+  61859, 	"%1 contains an invalid path."
+  61860, 	"%1 could not be opened because there are too many open files."
+  61861, 	"Access to %1 was denied."
+  61862, 	"An invalid file handle was associated with %1."
+  61863, 	"%1 could not be removed because it is the current directory."
+  61864, 	"%1 could not be created because the directory is full."
+  61865, 	"Seek failed on %1"
+  61866, 	"A hardware I/O error was reported while accessing %1."
+  61867, 	"A sharing violation occurred while accessing %1."
+  61868, 	"A locking violation occurred while accessing %1."
+  61869, 	"Disk full while accessing %1."
+  61870, 	"An attempt was made to access %1 past its end."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  61872, 	"No error occurred."
+  61873, 	"An unknown error occurred while accessing %1."
+  61874, 	"An attempt was made to write to the reading %1."
+  61875, 	"An attempt was made to access %1 past its end."
+  61876, 	"An attempt was made to read from the writing %1."
+  61877, 	"%1 has a bad format."
+  61878, 	"%1 contained an unexpected object."
+  61879, 	"%1 contains an incorrect schema."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  61888, 	"pixels"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  62177, 	"Uncheck"
+  62178, 	"Check"
+  62179, 	"Mixed"
+}
+

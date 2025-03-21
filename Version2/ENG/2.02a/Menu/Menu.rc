@@ -1,0 +1,204 @@
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+
+128 MENU
+LANGUAGE LANG_JAPANESE, 0x1
+{
+  POPUP "File(&F)"
+  {
+    MENUITEM "Create a new map",  32819
+    MENUITEM "Load Map",  57601
+    MENUITEM "Save Map(&S)\tCtrl+S",  57603
+    MENUITEM "Save As(&A)",  57604
+    MENUITEM SEPARATOR
+    MENUITEM "Create Game(&G)",  32846
+    MENUITEM SEPARATOR
+    MENUITEM "Exit Editor(&X)",  57665
+  }
+  POPUP "Edit(&E)"
+  {
+    MENUITEM "Cut Event\tX",  57635
+    MENUITEM "Copy Event\tC",  57634
+    MENUITEM "Paste Event\tV",  57637
+    MENUITEM "Delete\tDel or BS",  32794
+    MENUITEM "Map preferences",  32814
+  }
+  POPUP "View(&V)"
+  {
+    MENUITEM "Toolbar(&T)",  59392
+    MENUITEM "Tileset editor",  32792
+    MENUITEM "System database",  32797
+    MENUITEM "User database",  32790
+    MENUITEM "Variable database",  32831
+    MENUITEM "Common events",  32815
+    MENUITEM "Map selection window",  32823
+  }
+  POPUP "Layer"
+  {
+    MENUITEM "Layer 1",  32771
+    MENUITEM "Layer 2",  32772
+    MENUITEM "Layer 3",  32773
+    MENUITEM "Event",  32774
+  }
+  POPUP "Game Settings"
+  {
+    MENUITEM "Open game preferences",  32830
+    MENUITEM "Open configuration",  32865
+    MENUITEM "Use the debug window [tick to use]",  32942
+  }
+  POPUP "Options"
+  {
+    MENUITEM "Editor options",  32943
+  }
+  POPUP "Help(&H)"
+  {
+    MENUITEM "WOLF RPG Editor Version Information(&A)",  57664
+    MENUITEM "WOLF RPG Editor Manual(&M)",  32861
+    MENUITEM "Open WOLF RPG Editor Official Site",  32871
+    MENUITEM "Open Site [Perfect Guide]",  32872
+    MENUITEM "List of special characters/call-variables",  32868
+  }
+}
+
+146 MENU
+LANGUAGE LANG_JAPANESE, 0x1
+{
+  POPUP "移動コマンド挿入"
+  {
+    MENUITEM "下移動",  32798
+    MENUITEM "左移動",  32799
+    MENUITEM "右移動",  32800
+    MENUITEM "上移動",  32801
+    MENUITEM "左下移動",  32802
+    MENUITEM "右下移動",  32803
+    MENUITEM "左上移動",  32804
+    MENUITEM "右上移動",  32805
+  }
+  POPUP "方向転換コマンド"
+  {
+    MENUITEM "下を向く",  32806
+    MENUITEM "左を向く",  32807
+    MENUITEM "右を向く",  32808
+    MENUITEM "上を向く",  32809
+    MENUITEM "左下を向く",  32810
+    MENUITEM "右下を向く",  32811
+    MENUITEM "左上を向く",  32812
+    MENUITEM "右上を向く",  32813
+  }
+  POPUP "編集"
+  {
+    MENUITEM "切り取り\t&X",  33048
+    MENUITEM "コピー\t&C",  33050
+    MENUITEM "貼り付け\t&V",  33052
+    MENUITEM "削除\t&Del",  33054
+  }
+}
+
+172 MENU
+LANGUAGE LANG_JAPANESE, 0x1
+{
+  POPUP "TEST"
+  {
+    MENUITEM "イベント作成/編集",  32852
+    MENUITEM SEPARATOR
+    MENUITEM "イベント切り取り\t&X",  57635
+    MENUITEM "イベントコピー\t&C",  57634
+    MENUITEM "イベント貼り付け\t&V",  57637
+    MENUITEM "削除\t&Del",  32794
+    MENUITEM SEPARATOR
+    MENUITEM "マップチップを手動更新",  32818
+    MENUITEM SEPARATOR
+    MENUITEM "ゲーム開始位置に設定",  32855
+    MENUITEM "この位置をDBに保存",  32853
+  }
+}
+
+216 MENU
+LANGUAGE LANG_JAPANESE, 0x1
+{
+  POPUP "EDITMENU"
+  {
+    MENUITEM "挿入ウィンドウを開く\t&Enter",  32954
+    MENUITEM "コマンド編集\t&Space",  32953
+    MENUITEM SEPARATOR
+    MENUITEM "切り取り\t&X",  32946
+    MENUITEM "コピー\t&C",  32958
+    MENUITEM "貼り付け\t&V",  32959
+    MENUITEM "削除\t&Del",  32960
+    MENUITEM "全て選択\t&A",  33044
+    MENUITEM SEPARATOR
+    MENUITEM "選択範囲の先頭へジャンプ\t&T",  33032
+    MENUITEM "選択範囲の最後尾へジャンプ\t&B",  33034
+    MENUITEM SEPARATOR
+    MENUITEM "ｺﾏﾝﾄﾞ文→ｸﾘｯﾌﾟﾎﾞｰﾄﾞへコピー\t&Q",  32962
+    MENUITEM SEPARATOR
+    MENUITEM "ｲﾍﾞﾝﾄｺｰﾄﾞ→ｸﾘｯﾌﾟﾎﾞｰﾄﾞへｺﾋﾟｰ\t&W",  32963
+    MENUITEM "ｸﾘｯﾌﾟﾎﾞｰﾄﾞ→ｺｰﾄﾞ貼り付け\t&E",  32957
+  }
+  POPUP "SUB"
+  {
+    MENUITEM "ResetNotUseTimer",  33042
+  }
+}
+
+217 MENU
+LANGUAGE LANG_JAPANESE, 0x1
+{
+  POPUP "EDITMENU"
+  {
+    MENUITEM "イベント切り取り\t&X",  32978
+    MENUITEM "イベントコピー\t&C",  32979
+    MENUITEM "イベント複数コピー\t&M",  32980
+    MENUITEM "イベント貼り付け\t&V",  32981
+    MENUITEM "削除\t&Del",  32982
+  }
+}
+
+218 MENU
+LANGUAGE LANG_JAPANESE, 0x1
+{
+  POPUP "EDITMENU"
+  {
+    MENUITEM "切り取り\t&X",  32983
+    MENUITEM "コピー\t&C",  32984
+    MENUITEM "複数コピー\t&M",  32985
+    MENUITEM "貼り付け\t&V",  32986
+    MENUITEM "削除\t&Del",  32987
+    MENUITEM SEPARATOR
+    MENUITEM "タイプ設定をファイル出力",  32988
+    MENUITEM "タイプ＆全データをファイル出力",  32989
+  }
+}
+
+219 MENUEX
+LANGUAGE LANG_JAPANESE, 0x1
+{
+  POPUP "EDITMENU", 0, MFT_STRING, MFS_ENABLED, 0
+  {
+    MENUITEM "切り取り\t&X", 32990, MFT_STRING, MFS_ENABLED
+    MENUITEM "コピー\t&C", 32991, MFT_STRING, MFS_ENABLED
+    MENUITEM "複数コピー\t&M", 32992, MFT_STRING, MFS_ENABLED
+    MENUITEM "貼り付け\t&V", 32993, MFT_STRING, MFS_ENABLED
+    MENUITEM "削除\t&Del", 32994, MFT_STRING, MFS_ENABLED
+    MENUITEM "", 0, MFT_STRING, MFS_ENABLED
+    MENUITEM "データをファイル出力", 32995, MFT_STRING, MFS_ENABLED
+    MENUITEM "データをCSVﾌｧｲﾙとして出力", 32996, MFT_STRING, MFS_ENABLED
+  }
+}
+
+220 MENU
+LANGUAGE LANG_JAPANESE, 0x1
+{
+  POPUP "EDITMENU"
+  {
+    MENUITEM "新規マップ作成(&N)",  33007
+    MENUITEM "マップのコピー(&C)",  33013
+    MENUITEM "マップの貼り付け(&V)",  33014
+    MENUITEM "マップの削除(&D)",  33015
+    MENUITEM SEPARATOR
+    MENUITEM "[←] 親側へ移動\tShift+[←]",  33020
+    MENUITEM "[→] 子側へ移動\tShift+[→]",  33017
+    MENUITEM "[↑] 上へ移動\tShift+[↑]",  33018
+    MENUITEM "[↓] 下へ移動\tShift+[↓]",  33019
+  }
+}
+
