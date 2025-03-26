@@ -35,11 +35,11 @@ Other versions have yet to be added
 
 POR 🇧🇷 - (Feito) -Tradução feita por mim, usando a versão inglês 2.24Z(Vgperson; Widderune) e 3.16 (Sugy) como referências.
 
-MENU - [#########-] 99%
+MENU - [##########] 100%
 
-DIALOG - [######----] 72%
+DIALOG - [########--] 84%
 
-STRINGTABLE - [#######---]  74%
+STRINGTABLE - [########--]  84%
 
 SystemString.txt ( :x: )
 
@@ -52,11 +52,11 @@ Nem tudo está traduzido, pois as traduções que eu usei como referências, nã
 
 ENG 🇺🇸 - DONE - Picking up things that were translated in 2.24Z(Vgperson; Widderune) and 3.16 (Sugy) for 3.39x.
 
-MENU - [#########-] 99%
+MENU - [##########] 100%
 
-DIALOG - [#######---] 72% 
+DIALOG - [########--] 84%
 
-STRINGTABLE - [#######---]  74%
+STRINGTABLE - [########--]  84%
 
 Not everything is translated, because the translation I used (2.24Z by Vgperson and Widderune | 3.16 by Sugy) is missing parts of the latest version. These parts i'm translating.
 
