@@ -3,23 +3,23 @@ LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
 127 MENU
 LANGUAGE LANG_JAPANESE, 0x1
 {
-  POPUP "Files(&F)"
+  POPUP "File(&F)"
   {
     MENUITEM "New Map",  32819
     MENUITEM "Load Map",  57601
     MENUITEM "Save Map\tCtrl+S(&S)",  57603
     MENUITEM "Save as(&A)...",  57604
     MENUITEM SEPARATOR
-    MENUITEM "[Pro]Create individual encrpytion(.wolfx)",  33076
+    MENUITEM "[Pro]Create individual encryption(.wolfx)",  33076
     MENUITEM "Create Game Data(&Ｇ)",  32846
     MENUITEM SEPARATOR
     MENUITEM "Exit Editor(&X)",  57665
   }
   POPUP "Edit(&E)"
   {
-    MENUITEM "Event Cut \tX",  57635
-    MENUITEM "Event Copy \tC",  57634
-    MENUITEM "Event Paste \tV",  57637
+    MENUITEM "Cut Event \tX",  57635
+    MENUITEM "Copy Event \tC",  57634
+    MENUITEM "Paste Event \tV",  57637
     MENUITEM "Delete\tDel or BS",  32794
     MENUITEM "Map Settings",  32814
   }
@@ -28,10 +28,11 @@ LANGUAGE LANG_JAPANESE, 0x1
     MENUITEM "Toolbar\t(&T)",  59392
     MENUITEM "Tileset Editor",  32792
     MENUITEM "System Database (Core Data)",  32797
-    MENUITEM "User Database (Stationary value Data)",  32790
+    MENUITEM "User Database (Stationary Value Data)",  32790
     MENUITEM "Variable Database (Manipulable Data)",  32831
     MENUITEM "Common Events",  32815
     MENUITEM "Map Selection",  32823
+    MENUITEM "Task List",  33108
   }
   POPUP "Layers"
   {
@@ -45,10 +46,10 @@ LANGUAGE LANG_JAPANESE, 0x1
   POPUP "Game Settings"
   {
     MENUITEM "Open Game Settings",  32830
-    MENUITEM "[Pro] Open Game Settings",  33066
-    MENUITEM "[Pro] Set Protection Key",  33069
+    MENUITEM "Open Game Settings [Pro]",  33066
+    MENUITEM "Set Protection Key [Pro]",  33069
     MENUITEM SEPARATOR
-    MENUITEM "Open config for Game.exe",  32865
+    MENUITEM "Open Config for Game.exe",  32865
     MENUITEM "Use Debug Window [Check = Use]",  32942,  CHECKED
   }
   POPUP "Options"
@@ -58,15 +59,15 @@ LANGUAGE LANG_JAPANESE, 0x1
   POPUP "Help(&H)"
   {
     MENUITEM "WOLF RPG Editor Version Info \t(&A)",  57664
-    MENUITEM "WOLF RPG Editor Official Site [JAP]",  32871
+    MENUITEM "WOLF RPG Editor Official Site [JPN]",  32871
     POPUP "└Variable Reference/Special Characters Index"
     {
-      MENUITEM "Open Variable Reference [JAP] ",  33090
-      MENUITEM "Open Special Characters [JAP] ",  33092
+      MENUITEM "Open Variable Reference [JPN] ",  33090
+      MENUITEM "Open Special Characters [JPN] ",  33092
     }
-    MENUITEM "WOLF RPG Editor Manual [JAP] \t(&M)",  32861
-    MENUITEM "Perfect Guide Site [JAP]",  32872
-    MENUITEM "Open Log Window",  33073
+    MENUITEM "WOLF RPG Editor Manual [JPN] \t(&M)",  32861
+    MENUITEM "Perfect Guide Site [JPN]",  32872
+    MENUITEM "Open Specification Change Info",  33073
   }
 }
 
@@ -109,19 +110,19 @@ LANGUAGE LANG_JAPANESE, 0x1
 {
   POPUP "TEST"
   {
-    MENUITEM "Event Create/Edit",  32852
+    MENUITEM "Create/Edit Event",  32852
     MENUITEM SEPARATOR
-    MENUITEM "Event Cut \t&X",  57635
-    MENUITEM "Event Copy \t&C",  57634
-    MENUITEM "Event Paste \t&V",  57637
-    MENUITEM "Delete \t&Del",  32794
+    MENUITEM "Cut Event\t&X",  57635
+    MENUITEM "Copy Event\t&C",  57634
+    MENUITEM "Paste Event\t&V",  57637
+    MENUITEM "Delete\t&Del",  32794
     MENUITEM SEPARATOR
-    MENUITEM "Open Config of this Map",  32814
-    MENUITEM "Manual Map Chip Update",  32818
-    POPUP "Other Option Map"
+    MENUITEM "Open [Settings] of This Map",  32814
+    MENUITEM "Reload Map Chip Images",  32818
+    POPUP "Other Menus"
     {
-      MENUITEM "Create New Map",  32814
-      MENUITEM "Open Map list ",  32823
+      MENUITEM "Create New Map",  33083
+      MENUITEM "Open Map List",  32823
     }
     MENUITEM SEPARATOR
     MENUITEM "Set Game Start Position",  32855
@@ -134,9 +135,9 @@ LANGUAGE LANG_JAPANESE, 0x1
 {
   POPUP "EDITMENU"
   {
-    MENUITEM "Open Command Insert Window \t&Enter",  32954
-    MENUITEM "Edit Command \tCtrl+&Space",  32953
-    MENUITEM "Get the contents for Command Insert Window\t&Ctrl+Shit+Space",  33089
+    MENUITEM "Open Command Insert Window\t&Enter",  32954
+    MENUITEM "Edit Command\tCtrl+&Space",  32953
+    MENUITEM "Continue Command\t&Ctrl+Shit+Space",  33089
     MENUITEM SEPARATOR
     MENUITEM "Cut\t&X",  32946
     MENUITEM "Copy\t&C",  32958
@@ -144,18 +145,18 @@ LANGUAGE LANG_JAPANESE, 0x1
     MENUITEM "Delete\t&Del",  32960
     MENUITEM "Select All\t&A",  33044
     MENUITEM SEPARATOR
-    MENUITEM "Colapse/Expand\t&E",  33094
-    POPUP "Collapse/Expand All"
+    MENUITEM "Fold/Unfold\t&E",  33094
+    POPUP "Fold/Unfold All"
     {
-      MENUITEM "Collapse Everthing",  33096
-      MENUITEM "Expand Everthing",  33097
+      MENUITEM "Fold All",  33096
+      MENUITEM "Unfold All",  33097
     }
-    MENUITEM "Extend with a loop (0 Time)\t&Q",  33101
-    MENUITEM "Change freq of loop to 0\t&Q",  33102
-    MENUITEM "Change freq of loop to 1\t&Q",  33103
-    MENUITEM "Jump to next line\tG (Shift+&G:Jump to Previous line)",  33095
+    MENUITEM "Put Into Loop [0] Time\t&Q",  33101
+    MENUITEM "Change Loop from 1 to 0 Time (Be Ignored)\t&Q",  33102
+    MENUITEM "Change Loop from 0 to 1 Time (Be Processed)\t&Q",  33103
+    MENUITEM "Jump to Next Case\t(Shift+:Previous) &G",  33095
     MENUITEM SEPARATOR
-    MENUITEM "Copy Command String to Clipboard \tCtrl+Shift+C",  32962
+    MENUITEM "Copy Command String to Clipboard\tCtrl+Shift+C",  32962
     MENUITEM "Copy Event Code to Clipboard\tCtrl+Alt+C",  32963
     MENUITEM "Paste Event Code from Clipboard\tCtrl+Alt+V",  32957
   }
@@ -170,11 +171,11 @@ LANGUAGE LANG_JAPANESE, 0x1
 {
   POPUP "EDITMENU"
   {
-    MENUITEM "Event Cut \t&X",  32978
-    MENUITEM "Event Copy \t&C",  32979
-    MENUITEM "Event Multi Copy \t&M",  32980
-    MENUITEM "Event Paste \t&V",  32981
-    MENUITEM "Delete \t&Del",  32982
+    MENUITEM "Cut Event\t&X",  32978
+    MENUITEM "Copy Event\t&C",  32979
+    MENUITEM "Copy Multiple Event\t&M",  32980
+    MENUITEM "Paste Event\t&V",  32981
+    MENUITEM "Delete\t&Del",  32982
   }
 }
 
@@ -183,11 +184,11 @@ LANGUAGE LANG_JAPANESE, 0x1
 {
   POPUP "EDITMENU"
   {
-    MENUITEM "Cut \t&X",  32983
-    MENUITEM "Copy \t&C",  32984
-    MENUITEM "Multi Copy \t&M",  32985
-    MENUITEM "Paste \t&V",  32986
-    MENUITEM "Delete \t&Del",  32987
+    MENUITEM "Cut\t&X",  32983
+    MENUITEM "Copy\t&C",  32984
+    MENUITEM "Copy Multiple\t&M",  32985
+    MENUITEM "Paste\t&V",  32986
+    MENUITEM "Delete\t&Del",  32987
     MENUITEM SEPARATOR
     MENUITEM "Export Type Settings to File",  32988
     MENUITEM "Export Type and All Data to File",  32989
@@ -199,11 +200,11 @@ LANGUAGE LANG_JAPANESE, 0x1
 {
   POPUP "EDITMENU", 65535, MFT_STRING, MFS_ENABLED, 0
   {
-    MENUITEM "Cut \t&X", 32990, MFT_STRING, MFS_ENABLED
-    MENUITEM "Copy \t&C", 32991, MFT_STRING, MFS_ENABLED
-    MENUITEM "Multi Copy \t&M", 32992, MFT_STRING, MFS_ENABLED
-    MENUITEM "Paste \t&V", 32993, MFT_STRING, MFS_ENABLED
-    MENUITEM "Delete \t&Del", 32994, MFT_STRING, MFS_ENABLED
+    MENUITEM "Cut\t&X", 32990, MFT_STRING, MFS_ENABLED
+    MENUITEM "Copy\t&C", 32991, MFT_STRING, MFS_ENABLED
+    MENUITEM "Copy Multiple\t&M", 32992, MFT_STRING, MFS_ENABLED
+    MENUITEM "Paste\t&V", 32993, MFT_STRING, MFS_ENABLED
+    MENUITEM "Delete\t&Del", 32994, MFT_STRING, MFS_ENABLED
     MENUITEM "", 0, MFT_SEPARATOR, MFS_ENABLED
     MENUITEM "Export Data to File", 32995, MFT_STRING, MFS_ENABLED
     MENUITEM "Export Data as CSV File", 32996, MFT_STRING | MFT_RIGHTJUSTIFY, MFS_ENABLED
@@ -215,15 +216,15 @@ LANGUAGE LANG_JAPANESE, 0x1
 {
   POPUP "EDITMENU"
   {
-    MENUITEM "Create New Map \t(&N)",  33007
-    MENUITEM "Copy Map \t(&C)",  33013
-    MENUITEM "Paste Map \t(&V)",  33014
-    MENUITEM "Delete Map \t(&D)",  33015
+    MENUITEM "Create New Map\t(&N)",  33007
+    MENUITEM "Copy Map\t(&C)",  33013
+    MENUITEM "Paste Map\t(&V)",  33014
+    MENUITEM "Delete Map\t(&D)",  33015
     MENUITEM SEPARATOR
-    MENUITEM "[←] Move to Parent Level \tShift+[←]",  33020
-    MENUITEM "[→] Move to Child Level \tShift+[→]",  33017
-    MENUITEM "[↑] Move Up \tShift+[↑]",  33018
-    MENUITEM "[↓] Move Down \tShift+[↓]",  33019
+    MENUITEM "[←] Move to Parent Level\tShift+[←]",  33020
+    MENUITEM "[→] Move to Child Level\tShift+[→]",  33017
+    MENUITEM "[↑] Move Up\tShift+[↑]",  33018
+    MENUITEM "[↓] Move Down\tShift+[↓]",  33019
   }
 }
 
