@@ -3,7 +3,7 @@ LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
 STRINGTABLE
 LANGUAGE LANG_JAPANESE, 0x1
 {
-  127, 	"WOLF RPGエディター\n\nMainEditor\n\nMainEditor\n\n\nMainEditor.Document\nMainEditor.Document"
+  127, 	"WOLF RPG Editor\n\nMainEditor\n\nMainEditor\n\n\nMainEditor.Document\nMainEditor.Document"
 }
 
 STRINGTABLE
@@ -40,10 +40,10 @@ LANGUAGE LANG_JAPANESE, 0x1
   152, 	"Idi\xF3ma[1:Japon\xEAs/2:Ingl\xEAs/3:Europeu.Oci/4:Chin\xEAs(Simplifi.)/5:Chin\xEAs(Trad.)/6:K\xF3reia]"
   153, 	"Tempo inicial"
   154, 	"ms"
-  155, 	"※Para Midi, tick para usar"
+  155, 	"*Para Midi, tick para usar"
   156, 	"Definir canal SE"
   157, 	"Canal"
-  158, 	"※Quando parado -1:Todos canais"
+  158, 	"*Quando parado -1:Todos canais"
   159, 	"(%s Canal) "
 }
 
@@ -93,21 +93,21 @@ STRINGTABLE
 LANGUAGE LANG_JAPANESE, 0x1
 {
   192, 	"A pasta「Data」n\xE3o foi encontrado\r\nQuer criar uma nova「Data」？"
-  193, 	"O min\xEDmo para um novo projeto ser\xE1 criado na pasta「Data」\r\n\r\nBem vindo ao mundo WOLF RPGエディター！\r\nCurtar o desenvolvimento do seu jogo para o seu cont\xEAudo de cora\xE7\xE3o！"
+  193, 	"O min\xEDmo para um novo projeto ser\xE1 criado na pasta「Data」\r\n\r\nBem vindo ao mundo WOLF RPG Editor！\r\nCurtar o desenvolvimento do seu jogo para o seu cont\xEAudo de cora\xE7\xE3o！"
   194, 	"A pasta Data n\xE3o pode ser criado\r\nO processo ser\xE1 abortado"
   195, 	"Val."
   196, 	"【RPG基本システム入り空データ】と【完全初期データ】、\r\nどちらの初期データを作りますか？\r\n\r\n■ 【はい】を選んだ場合　【RPG基本システム入り空データ】\r\n - 基本システム用の「コモンイベント・ユーザDB・可変DB」\r\n - 「タイトルマップ」と「スタート後マップ」\r\n - 「設定済みシステム画像・音声(SystemGraphic)」\r\n - 一定量の「キャラ画像・モンスター画像・BGM素材」\r\n - 「設定済みタイル設定4つ」\r\n　のRPG作成データでDataフォルダを作成\r\n\r\n■ 【いいえ】を選んだ場合　【完全初期データ】\r\n - 「起動マップ1つ」だけ\r\n - 素材なし、データなし\r\n　の空データでDataフォルダを作成\r\n\r\n■ 【キャンセル】を選んだ場合\r\n　処理を中断します。"
   197, 	"-basic オプションで起動された基本データフォルダ「%s」が存在しませんでした。\r\n\r\n起動を中止します。"
-  198, 	"-basic オプションにより、基本データフォルダが「%s」に変更されました。\r\n\r\n※今回の編集時は、エラー文中の「BasicData」のフォルダ名を「%s」フォルダに置き換えて読んでください。"
-  199, 	"開こうとしたデータがVer2以前で古いため『Ver3へのデータコンバート』が行われようとしましたが、-basic オプションが設定されているため起動できませんでした。\r\n-basic オプションなしで起動して下さい。\r\n\r\n※また、BasicData以外の基本データフォルダを含むファイルは正常にコンバートできません。"
+  198, 	"-basic オプションにより、基本データフォルダが「%s」に変更されました。\r\n\r\n*今回の編集時は、エラー文中の「BasicData」のフォルダ名を「%s」フォルダに置き換えて読んでください。"
+  199, 	"開こうとしたデータがVer2以前で古いため『Ver3へのデータコンバート』が行われようとしましたが、-basic オプションが設定されているため起動できませんでした。\r\n-basic オプションなしで起動して下さい。\r\n\r\n*また、BasicData以外の基本データフォルダを含むファイルは正常にコンバートできません。"
   200, 	"ms(tick para Midi)"
   201, 	"ファイルが保存できませんでした。\r\n\r\n* アクセス権限を確認してください。\r\n* データが共有フォルダ上にある場合は一時的に書き込み不能になることが多いです。"
   202, 	"Japon\xEAs(1)[Padr\xE3o];Ingl\xEAs(2);Europeu Ocidental(3);Chin\xEAs/Simplificado(4);Chin\xEAs/Tradicional(5);Hangul(6);"
   203, 	"フォルダ「%s」内に\r\n基本データ(ゲーム設定・DB・マップ・コモンEv・タイル設定)の\r\nデータをテキストとして出力します、\r\nよろしいですか？"
   204, 	"TXTへの出力が完了しました！\r\n\r\n[出力した.Auto.txtファイル]\r\n%s"
   205, 	"\r\n[Outro %d Arquivo (Todos %d Arquivos)]"
-  206, 	"フォルダ「%s」内の.Auto.txtファイルを読み込み、\r\n基本データ(ゲーム設定・DB・コモンEv・タイル設定)に\r\n上書きします。よろしいですか？\r\n\r\n※このまとめて読み込む処理は、\r\n　期待通りでない内容が知らずに読み込まれる危険もあります。\r\n　不安な場合は1つずつ各ウィンドウにドラッグ&ドロップして\r\n　内容を確認しながら読み込ませてください。"
-  207, 	"フォルダ「%s」以下の\r\n全ての「.mps.Auto.txt」ファイルを読み込み、\r\n全マップデータ(.mps)に上書きします。よろしいですか？\r\n\r\n※このまとめて読み込む処理は、\r\n　期待通りでない内容が知らずに読み込まれる危険もあります。\r\n　不安な場合は1つずつ各ウィンドウにドラッグ&ドロップして\r\n　内容を確認しながら読み込ませてください。"
+  206, 	"フォルダ「%s」内の.Auto.txtファイルを読み込み、\r\n基本データ(ゲーム設定・DB・コモンEv・タイル設定)に\r\n上書きします。よろしいですか？\r\n\r\n*このまとめて読み込む処理は、\r\n　期待通りでない内容が知らずに読み込まれる危険もあります。\r\n　不安な場合は1つずつ各ウィンドウにドラッグ&ドロップして\r\n　内容を確認しながら読み込ませてください。"
+  207, 	"フォルダ「%s」以下の\r\n全ての「.mps.Auto.txt」ファイルを読み込み、\r\n全マップデータ(.mps)に上書きします。よろしいですか？\r\n\r\n*このまとめて読み込む処理は、\r\n　期待通りでない内容が知らずに読み込まれる危険もあります。\r\n　不安な場合は1つずつ各ウィンドウにドラッグ&ドロップして\r\n　内容を確認しながら読み込ませてください。"
 }
 
 STRINGTABLE
@@ -296,10 +296,10 @@ LANGUAGE LANG_JAPANESE, 0x1
   10096, 	"[Nada]"
   10097, 	"Este arquivo cont\xEAm m\xFAltiplos eventos. Commons %d para %d \nProcedir?"
   10098, 	"Editor de Common Event  - Evento copiado (CommonEv %d)"
-  10099, 	"※Indentation does not match correctly!"
+  10099, 	"*Indentation does not match correctly!"
   10100, 	"Editor de Common Event - Evento copiado (CommonEv %d Line %d)%s"
   10101, 	"Editor de Common Event - Eventos copiados (CommonEv %d Lines %d-%d)%s"
-  10102, 	"【Routa de movimento】\n※Routas n\xE3o podem ser copiados na \xE1rea de transfer\xEAncias"
+  10102, 	"【Routa de movimento】\n*Routas n\xE3o podem ser copiados na \xE1rea de transfer\xEAncias"
   10103, 	"Reconhecido como codigo de evento,\r\nmas as indenta\xE7\xF5es n\xE3o combinam\r\n\nColagem foi cancelada para diminuir risco de corrup\xE7\xE3o."
   10104, 	"N\xE3o reconhecido como c\xF3digo de evento\r\n\r\nO texto copiado deve terminar com a linha WoditorEvCOMMAND_END."
   10105, 	"N\xE3o reconhecido como c\xF3digo de evento\r\n\r\nO texto copiado deve come\xE7ar com a linha WoditorEvCOMMAND_START."
@@ -424,7 +424,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   10194, 	"Manual.chm n\xE3o encontrado"
   10195, 	"Aviso"
   10196, 	"・Esta janela pode ser limpado com o click-direito"
-  10197, 	"※Especificar as variav\xE9is pela refer\xEAncias n\xFAmericas \r\n　（例：1600004=このｺﾓﾝｾﾙﾌ4）"
+  10197, 	"*Especificar as variav\xE9is pela refer\xEAncias n\xFAmericas \r\n　（例：1600004=このｺﾓﾝｾﾙﾌ4）"
   10198, 	"N\xE3o encontrado"
   10199, 	"Fim da procura"
   10200, 	"Mostrar;N\xE3o mostrar;"
@@ -463,7 +463,7 @@ LANGUAGE LANG_JAPANESE, 0x1
 {
   10224, 	"Im\xF3vel;Custom;Aleat\xF3rio;Em dire\xE7\xE3o ao her\xF3i;"
   10225, 	"0:Mais lento;1;2;3:M\xE9dio;4;5;6:Mais r\xE1pido;"
-  10226, 	"0:Cada frame;1:Muito R\xE1pido;2:R\xE1pido;3:M\xE9dio;4:Lento;5:Muito Lento;"
+  10226, 	"0:Cada frame;1:Muito R\xE1pido;2:R\xE1pido;3:M\xE9dio;4:Lento;5:Muito Lento;6: Most Delayed;"
   10227, 	"Tecla  Enter;Autorun;Processo Paralelo;Ao Tocar o jogador;Ao Tocar evento;"
   10228, 	"(>)Maior;(≥)Maior que;(=)Igual;(≤)Menor que;(<)Menor;N\xE3o \xE9 igual;Bitwise &;"
   10229, 	"%d：%s"
@@ -473,7 +473,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   10233, 	"N\xE3o pode criar mais p\xE1ginas"
   10234, 	"MS Shell Dlg"
   10235, 	"\r\nGr\xE1fico\r\n\r\nClique-duplo\r\npara pegar gr\xE1fico"
-  10236, 	"※Indenta\xE7\xE3o n\xE3o combinam corretamente！"
+  10236, 	"*Indenta\xE7\xE3o n\xE3o combinam corretamente！"
   10237, 	"%s Comando c\xF3piado（Linha %d） %s"
   10238, 	"%s Comandos c\xF3piado（Linhas %d～%d）%s"
   10239, 	"Arquivo de Mapa (*.mps)|*.mps|All files(*.*)|*.*||"
@@ -482,19 +482,20 @@ LANGUAGE LANG_JAPANESE, 0x1
 STRINGTABLE
 LANGUAGE LANG_JAPANESE, 0x1
 {
-  10240, 	"- WOLF RPGエディター"
+  10240, 	"- WOLF RPG Editor"
   10241, 	"N\xE3o pode colar mais p\xE1ginas"
   10242, 	"%s Coordenadas(%d,%d) Precis\xE3o(%d,%d) [ sele\xE7\xE3o de Evento:%d - %s ]"
-  10243, 	"【Routa de movimento】※Routa de movimento n\xE3o podem ser copiados na \xE1rea de transfer\xEAncia"
+  10243, 	"【Routa de movimento】*Routa de movimento n\xE3o podem ser copiados na \xE1rea de transfer\xEAncia"
   10244, 	"Reconhecido como c\xF3digo de evento,\r\nmas as indenta\xE7\xF5es n\xE3o combinam corretamente.\r\n\r\nColar cancelado para desvia de possiveis corrup\xE7\xE3o de evento"
   10245, 	"Reconhecido como c\xF3digo de evento,\r\nmas sem ponto de fim reconhecido\r\n\r\nO texto copiado devem terminar com a linha WoditorEvCOMMAND_END."
+  10246, 	"Not recognized as event code.\n\nThe copied text must start with the line WoditorEvCOMMAND_START."
   10247, 	"Falhar em colar em X:%d  Y:%d \r\nportanto colagem de evento foi cancelado.\r\n\r\nPor favor cole na tela do Mapa"
   10248, 	"＝;＋＝;－＝;\xD7＝;\xF7＝;％＝;Limite Superior;Limite Inferior;"
   10249, 	"＝;＋＝;"
   10250, 	"▼SysDB Tipo %d %s/Dado %d %s/Campo %d %s\r\n▽%s"
   10251, 	"▼UserDB Tipo %d %s/Dado%d %s/Campo%d %s\r\n▽%s"
   10252, 	"▼VarDB Tipo %d %s/Dado%d %s/Campo%d %s\r\n▽%s"
-  10253, 	"%s\r\n※Sempre se refere as variav\xE9is 1000000～！"
+  10253, 	"%s\r\n*Sempre se refere as variav\xE9is 1000000～！"
   10254, 	"▲　▲　▲　Valor ou Refer\xEAncia　▲　▲　▲"
   10255, 	"　Valor ou Refer\xEAncia　▼▼▼▼▼"
 }
@@ -537,7 +538,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   10283, 	"？"
   10284, 	"”"
   10285, 	"Arquivo de Dado CSV (*.csv)|*.csv|All files(*.*)|*.*||"
-  10286, 	"Puxe o personagem para frente;Remove os gr\xE1ficos do grupo;Teleportar todos para o jogador;Sincronizar o Jogador e o grupo;Cancelar sincroniza\xE7\xE3o do jogador e o grupo;Faz o grupo ficar invis\xEDvel;Tirar invinsibilidade do grupo;Salvar o gr\xE1fico do grupo;Carregar o gr\xE1fico do grupo salvado;Deixar o grupo seguir（※Padr\xE3o）;N\xE3o deixar o grupo seguir（Grupo para）;"
+  10286, 	"Puxe o personagem para frente;Remove os gr\xE1ficos do grupo;Teleportar todos para o jogador;Sincronizar o Jogador e o grupo;Cancelar sincroniza\xE7\xE3o do jogador e o grupo;Faz o grupo ficar invis\xEDvel;Tirar invinsibilidade do grupo;Salvar o gr\xE1fico do grupo;Carregar o gr\xE1fico do grupo salvado;Deixar o grupo seguir（*Padr\xE3o）;N\xE3o deixar o grupo seguir（Grupo para）;"
   10287, 	"Chip%d：%s"
 }
 
@@ -550,7 +551,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   10291, 	"For\xE7a1;For\xE7a2;For\xE7a3;For\xE7a4;For\xE7a5;For\xE7a6;For\xE7a7;"
   10292, 	"Velo1 (Fraco);Velo2;Velo3;Velo4;Velo5;Velo6;Velo7 (R\xE1pido);"
   10293, 	"Vert.Shake;Horz.Shake;Parar;"
-  10294, 	"Deslizar tela;Retornar ao jogador;Travar rolagem;Desbloquear rolagem;"
+  10294, 	"Deslizar tela;Retornar ao jogador;Travar rolagem;Lock Horizontal Scroll;Lock Vertical Scroll;Desbloquear rolagem;"
   10295, 	"1/8x;1/4x;1/2x;1x;2x;4x;8x;16x;32x;64x;instant\xE2nea;"
   10296, 	"Dura\xE7\xE3o"
   10297, 	"～"
@@ -653,7 +654,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   10369, 	"Este CommonEv%d: %s"
   10370, 	"【"
   10371, 	"】 ← "
-  10372, 	"(=)Igual;N\xE3o Igual;Incluir;Come\xE7a com;"
+  10372, 	"(=)Igual;N\xE3o Igual;Incluir;Not Includes;Come\xE7a com;Ends with;の正規表現と一致;"
   10373, 	"Entrada B\xE1sica（Enter/Cancelar/Subﾞ/DIr）;Teclas do teclado （100～）;Mouse Click/Posi\xE7\xE3o;Bot\xF5es do Controle（300～）;Anal\xF3gico;POV Setas;Multi-toque;"
   10374, 	"N\xE3o aceitar;4 Setas(2,4,6,8);8 Setas(1～9);Cima-Baixo(8,2);Esquerda Direita(4,6);Cima(8);Baixo(2);Esquerda(4);Direita(6);"
   10375, 	"Entrada B\xE1sica;Keyboard;Mouse;"
@@ -764,7 +765,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   10455, 	"Este Ev:Self%d"
   10456, 	"Este CSelf%d: %s"
   10457, 	"Este CommonEv:Self%d"
-  10458, 	"＝;＋＝;－＝;\xD7＝;\xF7＝;％＝;Limite Superior;Limite Inferior;Absoluto;Angle x10 of Slope;sin x1000 of Angle x10;cos x1000 of Angle x10;"
+  10458, 	"＝;＋＝;－＝;\xD7＝;\xF7＝;％＝;Limite Superior;Limite Inferior;Absoluto;Angle x10 of Slope;sin x1000 of Angle x10;cos x1000 of Angle x10;√[x1000];"
   10459, 	"＋;－;\xD7;\xF7;％;ﾋﾞｯﾄ積;～;"
   10460, 	"Definir Nome da vari\xE1vel Common%d『%s』"
   10461, 	"↑↑Vari\xE1vel acima ser\xE1 operado pelo valor abaixo \r\n Oper\xE7\xF5es : ＝Igual ＋＝Audi\xE7\xE3o －＝Subtra\xE7\xE3o \xD7＝Multiplica\xE7\xE3o \xF7＝Divis\xE3o ％＝Porcentagem"
@@ -868,7 +869,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   10534, 	"Este CommonEv:Self%d"
   10535, 	"【Caracteres v\xE1lidos】　Hiragana「、。？」, marcadores de acento「';+,」(4 Tipos)、\r\n　e s\xEDmbolo de acento-paragem「/」s\xE3o apenas os s\xEDmbolos v\xE1lidos. Sem Kanji\r\n"
   10536, 	"\r\n【Leitura de n\xFAmeros】　Ler por dig\xEDtos→ <NUMK VAL=15>  \r\n　Adicionar Counter→<NUMK VAL=16 COUNTER=ほん>\r\n　（Neste caso, l\xEA-se como 1 [pon] 2 [hon]......）\r\n"
-  10537, 	"　※Counters fun, nichi, gatsu, hiki, etc. s\xE3o suportada.\r\n\r\n"
+  10537, 	"　*Counters fun, nichi, gatsu, hiki, etc. s\xE3o suportada.\r\n\r\n"
   10538, 	"【Outro】　A velocidade de leitura pode ser definido por 50% ~ 300%\r\n"
   10539, 	"　Qualquer texto especifico que n\xE3o segue a especifica\xE7\xE3o, n\xE3o ir\xE1 ser tocado\r\n"
   10540, 	"\r\n　Guia oficial do sintetizado de voz AquesTalk\r\n　cont\xEAm informa\xE7\xE3o mais detalhadas, por favor se refere para aquilo tamb\xE9m."
@@ -891,7 +892,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   10552, 	"Erro"
   10553, 	"N\xE3o pode criar dados do Jogo na pasta de desenvolvimento atual"
   10554, 	"Processo foi interropido\r\n\r\nO aviso (Attempted an unsupported operation.)\r\n pode aparecer quando voc\xEA executar na pr\xF3xima vez, mas voc\xEA ignorar ele porque o processo pode ser executado."
-  10555, 	"Cria\xE7\xE3o do dados de Jogo completo！\r\n\r\n\r\n※A pasta de Data do jogo generado pode n\xE3o ser visivel\r\n　Se esse for caso, tente pressionar F5 (Atualizar) no diret\xF3rio onde a pasta do dados do jogo deveria existir."
+  10555, 	"Cria\xE7\xE3o do dados de Jogo completo！\r\n\r\n\r\n*A pasta de Data do jogo generado pode n\xE3o ser visivel\r\n　Se esse for caso, tente pressionar F5 (Atualizar) no diret\xF3rio onde a pasta do dados do jogo deveria existir."
   10556, 	"Selecione a pasta para exportar os dados."
   10557, 	"Selecione a pasta de alvo"
   10558, 	"1x;1.25x;1.5x;1.75x;2.0x;Custom●;"
@@ -955,10 +956,10 @@ LANGUAGE LANG_JAPANESE, 0x1
   10601, 	"Editor Var DB"
   10602, 	"Falha ao criar Janela de Editor do Evento.\n"
   10603, 	"Falha eao criar Janela de Editor do CommonEv.\n"
-  10604, 	"Intitulado - WOLF RPGエディター"
+  10604, 	"Intitulado - WOLF RPG Editor"
   10605, 	"Falha ao criar Editor de Mapa.\n"
   10606, 	"Falha ao criar Janela de Manual.\n"
-  10607, 	" - WOLF RPGエディター"
+  10607, 	" - WOLF RPG Editor"
 }
 
 STRINGTABLE
@@ -975,7 +976,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   10616, 	"ZZZPosi\xE7\xE3oX%d Y%d"
   10617, 	"ＭＳ ＰGothic"
   10618, 	"Mapa n\xE3o aberto.\r\nSelecione um Mapa na Sele\xE7\xE3o de Mapa\r\nou dar click-Direito e selecione um Criar Novo Mapa"
-  10619, 	"- WOLF RPGエディター"
+  10619, 	"- WOLF RPG Editor"
   10620, 	"%s - Salvado / %s"
   10621, 	"Arquivo de Mapa (*.mps)|*.mps|All files(*.*)|*.*||"
   10622, 	"%s - Salvado"
@@ -987,7 +988,7 @@ LANGUAGE LANG_JAPANESE, 0x1
 {
   10624, 	"Save"
   10625, 	"%s - Evento%d deletado"
-  10626, 	"Novo Mapa - WOLF RPGエディター"
+  10626, 	"Novo Mapa - WOLF RPG Editor"
   10627, 	"Mapa atual foi alterado. Salvar as altera\xE7\xF5es primeiro？"
   10628, 	"%s - Evento%d copiado"
   10629, 	"%s - Evento%d cortado"
@@ -1020,7 +1021,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   10651, 	"Dado de mapa"
   10652, 	"Criar um novo Mapa"
   10653, 	"Coloque a pasta do mapa salvo e o nome arquivo"
-  10654, 	"※Corretamente n\xE3o registrado"
+  10654, 	"*Corretamente n\xE3o registrado"
   10655, 	"Deve salvar uma vez para registrar"
 }
 
@@ -1240,7 +1241,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   10816, 	"　→ UserDB TipoA/DadoB/CampoC\r\n"
   10817, 	"　→ VarDB TipoA/DadoB/CampoC\r\n"
   10818, 	"　→ SysDB TipoA/DadoB/CampoC\r\n"
-  10819, 	"※-999999～+999999(999,999) s\xE3o n\xFAmeros padr\xE3os\r\n"
+  10819, 	"*-999999～+999999(999,999) s\xE3o n\xFAmeros padr\xE3os\r\n"
   10820, 	"――――――――――――――――――\r\n\r\n"
   10821, 	"◆◆◆◆◆◆◆◆◆◆◆◆◆\r\n"
   10822, 	"◆◆　  Lista de caractere especiais 　◆◆\r\n"
@@ -1262,17 +1263,17 @@ LANGUAGE LANG_JAPANESE, 0x1
   10833, 	"　Altera pelo valor da vari\xE1vel do System[XXX]。\r\n"
   10834, 	"\\sysS[XXX] ：\r\n"
   10835, 	"　Altera pelo valor da string do System。\r\n"
-  10836, 	"\\self[X] (※X=0 at\xE9 9）：\r\n"
+  10836, 	"\\self[X] (*X=0 at\xE9 9）：\r\n"
   10837, 	"　Altera pelo valor da vari\xE1vel do Ev selfX desse Mapa。\r\n"
-  10838, 	"\\cself[XX] (※XX=0 at\xE9 99）：\r\n"
+  10838, 	"\\cself[XX] (*XX=0 at\xE9 99）：\r\n"
   10839, 	"　Altera pelo valor SelfX do Common Event\r\n"
   10840, 	" （X=0～4､10～99 s\xE3o n\xFAmeros de vari\xE1vel､X=5～9 s\xE3o string）\r\n"
-  10841, 	"\\udb[A:B:C] (※A～C s\xE3o n\xFAmeros）：\r\n"
+  10841, 	"\\udb[A:B:C] (*A～C s\xE3o n\xFAmeros）：\r\n"
   10842, 	"　Altera pelo UserDB [Tipo A, Dado B, Campo C]\r\n"
   10843, 	"  \r\n"
-  10844, 	"\\cdb[A:B:C] (※A～C s\xE3o n\xFAmeros）：\r\n"
+  10844, 	"\\cdb[A:B:C] (*A～C s\xE3o n\xFAmeros）：\r\n"
   10845, 	"　Altera pelo VarDB [Tipo A, Dado B, Campo C]\r\n"
-  10846, 	"\\sdb[A:B:C] (※A～C s\xE3o n\xFAmeros）：\r\n"
+  10846, 	"\\sdb[A:B:C] (*A～C s\xE3o n\xFAmeros）：\r\n"
   10847, 	"　Altera pelo SystemDB [Tipo A, Dado B, Campo C]\r\n"
 }
 
@@ -1291,7 +1292,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   10857, 	"  As cores s\xE3o puxado no SystemDB Tipo 12。\r\n"
   10858, 	"\\E ： Coloca limites no texto a seguir\r\n"
   10859, 	"\\N ： Remove os limites no texto a seguir\r\n"
-  10860, 	"　　 （※Esse \xE9 definido como padr\xE3o）\r\n"
+  10860, 	"　　 （*Esse \xE9 definido como padr\xE3o）\r\n"
   10861, 	"\\-[XX] ：\r\n"
   10862, 	"　Encurta o espa\xE7amentos dos texto a seguir por [XX]px。\r\n"
   10863, 	"　Se voc\xEA colocar por um valor negativo os texto se afastar\xE3o。\r\n"
@@ -1315,7 +1316,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   10876, 	"\\^ … For\xE7ar a fechada de messagem sem pressionar\r\n"
   10877, 	"\\> … Fazer o resto da linha aparecer instantaneamente\r\n"
   10878, 	"\\< … Pare a visualiza\xE7\xE3o instantanea do -> \\>\r\n"
-  10879, 	"\\mx[??] (※??\xE9 um n\xFAmero）… \r\n"
+  10879, 	"\\mx[??] (*??\xE9 um n\xFAmero）… \r\n"
 }
 
 STRINGTABLE
@@ -1323,16 +1324,16 @@ LANGUAGE LANG_JAPANESE, 0x1
 {
   10880, 	"  Mude a posi\xE7\xE3o do texto a seguir、\r\n"
   10881, 	"  por [??]px na dire\xE7\xE3o X\r\n"
-  10882, 	"\\my[??] (※??\xE9 um n\xFAmero）… \r\n"
+  10882, 	"\\my[??] (*??\xE9 um n\xFAmero）… \r\n"
   10883, 	"  Mesmo do \\mx mas dessa vez \xE9 na dire\xE7\xE3o Y。\r\n"
-  10884, 	"\\ax[??] (※?? \xE9 um n\xFAmero）… \r\n"
+  10884, 	"\\ax[??] (*?? \xE9 um n\xFAmero）… \r\n"
   10885, 	"  Define a \xE2ncora interna do texto a seguir\r\n"
   10886, 	"  por [??]px na dire\xE7\xE3o X"
-  10887, 	"\\ay[??] (※??\xE9 um n\xFAmero）… \r\n"
+  10887, 	"\\ay[??] (*??\xE9 um n\xFAmero）… \r\n"
   10888, 	"  Mesmo do \\ax mas dessa vez \xE9 na dire\xE7\xE3o Y。\r\n"
-  10889, 	"\\sp[??] (※??\xE9 um n\xFAmero）… \r\n"
+  10889, 	"\\sp[??] (*??\xE9 um n\xFAmero）… \r\n"
   10890, 	"  Mude a velocidade de digita\xE7\xE3o para ?? caracteres por segundos\r\n"
-  10891, 	"\\space[??] (※??\xE9 um n\xFAmero）… \r\n"
+  10891, 	"\\space[??] (*??\xE9 um n\xFAmero）… \r\n"
   10892, 	"  Muda a altura da quebra de linha\r\n"
   10893, 	"\\r[Base String, Ruby Text] … \r\n"
   10894, 	"  Coloque o (Ruby text) no topo do (Base string)。\r\n"
@@ -1343,11 +1344,11 @@ STRINGTABLE
 LANGUAGE LANG_JAPANESE, 0x1
 {
   10896, 	"  SystemDB Tipo 12 Dado 13。\r\n"
-  10897, 	"\\i[N\xFAm] / \\iS[N\xFAm] (※0～9999)\r\n"
+  10897, 	"\\i[N\xFAm] / \\iS[N\xFAm] (*0～9999)\r\n"
   10898, 	"  Mostra um (icon<num>.png no texto\r\n"
   10899, 	"  da pasta BasicData no Data。\r\n"
-  10900, 	"  ※Ex de nome de arquivo「icon002.png」など\r\n"
-  10901, 	"\\img[Nome de arquivo] / \\imgS[Nome de arquivo] (※Diret\xF3rio dentro do Data)\r\n"
+  10900, 	"  *Ex de nome de arquivo「icon002.png」など\r\n"
+  10901, 	"\\img[Nome de arquivo] / \\imgS[Nome de arquivo] (*Diret\xF3rio dentro do Data)\r\n"
   10902, 	"  Mostre uma imagem(Nome de arquivo) na pasta de Data 。\r\n"
   10903, 	"  使用例：\\img[Picture/Test1.png]\r\n"
   10904, 	"<L> … Alinhamento-E para o texto a seguir(Padr\xE3o)\r\n"
@@ -1367,7 +1368,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   10913, 	"Configura\xE7\xF5es de Tileset　■Erro na imagem de Autotile %d [ %s ]n\xE3o pode ser lido"
   10914, 	"Largura do Tileset B\xE1sico n\xE3o \xE9 %d pixels！ => Largura: %d pixels\r\nO jogo n\xE3o pode come\xE7ar assim. Por favor altere o tamanho."
   10915, 	"Aviso"
-  10916, 	"O\r\n arquivo do Tileset B\xE1sico, excede o tamanho vertigal interno 32000 pixels！ => 縦%dピクセル\r\n\r\n※環境によっては、320x240用解像度で16000ピクセル超の\r\n　タイルセットが正常に表示されない場合があります。\r\n　正常に表示される場合は、そのまま編集してかまいません。\r\n\r\n※この警告は起動後の一回目だけ表示されます。"
+  10916, 	"O\r\n arquivo do Tileset B\xE1sico, excede o tamanho vertigal interno 32000 pixels！ => 縦%dピクセル\r\n\r\n*環境によっては、320x240用解像度で16000ピクセル超の\r\n　タイルセットが正常に表示されない場合があります。\r\n　正常に表示される場合は、そのまま編集してかまいません。\r\n\r\n*この警告は起動後の一回目だけ表示されます。"
   10917, 	"Tileset colado"
   10918, 	"Tileset copiado"
   10919, 	"Voc\xEA quer deletar este Tileset？"
@@ -1544,7 +1545,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   11050, 	"Exten\xE7\xE3o de raioX"
   11051, 	"Exten\xE7\xE3o de raioY"
   11052, 	"Padr\xE3o de anima\xE7\xE3o[0-4]"
-  11053, 	"Em movimento？[1=YES 0=NO] / ※O 0 ocorre quando estiver parado por mais de 1 frame."
+  11053, 	"Em movimento？[1=YES 0=NO] / *O 0 ocorre quando estiver parado por mais de 1 frame."
   11054, 	"-"
   11055, 	"Tag do Tile superior"
 }
@@ -1651,6 +1652,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   11132, 	" [ Ligado ]"
   11133, 	" [ Desligado ]"
   11134, 	"Face: "
+  11135, 	"番"
 }
 
 STRINGTABLE
@@ -1950,6 +1952,8 @@ LANGUAGE LANG_JAPANESE, 0x1
 STRINGTABLE
 LANGUAGE LANG_JAPANESE, 0x1
 {
+  11360, 	"を挿入"
+  11361, 	"に変更"
   11362, 	"Do grupo"
   11363, 	"Puxe os personagens para frente"
   11364, 	"Apague todos os personagens"
@@ -2058,10 +2062,10 @@ LANGUAGE LANG_JAPANESE, 0x1
   11442, 	"[18]Copia arquivo(Fonte especificado >> Destino)"
   11443, 	"[19]Manda conquista de Steam [Se o argumento \xE9 ：-1, apenas atualizar\xE1 o status]"
   11444, 	"Execute a Ver2.10"
-  11445, 	"Acesso do arquivo negado, n\xE3o pode escrever os dados. Dados n\xE3o podem ser escrito, o arquivo est\xE1 trancado ou tem acesso restrito\r\n%s \r\n\r\n※ヒント\r\n　ゲームが不正にクラッシュした場合、前に作ったData.wolfの\r\n　ファイルロックが解除されず上書きできなくなる可能性があります。\r\n　その場合は一度PCを再起動するか、別のフォルダ名で出力してみてください。"
+  11445, 	"Acesso do arquivo negado, n\xE3o pode escrever os dados. Dados n\xE3o podem ser escrito, o arquivo est\xE1 trancado ou tem acesso restrito\r\n%s \r\n\r\n*ヒント\r\n　ゲームが不正にクラッシュした場合、前に作ったData.wolfの\r\n　ファイルロックが解除されず上書きできなくなる可能性があります。\r\n　その場合は一度PCを再起動するか、別のフォルダ名で出力してみてください。"
   11446, 	"O nome da pasta est\xE1 em branco！\r\nDados do jogo n\xE3o pode ser criado"
   11447, 	"Mapa excluido"
-  11448, 	"Editor j\xE1 est\xE1 em execu\xE7\xE3o\r\nSelecione\"Sim\"para for\xE7ar a inicializa\xE7\xE3o\r\n\r\n※同時起動での編集は、もう片方のEditorでファイルを上書きされる危険があります。"
+  11448, 	"Editor j\xE1 est\xE1 em execu\xE7\xE3o\r\nSelecione\"Sim\"para for\xE7ar a inicializa\xE7\xE3o\r\n\r\n*同時起動での編集は、もう片方のEditorでファイルを上書きされる危険があります。"
   11449, 	"Execute a Ver2.20"
   11450, 	"Japon\xEAs [Padr\xE3o];Hangul;Chin\xEAs/Tradicional;Chin\xEAs/Simplificado;1-Byte Chars Only [English, etc.];R\xFAssia [Apenas Game.exe]"
   11451, 	"[N\xE3o existente]"
@@ -2130,7 +2134,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   11499, 	"← ID da Fonte %s"
   11500, 	"[Mover ID da imagem] "
   11501, 	"← ID da fonte %s"
-  11502, 	"　　　5:N\xFAmero da Sombra do Evento\r\n　　　6:Dire\xE7\xE3o do Evento\r\n　　　7:Corre\xE7\xE3o de pixel X\r\n　　　8:Corre\xE7\xE3o de pixel X\r\n　　　9:Imagem do chip de personagem do Evento（String do personagem) (※1)\r\n"
+  11502, 	"　　　5:N\xFAmero da Sombra do Evento\r\n　　　6:Dire\xE7\xE3o do Evento\r\n　　　7:Corre\xE7\xE3o de pixel X\r\n　　　8:Corre\xE7\xE3o de pixel X\r\n　　　9:Imagem do chip de personagem do Evento（String do personagem) (*1)\r\n"
   11503, 	"Funcionalidades PRO"
 }
 
@@ -2284,14 +2288,14 @@ LANGUAGE LANG_JAPANESE, 0x1
 STRINGTABLE
 LANGUAGE LANG_JAPANESE, 0x1
 {
-  11616, 	"  ※Quando um S \xE9 anexado, \xE9 sempre chacalhada e pontuda\r\n"
+  11616, 	"  *Quando um S \xE9 anexado, \xE9 sempre chacalhada e pontuda\r\n"
   11617, 	"\\wE[XX] ： Faz as borda mais grossas\r\n"
   11618, 	"\\cE[XX] ： Define a cor da borda X(SysDB12)\r\n"
   11619, 	"\\cS[XX] ： Define a cor da sombra X(SysDB12)\r\n"
   11620, 	"\\isize[XX] Mude o tamanho da imagem superior XX％\r\n"
   11621, 	"\\bx[XX] ： Muda a coordenadas X inicial da pr\xF3xima linha\r\n"
   11622, 	"Falha em savar dados b\xE1sicos. Porfavor cheque por permiss\xE3o de acesso\r\n\r\nBasicdata内、Game.dat / CommonEvent.dat / DataBase.dat / CDataBase.dat / SysDatabase.dat / TileSetData.dat"
-  11623, 	"A prote\xE7\xE3o \xE9 configurado para os dados b\xE1sicos.\r\n\r\n※A chave de prote\xE7\xE3o est\xE1 salvo dentro do Editor.ini, tenha cuidado em n\xE3o ter deletado por acidente."
+  11623, 	"A prote\xE7\xE3o \xE9 configurado para os dados b\xE1sicos.\r\n\r\n*A chave de prote\xE7\xE3o est\xE1 salvo dentro do Editor.ini, tenha cuidado em n\xE3o ter deletado por acidente."
   11624, 	"Prote\xE7\xE3o de chave incorreto, dados n\xE3o podem ser lidos\r\nInicializa\xE7\xE3o interropido"
   11625, 	"Falha em carregar dados b\xE1sicos\r\n以下のファイルのファイルの存在とアクセス権を確認してみてください。\r\n\r\n Basicdata内、Game.dat / CommonEvent.dat / DataBase.dat / CDataBase.dat / SysDatabase.dat / TileSetData.dat"
   11626, 	"Dados b\xE1sicos n\xE3o podem ser lidos pois \xE9 protegido (Apenas para a Veers\xE3o PRO).\r\n起動を中止します。"
@@ -2368,12 +2372,12 @@ LANGUAGE LANG_JAPANESE, 0x1
 STRINGTABLE
 LANGUAGE LANG_JAPANESE, 0x1
 {
-  11680, 	"◆変換しませんでした  => <1>\r\n  ※このファイルはすでにUTF-8か、英数字のみと判断されました。"
+  11680, 	"◆変換しませんでした  => <1>\r\n  *このファイルはすでにUTF-8か、英数字のみと判断されました。"
   11681, 	"Convers\xE3o dos arquivos completo\r\n作業内容の結果は<BKUP>ConvertLog.txtで確認できます。\r\n\r\nそれでは、引き続きの開発をお楽しみください。\r\nWOLF RPGエディターのご利用、本当にありがとうございます！"
   11682, 	"Falha em converter os seguintes arquivos, leia o seguinte manual depois\r\n\r\n【手作業で必要な作業】\r\n<1>"
   11683, 	"【★】Voc\xEA pode revisar este log com「ConvertLog.txt」 na pasta de 「<BKUP>」."
-  11684, 	"　Eu tentei converter arquivos de txt「<1>」, mas a resposta foi ambiguias.\r\n　一部分を仮変換してみたので、あなたの目で確認してください。\r\n\r\n　【↓の『<3>』部分は文字化けせず正常に表示されていますか？】\r\n　(それ以外の言語の文字化けは無視するものとします)\r\n\r\n\r\n<2>\r\n\r\n（『<3>』部分が正常変換できているなら「はい」で変換します。\r\n　そうでなければ「いいえ」で保留しておきましょう）\r\n　※面倒な人はキーボードの「Y」キーを押しっぱなしで「はい」を連打可能です。止まるべきところで止まります。"
-  11685, 	"\r\n◆N\xE3o converta => <1>  【N\xE3o /】\r\n que \xE9 truncado, se convertido\r\n　portanto o arquivo de texto <1> ser\xE1 [変換して] sem convers\xE3o\r\n　　※後から変換する場合はWindowsの「メモ帳」などを使い、文字コードを「UTF-8」(BOMはなし)にして保存し直してください。\r\n"
+  11684, 	"　Eu tentei converter arquivos de txt「<1>」, mas a resposta foi ambiguias.\r\n　一部分を仮変換してみたので、あなたの目で確認してください。\r\n\r\n　【↓の『<3>』部分は文字化けせず正常に表示されていますか？】\r\n　(それ以外の言語の文字化けは無視するものとします)\r\n\r\n\r\n<2>\r\n\r\n（『<3>』部分が正常変換できているなら「はい」で変換します。\r\n　そうでなければ「いいえ」で保留しておきましょう）\r\n　*面倒な人はキーボードの「Y」キーを押しっぱなしで「はい」を連打可能です。止まるべきところで止まります。"
+  11685, 	"\r\n◆N\xE3o converta => <1>  【N\xE3o /】\r\n que \xE9 truncado, se convertido\r\n　portanto o arquivo de texto <1> ser\xE1 [変換して] sem convers\xE3o\r\n　　*後から変換する場合はWindowsの「メモ帳」などを使い、文字コードを「UTF-8」(BOMはなし)にして保存し直してください。\r\n"
   11686, 	"\r\n◆Converter => <1> 【Sim / Tgc n\xE3o \xE9 truncado】\r\n　Paracer que a convers\xE3o \xE9 esperada, \r\n ent\xE7ao converta os arquivos de texto <1> para [変換して] e prosseguir\r\n"
   11687, 	" - Abra a configura\xE7\xE3o b\xE1sica do Jogo e clique「OK」uma vez(<1>)。"
   11688, 	" - Abra cada janela de DBe clique「OK」uma vez(<1>)。"
@@ -2389,8 +2393,8 @@ LANGUAGE LANG_JAPANESE, 0x1
 STRINGTABLE
 LANGUAGE LANG_JAPANESE, 0x1
 {
-  11696, 	"　※Foi determinada que o strind do caracter「<1>」\xE9 incluida, mas os caracteres de outras linguagem est\xE3o tamb\xE9m misturado.\r\n"
-  11697, 	"\r\n※Tentamos n\xE3o converter arquivos txt cuja os c\xF3digo de caracteres s\xE3o UTF-8 o m\xE1ximo que puder, mas arquivos n\xE3o UTF-8 podem ser for\xE7ados a converter se a linguagem \xE9 diferente.\r\n　必要な場合はバックアップからデータをコピーして戻してください。"
+  11696, 	"　*Foi determinada que o strind do caracter「<1>」\xE9 incluida, mas os caracteres de outras linguagem est\xE3o tamb\xE9m misturado.\r\n"
+  11697, 	"\r\n*Tentamos n\xE3o converter arquivos txt cuja os c\xF3digo de caracteres s\xE3o UTF-8 o m\xE1ximo que puder, mas arquivos n\xE3o UTF-8 podem ser for\xE7ados a converter se a linguagem \xE9 diferente.\r\n　必要な場合はバックアップからデータをコピーして戻してください。"
   11698, 	"Erro! Processo interropido. 以下の原因が考えられます。\r\n- 一時フォルダが作れなかった。\r\n- 作成フォルダ名がこのOSの言語で作成できなかった。\r\n- その他の理由"
   11699, 	"Por causa do c\xF3digo de caracter, o dados do jogos \xE9 criado como\r\n\r\n【%s】\r\n\r\n para o (Nome da pasta do jogo).\r\nこのまま進めてよろしいですか？"
   11700, 	"Processo parar esperar (msec) ：Para todos processos, incluido atualiza\xE7\xE3o da tela"
@@ -2463,7 +2467,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   11752, 	"Interrup\xE7\xE3o for\xE7ada do Ev principal em funcionamento"
   11753, 	"■[Pro] "
   11754, 	"Falha na ecnripta\xE7\xE3o do arquivo\r\nisso pode falhar se cont\xEAm caracteres outro que caracteres alfanum\xE9rico de 1-byte"
-  11755, 	"Falha na ecnripta\xE7\xE3o dos seguintes arquivos\r\n\r\n<FILE>\r\n\r\n※Se o arquivo \xE9 japon\xEAs, isso talvez pode ter sucesso por mudar a localiza\xE7\xE3o Japon\xEAs（P\xE1gina do c\xF3digo「.932」）\r\n　変更することで暗号化に成功する場合があります。\r\n　=>　Localiza\xE7\xE3o atual： <LANG>"
+  11755, 	"Falha na ecnripta\xE7\xE3o dos seguintes arquivos\r\n\r\n<FILE>\r\n\r\n*Se o arquivo \xE9 japon\xEAs, isso talvez pode ter sucesso por mudar a localiza\xE7\xE3o Japon\xEAs（P\xE1gina do c\xF3digo「.932」）\r\n　変更することで暗号化に成功する場合があります。\r\n　=>　Localiza\xE7\xE3o atual： <LANG>"
   11756, 	"Encripta\xE7\xE3o da Ver<X>～<Y>"
   11757, 	"Use a encripta\xE7\xE3o mais recentes [Atual Ver<X>～]"
   11758, 	"■Game.exe　Ver3.170\r\n　ゲームプレイ時、「コモンイベント処理内」でのみ「場所移動」した後の「マップセルフ変数」が正しく「移動後」のマップから読み込まれるようになりました。これにより、ゲーム挙動が変化する可能性があります。\r\n　（従来はそのコモンが終わるまで「場所移動」しても「直前マップ」のマップセルフ変数を読みに行っていました）。\r\n　バージョン調整を「Ver3.155」かそれ以前にすると前の挙動に戻せます。"
@@ -2479,7 +2483,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   11763, 	"■Game.exe　Ver3.180\r\n　ゲームプレイ時、「変数操作+」の「最も上にあるﾀｲﾙのﾀｸﾞ番号」の「精密座標」で得られる値の内部座標が間違っていたバグを修正しました。\r\n　前の挙動に合わせて作っていた場合はバージョン調整を「旧Ver3.17の挙動」にすると、内部座標がずれた過去の挙動で処理されます。"
   11764, 	"■Game.exe　Ver3.190\r\n　ゲームプレイ時、可変DBを「読み込んだとき」に読み込んだ「データ番号」が元のデータ数以上だった場合に勝手にデータ数を拡張してしまうバグを修正しました。\r\n　前の挙動に合わせて作っていた場合は、バージョン調整を「旧Ver3.18時点の挙動」にすると読み込み時に可変DBのデータが勝手に増えるように戻せます。"
   11765, 	"「Game.exeバージョン調整」の各バージョンの\r\n説明ページをブラウザで開きますか？\r\n\r\nhttps://www.silversecond.com/WolfRPGEditor/Help/02ver_ajust.html"
-  11766, 	"※PrintScreenは正常に機能しない可能性が高いです！"
+  11766, 	"*PrintScreenは正常に機能しない可能性が高いです！"
   11767, 	"システムデータベースが破損しており、読み込めませんでした。\r\n起動を中止します。\r\n\r\n【対処方法】\r\nバックアップ（AutoBackupフォルダ）があるなら、BasicDataフォルダ内の\r\n「SysDatabase.dat」と「SysDatabase.project」を\r\nバックアップフォルダ内からコピーし、上書きしてみてください。"
   11768, 	"コモンイベントファイルが破損しており、読み込めませんでした。\r\n起動を中止します。\r\n\r\n【対処方法】\r\nバックアップ（AutoBackupフォルダ）があるなら、BasicDataフォルダ内の\r\n「CommonEvent.dat」を\r\nバックアップフォルダ内からコピーし、上書きしてみてください。"
   11769, 	"■Game.exe　Ver3.211\r\n　ゲームプレイ時、「変数操作+」で「一時消去」されたイベントの情報を得たときは-1を返すよう修正。\r\n　前の挙動に合わせて作っていた場合は、バージョン調整を「旧Ver3.19時点の挙動」にすると「一時消去」しても「変数操作+」で得られるイベントの各値が変わらなくなります。"
@@ -2497,7 +2501,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   11776, 	"Axis-Y[\xB11000/Direct/XInput dual-use]"
   11777, 	"■Game.exe　Ver3.233\r\n　[1]ページ切替と同時に「イベントの一時消去」したとき消えないバグ修正。\r\n　[2]「イベントの挿入」などの「ページ」数に変数を指定したとき、変数指定に-1されページ数が+1されるバグを修正。\r\n　[3]ページ数を「0」にしたとき、別ページの起動条件に変わった直後だと1フレーム待たないと変わった後のページ内容が読まれないバグ修正。\r\n　前のページ切り替わり挙動に合わせて作っていた場合は、バージョン調整を「旧Ver3.21時点の挙動」にするとページ周りの挙動が前のままになります。"
   11778, 	"■Game.exe　Ver3.250\r\n　動作指定中に変更可能な「マップセルフ変数」と「通常変数」だけは動作指定内でリアルタイムの値を使うように修正しました。\r\n　前の変数の挙動に合わせて作っていた場合は、バージョン調整を「旧Ver3.233時点の挙動」にすると動作指定中の変数の挙動が前のままになります。"
-  11779, 	" 動作バージョンは【<VER>】に固定済です。\r\n 将来的にも安定動作します。　※ゲーム基本設定で変更可"
+  11779, 	" 動作バージョンは【<VER>】に固定済です。\r\n 将来的にも安定動作します。　*ゲーム基本設定で変更可"
   11780, 	"■Game.exe　Ver3.270\r\n　通行不能な(または\xD7タイル上にある)「プレイヤー接触」イベントの接触範囲拡張内で1歩あるくたびに2回イベント起動してしまうバグ修正。\r\n　前の挙動に合わせて作っていた場合は、バージョン調整を「旧Ver3.250時点の挙動」にすると動作指定中の変数の挙動が前のままになります。"
   11781, 	"Alterar a ordem Z-Buffer"
   11782, 	"Z-Buffer"
@@ -2545,12 +2549,12 @@ LANGUAGE LANG_JAPANESE, 0x1
   11814, 	"データがこのバージョンより新しいプロテクトで\r\n保護されているようで読み込めませんでした。\r\n\r\nEditorを最新版にしてください。"
   11815, 	"■Game.exe　Ver3.310\r\n　●「トランジション準備」中に「ウェイト」をしても待ち時間が発生しなくなることがあったバグを修正。\r\n　前の挙動に合わせて作っていた場合は、バージョン調整を「旧Ver3.300時点の挙動」以前にすると「トランジション準備」中のウェイトがほぼ無効になるよう戻せます。\r\n　●「ピクセル移動」がβ仕様になりました。古いα版の「ピクセル移動」は「4方向画像使用時では方向転換とアニメーションが効かない」「8方向画像使用時は方向転換とアニメーションが有効」、「4方向・8方向画像どちらでもT・TXキャラクター画像はアニメーションしない」となっており、バージョン調整を「旧Ver3.300時点の挙動」以前にするとその仕様に戻せます。"
   11816, 	"ファイル側にプロテクトがかかっているにも関わらず、Editor.iniにプロテクトキー情報がありません！\r\nプロテクトキーを再入力してください。"
-  11817, 	"Ver3.31で基幹ファイルのデータフォーマットが変わったので、\r\nBasicdataフォルダ内の\r\n「AutoBackup_Before_Ver3.31」フォルダに\r\nバックアップを作成しました。\r\n(Game.dat、CommonEvent.dat、DataBase系、TileSet.dat)\r\n\r\n※もしEXEを旧バージョンに戻したい場合は、\r\n　これらのバックアップファイルをコピーしてBasicDataフォルダ内に上書きしてください。"
+  11817, 	"Ver3.31で基幹ファイルのデータフォーマットが変わったので、\r\nBasicdataフォルダ内の\r\n「AutoBackup_Before_Ver3.31」フォルダに\r\nバックアップを作成しました。\r\n(Game.dat、CommonEvent.dat、DataBase系、TileSet.dat)\r\n\r\n*もしEXEを旧バージョンに戻したい場合は、\r\n　これらのバックアップファイルをコピーしてBasicDataフォルダ内に上書きしてください。"
   11818, 	"Backup autom\xE1tico"
   11819, 	"マップサイズの横または縦は【9999マス以下】でなければいけません！"
   11820, 	"マップサイズが大きすぎます！\r\n[縦\xD7横]のサイズは【10000000(1000万)マス】以内にしてください"
   11821, 	"Tamanho do mapa Largura\xD7Altura agora=> "
-  11822, 	"Ver3.33でマップファイル(.mps)のデータフォーマットが変わったので、Dataフォルダ内の\r\n「AutoBackup_Before_Ver3.33_MapFile」フォルダに\r\nマップファイルのみのバックアップを作成しました。\r\n\r\n※もしEXEを旧バージョンに戻したい場合は、\r\n　バックアップされたフォルダをコピーしてData内の同名のフォルダに上書きしてください。"
+  11822, 	"Ver3.33でマップファイル(.mps)のデータフォーマットが変わったので、Dataフォルダ内の\r\n「AutoBackup_Before_Ver3.33_MapFile」フォルダに\r\nマップファイルのみのバックアップを作成しました。\r\n\r\n*もしEXEを旧バージョンに戻したい場合は、\r\n　バックアップされたフォルダをコピーしてData内の同名のフォルダに上書きしてください。"
   11823, 	"Ponto de refer\xEAncia[0=Esquerda/10=Centro/20=DIreita+0=Cima/1=Meio/2=Baixo]"
 }
 
@@ -2567,12 +2571,12 @@ LANGUAGE LANG_JAPANESE, 0x1
   11831, 	"ﾌﾟﾛﾃｸﾄｷｰ使用暗号化Ver1.2 (v3.50～/Game時全ﾒﾓﾘ読込)"
   11832, 	"Est\xE1 sendo processado…… "
   11833, 	"ChaCha20暗号化 v<X>(標準暗号)"
-  11834, 	"※「ゲームデータの作成」時、「.wolfx」が付いてないファイルの方はコピー先で自動的に削除されるので、開発中は.wolfxと元のファイルが両方存在していても問題ありません。\r\n\r\n※さらに、エディタ側のファイル指定も「.wolfxを付けないファイル名」で指定したままで問題ありません。\r\n（GamePro.exe実行中は自動で「.wolfx」を付けてファイル読込を試み、もしあるなら.wolfxが付いた側が優先して読み込まれます。無料版Game.exeでは機能しないのでご注意！）"
+  11834, 	"*「ゲームデータの作成」時、「.wolfx」が付いてないファイルの方はコピー先で自動的に削除されるので、開発中は.wolfxと元のファイルが両方存在していても問題ありません。\r\n\r\n*さらに、エディタ側のファイル指定も「.wolfxを付けないファイル名」で指定したままで問題ありません。\r\n（GamePro.exe実行中は自動で「.wolfx」を付けてファイル読込を試み、もしあるなら.wolfxが付いた側が優先して読み込まれます。無料版Game.exeでは機能しないのでご注意！）"
   11835, 	"【.wolfx暗号化 TIPS】"
   11836, 	"【\xD7!】 出力先ﾌｧｲﾙ[ %s ]にアクセスできず、保存できませんでした。\r\n"
   11837, 	"【○】 暗号化ﾌｧｲﾙ [ %s ] 保存成功！\r\n"
   11838, 	"【\xD7】 暗号化できないファイルです> [ %s ]\r\n"
-  11839, 	"【△】 フォントなので【全てキーなし】で暗号化されました(【!!】このファイルは履歴に残りません) > [ %s ]\r\n　※ゲーム起動時、フォントはあらゆるキーの設定なしに自動で読み込まれます\r\n"
+  11839, 	"【△】 フォントなので【全てキーなし】で暗号化されました(【!!】このファイルは履歴に残りません) > [ %s ]\r\n　*ゲーム起動時、フォントはあらゆるキーの設定なしに自動で読み込まれます\r\n"
 }
 
 STRINGTABLE
@@ -2676,7 +2680,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   11915, 	"を [ﾋﾟｸﾁｬのまま]"
   11916, 	"■Game.exe　Ver3.50\r\n●特殊文字のp[?]、[?]、mg[?]の表示テンポを高速に。\r\n●「DB操作」で数値と文字列の変換を柔軟に行うよう修正（旧挙動ではエラーが出ます）\r\n●ピクチャを処理時間0で消した場合、直後から変数操作+でピクチャ情報を取得できないよう修正(旧挙動では0フレームで「消去」した同じフレーム中は変数操作+でピクチャ情報を取得できます)\r\n●「エフェクト」の「キャラチップ変更」系コマンドで本体画像を消した場合、全レイヤーが消去されるよう修正（旧挙動では見た目は全て消えますが別レイヤーは内部的に残っていました）\r\n●変数操作+の「その他」の「ﾏｳｽ座標のEvID」をマップズームも考慮するよう修正(旧挙動はズームを考慮しません）\r\n●動作指定の「EvID？のイベントに接近」と「～の座標に一歩接近」で主人公に接触したときに「イベントと接触」起動するよう修正(旧挙動ではこの2コマンドではイベント接触起動はしません）\r\n●主人公を[並列実行]の動作指定でイベントに接触させた場合に「プレイヤーから接触」起動できるよう修正(旧挙動では動作指定で触れても「プレイヤー接触」起動はしません）\r\n●320\xD7240画面サイズで「Sys6:ﾎﾟｰｽﾞｶｰｿﾙY」に大きな値を入れるとポーズカーソルが画面外に出てしまうバグ修正(旧挙動ではSys6を大きくすると画面外に出ます)\r\n●(0,0)座標に「イベント接触」Evを配置すると、起動後やロード時に一度起動してしまうバグを修正(旧挙動ではロード後や起動時に0,0座標にある「イベント接触」Evが実行されます)\r\n●スクロールリンクしたピクチャが一定のループをすると期待通りの位置に表示されなくなるバグ修正(旧挙動ではバグがそのまま再現されます)\r\n●「エフェクト」→「キャラ」で強制ピクチャパターンを上書きしたらそのフレーム中に「変数操作+」で得られるパターン値も変わるように(旧挙動では反映が1フレーム遅れます)\r\n●「エフェクト」→「キャラ」の「キャラチップ変更」で元タイルチップのイベント画像も変更できるように(旧挙動ではタイル画像のイベントは画像変更できません))\r\n●予約イベントと決定キー/接触イベントが同フレーム中に起動スタックしてしまうバグ修正(旧挙動では同時起動すると起動状態がスタックされます)\r\n●MapEvとの会話中にセーブするとロード後にもその向きのままになってしまい戻らなくなる現象を修正(旧挙動ではセーブ時点の向きでロードされます)\r\n●\\-[?]などで字詰めされたとき、選択肢のカーソル幅が文字幅より小さくなるバグ修正)\r\n●空白の文字列ピクチャを表示すると変数操作+の画像サイズが前の値になるバグ修正(旧挙動ではバグ再現されます)\r\n●変数操作+の「通行可能（タイル・Ev両方）」を「0.5\xD71当たり判定」のイベントに使うと「足下」でなく　「頭側」にしか当たり判定が発生していなかったバグ修正(旧挙動でバグ再現)\r\n●DB操作の番号取得で、存在しない名前を指定したら-1が返るように(旧版はエラー表示からの0返しのみ)+\r\n　→　旧挙動に戻したい場合は、バージョン調整を「旧Ver3.390時点の挙動」以前にしてください。"
   11917, 	"キーボードの「キーコード一覧」ページをブラウザで開きますか？\r\n\r\nhttps://silversecond.com/WolfRPGEditor/Help/04ev_keyinput.html#keycode"
-  11918, 	"Ver<VER>で基幹ファイルのデータフォーマットが変わったので、\r\nBasicdataフォルダ内の\r\n「AutoBackup_Before_Ver<VER>」フォルダに\r\nバックアップを作成しました。\r\n(Game.dat、CommonEvent.dat、DataBase系、TileSet.dat)\r\n\r\n※もしEXEを旧バージョンに戻したい場合は、\r\n　これらのバックアップファイルをコピーしてBasicDataフォルダ内に上書きしてください。"
+  11918, 	"Ver<VER>で基幹ファイルのデータフォーマットが変わったので、\r\nBasicdataフォルダ内の\r\n「AutoBackup_Before_Ver<VER>」フォルダに\r\nバックアップを作成しました。\r\n(Game.dat、CommonEvent.dat、DataBase系、TileSet.dat)\r\n\r\n*もしEXEを旧バージョンに戻したい場合は、\r\n　これらのバックアップファイルをコピーしてBasicDataフォルダ内に上書きしてください。"
   11919, 	"SelfVar X do Evento Y desse mapa /1000000+10*Y+X"
 }
 
@@ -2746,9 +2750,9 @@ LANGUAGE LANG_JAPANESE, 0x1
 STRINGTABLE
 LANGUAGE LANG_JAPANESE, 0x1
 {
-  11968, 	"UserDB (※A～C s\xE3o n\xFAmeros） / \\udb[A:B:C]"
-  11969, 	"VarDB (※A～C s\xE3o n\xFAmeros） / \\cdb[A:B:C]"
-  11970, 	"SystemDB (※A～C s\xE3o n\xFAmeros） / \\sdb[A:B:C]"
+  11968, 	"UserDB (*A～C s\xE3o n\xFAmeros） / \\udb[A:B:C]"
+  11969, 	"VarDB (*A～C s\xE3o n\xFAmeros） / \\cdb[A:B:C]"
+  11970, 	"SystemDB (*A～C s\xE3o n\xFAmeros） / \\sdb[A:B:C]"
   11971, 	"Altera pelo valor da vari\xE1vel do System / \\sys[X]"
   11972, 	"Altera pelo valor da string do System / \\sysS[X]"
   11973, 	"Inserir Carat\xE9res Especiais [Propriedades de textos]"
@@ -2983,7 +2987,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   12147, 	"1画面分よりマップが小さいです！"
   12148, 	"(横サイズ)"
   12149, 	"(縦サイズ)"
-  12150, 	"  ※ループ時にキャラ表示がワープすることがあります。"
+  12150, 	"  *ループ時にキャラ表示がワープすることがあります。"
   12151, 	"画面サイズは問題ありません"
   12152, 	"「Game.exe 動作バージョン調整」が「Ver<VER>未満」だったため、\r\n「ピクチャ挙動Ver<VER2>」に下げました。"
   12153, 	"TIPS"
@@ -3039,8 +3043,8 @@ LANGUAGE LANG_JAPANESE, 0x1
 {
   30900, 	"どのタイル画像の通行設定をCSV出力しますか？"
   30901, 	"CSVの内容をどのタイル画像の通行設定に適用しますか？"
-  30902, 	"※出力したCSVファイルは、同名のタイル画像の読み込み時に自動で読み込まれます。"
-  30903, 	"※通行設定CSVファイルは、タイルへ直接「ドラッグ＆ドロップ」することでも読み込めます。"
+  30902, 	"*出力したCSVファイルは、同名のタイル画像の読み込み時に自動で読み込まれます。"
+  30903, 	"*通行設定CSVファイルは、タイルへ直接「ドラッグ＆ドロップ」することでも読み込めます。"
   30904, 	"基本タイル : [ %s ]"
   30905, 	"オートタイル%d : [ %s ]"
   30906, 	"通行設定CSVファイル (*.csv)|*.csv|All files(*.*)|*.*||"
@@ -3088,7 +3092,7 @@ LANGUAGE LANG_JAPANESE, 0x1
 STRINGTABLE
 LANGUAGE LANG_JAPANESE, 0x1
 {
-  32816, 	"\nCome\xE7ar Test Play(Ctrl+T) ※起動しない場合はShiftを押しながらで強制的に新プロセスで起動します)"
+  32816, 	"\nCome\xE7ar Test Play(Ctrl+T) *起動しない場合はShiftを押しながらで強制的に新プロセスで起動します)"
   32818, 	"\nマップ画面を最新タイルセットに更新"
   32819, 	"\n新しいマップを作成"
   32821, 	"\nMostrar Mini-Manual"
@@ -3108,7 +3112,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   32836, 	"\nFerramenta de l\xE1pis"
   32837, 	"\nFerramenta de preencher"
   32838, 	"\nFerramenta de preenchimento quadrado"
-  32841, 	"Desfazer(※Apenas chips de mapa)[Ctrl+Z]"
+  32841, 	"Desfazer(*Apenas chips de mapa)[Ctrl+Z]"
   32843, 	"\nFerramenta de l\xE1pis"
   32846, 	"\nCriar dados de jogo, Pode tamb\xE9m encriptar"
 }
@@ -3163,7 +3167,7 @@ LANGUAGE LANG_JAPANESE, 0x1
 STRINGTABLE
 LANGUAGE LANG_JAPANESE, 0x1
 {
-  57344, 	"WOLF RPGエディター"
+  57344, 	"WOLF RPG Editor"
   57345, 	"Pronto"
 }
 
