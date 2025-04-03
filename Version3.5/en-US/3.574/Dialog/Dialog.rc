@@ -847,12 +847,12 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Auto Move/Short\r\n[Simple(Ignore Ev)]", 1237, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 268, 100, 61, 30 
    CONTROL "Auto Move/Short\r\n[Smart(Bypass Small)]", 1238, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 330, 100, 61, 30 
    CONTROL "Auto Move\r\n[Slowest]", 1239, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 391, 100, 42, 30 
-   CONTROL "Set Position  *ﾏｯﾌﾟｾﾙﾌ変数は「動作中Ev」側の値が使われる点に注意!!", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 218, 74, 224, 97 
+   CONTROL "Set Position  *Attention in mark to use the value of this [Ev in operation] from Map's SelfVar!!", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 218, 74, 224, 97 
    CONTROL "Auto Move →", -1, STATIC, SS_RIGHT | WS_CHILD | WS_GROUP, 58, 352, 38, 8 
    CONTROL "▼Open\r\nMap\r\nWindow", 1941, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 470, 332, 40, 28 
    CONTROL "Auto Move\r\nOne Step Only[?]", 1943, BUTTON, BS_AUTOCHECKBOX | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 221, 101, 45, 27 
    CONTROL "Jump to position", 1240, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 378, 83, 60, 17 
-   CONTROL "*[自動移動]は1コマンドで、[指定座標に着く]まで処理が続きます。\r\n*[自動移動]は[移動できない場合は飛ばす]がオンの場合、1歩でも動けないと次のコマンドへ移ります。", -1, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_GROUP, 221, 131, 219, 37 
+   CONTROL "*With 1 [Auto.Move] command , continue to process until [Reach the Specified Coordenated].\r\n*[Skip impossible Movement] remains ON.  It will proceed to the next command even if it can't move 1 step.", -1, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_GROUP, 221, 131, 219, 37 
 }
 
 146 DIALOGEX 0, 0, 277, 193
@@ -1253,7 +1253,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "H", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 85, 107, 9, 8 
    CONTROL "", 1300, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 28, 174, 149, 131 
    CONTROL "Tileset", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 9, 163, 196, 30 
-   CONTROL "Register Map (SystemDB 0)", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 9, 45, 217, 46 
+   CONTROL "Register Map (SystemDB 0)", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 9, 45, 220, 46 
    CONTROL "Register", 1289, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 178, 45, 40, 10 
    CONTROL "", 1304, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 48, 60, 100, 131 
    CONTROL "", 1060, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 58, 74, 84, 13 
@@ -1317,9 +1317,9 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Use", 1583, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 296, 149, 43, 10 
    CONTROL "Previous MAP", 1584, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 347, 149, 57, 10 
    CONTROL "Static", 1961, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_GROUP, 17, 120, 184, 19 
-   CONTROL "*後から「登録先」を変更するのはおすすめしません。登録名変更はOK", 1978, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 152, 56, 71, 33 , WS_EX_STATICEDGE
-   CONTROL "(*)が付いている項目は「システムデータベース」側に保存されています。", 1979, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 241, 18, 201, 20 , WS_EX_STATICEDGE
-   CONTROL " 以上の設定で新規マップを作成します", 1980, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 162, 196, 124, 15 , WS_EX_STATICEDGE
+   CONTROL "It's not recommended to change the slot afterwards. Ok to Change the Registered Name.", 1978, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 152, 56, 74, 33 , WS_EX_STATICEDGE
+   CONTROL "Saving to the SystemDb including the Fields (*)", 1979, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 241, 18, 201, 20 , WS_EX_STATICEDGE
+   CONTROL "The option aboves creates a new Map.", 1980, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 162, 196, 124, 15 , WS_EX_STATICEDGE
 }
 
 153 DIALOGEX 0, 200, 1145, 830
@@ -1709,7 +1709,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Get Type Name [S]", 1309, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 49, 39, 70, 10 
    CONTROL "Manipulation", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 6, 84, 55, 55 
    CONTROL "", 1284, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 68, 75, 51, 126 
-   CONTROL "(XY配列のデータ操作でY列指定を行うチェックボックス)", 1933, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 73, 100, 163, 10 
+   CONTROL "Check Box to specify the Y column in the Data operation of the XY Array.", 1933, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 73, 100, 163, 10 
 }
 
 161 DIALOGEX 0, 0, 277, 171
@@ -1929,7 +1929,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Picture Behavior", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 222, 4, 116, 78 
    CONTROL "", 1747, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 228, 16, 106, 75 
    CONTROL "Ver[?]", 1422, BUTTON, BS_PUSHBUTTON | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 302, 3, 33, 12 
-   CONTROL "*指定したフォントがなかった場合は常に\r\n「MS Gothic」になります", -1, STATIC, SS_CENTER | WS_CHILD | WS_VISIBLE | WS_GROUP, 363, 70, 125, 18 , WS_EX_STATICEDGE
+   CONTROL "If no font is specified, the default font (MS Gothic) will always be used.", -1, STATIC, SS_CENTER | WS_CHILD | WS_VISIBLE | WS_GROUP, 363, 70, 125, 18 , WS_EX_STATICEDGE
    CONTROL "DB Operation [Substitution] Behavior", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 355, 239, 134, 26 
    CONTROL "", 1846, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 358, 250, 126, 75 
 }
@@ -2093,7 +2093,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "", 1891, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 240, 14, 165, 14 
    CONTROL "Set Icon", 1413, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 409, 14, 38, 14 , WS_EX_STATICEDGE
    CONTROL "*A single transparent 32x32 [.ico] icon is strongly recommended.\r\n*Changing the icon will also erase the copyright information of GamePro.exe, further reducing the traces of this software.\r\n*EXE icon sometimes appear as old, so PC restart may be required.", 1893, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_GROUP, 235, 30, 214, 35 
-   CONTROL " 動作バージョンを【最新】から【<VER>】に固定化する(推奨) \r\n 将来的にも安定動作します。*「ゲーム基本設定」で後から変更可", 1902, BUTTON, BS_AUTOCHECKBOX | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 231, 306, 210, 20 , WS_EX_STATICEDGE
+   CONTROL "Make an imobilization of the operation version in the latest version (recommend), stability also in future operation.\r\nChange it later in Basic Game Config.", 1902, BUTTON, BS_AUTOCHECKBOX | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 231, 306, 210, 24 , WS_EX_STATICEDGE
 }
 
 171 DIALOGEX 0, 0, 249, 90
@@ -2448,7 +2448,7 @@ FONT 9, "MS Shell Dlg"
 {
    CONTROL "Insert", 1068, BUTTON, BS_DEFPUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 171, 151, 48, 19 
    CONTROL "", 1254, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 3, 151, 149, 19 , WS_EX_STATICEDGE
-   CONTROL "【Text to Read】(Follow phonetic symbol specification)", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 5, 69, 154, 8 
+   CONTROL "[Text to Read](Follow phonetic symbol specification)", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 5, 69, 154, 8 
    CONTROL "", 1343, EDIT, ES_LEFT | ES_MULTILINE | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 6, 79, 158, 35 
    CONTROL "", 1544, EDIT, ES_LEFT | ES_AUTOHSCROLL | ES_NUMBER | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 173, 131, 33, 12 
    CONTROL "", 1015, "msctls_updown32", UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS | WS_CHILD | WS_VISIBLE, 191, 139, 9, 11 
@@ -2465,7 +2465,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Read Speed [%]", 1521, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 168, 106, 33, 8 
    CONTROL "", 1541, EDIT, ES_LEFT | ES_MULTILINE | ES_AUTOHSCROLL | ES_READONLY | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 10, 14, 223, 50 , WS_EX_STATICEDGE
    CONTROL "Test\r\nPlayback", 1540, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 167, 79, 39, 21 , WS_EX_STATICEDGE
-   CONTROL "【Basic Manual】", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 4, 3, 60, 8 
+   CONTROL "[Basic Manual]", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 4, 3, 60, 8 
    CONTROL "Stop", 1542, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 208, 79, 21, 21 , WS_EX_STATICEDGE
    CONTROL "Delay", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 144, 133, 28, 8 
 }
@@ -2520,7 +2520,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "", 1605, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 43, 22, 61, 13 
    CONTROL "", 1606, "msctls_updown32", UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_ARROWKEYS | UDS_NOTHOUSANDS | WS_CHILD | WS_VISIBLE, 86, 22, 10, 14 
    CONTROL "Search [+Shift=backward]", 1603, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 6, 37, 89, 17 
-   CONTROL "【!】Replace [next]", 1608, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 98, 37, 59, 17 
+   CONTROL "[!]Replace [next]", 1608, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 98, 37, 59, 17 
    CONTROL "Search [Command text] (take a long time)", 1283, BUTTON, BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_GROUP, 6, 87, 148, 10 
    CONTROL "Search [strings] used in commands", 1284, BUTTON, BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE, 6, 101, 139, 10 
    CONTROL "Search [variables/values] in commands\r\n(*Unstable, as it catches internals)", 1285, BUTTON, BS_AUTORADIOBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE, 6, 113, 149, 19 
@@ -2541,7 +2541,7 @@ LANGUAGE LANG_JAPANESE, 0x1
 FONT 9, "MS Shell Dlg"
 {
    CONTROL "Done", 1611, BUTTON, BS_DEFPUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 265, 312, 76, 24 
-   CONTROL "【CSelf Usage Overview】  ○＝Unused  ■=In Use", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 2, 3, 217, 8 
+   CONTROL "[CSelf Usage Overview]  ○＝Unused  ■=In Use", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 2, 3, 217, 8 
    CONTROL "", 1645, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 53, 17, 53, 12 
    CONTROL "CSelf1", 1646, STATIC, SS_RIGHT | WS_CHILD | WS_VISIBLE | WS_GROUP, 2, 19, 48, 8 
    CONTROL "", 1647, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 53, 32, 53, 12 
@@ -2895,9 +2895,9 @@ FONT 9, "MS Shell Dlg"
    CONTROL "", 1645, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 446, 214, 89, 93 
    CONTROL "*サイズ100%以外ではデザインが崩れる場合があります。\r\n*[マップ選択]などﾌｫﾝﾄやｻｲｽﾞ変更が有効にならないｳｨﾝﾄﾞｳもあります。", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 442, 232, 98, 44 , WS_EX_STATICEDGE
    CONTROL "", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 441, 72, 101, 128 
-   CONTROL "  ウィンドウサイズを大きくしすぎて「設定完了」ボタンが見えない場合は、キーボードの「Enter」で代わりに「設定完了」ができます", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_DISABLED | WS_GROUP, 5, 1, 421, 10 , WS_EX_STATICEDGE
-   CONTROL "保存時の自動テキスト出力", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 121, 173, 110, 152 
-   CONTROL "ゲーム設定・DB・マップ・コモンEv・タイル設定を保存時、ﾃｷｽﾄ形式で「～.Auto.txt」として↑のフォルダ名に出力します(主にGit管理用)。 *保存処理が重くなる場合が多いです！", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 126, 203, 99, 50 , WS_EX_STATICEDGE
+   CONTROL "In case the [Done] button is not visible because the window size is too big. You can press the Enter key instead.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_DISABLED | WS_GROUP, 5, 1, 421, 10 , WS_EX_STATICEDGE
+   CONTROL "Auto-Save time interval(TXT) ", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 121, 173, 110, 152 
+   CONTROL "Stores: Game Settings, DB, Map, CommonEv and Tiles Settings, (Git Control in Main) Export in filename with [~.Auto.txt] ↑ in text format. *保存処理が重くなる場合が多いです！", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 126, 203, 99, 50 , WS_EX_STATICEDGE
    CONTROL "ON", 1946, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 127, 188, 21, 10 
    CONTROL "", 1945, COMBOBOX, CBS_DROPDOWN | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 151, 187, 78, 30 
    CONTROL "↑.Auto.txt Input/Output", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 124, 260, 106, 65 
@@ -2930,7 +2930,7 @@ FONT 9, "MS Shell Dlg"
 {
    CONTROL "Insert", 1068, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 209, 141, 45, 25 
    CONTROL "Folder", 1866, STATIC, SS_RIGHT | WS_CHILD | WS_VISIBLE | WS_GROUP, 19, 123, 42, 8 
-   CONTROL "【Other features added in Pro version】\r\n - Free screen resolution in Game Settings  &&  Added [Game Settings Pro] screen.\r\n - Added map effects to Effects command.\r\n - Added [P] system variables and system strings.\r\n - Download command with Zip extraction and browser opening, limit release for continuous use.\r\n - Added [Protection] feature  &&  Additional options for Create Game Data.\r\n*For more information, see the \"[P]\" page in the manual (JPN).", 1861, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 5, 2, 260, 66 , WS_EX_STATICEDGE
+   CONTROL "[Other features added in Pro version]\r\n - Free screen resolution in Game Settings  &&  Added [Game Settings Pro] screen.\r\n - Added map effects to Effects command.\r\n - Added [P] system variables and system strings.\r\n - Download command with Zip extraction and browser opening, limit release for continuous use.\r\n - Added [Protection] feature  &&  Additional options for Create Game Data.\r\n*For more information, see the \"[P]\" page in the manual (JPN).", 1861, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 5, 2, 260, 66 , WS_EX_STATICEDGE
    CONTROL "Restart Game\r\n(Arguments are kept)", 1069, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 9, 69, 75, 23 
    CONTROL "Commands With Options", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 7, 94, 251, 77 
    CONTROL "Function", 1285, BUTTON, BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE, 11, 107, 37, 10 
@@ -3002,7 +3002,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "*The gauge image is displayed above the loading image (in 0,0 coordinates).\r\n*Note that the gauge is displayed from left to right.\r\n*ゲームデータが数百MB以上など大きい場合は、画像ﾌｧｲﾙを『BasicDataフォルダ』内に入れることで画像読込が少し早くなる場合があります。", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 13, 166, 227, 41 , WS_EX_STATICEDGE
    CONTROL "[Pro] Max Number of Layers in Map", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 259, 204, 131, 51 
    CONTROL "", 1860, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 270, 216, 110, 60 
-   CONTROL "*無料版Game.exeに差し替えると自動でレイヤー4～5が表示されなくなります。", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 266, 230, 120, 22 , WS_EX_STATICEDGE
+   CONTROL "*The layer 4 - 5 are automatically not displayed in the Free version of the Game.exe.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 266, 230, 120, 22 , WS_EX_STATICEDGE
 }
 
 225 DIALOGEX 0, 0, 232, 118
@@ -3030,7 +3030,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "", 1883, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 10, 93, 169, 14 
    CONTROL "◆Protection Key (alphanumerics only / minimum 4 characters)", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 5, 83, 200, 8 
    CONTROL "Erase", 1881, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 183, 93, 36, 14 , WS_EX_STATICEDGE
-   CONTROL "【About Protection】 (Pro version only feature)\r\n●Setting a protection key improves the security of the game data.\r\n●The protection key is saved in the Editor.ini.\r\n●If you do not use the correct protection key, you will not be able to start the editor!\r\n  (Basic Game Settings, various DB files, tileset settings and common events cannot be loaded)\r\n●The protection key is also used for game data encryption.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 6, 6, 237, 68 , WS_EX_STATICEDGE
+   CONTROL "[About Protection] (Pro version only feature)\r\n●Setting a protection key improves the security of the game data.\r\n●The protection key is saved in the Editor.ini.\r\n●If you do not use the correct protection key, you will not be able to start the editor!\r\n  (Basic Game Settings, various DB files, tileset settings and common events cannot be loaded)\r\n●The protection key is also used for game data encryption.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 6, 6, 237, 68 , WS_EX_STATICEDGE
    CONTROL "*The editor will restart when you press OK", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 48, 148, 140, 8 
    CONTROL "None", 1882, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 75, 109, 156, 16 
    CONTROL "Last protection key:", -1, STATIC, SS_RIGHT | WS_CHILD | WS_VISIBLE | WS_GROUP, 4, 109, 65, 8 
@@ -3093,10 +3093,10 @@ FONT 9, "MS Shell Dlg", FW_NORMAL, FALSE, 1
 {
    CONTROL "", 1908, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 11, 31, 250, 110 
    CONTROL "Drag in window to encrypt to wolfx", 1918, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 2, 46, 119, 115 
-   CONTROL "←に行う暗号化（ﾌｧｲﾙ読込時に満たすべき条件）", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 123, 49, 186, 114 
+   CONTROL "←Here to make an encription (Must load files some times to satisfy condition).", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 123, 49, 186, 114 
    CONTROL " txt、png、jpg、ogg、mps、ttfなど多くのファイル形式を「.wolfx」暗号化できます(元ファイルと同じフォルダに出力されます)\r\n\t\r\n なお、「.wolfx」ファイルをウィンドウ内にドラッグすると、どんな暗号化が行われたかが右に表示されます(Editor_crypt_log.iniの履歴に記録されている場合のみ）", 1917, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_DISABLED | WS_GROUP, 7, 57, 107, 101 , WS_EX_ACCEPTFILES
    CONTROL "", 1920, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 194, 60, 110, 14 
-   CONTROL "↓ 暗号化済みファイルの履歴", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 128, 21, 92, 8 
+   CONTROL "↓ Encrypted File Log.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 128, 21, 92, 8 
    CONTROL "String Key", 1909, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 131, 99, 51, 10 
    CONTROL "", 1911, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 184, 97, 105, 127 
    CONTROL "", 1921, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 149, 111, 112, 14 
@@ -3104,20 +3104,20 @@ FONT 9, "MS Shell Dlg", FW_NORMAL, FALSE, 1
    CONTROL "", 1912, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 184, 130, 109, 127 
    CONTROL "", 1922, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 150, 144, 69, 14 
    CONTROL "", 1913, "msctls_updown32", UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS | WS_CHILD | WS_VISIBLE, 224, 144, 10, 14 
-   CONTROL "が", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 294, 99, 8, 8 
-   CONTROL "と一致する", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 265, 114, 35, 8 
-   CONTROL "が", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 298, 132, 8, 8 
-   CONTROL "と一致する", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 226, 147, 35, 8 
+   CONTROL "is", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 294, 99, 8, 8 
+   CONTROL "Match with", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 265, 114, 35, 8 
+   CONTROL "is", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 298, 132, 8, 8 
+   CONTROL "Match with", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 226, 147, 35, 8 
    CONTROL "Decryption Key", 1914, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 131, 63, 60, 10 
-   CONTROL "*「プロ版機能」コマンドの「復号キーをセット」でキーを設定するとゲーム内で読み込めます", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 135, 75, 171, 17 
+   CONTROL "*Import within Game to set key in [Set Decoding Key] Command [Pro].", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 135, 75, 171, 17 
    CONTROL "↓ Load", 1915, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 262, 29, 50, 19 
    CONTROL "↓Remove One", 1916, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 10, 16, 50, 14 
-   CONTROL "*処理結果がここに表示されます", 1919, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_GROUP, 6, 164, 144, 36 
+   CONTROL "*The process results are displayed here.", 1919, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_GROUP, 6, 164, 144, 36 
    CONTROL "[?] TIPS", 1904, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 276, 15, 38, 13 
-   CONTROL "Encrypt at Once\r\n（+Shiftで強制全ﾌｧｲﾙ更新）", 1923, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 170, 168, 121, 27 
-   CONTROL "XX*最終処理ファイル名が表示されます", 1924, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_GROUP, 149, 14, 122, 8 
+   CONTROL "Encrypt at Once\r\n（+Shift-Force update all files)", 1923, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 170, 168, 121, 27 
+   CONTROL "Last Process Filename XX* is displayed here.", 1924, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_GROUP, 141, 14, 130, 8 
    CONTROL "↓Copy File Name", 1925, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 62, 16, 63, 14 
-   CONTROL "【このウィンドウにファイルをドラッグすると暗号化できます】", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 8, 3, 174, 8 
+   CONTROL "[Drag the file to this window for encryption]", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 8, 3, 174, 8 
 }
 
 1677 DIALOGEX 0, 0, 133, 262
@@ -3144,7 +3144,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "UDB", 1745, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 65, 198, 21, 12 
    CONTROL "CDB", 1746, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 86, 198, 21, 12 
    CONTROL "Mark", 1973, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 1, 200, 18, 8 
-   CONTROL "*ﾏｰｶｰとして現在位置がｾｯﾄされます\r\n*ﾏｰｶｰ入り項目をダブルクリックかF12でその位置を開きます\r\n*Space:コピー/F5:日付入力/Del:削除\r\n  Ctrl+上下左右:項目移動/ｲﾝﾃﾞﾝﾄ", 1974, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_GROUP, 2, 211, 120, 45 
+   CONTROL "*To Reset mark as current position.\r\n*Double-click to Mark a field entry Undo the position with F12\r\n*Space:Space:Copy/F5:Data Input/Del:Delete\r\n  Ctrl+Up-Down-Left-Right: Move/Indent Field", 1974, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_GROUP, 2, 211, 120, 45 
    CONTROL "This below", 1975, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_TABSTOP, 96, 258, 36, 9 
    CONTROL "Overwriting", 1969, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 99, 182, 22, 16 
    CONTROL "↓Copy", 1917, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 73, 117, 26, 17 
