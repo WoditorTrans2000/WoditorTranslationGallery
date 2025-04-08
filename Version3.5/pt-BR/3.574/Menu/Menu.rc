@@ -59,7 +59,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   POPUP "Ajuda(&H)"
   {
     MENUITEM "Informa\xE7\xE3o de Vers\xE3o(&A)",  57664
-    MENUITEM "Abrir o site oficial do WOLF RPGエディター(JPN)",  32871
+    MENUITEM "Abrir o site oficial do WOLF RPG Editor(JPN)",  32871
     POPUP "└Refer\xEAncias de Vari\xE1veis/Caracteres Especiais"
     {
       MENUITEM "Abrir a p\xE1gina de valores da vari\xE1vel",  33090
