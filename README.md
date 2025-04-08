@@ -21,7 +21,7 @@ This repository contains translations for WolfRPGEditor
 🇵🇱 POL - Version 3 |
 
 
-🇷🇺RUS Version 3 | Version 3.5
+🇷🇺RUS Version 3 |
 
 Other versions have yet to be added
 
@@ -37,7 +37,7 @@ POR 🇧🇷 - (Feito) -Tradução feita por mim, usando a versão inglês 2.24Z
 
 MENU - [##########] 100%
 
-DIALOG - [########--] 84%
+DIALOG - [##########] 100%
 
 STRINGTABLE - [########--]  84%
 
@@ -54,7 +54,7 @@ ENG 🇺🇸 - DONE - Picking up things that were translated in 2.24Z(Vgperson; 
 
 MENU - [##########] 100%
 
-DIALOG - [########--] 84%
+DIALOG - [##########] 100%
 
 STRINGTABLE - [########--]  84%
 
