@@ -345,12 +345,12 @@ FONT 9, "MS Shell Dlg"
    CONTROL "N/A", 1126, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | WS_CHILD | WS_VISIBLE | WS_GROUP, 178, 115, 20, 10 
    CONTROL "Var", 1127, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | WS_CHILD | WS_VISIBLE, 208, 115, 22, 10 
    CONTROL "String", 1128, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | WS_CHILD | WS_VISIBLE, 230, 115, 28, 10 
-   CONTROL "Campo 12", 1460, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 170, 104, 32, 10 , WS_EX_TRANSPARENT
+   CONTROL "Campo 12", 1460, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 170, 104, 34, 10 , WS_EX_TRANSPARENT
    CONTROL "", 1129, EDIT, ES_LEFT | ES_WANTRETURN | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 205, 103, 95, 12 
    CONTROL "N/A", 1130, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | WS_CHILD | WS_VISIBLE | WS_GROUP, 178, 139, 20, 10 
    CONTROL "Var", 1131, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | WS_CHILD | WS_VISIBLE, 208, 139, 22, 10 
    CONTROL "String", 1132, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | WS_CHILD | WS_VISIBLE, 230, 139, 28, 10 
-   CONTROL "Campo 13", 1461, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 170, 128, 32, 10 , WS_EX_TRANSPARENT
+   CONTROL "Campo 13", 1461, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 170, 128, 34, 10 , WS_EX_TRANSPARENT
    CONTROL "", 1133, EDIT, ES_LEFT | ES_WANTRETURN | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 205, 127, 95, 12 
    CONTROL "N/A", 1134, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | WS_CHILD | WS_VISIBLE | WS_GROUP, 178, 162, 20, 10 
    CONTROL "Var", 1135, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | WS_CHILD | WS_VISIBLE, 208, 162, 22, 10 
@@ -657,7 +657,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "", 1192, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 9, 85, 8, 11 
    CONTROL "\xE9", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 120, 86, 8, 8 
    CONTROL "*[N\xFAmeros] Pode usar refer\xEAncias das vari\xE1veis como valor", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 73, 4, 157, 9 
-   CONTROL "Ligar 4 vari\xE1veis", 1365, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 6, 3, 56, 10 
+   CONTROL "Ligar 4 vari\xE1veis", 1365, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 6, 3, 61, 10 
    CONTROL "", 1446, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 24, 56, 24, 12 
    CONTROL "", 1447, "msctls_updown32", UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_ARROWKEYS | WS_CHILD | WS_VISIBLE, 41, 62, 9, 14 
    CONTROL "", 1448, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 57, 56, 24, 12 
@@ -736,7 +736,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Sem cancelar", 1187, BUTTON, BS_AUTORADIOBUTTON | BS_LEFTTEXT | BS_PUSHLIKE | WS_CHILD | WS_VISIBLE, 8, 155, 50, 14 
    CONTROL "Caso >", 1351, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 113, 142, 51, 10 
    CONTROL "Caso <", 1290, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 62, 142, 51, 10 
-   CONTROL "*Escoha em branco n\xE3o ser\xE3o mostrada", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 79, 2, 143, 8 
+   CONTROL "*Escolha em branco n\xE3o ser\xE3o mostrada", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 79, 2, 143, 8 
    CONTROL "For\xE7ar sa\xEDda de caso", 1376, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 164, 142, 76, 10 
    CONTROL "■For\xE7ar a sa\xEDda de escolha", 1377, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 64, 154, 69, 19 
 }
@@ -1171,7 +1171,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Mesmo mapa", 1472, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 25, 53, 52, 10 
    CONTROL "Pegue um destino\r\ncom visulizador de mapa", 1586, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 165, 26, 71, 36 
    CONTROL "C.P[1 Tile=2]", 1588, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 91, 68, 66, 10 
-   CONTROL "Neste di\xE1logo, voc\xEA deve criar\r\num novo DDX_CONTROL！", -1, STATIC, SS_LEFT | WS_CHILD | WS_GROUP, 130, 167, 57, 27 
+   CONTROL "Neste di\xE1logo, voc\xEA deve criar\r\num novo DDX_CONTROL!", -1, STATIC, SS_LEFT | WS_CHILD | WS_GROUP, 130, 167, 57, 27 
    CONTROL "", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 3, 19, 236, 95 
    CONTROL "Na transfer\xEAncia", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 4, 117, 159, 41 
    CONTROL "", 1712, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 13, 142, 135, 86 
@@ -1318,7 +1318,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Mapa anterior", 1584, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 347, 149, 57, 10 
    CONTROL "Est\xE1tico", 1961, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_GROUP, 17, 120, 184, 19 
    CONTROL "*N\xE3o \xE9 recomendado mudar o Slot depois. Ok em mudar o nome registrado.", 1978, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 152, 56, 72, 33 , WS_EX_STATICEDGE
-   CONTROL "Salvo para o SystemDB incluindo os Campos (*)", 1979, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 241, 18, 201, 20 , WS_EX_STATICEDGE
+   CONTROL "Salva para o SystemDB incluindo os Campos (*)", 1979, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 241, 18, 201, 20 , WS_EX_STATICEDGE
    CONTROL "As op\xE7\xF5es em cima ir\xE3o criar um novo Mapa.", 1980, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 151, 196, 151, 13 , WS_EX_STATICEDGE
 }
 
@@ -1627,7 +1627,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "File", 1362, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 137, 18, 13, 12 
    CONTROL "", 1373, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 69, 36, 89, 13 
    CONTROL "File", 1363, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 161, 37, 13, 12 
-   CONTROL "ディレイ表示時の処理時間ﾌﾚｰﾑ位置を調整するためのもの/削除してはいけない！", 1960, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_TABSTOP, 178, 33, 19, 8 
+   CONTROL "N\xE3o delete, pois isso ajusta a visualiza\xE7\xE3o do tempo de Delay e processo de tempo de Frame!", 1960, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_TABSTOP, 178, 33, 19, 8 
    CONTROL "", 1507, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 209, 45, 26, 12 
    CONTROL "", 1510, "msctls_updown32", UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_ARROWKEYS | UDS_NOTHOUSANDS | WS_CHILD | WS_VISIBLE, 184, 46, 9, 11 
    CONTROL "Frame(s)", 1697, STATIC, SS_LEFT | WS_CHILD | WS_GROUP, 237, 46, 26, 8 
@@ -1929,7 +1929,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Comportamento das imagens", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 222, 4, 125, 78 
    CONTROL "", 1747, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 228, 16, 104, 75 
    CONTROL "Ver[?]", 1422, BUTTON, BS_PUSHBUTTON | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 320, 2, 25, 12 
-   CONTROL "*Em caso de uma fonte n\xE3o \xE9 especificado, a fonte padr\xE3o (MS Gothic) ser\xE1 usado.", -1, STATIC, SS_CENTER | WS_CHILD | WS_VISIBLE | WS_GROUP, 363, 71, 148, 18 , WS_EX_STATICEDGE
+   CONTROL "*Em caso de uma fonte n\xE3o \xE9 especificado, a fonte padr\xE3o (MS Gothic)  ser\xE1 sempre usado.", -1, STATIC, SS_CENTER | WS_CHILD | WS_VISIBLE | WS_GROUP, 363, 71, 148, 18 , WS_EX_STATICEDGE
    CONTROL "Comportamento da Opera\xE7\xE3o DB [Substitu\xED\xE7\xE3o)", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 355, 239, 155, 26 
    CONTROL "", 1846, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 358, 250, 148, 61 
 }
@@ -2079,7 +2079,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Selecionar tudo", 1068, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 126, 197, 67, 14 
    CONTROL "Deselecionar tudo", 1069, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 126, 216, 67, 14 
    CONTROL "●[Importante!!]A encripta\xE7\xE3o n\xE3o tem suporte Unicode, por isso apenas arquivos em Ingl\xEAs ser\xE3o lidos　(Caracteres em Japon\xEAs podem ser lido tamb\xE9m, mas apenas se o sistema estiver em Japon\xEAs)\r\n● Ao criar dados do jogo, alguns arquivos de extens\xE3o, como psd, sai, tmp, bak e db, n\xE3o s\xE3o copiados.　(Pode ser costumizado com\"NotCopyExt\" no Edito.ini]\r\n\r\n●Os AutoBackup na pasta BasicData n\xE3o ser\xE3o copiado.\r\n\r\n●Tamanho m\xE1ximo de encipta\xE7\xE3o \xE9 de at\xE9 4GB (2GB por pasta).", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 11, 267, 210, 91 , WS_EX_STATICEDGE
-   CONTROL "[Aten\xE7\xE3o！]\r\n ・A vers\xE3o da encripta\xE7\xE3o \xE9 por padr\xE3o a mais recentes\r\n ・Se diferentes vers\xF5es de encripta\xE7\xE3o dos arquivos .wolf estiverem misturado, eles n\xE3o poder\xE3o ser lido, se voc\xEA implementou alguma atualiza\xE7\xE3o online e tal, por favor use a recente como base.\r\n・Encripta\xE7\xE3o [Ver.3.31-] ou [Prote\xE7\xE3o 1.1-]. Pode n\xE3o ser possivel inicializar o jogo em PCs velhos do que 2011.", 1890, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 244, 98, 231, 61 , WS_EX_STATICEDGE
+   CONTROL "[Aten\xE7\xE3o!]\r\n ・A vers\xE3o da encripta\xE7\xE3o \xE9 por padr\xE3o a mais recentes\r\n ・Se diferentes vers\xF5es de encripta\xE7\xE3o dos arquivos .wolf estiverem misturado, eles n\xE3o poder\xE3o ser lido, se voc\xEA implementou alguma atualiza\xE7\xE3o online e tal, por favor use a recente como base.\r\n・Encripta\xE7\xE3o [Ver.3.31-] ou [Prote\xE7\xE3o 1.1-]. Pode n\xE3o ser possivel inicializar o jogo em PCs velhos do que 2011.", 1890, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 244, 98, 231, 61 , WS_EX_STATICEDGE
    CONTROL "Selecione a vers\xE3o de encripta\xE7\xE3o (A ultima utilizada \xE9 selecionada)", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 234, 73, 247, 95 
    CONTROL "", 1746, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 241, 84, 237, 67 
    CONTROL "[P] Fun\xE7\xF5es especificas disponivel depois de configurar chave de encripta\xE7\xE3o", 1886, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 235, 170, 247, 129 
@@ -2213,7 +2213,7 @@ FONT 9, "MS SHELL DLG"
    CONTROL "Lista de evento", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 3, 0, 58, 8 
    CONTROL "↑Clique duplo para mover at\xE9 o evento", 1618, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 3, 172, 79, 20 , WS_EX_STATICEDGE
    CONTROL "Especial", 1292, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 457, 206, 37, 13 , WS_EX_STATICEDGE
-   CONTROL "Para localiza\xE7\xE3o de Mem\xF3ria（N\xE3o mova！）", 1743, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_TABSTOP, 558, 216, 6, 6 
+   CONTROL "Para localiza\xE7\xE3o de Mem\xF3ria（N\xE3o mova!）", 1743, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_TABSTOP, 558, 216, 6, 6 
    CONTROL "Procurar\r\n(Ctrl+F)", 1404, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 490, 185, 31, 20 
    CONTROL "Procurando……", 1405, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_DISABLED, 95, 34, 57, 64 
    CONTROL "", 1470, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 525, 206, 25, 12 
@@ -2521,7 +2521,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "", 1606, "msctls_updown32", UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_ARROWKEYS | UDS_NOTHOUSANDS | WS_CHILD | WS_VISIBLE, 86, 22, 10, 14 
    CONTROL "Procurar [+Shift=Procura por tr\xE1s]", 1603, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 5, 37, 113, 17 
    CONTROL "[!]Substituir [Pr\xF3ximo]", 1608, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 118, 37, 82, 17 
-   CONTROL "Procurar comandos, por mais tempo sem parar", 1283, BUTTON, BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_GROUP, 6, 87, 148, 10 
+   CONTROL "Procurar comandos (Leva mais Tempo)", 1283, BUTTON, BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_GROUP, 6, 87, 148, 10 
    CONTROL "Procurar [String]", 1284, BUTTON, BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE, 6, 101, 139, 10 
    CONTROL "Procurar [Vari\xE1veis/Valores] nos comandos \r\n(*Instav\xE9l, \xE1 procura interna)", 1285, BUTTON, BS_AUTORADIOBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE, 6, 113, 149, 19 
    CONTROL "Procurar[Nomes de CommonEv]", 1286, BUTTON, BS_AUTORADIOBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE, 6, 132, 149, 19 
@@ -2853,9 +2853,9 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Para o Sistema Base", 1631, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_TABSTOP, 444, 15, 40, 9 
    CONTROL "Resetar", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 389, 122, 65, 35 
    CONTROL "Sistema Self-Made", 1632, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_TABSTOP, 435, 15, 61, 10 
-   CONTROL "Selecione o comando e pressione 0~9, A~Z para atalhos de teclados。\r\n(Pressione Alt+Key na Janela de inser\xE7\xE3o de Comandos para instantaneamente escolher um comando.)", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 378, 158, 113, 59 , WS_EX_STATICEDGE
+   CONTROL "Selecione o comando e pressione 0~9, A~Z para atalhos de teclados.\r\n(Pressione Alt+Key na Janela de inser\xE7\xE3o de Comandos para instantaneamente escolher um comando.)", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 378, 158, 113, 59 , WS_EX_STATICEDGE
    CONTROL "Escurecimento da camada", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 4, 17, 115, 56 
-   CONTROL "Configure a apar\xEAncia escura das camadas abaixos。", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 8, 50, 102, 19 , WS_EX_STATICEDGE
+   CONTROL "Configure a apar\xEAncia escura das camadas abaixos.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 8, 50, 102, 19 , WS_EX_STATICEDGE
    CONTROL "", 1633, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 17, 32, 87, 93 
    CONTROL "Mostra a Ordem e Configura\xE7\xF5es de Atalhos", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 292, 30, 86, 17 , WS_EX_STATICEDGE
    CONTROL "*Quando clicar \"Feito\" depois de mudar os comandos\r\no Editor ir\xE1 resetar para atualizar as mudan\xE7as ", -1, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_GROUP, 293, 258, 188, 38 
@@ -2893,11 +2893,11 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Janela de DataBase", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 506, 158, 67, 8 
    CONTROL "M\xE1ximo%\xD7", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 510, 169, 27, 8 
    CONTROL "", 1645, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 507, 214, 82, 65 
-   CONTROL "*サイズ100%以外ではデザインが崩れる場合があります。\r\n*[マップ選択]などﾌｫﾝﾄやｻｲｽﾞ変更が有効にならないｳｨﾝﾄﾞｳもあります。", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 503, 230, 110, 44 , WS_EX_STATICEDGE
+   CONTROL "*Caso eleve o tamanho do design fora do 100%. \r\n*Ser\xE3o validos na janela, mudan\xE7as como tamanho de fontes [Ex:Lista de Mapa].", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 503, 230, 110, 44 , WS_EX_STATICEDGE
    CONTROL "", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 502, 70, 113, 128 
    CONTROL "Em caso n\xE3o \xE9 visivel o bot\xE3o [Feito] por causa do tamanho da Janela ser grande demais. Pode em vez disso apertar a tecla Enter.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_DISABLED | WS_GROUP, 5, 1, 429, 10 , WS_EX_STATICEDGE
    CONTROL "Salvamento Autom\xE1tico por intevalo(TXT)", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 121, 173, 165, 151 
-   CONTROL "Salva: Configura\xE7\xE3o de Jogo, DB, Mapa, CommonEv e Configura\xE7\xE3os de Tiles.\r\n(Controle de Git em principal) Exporta em nome do arquivo com [~.Auto.txt] ↑  no formato de Texto.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 126, 203, 154, 50 , WS_EX_STATICEDGE
+   CONTROL "Salva: Configura\xE7\xE3o de Jogo, DB, Mapa, CommonEv e Configura\xE7\xE3os de Tiles.\r\n(Controle de Git em principal) Exporta em nome do arquivo com [~.Auto.txt] ↑  no formato de Texto. *Processo de Salvamento \xE9 bastante lento!", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 126, 203, 154, 50 , WS_EX_STATICEDGE
    CONTROL "ON", 1946, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 127, 188, 21, 10 
    CONTROL "", 1945, COMBOBOX, CBS_DROPDOWN | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 151, 187, 131, 17 
    CONTROL "↑Entrada/Sa\xEDda do .Auto.txt", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 124, 260, 159, 63 
@@ -2987,7 +2987,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "F11 [Maximizar tela]", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 244, 60, 72, 8 
    CONTROL "F12 [Reiniciar jogo]", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 244, 74, 68, 8 
    CONTROL "PrtScr/ScrLock/Pause\r\n[Obter screenshots]", -1, STATIC, SS_CENTER | WS_CHILD | WS_VISIBLE | WS_GROUP, 242, 89, 81, 20 
-   CONTROL "*[空欄]にした場合は[基本データフォルダ（通常はBasicDataフォルダ）]内のicon???.pngが読み込まれます。\r\n*もし「空欄」かつ[SysS74:[P]次起動Basicﾃﾞｰﾀﾌｫﾙﾀﾞ]や起動時引数の-basicで基本データフォルダが変更されていた場合は、変更後のフォルダからicon???.pngを読み込みます。", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 14, 246, 206, 42 , WS_EX_STATICEDGE
+   CONTROL "*Ler o icon???.png da pasta Dados b\xE1sicos (Pasta BasicData em geral) caso embaixo fique em Branco.\r\n*Caso alterado a Pasta BasicData do par\xE2metro in\xEDcial b\xE1sico como [SysS 74:[P] Pr\xF3xima inicializa\xE7\xE3o da Pasta BasicData] e caso deixe em Branco. Vai ler o \xEDcone???.png da Pasta depois da mudan\xE7as.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 14, 246, 206, 42 , WS_EX_STATICEDGE
    CONTROL "Dissolver", 1871, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 165, 98, 47, 10 
    CONTROL "Absolver", 1872, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 114, 98, 43, 10 
    CONTROL "Tamanho da Janela Padr\xE3o[Pro] ", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 238, 128, 127, 77 
@@ -2995,12 +2995,12 @@ FONT 9, "MS Shell Dlg"
    CONTROL "", 1034, "msctls_updown32", UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS | WS_CHILD | WS_VISIBLE, 286, 141, 10, 14 
    CONTROL "\xD7 0.1%", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 292, 143, 36, 8 
    CONTROL "Resetar", 1424, BUTTON, BS_PUSHBUTTON | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 323, 140, 28, 13 
-   CONTROL "*起動時のウィンドウ拡大率を変更できます。「Sys148:[P]次起動時 画面拡大率」に0以外の値がセットされていた場合は次以降そちらが優先されます。", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 242, 157, 120, 42 , WS_EX_STATICEDGE
+   CONTROL "*Para Mudar a amplia\xE7\xE3o da Janela de Inicializa\xE7\xE3o. Prioriza essa pr\xF3xima defini\xE7\xE3o do valor exceto 0 ao Sys148:[P]Pr\xF3xima inicializa\xE7\xE3o de amplia\xE7\xE3o de imagem]", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 242, 157, 120, 42 , WS_EX_STATICEDGE
    CONTROL "Definir pasta para imagem de \xEDcone(icon???.png)[Pro]", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 9, 216, 218, 78 
    CONTROL "", 1906, COMBOBOX, CBS_DROPDOWN | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 16, 231, 143, 88 
    CONTROL "Resetar", 1425, BUTTON, BS_PUSHBUTTON | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 169, 230, 28, 13 
-   CONTROL "*O medidor de imagem \xE9 mostrado acima da imagem carregada(em 0,0 coordenadas).\r\n*Note que o medidor \xE9 mostrada de esquerda para direita\r\n*ゲームデータが数百MB以上など大きい場合は、画像ﾌｧｲﾙを『BasicDataフォルダ』内に入れることで画像読込が少し早くなる場合があります。", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 13, 166, 206, 41 , WS_EX_STATICEDGE
-   CONTROL "N\xFAmeros max\xEDmos de camadas no seu mapa [Pro] ", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 238, 204, 131, 53 
+   CONTROL "*O medidor de imagem \xE9 mostrado acima da imagem carregada(em 0,0 coordenadas).\r\n*Note que o medidor \xE9 mostrada de esquerda para direita\r\n*Caso seja grande os Dados do Jogo ex: 100MB ou maior, Vai um pouquinho cedo carregar a imagem colocando ele na [pasta BasicData] o arquivo de Imagem.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 13, 166, 206, 41 , WS_EX_STATICEDGE
+   CONTROL "N\xFAmeros de camadas no seu mapa [Pro] ", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 238, 204, 131, 53 
    CONTROL "", 1860, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 249, 216, 110, 60 
    CONTROL "Camadas 4 - 5 ser\xE3o automaticamente n\xE3o mostradas na vers\xE3o Gratis do Game.exe.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 245, 230, 120, 25 , WS_EX_STATICEDGE
 }
@@ -3050,7 +3050,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Cancelar\r\n(Encerra o Editor)", 2, BUTTON, BS_DEFPUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_GROUP | WS_TABSTOP, 141, 162, 71, 25 
    CONTROL "[Log de convers\xE3o] S\xE3o salvo no Backup_Before_Ver3/ConvertLog.txt", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 261, 5, 204, 17 
    CONTROL "[Convers\xE3o de arquivos de textos]\r\n *Outros arquivos de textos que n\xE3o s\xE3o .txt no Data (por exemplo: .log) n\xE3o ir\xE3o ser convertido. Por favor converta a condifica\xE7\xE3o do carateres em UTF-8 dos arquivos depois.\r\n *Arquivos de textos com encodifica\xE7\xE3o de carateres UTF-8 n\xE3o s\xE3o convertido, mas arquivos n\xE3o UTF-8 podem ser convertido mesmo se eles est\xE3o em linguagem diferentes.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 19, 101, 235, 57 , WS_EX_STATICEDGE
-   CONTROL "[Reiniciar！]", 3, BUTTON, BS_DEFPUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_GROUP | WS_TABSTOP, 21, 161, 114, 26 
+   CONTROL "[Reiniciar!]", 3, BUTTON, BS_DEFPUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_GROUP | WS_TABSTOP, 21, 161, 114, 26 
    CONTROL "Abre uma lista de tarefas\r\n(TaskList.txt)", 4, BUTTON, BS_DEFPUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_GROUP | WS_TABSTOP, 143, 163, 71, 25 
    CONTROL "Abre o log de convers\xE3o\r\n(ConvertLog.txt)", 5, BUTTON, BS_DEFPUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_GROUP | WS_TABSTOP, 145, 164, 71, 25 
 }
@@ -3068,7 +3068,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL 1673, -1, STATIC, SS_BITMAP | WS_CHILD | WS_VISIBLE, 20, 130, 37, 37 
    CONTROL "[Dados iniciais completo]\n\n - Apenas um mapa inicial.\n - Sem materiais e sem dados\n - Apenas as pastas BasicData e MapData.\n\nNo Test Play apenas uma tela preta \xE9 exibida", -1, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_GROUP, 77, 132, 211, 63 
    CONTROL "Dados iniciais\r\nCria\xE7\xE3o de dados vazios", 1899, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 8, 172, 64, 26 
-   CONTROL "Ah! Quer criar um novo dado！　O que pretende come\xE7ar a criar？", -1, STATIC, SS_CENTER | WS_CHILD | WS_VISIBLE | WS_GROUP, 13, 6, 215, 11 , WS_EX_STATICEDGE
+   CONTROL "Ah! Quer criar um novo dado!　O que pretende come\xE7ar a criar？", -1, STATIC, SS_CENTER | WS_CHILD | WS_VISIBLE | WS_GROUP, 13, 6, 215, 11 , WS_EX_STATICEDGE
 }
 
 229 DIALOGEX 0, 0, 246, 228
@@ -3081,7 +3081,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Abrir\r\n[Configura\xE7\xE3o b\xE1sico de jogo]", 1899, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 30, 193, 95, 29 
    CONTROL "", 1900, EDIT, ES_LEFT | ES_MULTILINE | ES_READONLY | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 12, 31, 220, 156 , WS_EX_CLIENTEDGE
    CONTROL 127, -1, STATIC, SS_ICON | WS_CHILD | WS_VISIBLE, 7, 7, 20, 20 
-   CONTROL "[WOLF RPGエディター  仕様変更　一覧]\r\n　*「Game.exeの動作バージョン調整」は「ゲーム基本設定」から行えます", -1, STATIC, SS_LEFT | SS_NOPREFIX | WS_CHILD | WS_VISIBLE | WS_GROUP, 30, 9, 209, 20 
+   CONTROL "[Sum\xE1rio de altera\xE7\xE3o de Spec do WOLF RPG Editor] \r\n * Mude a Vers\xE3o do Game.exe na Configura\xE7\xE3o de Jogo B\xE1sico. ", -1, STATIC, SS_LEFT | SS_NOPREFIX | WS_CHILD | WS_VISIBLE | WS_GROUP, 30, 9, 209, 20 
 }
 
 1676 DIALOGEX 0, 0, 326, 204
@@ -3094,7 +3094,7 @@ FONT 8, "MS Shell Dlg", FW_NORMAL, FALSE, 1
    CONTROL "", 1908, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 11, 31, 250, 110 
    CONTROL "Arraste dentro da janela para encripta\xE7\xE3o wolfx", 1918, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 2, 46, 119, 115 
    CONTROL "←Aqui para fazer encripta\xE7\xE3o(Deve carregar arquivos algumas vezes para satisfazer condi\xE7\xE3o)", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 123, 49, 186, 114 
-   CONTROL " txt、png、jpg、ogg、mps、ttfなど多くのファイル形式を「.wolfx」暗号化できます(元ファイルと同じフォルダに出力されます)\r\n\t\n なお、「.wolfx」ファイルをウィンドウ内にドラッグすると、どんな暗号化が行われたかが右に表示されます(Editor_crypt_log.iniの履歴に記録されている場合のみ）", 1917, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_DISABLED | WS_GROUP, 7, 57, 107, 101 , WS_EX_ACCEPTFILES
+   CONTROL "(Sa\xEDda na mesma pasta com a raiz do arquivo) Faz encripta\xE7\xE3o [.woflx] na maioria dos formatos de arquivos como txt, png, jpg, ogg, mps, tff e etc,\r\n\t\n ainda assim, arraste para dentro da janela o arquivo [.woflx], qual tipo de encripta\xE7\xE3o indicado na direita queria fazer? (Gravar apenas no log do Editor _ crypt _ log . ini) ", 1917, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_DISABLED | WS_GROUP, 7, 57, 107, 101 , WS_EX_ACCEPTFILES
    CONTROL "", 1920, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 179, 60, 110, 14 
    CONTROL "↓ Log de Arquivo encriptado.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 117, 21, 105, 8 
    CONTROL "Chave de carat\xE9r", 1909, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 131, 99, 51, 10 
@@ -3106,16 +3106,16 @@ FONT 8, "MS Shell Dlg", FW_NORMAL, FALSE, 1
    CONTROL "", 1913, "msctls_updown32", UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS | WS_CHILD | WS_VISIBLE, 224, 144, 10, 14 
    CONTROL "\xE9", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 294, 99, 8, 8 
    CONTROL "Combina com", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 265, 114, 35, 8 
-   CONTROL "e", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 293, 132, 8, 8 
+   CONTROL "\xE9", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 293, 132, 8, 8 
    CONTROL "Combina com", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 226, 147, 35, 8 
    CONTROL "Chave de decondifica\xE7\xE3o", 1914, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 131, 63, 45, 10 
-   CONTROL "*Importar internamente do Jogo para definir chave  ao Comando do [Definir chave de decondifica\xE7\xE3o] [Pro].", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 127, 75, 198, 19 
+   CONTROL "*Importar para dentro do Jogo com chave definida ao Comando do [Definir chave de decondifica\xE7\xE3o] [Pro].", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 127, 75, 198, 19 
    CONTROL "↓ Carregar", 1915, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 262, 29, 50, 19 
    CONTROL "↓1Remova um", 1916, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 10, 16, 39, 14 
    CONTROL "*Os resultados do processo s\xE3o mostrado aqui", 1919, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_GROUP, 6, 164, 144, 36 
    CONTROL "[?] TIPS", 1904, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 276, 15, 38, 13 
-   CONTROL "Encriptar de uma vez\r\n（+Shift-For\xE7ar atualizar todos arquivos.)", 1923, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 170, 168, 121, 27 
-   CONTROL "Os ult\xEDmos processos XX* Nome do arquivo s\xE3o mostrado.", 1924, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_GROUP, 122, 14, 149, 8 
+   CONTROL "Encriptar de uma vez\r\n（+Shift-For\xE7ar atualiza\xE7\xE3o de todos os arquivos.)", 1923, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 170, 168, 121, 27 
+   CONTROL "Os ult\xEDmos processos do Nome do arquivo em XX* s\xE3o mostrado aqui.", 1924, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_GROUP, 122, 14, 149, 8 
    CONTROL "↓Copie o nome do arquivo", 1925, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 51, 16, 63, 14 
    CONTROL "[Arraste arquivo nesta janela para encriptar.]", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 8, 3, 174, 8 
 }
@@ -3144,7 +3144,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "UDB", 1745, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 65, 198, 21, 12 
    CONTROL "CDB", 1746, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 86, 198, 21, 12 
    CONTROL "Marcar", 1973, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 1, 200, 18, 8 
-   CONTROL "*Para resetar marque como posi\xE7\xE3o atual.\r\n*Clique-Duplo para marca uma entrada de campo Desfaz essa posi\xE7\xE3o com F12.\r\n*Space;Copiar/F5:Entrada de Dados/Del:Deletar.\r\n*Ctrl+Cima-Baixo-E-D:Mova/Indentar campos.", 1974, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_GROUP, 2, 211, 128, 74 
+   CONTROL "*Define posi\xE7\xE3o atual como marcado.\r\n*Clique-Duplo para marca uma entrada de campo Desfaz essa posi\xE7\xE3o com F12.\r\n*Space;Copiar/F5:Entrada de Dados/Del:Deletar.\r\n*Ctrl+Cima-Baixo-E-D:Mova/Indentar campos.", 1974, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_GROUP, 2, 211, 128, 74 
    CONTROL "Estes embaixo", 1975, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_TABSTOP, 95, 285, 36, 9 
    CONTROL "Sobreescrever", 1969, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 99, 182, 27, 16 
    CONTROL "↓Copiar", 1917, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 73, 117, 26, 17 

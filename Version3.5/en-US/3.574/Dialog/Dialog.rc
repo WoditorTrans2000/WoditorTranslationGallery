@@ -191,7 +191,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Data", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 97, 1, 123, 335 
    CONTROL "Type", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 1, 0, 91, 154 
    CONTROL "", 1141, EDIT, ES_LEFT | ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_HSCROLL, 2, 165, 92, 126 
-   CONTROL "【Notes】", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 2, 155, 44, 8 
+   CONTROL "[Notes]", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 2, 155, 44, 8 
    CONTROL "Page 1", 1349, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | WS_CHILD | WS_VISIBLE | WS_GROUP, 235, 3, 34, 12 
    CONTROL "Page 2", 1350, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | WS_CHILD | WS_VISIBLE, 270, 3, 34, 12 
    CONTROL "Page 3", 1351, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | WS_CHILD | WS_VISIBLE, 305, 3, 34, 12 
@@ -534,7 +534,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "★=L-click\r\n▲=R-click", 1725, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_MULTILINE | WS_CHILD | WS_VISIBLE, 294, 2, 57, 18 
    CONTROL "↓=L-click\r\n口=R-click", 1726, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_MULTILINE | WS_CHILD | WS_VISIBLE, 352, 2, 53, 18 
    CONTROL "Display Click State", 1727, STATIC, SS_CENTER | WS_CHILD | WS_VISIBLE | WS_GROUP, 217, 21, 187, 10 , WS_EX_STATICEDGE
-   CONTROL "【Tips for setting passages】\r\n*Click a chip with Shift to set O/X for each quarter cell.\r\n*For ★/▲/口 attributes, Ctrl-click adds the ↓ attribute.\r\n*For Tag Number, Ctrl+R-click to copy, Ctrl+L-click to paste.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 3, 316, 223, 45 , WS_EX_ACCEPTFILES | WS_EX_STATICEDGE
+   CONTROL "[Tips for setting passages]\r\n*Click a chip with Shift to set O/X for each quarter cell.\r\n*For ★/▲/口 attributes, Ctrl-click adds the ↓ attribute.\r\n*For Tag Number, Ctrl+R-click to copy, Ctrl+L-click to paste.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 3, 316, 223, 45 , WS_EX_ACCEPTFILES | WS_EX_STATICEDGE
    CONTROL "Set\r\nPass", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 219, 3, 17, 17 
    CONTROL "32px display", 1729, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_GROUP, 281, 298, 56, 12 
    CONTROL "48px display", 1730, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_MULTILINE | WS_CHILD | WS_VISIBLE, 337, 298, 56, 12 
@@ -847,12 +847,12 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Auto Move/Short\r\n[Simple(Ignore Ev)]", 1237, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 268, 100, 61, 30 
    CONTROL "Auto Move/Short\r\n[Smart(Bypass Small)]", 1238, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 330, 100, 61, 30 
    CONTROL "Auto Move\r\n[Slowest]", 1239, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 391, 100, 42, 30 
-   CONTROL "Set Position  *Attention in mark to use the value of this [Ev in operation] from Map's SelfVar!!", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 218, 74, 224, 97 
+   CONTROL "Set Position  *Attention in mark to use the value of this [Ev in operation] from Map's SelfVar!", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 218, 74, 224, 97 
    CONTROL "Auto Move →", -1, STATIC, SS_RIGHT | WS_CHILD | WS_GROUP, 58, 352, 38, 8 
    CONTROL "▼Open\r\nMap\r\nWindow", 1941, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 470, 332, 40, 28 
    CONTROL "Auto Move\r\nOne Step Only[?]", 1943, BUTTON, BS_AUTOCHECKBOX | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 221, 101, 45, 27 
    CONTROL "Jump to position", 1240, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 378, 83, 60, 17 
-   CONTROL "*With 1 [Auto.Move] command , continue to process until [Reach the Specified Coordenated].\r\n*[Skip impossible Movement] remains ON.  It will proceed to the next command even if it can't move 1 step.", -1, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_GROUP, 221, 131, 219, 37 
+   CONTROL "*With 1 [Auto. Move] command, continue to process until [Reach the Specified Coordinated].\r\n*[Skip impossible Movement] remains ON. It will proceed to the next command even if it can't move 1 step.", -1, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_GROUP, 221, 131, 219, 37 
 }
 
 146 DIALOGEX 0, 0, 277, 193
@@ -1318,8 +1318,8 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Previous MAP", 1584, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 347, 149, 57, 10 
    CONTROL "Static", 1961, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_GROUP, 17, 120, 184, 19 
    CONTROL "It's not recommended to change the slot afterwards. Ok to Change the Registered Name.", 1978, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 152, 56, 74, 33 , WS_EX_STATICEDGE
-   CONTROL "Saving to the SystemDb including the Fields (*)", 1979, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 241, 18, 201, 20 , WS_EX_STATICEDGE
-   CONTROL "The option aboves creates a new Map.", 1980, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 162, 196, 124, 15 , WS_EX_STATICEDGE
+   CONTROL "Save to SystemDb including fields (*)", 1979, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 241, 18, 201, 20 , WS_EX_STATICEDGE
+   CONTROL "The above option creates a new map.", 1980, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 162, 196, 124, 15 , WS_EX_STATICEDGE
 }
 
 153 DIALOGEX 0, 200, 1145, 830
@@ -1401,8 +1401,8 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Update", 1069, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_TABSTOP, 214, 17, 21, 13 
    CONTROL "Insert", 1068, BUTTON, BS_DEFPUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 194, 142, 47, 21 
    CONTROL "Event Management", -1, BUTTON, BS_GROUPBOX | WS_CHILD, 222, 170, 33, 9 
-   CONTROL "【Common Ev Arguments (Number)】", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 8, 31, 129, 8 
-   CONTROL "【Common Ev Arguments (String)】", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 144, 31, 117, 8 
+   CONTROL "[Common Ev Arguments (Number)]", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 8, 31, 129, 8 
+   CONTROL "[Common Ev Arguments (String)]", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 144, 31, 117, 8 
    CONTROL "", 1254, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 9, 130, 227, 12 , WS_EX_STATICEDGE
    CONTROL "*CommonEvent notes displayed here", 1362, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 10, 110, 227, 19 , WS_EX_STATICEDGE
    CONTROL "Store in Self0", 1432, STATIC, SS_RIGHT | WS_CHILD | WS_VISIBLE | WS_GROUP, 2, 42, 49, 11 , WS_EX_TRANSPARENT
@@ -1627,7 +1627,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "File", 1362, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 137, 18, 13, 12 
    CONTROL "", 1373, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 69, 36, 89, 13 
    CONTROL "File", 1363, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 161, 37, 13, 12 
-   CONTROL "ディレイ表示時の処理時間ﾌﾚｰﾑ位置を調整するためのもの/削除してはいけない！", 1960, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_TABSTOP, 178, 33, 19, 8 
+   CONTROL "Do not delete, as this will adjust the Delay Time display and the Frame Time process!", 1960, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_TABSTOP, 178, 33, 19, 8 
    CONTROL "", 1507, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 215, 45, 26, 12 
    CONTROL "", 1510, "msctls_updown32", UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_ARROWKEYS | UDS_NOTHOUSANDS | WS_CHILD | WS_VISIBLE, 184, 46, 9, 11 
    CONTROL "Frame(s)", 1697, STATIC, SS_LEFT | WS_CHILD | WS_GROUP, 243, 46, 28, 8 
@@ -1929,7 +1929,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Picture Behavior", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 222, 4, 116, 78 
    CONTROL "", 1747, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 228, 16, 106, 75 
    CONTROL "Ver[?]", 1422, BUTTON, BS_PUSHBUTTON | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 302, 3, 33, 12 
-   CONTROL "If no font is specified, the default font (MS Gothic) will always be used.", -1, STATIC, SS_CENTER | WS_CHILD | WS_VISIBLE | WS_GROUP, 363, 70, 125, 18 , WS_EX_STATICEDGE
+   CONTROL "If no font is specified, the default font (MS Gothic) is always used.", -1, STATIC, SS_CENTER | WS_CHILD | WS_VISIBLE | WS_GROUP, 363, 70, 125, 18 , WS_EX_STATICEDGE
    CONTROL "DB Operation [Substitution] Behavior", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 355, 239, 134, 26 
    CONTROL "", 1846, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 358, 250, 126, 75 
 }
@@ -2078,8 +2078,8 @@ FONT 9, "MS Shell Dlg"
    CONTROL "When bundling font files (.ttf, .ttc), put them where Game.exe is (they cannot be loaded from Data)", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 22, 114, 175, 19 , WS_EX_STATICEDGE
    CONTROL "Select All", 1068, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 126, 197, 50, 14 
    CONTROL "Deselect All", 1069, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 126, 216, 50, 14 
-   CONTROL "●【Important】 The encryption process doesn't support Unicode, so only English filenames can be read (Japanese named files can be read but only when executed in a Japanese environment.)\r\n\r\n●When creating game data, files with some extension such as [.psd], [.Auto.txt] files and folders named AutoBackup~ from BasicData will not be copied.\r\n(Can be configured in [NotCopyExt] in Editor.ini)\r\n\r\n●The maximum size that can be encrypted is 4 GB (2 GB per folder).", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 11, 267, 206, 89 , WS_EX_STATICEDGE
-   CONTROL "【Attention】\r\n - The encryption version defaults to the latest.\r\n - If .wolf files with different encryption versions are mixed, they cannot be read, so if you have implemented online updates and such, please use the same version as the base.\r\n - Encryption with [Ver3.31+] or [Protect 1.1+] may prevent the game from starting on PCs older than about 2011.", 1890, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 244, 98, 196, 61 , WS_EX_STATICEDGE
+   CONTROL "●[Important] The encryption process doesn't support Unicode, so only English filenames can be read (Japanese named files can be read but only when executed in a Japanese environment.)\r\n\r\n●When creating game data, files with some extension such as [.psd], [.Auto.txt] files and folders named AutoBackup~ from BasicData will not be copied.\r\n(Can be configured in [NotCopyExt] in Editor.ini)\r\n\r\n●The maximum size that can be encrypted is 4 GB (2 GB per folder).", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 11, 267, 206, 89 , WS_EX_STATICEDGE
+   CONTROL "[Attention]\r\n - The encryption version defaults to the latest.\r\n - If .wolf files with different encryption versions are mixed, they cannot be read, so if you have implemented online updates and such, please use the same version as the base.\r\n - Encryption with [Ver3.31+] or [Protect 1.1+] may prevent the game from starting on PCs older than about 2011.", 1890, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 244, 98, 196, 61 , WS_EX_STATICEDGE
    CONTROL "Select encryption version (last used is loaded)", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 234, 73, 211, 90 
    CONTROL "", 1746, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 241, 84, 197, 92 
    CONTROL "[P] Specific functions available after setting encryption key", 1886, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 235, 170, 204, 129 
@@ -2322,7 +2322,7 @@ FONT 9, "MS Shell Dlg"
 
 177 DIALOGEX 0, 0, 347, 206
 STYLE DS_SHELLFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
-CAPTION "【Special】"
+CAPTION "[Special]"
 LANGUAGE LANG_JAPANESE, 0x1
 FONT 9, "MS Shell Dlg"
 {
@@ -2477,7 +2477,7 @@ LANGUAGE LANG_JAPANESE, 0x1
 FONT 9, "MS Shell Dlg"
 {
    CONTROL "", 1578, "SysTreeView32", TVS_HASBUTTONS | TVS_HASLINES | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_HSCROLL | WS_TABSTOP, 0, 22, 112, 160 , TVS_EX_DIMMEDCHECKBOXES
-   CONTROL "Current Map  【---】", 1579, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 0, 2, 112, 8 
+   CONTROL "Current Map  [---]", 1579, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 0, 2, 112, 8 
    CONTROL "Save Tree", 1580, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 4, 188, 52, 14 
    CONTROL "Update", 1069, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 58, 188, 39, 14 
    CONTROL "Allow Tree Changes", 1595, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 3, 11, 91, 10 , WS_EX_STATICEDGE
@@ -2500,7 +2500,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "", 1071, SCROLLBAR, SBS_HORZ | WS_CHILD | WS_VISIBLE, 127, 216, 251, 11 
    CONTROL "", 1585, SCROLLBAR, SBS_VERT | WS_CHILD | WS_VISIBLE, 379, 15, 11, 201 
    CONTROL "", 1500, STATIC, SS_BLACKFRAME | WS_CHILD | WS_VISIBLE, 129, 16, 250, 200 
-   CONTROL "【Current Map】  Parameter are show here", 1254, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 61, 233, 208, 18 , WS_EX_STATICEDGE
+   CONTROL "[Current Map]  Parameter are show here", 1254, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 61, 233, 208, 18 , WS_EX_STATICEDGE
    CONTROL "Precise Coords (1 Tile = 2 Units)", 1587, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 259, 3, 125, 10 
    CONTROL "Say in Same Map", 1589, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 5, 3, 91, 10 
    CONTROL "Return Event Position", 1942, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_TABSTOP, 331, 233, 61, 19 
@@ -2893,11 +2893,11 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Database Window", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 445, 159, 58, 8 
    CONTROL "Overall%\xD7", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 449, 169, 34, 8 
    CONTROL "", 1645, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 446, 214, 89, 93 
-   CONTROL "*サイズ100%以外ではデザインが崩れる場合があります。\r\n*[マップ選択]などﾌｫﾝﾄやｻｲｽﾞ変更が有効にならないｳｨﾝﾄﾞｳもあります。", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 442, 232, 98, 44 , WS_EX_STATICEDGE
+   CONTROL "*Case execed the Design Size Outside of 100%. \r\n*It will be valid in the Windows, changes like font size [e.g.: Map selection].", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 442, 232, 98, 44 , WS_EX_STATICEDGE
    CONTROL "", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 441, 72, 101, 128 
-   CONTROL "In case the [Done] button is not visible because the window size is too big. You can press the Enter key instead.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_DISABLED | WS_GROUP, 5, 1, 421, 10 , WS_EX_STATICEDGE
+   CONTROL "If the [Done] button is not visible because the window size is too large. You can press the Enter key instead.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_DISABLED | WS_GROUP, 5, 1, 421, 10 , WS_EX_STATICEDGE
    CONTROL "Auto-Save time interval(TXT) ", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 121, 173, 110, 152 
-   CONTROL "Stores: Game Settings, DB, Map, CommonEv and Tiles Settings, (Git Control in Main) Export in filename with [~.Auto.txt] ↑ in text format. *保存処理が重くなる場合が多いです！", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 126, 203, 99, 50 , WS_EX_STATICEDGE
+   CONTROL "Stores: Game Settings, DB, Map, CommonEv and Tiles Settings, (Git Control in Main) Export in filename with [~.Auto.txt] ↑ in text format. *Saving process is often slow!", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 126, 203, 99, 50 , WS_EX_STATICEDGE
    CONTROL "ON", 1946, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 127, 188, 21, 10 
    CONTROL "", 1945, COMBOBOX, CBS_DROPDOWN | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 151, 187, 78, 30 
    CONTROL "↑.Auto.txt Input/Output", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 124, 260, 106, 65 
@@ -2987,7 +2987,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "F11 [Maximize screen]", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 265, 60, 72, 8 
    CONTROL "F12 [Reset game]", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 265, 74, 68, 8 
    CONTROL "PrtScr/ScrLock/Pause\r\n[Take screenshot]", -1, STATIC, SS_CENTER | WS_CHILD | WS_VISIBLE | WS_GROUP, 263, 89, 81, 20 
-   CONTROL "*「空欄」にした場合は「基本データフォルダ（通常はBasicDataフォルダ）」内のicon???.pngが読み込まれます。\r\n*もし「空欄」かつ「SysS74:[P]次起動Basicﾃﾞｰﾀﾌｫﾙﾀﾞ」や起動時引数の-basicで基本データフォルダが変更されていた場合は、変更後のフォルダからicon???.pngを読み込みます。", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 14, 246, 227, 42 , WS_EX_STATICEDGE
+   CONTROL "*Read the icon???.png on the BasicData Folder (BasicData Folder in general) case below stay in blank. \r\n*Case changed the BasicData Folder on the Basic startup parameter like [SysS 74[P] Next startup BasicData  Folder] and in case stay in blank. It will read the icon???.png on the folder after the change.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 14, 246, 227, 42 , WS_EX_STATICEDGE
    CONTROL "Fade Out", 1871, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 186, 98, 47, 10 
    CONTROL "Fade In", 1872, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 135, 98, 43, 10 
    CONTROL "[Pro] Default Window Size", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 259, 119, 132, 77 
@@ -2995,14 +2995,14 @@ FONT 9, "MS Shell Dlg"
    CONTROL "", 1034, "msctls_updown32", UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS | WS_CHILD | WS_VISIBLE, 297, 132, 10, 14 
    CONTROL "\xD7 0.1%", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 313, 134, 36, 8 
    CONTROL "Reset", 1424, BUTTON, BS_PUSHBUTTON | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 344, 131, 28, 13 
-   CONTROL "*起動時のウィンドウ拡大率を変更できます。「Sys148:[P]次起動時 画面拡大率」に0以外の値がセットされていた場合は次以降そちらが優先されます。", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 263, 148, 123, 42 , WS_EX_STATICEDGE
+   CONTROL "*Change the overall size of the startup window. Priority this next setting of value except 0 at Sys148:[P]Next Startup Image Zoom", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 263, 148, 123, 42 , WS_EX_STATICEDGE
    CONTROL "[Pro] Set Folder of Icon Pictures (icon???.png)", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 9, 216, 239, 78 
    CONTROL "", 1906, COMBOBOX, CBS_DROPDOWN | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 16, 231, 164, 88 
    CONTROL "Reset", 1425, BUTTON, BS_PUSHBUTTON | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 190, 230, 28, 13 
-   CONTROL "*The gauge image is displayed above the loading image (in 0,0 coordinates).\r\n*Note that the gauge is displayed from left to right.\r\n*ゲームデータが数百MB以上など大きい場合は、画像ﾌｧｲﾙを『BasicDataフォルダ』内に入れることで画像読込が少し早くなる場合があります。", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 13, 166, 227, 41 , WS_EX_STATICEDGE
+   CONTROL "*The gauge image is displayed above the loading image (in 0,0 coordinates).\r\n*Note that the gauge is displayed from left to right.\r\n*If the Game Data is too large e.g:100MB or above, It will load the picture a little early then put inside [BasicData Folder] the picture file.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 13, 166, 227, 41 , WS_EX_STATICEDGE
    CONTROL "[Pro] Max Number of Layers in Map", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 259, 204, 131, 51 
    CONTROL "", 1860, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 270, 216, 110, 60 
-   CONTROL "*The layer 4 - 5 are automatically not displayed in the Free version of the Game.exe.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 266, 230, 120, 22 , WS_EX_STATICEDGE
+   CONTROL "*Layers 4 - 5 are automatically not displayed in the Free version of the Game.exe.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 266, 230, 120, 22 , WS_EX_STATICEDGE
 }
 
 225 DIALOGEX 0, 0, 232, 118
@@ -3038,19 +3038,19 @@ FONT 9, "MS Shell Dlg"
 
 227 DIALOGEX 0, 0, 489, 216
 STYLE DS_SHELLFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
-CAPTION "【For users of the WOLF RPG Editor before Ver2】  Convert the files first"
+CAPTION "[For users of the WOLF RPG Editor before Ver2]  Convert the files first"
 LANGUAGE LANG_JAPANESE, 0x1
 FONT 9, "MS Shell Dlg"
 {
    CONTROL 127, -1, STATIC, SS_ICON | WS_CHILD | WS_VISIBLE, 7, 30, 20, 20 
-   CONTROL "  Welcome to WOLF RPG Editor Ver3!\r\n  As the character encoding of all data has been changed to [UTF-8],\r\nso you will need to convert your files to it. Are you ready?\r\n\r\n【File to be converted】\r\n- Basic data (.dat/.project) in the Data/BasicData folder\r\n- All map files (.mps) in the Data folder\r\n- All text files (.txt) in the Data folder\r\n- All CSV files (.csv) in the Data folder", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 36, 4, 228, 84 , WS_EX_STATICEDGE
-   CONTROL "Execute\r\n【Data Conversion】", 1, BUTTON, BS_DEFPUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_GROUP | WS_TABSTOP, 55, 140, 86, 31 
+   CONTROL "  Welcome to WOLF RPG Editor Ver3!\r\n  As the character encoding of all data has been changed to [UTF-8],\r\nso you will need to convert your files to it. Are you ready?\r\n\r\n[File to be converted]\r\n- Basic data (.dat/.project) in the Data/BasicData folder\r\n- All map files (.mps) in the Data folder\r\n- All text files (.txt) in the Data folder\r\n- All CSV files (.csv) in the Data folder", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 36, 4, 228, 84 , WS_EX_STATICEDGE
+   CONTROL "Execute\r\n[Data Conversion]", 1, BUTTON, BS_DEFPUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_GROUP | WS_TABSTOP, 55, 140, 86, 31 
    CONTROL "", 1893, EDIT, ES_LEFT | ES_MULTILINE | ES_READONLY | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_VSCROLL | WS_TABSTOP, 273, 18, 210, 184 
-   CONTROL "【Important!!】 The files to be converted are backed up (saved) in the [Backup_Before_Ver3] folder.\r\nIf a problem occurs, please revert to those files.", -1, STATIC, SS_CENTER | WS_CHILD | WS_VISIBLE | WS_GROUP, 12, 179, 241, 29 
+   CONTROL "[Important!!] The files to be converted are backed up (saved) in the [Backup_Before_Ver3] folder.\r\nIf a problem occurs, please revert to those files.", -1, STATIC, SS_CENTER | WS_CHILD | WS_VISIBLE | WS_GROUP, 12, 179, 241, 29 
    CONTROL "Cancel\r\n(Close editor)", 2, BUTTON, BS_DEFPUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_GROUP | WS_TABSTOP, 167, 143, 56, 25 
-   CONTROL "【Conversion Log】 It is saved in Backup_Before_Ver3/ConvertLog.txt", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 267, 5, 218, 12 
-   CONTROL "【Conversion of Text Files】\r\n *Text files other than .txt in Data (e.g. .log) will not be converted. Please convert the character encoding of the files to UTF-8 by yourself later.\r\n *Text files with a character encoding of UTF-8 are not converted, but non-UTF-8 files may be converted even if they are in a different language.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 19, 90, 245, 43 , WS_EX_STATICEDGE
-   CONTROL "【Restart!】", 3, BUTTON, BS_DEFPUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_GROUP | WS_TABSTOP, 47, 142, 114, 26 
+   CONTROL "[Conversion Log] It is saved in Backup_Before_Ver3/ConvertLog.txt", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 267, 5, 218, 12 
+   CONTROL "[Conversion of Text Files]\r\n *Text files other than .txt in Data (e.g. .log) will not be converted. Please convert the character encoding of the files to UTF-8 by yourself later.\r\n *Text files with a character encoding of UTF-8 are not converted, but non-UTF-8 files may be converted even if they are in a different language.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 19, 90, 245, 43 , WS_EX_STATICEDGE
+   CONTROL "[Restart!]", 3, BUTTON, BS_DEFPUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_GROUP | WS_TABSTOP, 47, 142, 114, 26 
    CONTROL "Open a manual work list\r\n(TaskList.txt)", 4, BUTTON, BS_DEFPUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_GROUP | WS_TABSTOP, 173, 144, 68, 25 
    CONTROL "Open the conversion log\r\n(ConvertLog.txt)", 5, BUTTON, BS_DEFPUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_GROUP | WS_TABSTOP, 174, 145, 68, 25 
 }
@@ -3062,11 +3062,11 @@ LANGUAGE LANG_JAPANESE, 0x1
 FONT 9, "MS Shell Dlg"
 {
    CONTROL 1674, -1, STATIC, SS_BITMAP | WS_CHILD | WS_VISIBLE, 19, 36, 37, 37 
-   CONTROL " 【With Base RPG System】\r\n\r\n - Common Event, User DB and Variable DB for the Base System.\r\n - Only Title Map and Post-start Map for maps.\r\n - Pre-configured system images and sounds (SystemGraphic).\r\n - Four pre-configured tile settings.\r\n - Some character images, monster images and background music material.\r\n\r\n *What you can do in Test Play: Test the title screen, walk around the isolated island after start, open the menu with the cancel key.", -1, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_GROUP, 77, 25, 220, 93 
+   CONTROL " [With Base RPG System]\r\n\r\n - Common Event, User DB and Variable DB for the Base System.\r\n - Only Title Map and Post-start Map for maps.\r\n - Pre-configured system images and sounds (SystemGraphic).\r\n - Four pre-configured tile settings.\r\n - Some character images, monster images and background music material.\r\n\r\n *What you can do in Test Play: Test the title screen, walk around the isolated island after start, open the menu with the cancel key.", -1, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_GROUP, 77, 25, 220, 93 
    CONTROL "Cancel", 2, BUTTON, BS_DEFPUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_GROUP | WS_TABSTOP, 249, 209, 50, 17 
    CONTROL "Create Empty Data with\r\nBase RPG System", 1898, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 7, 76, 64, 36 
    CONTROL 1673, -1, STATIC, SS_BITMAP | WS_CHILD | WS_VISIBLE, 20, 130, 37, 37 
-   CONTROL " 【Complete Initial Data】\r\n\r\n - Only one start-up map.\r\n - No materials, no data.\r\n - Only folders BasicData and MapData.\r\n\r\n *In Test Play only a blank screen appears.", -1, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_GROUP, 77, 132, 220, 70 
+   CONTROL " [Complete Initial Data]\r\n\r\n - Only one start-up map.\r\n - No materials, no data.\r\n - Only folders BasicData and MapData.\r\n\r\n *In Test Play only a blank screen appears.", -1, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_GROUP, 77, 132, 220, 70 
    CONTROL "Create Complete\r\nInitial Data", 1899, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 8, 172, 64, 26 
    CONTROL "Let's create a new data! Which do you want to use?", -1, STATIC, SS_CENTER | WS_CHILD | WS_VISIBLE | WS_GROUP, 13, 6, 274, 11 , WS_EX_STATICEDGE
 }
@@ -3081,7 +3081,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Open \r\nBasic Game Settings", 1899, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 38, 193, 74, 22 
    CONTROL "", 1900, EDIT, ES_LEFT | ES_MULTILINE | ES_READONLY | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 12, 31, 220, 156 , WS_EX_CLIENTEDGE
    CONTROL 127, -1, STATIC, SS_ICON | WS_CHILD | WS_VISIBLE, 7, 7, 20, 20 
-   CONTROL "【WOLF RPGエディター  仕様変更  一覧】\r\n  *「Game.exeの動作バージョン調整」は「ゲーム基本設定」から行えます", -1, STATIC, SS_LEFT | SS_NOPREFIX | WS_CHILD | WS_VISIBLE | WS_GROUP, 30, 9, 209, 20 
+   CONTROL "[Spec change Summary of WOLF RPG Editor] \r\n *Change the Game.exe Version from the Basic Game Settings. ", -1, STATIC, SS_LEFT | SS_NOPREFIX | WS_CHILD | WS_VISIBLE | WS_GROUP, 30, 9, 209, 20 
 }
 
 1676 DIALOGEX 0, 0, 317, 204
@@ -3094,7 +3094,7 @@ FONT 9, "MS Shell Dlg", FW_NORMAL, FALSE, 1
    CONTROL "", 1908, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 11, 31, 250, 110 
    CONTROL "Drag in window to encrypt to wolfx", 1918, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 2, 46, 119, 115 
    CONTROL "←Here to make an encription (Must load files some times to satisfy condition).", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 123, 49, 186, 114 
-   CONTROL " txt、png、jpg、ogg、mps、ttfなど多くのファイル形式を「.wolfx」暗号化できます(元ファイルと同じフォルダに出力されます)\r\n\t\r\n なお、「.wolfx」ファイルをウィンドウ内にドラッグすると、どんな暗号化が行われたかが右に表示されます(Editor_crypt_log.iniの履歴に記録されている場合のみ）", 1917, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_DISABLED | WS_GROUP, 7, 57, 107, 101 , WS_EX_ACCEPTFILES
+   CONTROL "(Output in the same folder with root files) Make encryption [.wolfx] in most file formats like txt, png, jpg, ogg, mps, tff and etc, \r\n\t\n even so, drag in inside of the Windows the file [.wolfx], what kind of encripytion indicated on the right to make? (Record only in the log of the Editor _ crypt _ log . ini)", 1917, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_DISABLED | WS_GROUP, 7, 57, 107, 101 , WS_EX_ACCEPTFILES
    CONTROL "", 1920, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 194, 60, 110, 14 
    CONTROL "↓ Encrypted File Log.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 128, 21, 92, 8 
    CONTROL "String Key", 1909, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 131, 99, 51, 10 
@@ -3109,13 +3109,13 @@ FONT 9, "MS Shell Dlg", FW_NORMAL, FALSE, 1
    CONTROL "is", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 298, 132, 8, 8 
    CONTROL "Match with", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 226, 147, 35, 8 
    CONTROL "Decryption Key", 1914, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 131, 63, 60, 10 
-   CONTROL "*Import within Game to set key in [Set Decoding Key] Command [Pro].", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 135, 75, 171, 17 
+   CONTROL "*Import into the Game with set the key in [Set Decoding Key] Command [Pro].", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 135, 75, 171, 17 
    CONTROL "↓ Load", 1915, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 262, 29, 50, 19 
    CONTROL "↓Remove One", 1916, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 10, 16, 50, 14 
    CONTROL "*The process results are displayed here.", 1919, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_GROUP, 6, 164, 144, 36 
    CONTROL "[?] TIPS", 1904, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 276, 15, 38, 13 
    CONTROL "Encrypt at Once\r\n（+Shift-Force update all files)", 1923, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 170, 168, 121, 27 
-   CONTROL "Last Process Filename XX* is displayed here.", 1924, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_GROUP, 141, 14, 130, 8 
+   CONTROL "Last Process of Filename XX* is displayed here.", 1924, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_GROUP, 141, 14, 130, 8 
    CONTROL "↓Copy File Name", 1925, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 62, 16, 63, 14 
    CONTROL "[Drag the file to this window for encryption]", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 8, 3, 174, 8 
 }
@@ -3144,7 +3144,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "UDB", 1745, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 65, 198, 21, 12 
    CONTROL "CDB", 1746, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 86, 198, 21, 12 
    CONTROL "Mark", 1973, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 1, 200, 18, 8 
-   CONTROL "*To Reset mark as current position.\r\n*Double-click to Mark a field entry Undo the position with F12\r\n*Space:Space:Copy/F5:Data Input/Del:Delete\r\n  Ctrl+Up-Down-Left-Right: Move/Indent Field", 1974, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_GROUP, 2, 211, 120, 45 
+   CONTROL "*Set current position as marked.\r\n*Double-click to Mark a field entry Undo the position with F12\r\n*Space:Space:Copy/F5:Data Input/Del:Delete\r\n  Ctrl+Up-Down-Left-Right: Move/Indent Field", 1974, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_GROUP, 2, 211, 120, 45 
    CONTROL "This below", 1975, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_TABSTOP, 96, 258, 36, 9 
    CONTROL "Overwriting", 1969, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 99, 182, 22, 16 
    CONTROL "↓Copy", 1917, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 73, 117, 26, 17 
