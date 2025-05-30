@@ -28,7 +28,7 @@ LANGUAGE LANG_JAPANESE, 0x1
     MENUITEM "Toolbar\t(&T)",  59392
     MENUITEM "Tileset Editor",  32792
     MENUITEM "System Database (Core Data)",  32797
-    MENUITEM "User Database (Fixed Values Data)",  32790
+    MENUITEM "User Database (Immutable Data)",  32790
     MENUITEM "Variable Database (Manipulable Data)",  32831
     MENUITEM "Common Events",  32815
     MENUITEM "Map Selection",  32823
@@ -6474,7 +6474,7 @@ LANGUAGE LANG_JAPANESE, 0x1
 STRINGTABLE
 LANGUAGE LANG_JAPANESE, 0x1
 {
-  32790, 	"\nUser Database (Fixed Values Data)"
+  32790, 	"\nUser Database (Immutable Data)"
   32792, 	"\nTileset Settings"
   32797, 	"\nSystem Database (Core Data. Do not edit if not necessary!)"
 }
