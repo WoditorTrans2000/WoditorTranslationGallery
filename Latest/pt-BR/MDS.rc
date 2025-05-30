@@ -717,7 +717,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Load", 1422, BUTTON, BS_PUSHBUTTON | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 218, 118, 20, 12 
    CONTROL "Load", 1423, BUTTON, BS_PUSHBUTTON | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 218, 134, 20, 12 
    CONTROL "Load", 1424, BUTTON, BS_PUSHBUTTON | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 218, 149, 20, 12 
-   CONTROL "O：Pass\xE1vel　　 X：S\xF3lido\r\n▲：Atr\xE1s do Personagem\r\n★：Acima do Personagem\r\n↓：O･XMescla com a camada abaixo\r\n口：Metade vira transparente", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 131, 262, 102, 49 , WS_EX_STATICEDGE
+   CONTROL "O：Pass\xE1vel　　 X：S\xF3lido\r\n▲：Atr\xE1s do Personagem\r\n★：Acima do Personagem\r\n↓：O･XMescla com a camada abaixo\r\n□：Metade vira transparente", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 131, 262, 102, 49 , WS_EX_STATICEDGE
    CONTROL "Exportar Configura\xE7\xF5es de Tiles", 1451, BUTTON, BS_GROUPBOX | BS_FLAT | WS_CHILD | WS_VISIBLE, 3, 260, 119, 59 
    CONTROL "Salvar", 1620, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 6, 272, 24, 19 
    CONTROL "Carregar", 1621, BUTTON, BS_PUSHBUTTON | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 88, 272, 32, 18 
@@ -738,9 +738,9 @@ FONT 9, "MS Shell Dlg"
    CONTROL "1", 1723, STATIC, SS_RIGHT | WS_CHILD | WS_VISIBLE | WS_GROUP, 127, 165, 11, 8 
    CONTROL "O=Click-E\r\nX=Click-D", 1724, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_GROUP, 283, 2, 39, 18 
    CONTROL "★=Click-E\r\n▲=Click-D", 1725, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_MULTILINE | WS_CHILD | WS_VISIBLE, 323, 2, 53, 18 
-   CONTROL "↓=Click-E\r\n口=Click-D", 1726, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_MULTILINE | WS_CHILD | WS_VISIBLE, 377, 2, 53, 18 
+   CONTROL "↓=Click-E\r\n□=Click-D", 1726, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_MULTILINE | WS_CHILD | WS_VISIBLE, 377, 2, 53, 18 
    CONTROL "Mostra o estado do clique", 1727, STATIC, SS_CENTER | WS_CHILD | WS_VISIBLE | WS_GROUP, 249, 21, 180, 10 , WS_EX_STATICEDGE
-   CONTROL "[Dicas para configurar passagens]\r\n *Segure SHIFT enquanto pressiona para colocar 1/4 de tiles (O/X)\r\n *Segure Ctrl para colocar [↓] ao mesmo tempo(★・▲・口) \r\n *Ctrl+Mouse-D=copiar e Ctrl+Mouse-E=colar (N\xFAmero Tag)", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 3, 322, 223, 39 , WS_EX_ACCEPTFILES | WS_EX_STATICEDGE
+   CONTROL "[Dicas para configurar passagens]\r\n *Segure SHIFT enquanto pressiona para colocar 1/4 de tiles (O/X)\r\n *Segure Ctrl para colocar [↓] ao mesmo tempo(★・▲・□) \r\n *Ctrl+Mouse-D=copiar e Ctrl+Mouse-E=colar (N\xFAmero Tag)", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 3, 322, 223, 39 , WS_EX_ACCEPTFILES | WS_EX_STATICEDGE
    CONTROL "Configurar Passagem", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 249, 3, 33, 24 
    CONTROL "Exibir em 32px", 1729, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_GROUP, 306, 298, 56, 12 
    CONTROL "Exibir em 48px", 1730, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_MULTILINE | WS_CHILD | WS_VISIBLE, 362, 298, 56, 12 
@@ -955,8 +955,8 @@ LANGUAGE LANG_JAPANESE, 0x1
 FONT 9, "MS Shell Dlg"
 {
    CONTROL "Esperar at\xE9 terminar", 1233, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 11, 278, 83, 10 
-   CONTROL "Repete as a\xE7\xF5es", 1210, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 11, 289, 66, 10 
-   CONTROL "Pular movimentos impossiveis", 1211, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 11, 306, 102, 10 
+   CONTROL "Repete as a\xE7\xF5es [Loop]", 1210, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 11, 289, 89, 10 
+   CONTROL "Pular movimentos impossiveis [Skip]", 1211, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 11, 306, 113, 10 
    CONTROL "", 1220, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 351, 45, 26, 12 
    CONTROL "", 1225, "msctls_updown32", UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS | WS_CHILD | WS_VISIBLE, 365, 40, 11, 13 
    CONTROL "", 1221, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 379, 45, 27, 12 
@@ -4739,7 +4739,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   10907, 	"\xD7"
   10908, 	"Click-Esquerda [O] 　Click-Direita [X] 　"
   10909, 	"Click-Esquerda [★] 　Click-Direita [▲] 　"
-  10910, 	"Click-Esquerda [↓] 　Click-Direita [口] 　"
+  10910, 	"Click-Esquerda [↓] 　Click-Direita [□] 　"
   10911, 	"Tile do topo esquerdo＝Limpo"
 }
 
@@ -5146,7 +5146,7 @@ STRINGTABLE
 LANGUAGE LANG_JAPANESE, 0x1
 {
   11216, 	"■Routa do movimento: "
-  11217, 	"[Esperar] "
+  11217, 	"[Esperar]"
   11218, 	"Este Evento"
   11219, 	"↓"
   11220, 	"←"
@@ -6418,7 +6418,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   12186, 	"Senten\xE7as"
   12187, 	"Outros"
   12188, 	"■Game.exe　Ver3.566\r\n●DB操作にて、データ名の「名前」呼出時、「可変DB」に関しては「最新のデータ名」を使うように修正\r\n → 旧挙動では「ゲーム起動時点のデータ名」のみを使用します。\r\n●ゲームロード時に、キャラ設定の「当たり判定■」「方向固定」「すり抜け」「前面表示」「半歩/全歩移動」「影番号」がセーブ時の内容でなく「そのページの内容」に戻ってしまうバグを修正\r\n●文字列操作で「\\\\self[0]」(\\を2つ並べてるので変換されない)などを「↓から特殊文字を消去して格納」すると数値に変換されてしまうバグ修正\r\n●自由変形のピクチャを0フレーム消去して同じIDで通常ピクチャ表示を行ったとき、自由変形のサイズが引き継がれてしまうバグを修正"
-  12189, 	"■Game.exe　Ver3.582\r\n「動作指定」の「座標指定」内の「の座標に一歩接近」や「自動移動」コマンド、「の座標にジャンプ」を行った際はピクセル補正が状況に応じて自動解除されるよう仕様修正。同時に「ピクセル補正」と「自動移動」を併用すると無限に同じ位置を行き来してしまうバグも解消されます。\r\n→　前の挙動に合わせて作っていた場合は、バージョン調整を「旧Ver3.366時点の挙動」以前にしてください。"
+  12189, 	"■Game.exe　Ver3.582\r\n「動作指定」の「座標指定」内の「の座標に一歩接近」や「自動移動」コマンド、「の座標にジャンプ」を行った際はピクセル補正が状況に応じて自動解除されるよう仕様修正。同時に「ピクセル補正」と「自動移動」を併用すると無限に同じ位置を行き来してしまうバグも解消されます。\r\n→　前の挙動に合わせて作っていた場合は、バージョン調整を「旧Ver3.566時点の挙動」以前にしてください。"
   12190, 	"[Normal]Cor do Comando;[Vermelho]Comando;[Azul]Comando;[Verde]Comando;[Rosa]Comando;[Amarelo]Comando;[Marrom]Comando;"
   12191, 	"3 Camadas[Normal];4 Camadas / Carreg.Desenho+;5 Camadas / Carreg.Desenho++;"
 }
@@ -6433,6 +6433,9 @@ LANGUAGE LANG_JAPANESE, 0x1
   12196, 	"Direita baixo"
   12197, 	"Esquerda cima"
   12198, 	"Direita cima"
+  12199, 	"[Loop] "
+  12200, 	"[Skip] "
+  12201, 	"Tileset settings file (*.txt)|*.txt|All files(*.*)|*.*||"
 }
 
 STRINGTABLE
