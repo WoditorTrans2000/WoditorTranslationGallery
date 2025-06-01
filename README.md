@@ -12,65 +12,81 @@
 
 This repository contains translations for WolfRPGEditor
 
-🇺🇸en-US - Version 1 | Version 3 | Version 3.5
-
-
-🇧🇷pt-BR -  Version 3 | Version 3.5
-
-
-🇵🇱 POL - Version 3 |
-
-
-🇷🇺RUS Version 3 |
+🇺🇸 en-US | 🇧🇷 pt-BR | 🇵🇹 pt-PT | 🇵🇱 pl-PL | 🇷🇺 ru | 🇰🇷 ko-KR
 
 Other versions have yet to be added
 
+The purpose of this repository is to be a place to archive translations and to translate WolfRPGEditor. 
+
+You won't find the program itself here, only the resource files.
+
 ---
 
-[How to use](https://github.com/WoditorTrans2000/WoditorTranslationGallery#how-to-use) | [[Se quer Traduzir](https://github.com/WoditorTrans2000/WoditorTranslationGallery/wiki/Como-traduzir%3F(PT))] | [[If you want to Translate](https://github.com/WoditorTrans2000/WoditorTranslationGallery/wiki/If-you-want-to-Translate-(ING))]Wiki
+## How the translations is done
+
+There are two way to translate WolfRPGEditor:
+
+### 1° By modifying the Editor.exe
+
+By doing this way, you will have to translate all new or previous versions, and there's also a risk of it being corrupted.
+
+Download the Editor [here](https://silversecond.com/WolfRPGEditor/Download.shtml)
+
+<br/>
+
+### 2° By modifying the Editor.Lang.dll (The way the translation is done)
+
+Dll file contains all the WolfRPGEditor resources (menu, commands, stringtables and etc.), when the file in the same place as Editor.exe and open the Editor. All text will be replaced by the dll file. 
+
+This way, you can keep reusing the dll in other versions, but at some point it will stop working or some features will be missing. When this happens, you should update the dll.
+
+Download the dll [here](https://silversecond.com/WolfRPGEditor/Download.shtml#dll)
+
+<br/>
+
+In any case of problem, send a e-mail or create a issue.
+
+E-Mail: WoditorGameGallery@protonmail.com
 
 ---
 
 ## Status 
 
-POR 🇧🇷 - (Feito) -Tradução feita por mim, usando a versão inglês 2.24Z(Vgperson; Widderune) e 3.16 (Sugy) como referências.
+Currectly only pt-BR and en-US are the one I'm updating when is necessary.
+
+The version of dll correctly I working is 3.613.
+
+🇧🇷 pt-BR - (Em progresso) Sendo feito por mim.
 
 MENU - [##########] 100%
 
 DIALOG - [##########] 100%
 
-STRINGTABLE - [########--]  84%
+STRINGTABLE - [#########-]  99%
 
 SystemString.txt ( :x: )
 
 SystemValue.txt ( :x: )
 
-Nem tudo está traduzido, pois as traduções que eu usei como referências, não contém as partes da versão mais recentes. Essas partes são o que estou traduzindo.
-
 
 ---
 
-ENG 🇺🇸 - DONE - Picking up things that were translated in 2.24Z(Vgperson; Widderune) and 3.16 (Sugy) for 3.39x.
+🇺🇸 en-US - DONE - translation completed by [Yumu](https://github.com/yumunet)
 
 MENU - [##########] 100%
 
 DIALOG - [##########] 100%
 
-STRINGTABLE - [########--]  84%
-
-Not everything is translated, because the translation I used (2.24Z by Vgperson and Widderune | 3.16 by Sugy) is missing parts of the latest version. These parts i'm translating.
+STRINGTABLE - [##########]  100%
 
 
----
-### Note:
-I'm not using AI or a translator to translate the Japanese text. Instead, I use a dictionary (Jisho.org and Weblio) and interpretation! However, I did use deepl write as a writing assistance, in the en-US translation, since is not my native language.
-There's possibility of grammatical and orthographic mistakes, in both translations :P
 
 ---
+
 
 ## How to use
 
-Version 1 ~ 2.26
+Version 1 - 2.26
 
 [ENG]All versions 1 -> [Releases](https://github.com/WoditorTrans2000/WoditorTranslationGallery/releases/tag/AllVersions1)
 
@@ -82,11 +98,9 @@ Run Editor.EXE.
 
 <br/>
 
-Version 2.27 ~ 3.5
+Version 2.27 - 3.5
 
-* Install your preferred language. -> [Releases](https://github.com/WoditorTrans2000/WoditorTranslationGallery/releases)
-
-
+* Download your preferred language. -> [Releases](https://github.com/WoditorTrans2000/WoditorTranslationGallery/releases) | For the [Latest version](https://github.com/WoditorTrans2000/WoditorTranslationGallery/releases/tag/v3.613)
 
 * Extract the zip.
 
@@ -97,11 +111,6 @@ Version 2.27 ~ 3.5
 * Run Editor.exe
 
 * You'll know it's working when the loading banner says "Editor.lang.dll mode"
-
-In any case of problem, send a e-mail or create a issue.
-
-E-Mail:
-WoditorGameGallery@protonmail.com
 
 ---
 
@@ -127,21 +136,34 @@ https://bsky.app/profile/woditorgamegallery.bsky.social)
 
 [WolfRPGエディター Main Page](https://silversecond.com/WolfRPGEditor/)
 
+Creator [SmokingWolf](https://github.com/smokingwolf)
+
 <br/>
 
 🇺🇸
 
-2.24Z Translation by [Vellena Himel(Vgperson)](http://vgperson.com/)
+(3.13x) Translation completed and improved by [Yumu](https://github.com/yumunet)
 
-2.24Z Edited by [Widderune](https://widderune.wixsite.com/widderune)
+(2.10 and 2.24) Translation by [Vellena Himel(Vgperson)](http://vgperson.com/) and Edited by [Widderune](https://widderune.wixsite.com/widderune)
 
-Surgy Search "wolf-rpg-editor-3-english" on f95zone. I didn't put the link because is a NSFW site.
+(3.19) by Surgy Search "wolf-rpg-editor-3-english" on f95zone. I didn't put the link because is a NSFW site.
+
+<br/>
+
+🇵🇹
+
+pt-PT Translation by [makergame2000](https://centrorpg.com/index.php?topic=2586.0)
 
 <br/>
 
 🇵🇱
 
-2.264 Translation by [Reptile](http://rpgmaker.pl/wrpge/)
+pl-PL translation by [Reptile](http://rpgmaker.pl/wrpge/)
+<br/>
+
+🇰🇷
+
+ko-KR translation by [Kamasun](https://sites.google.com/view/kamasun214/)
 
 
 
