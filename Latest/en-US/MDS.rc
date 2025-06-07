@@ -2273,19 +2273,19 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Encrypt Entire Data Folder (Data.wolf only)", 1277, BUTTON, BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE, 16, 103, 145, 10 
    CONTROL "Encrypt Limited Folders (Individual .wolf)", 1278, BUTTON, BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE, 16, 137, 203, 10 
    CONTROL "", 1065, LISTBOX, LBS_NOTIFY | LBS_MULTIPLESEL | LBS_NOINTEGRALHEIGHT | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_VSCROLL | WS_TABSTOP, 16, 149, 109, 115 
-   CONTROL "*Select which folders to encrypt. Only the highlighted folders will be encrypted.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 129, 152, 85, 35 , WS_EX_STATICEDGE
+   CONTROL "*Select which folders to encrypt. Only the highlighted folders will be encrypted.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 129, 152, 85, 37 , WS_EX_STATICEDGE
    CONTROL "", 1060, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 14, 16, 85, 14 
    CONTROL "", 1061, EDIT, ES_LEFT | ES_AUTOHSCROLL | ES_READONLY | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 14, 53, 150, 14 
    CONTROL "◆Game Folder Name (Only letters supported by the OS)", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 7, 6, 212, 9 
    CONTROL "◆Output Folder (English alphanumeric output path preferred)", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 6, 43, 230, 9 
    CONTROL "Pick Folder", 1412, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 167, 53, 46, 14 , WS_EX_STATICEDGE
    CONTROL "Encryption Settings", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 7, 79, 215, 284 
-   CONTROL "←All necessary game data (and .exe) will be copied to this folder.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 103, 17, 124, 17 , WS_EX_STATICEDGE
+   CONTROL "←All necessary game data (and .exe) will be copied to this folder.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 103, 17, 124, 19 , WS_EX_STATICEDGE
    CONTROL "When including font files (.ttf, .ttc), put them in the same folder as Game.exe. (They cannot be loaded from Data.)", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 22, 114, 195, 19 , WS_EX_STATICEDGE
    CONTROL "Select All", 1068, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 141, 197, 50, 14 
    CONTROL "Deselect All", 1069, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 141, 216, 50, 14 
    CONTROL "●[Important!!] The encryption process doesn't support Unicode, so only files with English alphanumeric names can be read! (Only in Japanese environment, files with Japanese names can be read.)\r\n\r\n●When creating game data, files with some extensions such as .psd, .Auto.txt files will not be copied. (Can be configured in \"NotCopyExt\" in Editor.ini)\r\n●Folders containing \"AutoBackup\" in the name will not be copied.\r\n\r\n●Encryptions labeled \"Preload Whole\" have a limit of 2 GB per encrypted folder and 4 GB total encryption size.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 11, 265, 207, 96 , WS_EX_STATICEDGE
-   CONTROL "[Attention]\r\n - The encryption version should be the latest for the first time.\r\n - If .wolf files with different encryption versions are mixed, they cannot be read, so if you have implemented online updates and such, please use the same version as the base.\r\n - Encryption with [v3.31+] or [Protect 1.1+] may prevent the game from starting on PCs older than about 2011.", 1890, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 240, 98, 200, 61 , WS_EX_STATICEDGE
+   CONTROL "[Attention]\r\n - The encryption version should be the latest for the first time.\r\n - If .wolf files with different encryption versions are mixed, they cannot be read, so if you have implemented online updates and such, please use the same version as the base.\r\n - Encryption with [v3.31+] or [Protect 1.1+] may prevent the game from starting on PCs older than about 2011.", 1890, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 240, 98, 200, 62 , WS_EX_STATICEDGE
    CONTROL "Select Encryption Version (Last used is loaded)", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 231, 73, 214, 90 
    CONTROL "", 1746, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 235, 84, 206, 92 
    CONTROL "[P] Feature Only when Protection Key is Set", 1886, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 235, 170, 204, 129 
@@ -2294,11 +2294,11 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Key Filename", 1885, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 242, 219, 191, 74 
    CONTROL "●The file is required for encryption using the protection key.\r\n●This key file is created in the same location as Game.exe when \"Encrypt Entire Data Folder\" is selected, and in the Data folder when \"Encrypt Limited Folders\" is selected.", 1889, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 245, 248, 186, 42 , WS_EX_STATICEDGE
    CONTROL "Extension of Encrypted File", 1887, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 248, 204, 75, 9 
-   CONTROL " This feature is not available because no protection key has been set.", 1888, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_GROUP, 248, 182, 180, 17 
-   CONTROL "[P] Change Icon of GamePro.exe (.ico file)", 1892, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 232, 2, 219, 66 
+   CONTROL " This feature is not available because no protection key has been set.", 1888, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_GROUP, 248, 182, 180, 19 
+   CONTROL "[P] Change Icon of GamePro.exe (.ico file)", 1892, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 232, 2, 219, 67 
    CONTROL "", 1891, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 240, 14, 165, 14 
    CONTROL "Set Icon", 1413, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 409, 14, 38, 14 , WS_EX_STATICEDGE
-   CONTROL "*A single transparent 32x32 [.ico] icon is strongly recommended.\r\n*Changing the icon will also erase the copyright information from GamePro.exe, further reducing the traces of this software.\r\n*EXE icon sometimes appears as old, so PC restart may be required.", 1893, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_GROUP, 234, 30, 216, 35 
+   CONTROL "*A single transparent 32x32 [.ico] icon is strongly recommended.\r\n*Changing the icon will also erase the copyright information from GamePro.exe, further reducing the traces of this software.\r\n*EXE icon sometimes appears as old, so PC restart may be required.", 1893, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_GROUP, 234, 30, 216, 37 
    CONTROL "Lock Game.exe Version from [Latest] to [<VER>] (Recommended)\r\nStable in the future. *Can be changed later in Basic Game Settings.", 1902, BUTTON, BS_AUTOCHECKBOX | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 226, 306, 224, 26 , WS_EX_STATICEDGE
 }
 
@@ -3099,7 +3099,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Database Windows", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 445, 159, 86, 9 
    CONTROL "Overall%\xD7", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 449, 169, 34, 9 
    CONTROL "", 1645, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 443, 214, 97, 93 
-   CONTROL "*If the scale is not 100%, the design may be broken.\r\n*In some areas, such as the top menu bar, font changes and window scaling are not applied.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 440, 232, 104, 44 , WS_EX_STATICEDGE
+   CONTROL "*If the scale is not 100%, the design may be broken.\r\n*In some areas, such as the top menu bar, font changes and window scaling are not applied.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 440, 232, 104, 45 , WS_EX_STATICEDGE
    CONTROL "", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 441, 72, 101, 128 
    CONTROL "  If the \"Done\" button is not visible because the window size is too large, press the Enter key instead.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_DISABLED | WS_GROUP, 5, 1, 421, 10 , WS_EX_STATICEDGE
    CONTROL "Auto Export to Text on Save", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 121, 173, 110, 147 
@@ -3160,7 +3160,7 @@ FONT 9, "MS Shell Dlg"
 {
    CONTROL "OK", 1, BUTTON, BS_DEFPUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 272, 265, 50, 20 
    CONTROL "Cancel", 2, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 332, 266, 50, 19 
-   CONTROL "[Pro] Initial Loading Image Settings", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 9, 99, 234, 112 
+   CONTROL "[Pro] Initial Loading Image Settings", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 9, 99, 234, 115 
    CONTROL "", 1869, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 70, 113, 140, 13 
    CONTROL "Load", 1420, BUTTON, BS_PUSHBUTTON | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 213, 113, 21, 12 
    CONTROL "", 1870, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 70, 135, 140, 13 
@@ -3193,7 +3193,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "F11 [Maximize]", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 265, 60, 72, 9 
    CONTROL "F12 [Reset Game]", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 265, 74, 68, 9 
    CONTROL "PrtScr/ScrLock/Pause\r\n[Take Screenshot]", -1, STATIC, SS_CENTER | WS_CHILD | WS_VISIBLE | WS_GROUP, 263, 89, 81, 20 
-   CONTROL "*If left blank, icon???.png in the basic data folder (usually BasicData folder) will be loaded.\r\n*If blank and the basic data folder has been changed by the \"SysS74:[P] Next startup basic data folder\" variable or the command line argument \"-basic\", the icon???.png will be loaded from the changed folder.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 14, 246, 230, 42 , WS_EX_STATICEDGE
+   CONTROL "*If left blank, icon???.png in the basic data folder (usually BasicData folder) will be loaded.\r\n*If blank and the basic data folder has been changed by the \"SysS74:[P] Next startup basic data folder\" variable or the command line argument \"-basic\", the icon???.png will be loaded from the changed folder.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 14, 246, 230, 45 , WS_EX_STATICEDGE
    CONTROL "Fade Out", 1871, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 186, 98, 47, 10 
    CONTROL "Fade In", 1872, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 135, 98, 43, 10 
    CONTROL "[Pro] Default Window Scale", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 259, 119, 132, 77 
@@ -3201,14 +3201,14 @@ FONT 9, "MS Shell Dlg"
    CONTROL "", 1034, "msctls_updown32", UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS | WS_CHILD | WS_VISIBLE, 297, 132, 10, 14 
    CONTROL "\xD7 0.1%", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 313, 134, 36, 9 
    CONTROL "Reset", 1424, BUTTON, BS_PUSHBUTTON | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 344, 131, 28, 13 
-   CONTROL "*Change the window scale at startup. If \"Sys148:[P]Next Startup Window Scale\" is set to a value other than 0, that value will take precedence from the next time onward.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 261, 148, 129, 42 , WS_EX_STATICEDGE
+   CONTROL "*Change the window scale at startup. If \"Sys148:[P]Next Startup Window Scale\" is set to a value other than 0, that value will take precedence from the next time onward.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 261, 148, 129, 44 , WS_EX_STATICEDGE
    CONTROL "[Pro] Set Folder of Icon Pictures (icon???.png)", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 9, 216, 239, 78 
    CONTROL "", 1906, COMBOBOX, CBS_DROPDOWN | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 16, 231, 164, 88 
    CONTROL "Reset", 1425, BUTTON, BS_PUSHBUTTON | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 190, 230, 28, 13 
-   CONTROL "*Gauge Image is displayed above Loading Image (in 0,0 position) from left to right.\r\n*If the game data is large, such as several hundred MB or more, placing the image files in the BasicData folder may speed up the image loading process a little.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 13, 166, 227, 41 , WS_EX_STATICEDGE
+   CONTROL "*Gauge Image is displayed above Loading Image (in 0,0 position) from left to right.\r\n*If the game data is large, such as several hundred MB or more, placing the image files in the BasicData folder may speed up the image loading process a little.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 13, 166, 227, 45 , WS_EX_STATICEDGE
    CONTROL "[Pro] Max Number of Layers in Map", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 259, 204, 131, 54 
    CONTROL "", 1860, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 270, 216, 110, 60 
-   CONTROL "*Layers 4-5 are automatically not displayed in the Free version of Game.exe.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 266, 230, 120, 25 , WS_EX_STATICEDGE
+   CONTROL "*Layers 4-5 are automatically not displayed in the Free version of Game.exe.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 266, 230, 120, 26 , WS_EX_STATICEDGE
 }
 
 225 DIALOGEX 0, 0, 232, 118
@@ -3326,7 +3326,7 @@ FONT 8, "MS Shell Dlg", FW_NORMAL, FALSE, 1
    CONTROL "[Drag a file into this window to encrypt it]", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 8, 3, 174, 9 
 }
 
-1677 DIALOGEX 0, 0, 145, 272
+1677 DIALOGEX 0, 0, 145, 275
 STYLE DS_SHELLFONT | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
 CAPTION "Task List"
 LANGUAGE LANG_JAPANESE, 0x1
@@ -3350,7 +3350,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "UDB", 1745, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 82, 198, 21, 12 
    CONTROL "CDB", 1746, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 103, 198, 21, 12 
    CONTROL "Marker", 1973, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 1, 200, 23, 9 
-   CONTROL "*Can set the current position as a marker.\r\n*Double-click on a marked item or press F12 to jump to its position.\r\n*Ctrl+[Space or Double-click]: ↓Copy,\r\n Ctrl+↑↓: Choose, F5: Insert Date, Del: Delete,\r\n Ctrl+Shift+Arrow-key: Move Item / Change Indent", 1974, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_GROUP, 0, 212, 143, 59 
+   CONTROL "*Can set the current position as a marker.\r\n*Double-click on a marked item or press F12 to jump to its position.\r\n*Ctrl+[Space or Double-click]: ↓Copy,\r\n Ctrl+↑↓: Choose, F5: Insert Date, Del: Delete,\r\n Ctrl+Shift+Arrow-key: Move Item / Change Indent", 1974, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_GROUP, 0, 212, 143, 62 
    CONTROL "This is bottom", 1975, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_TABSTOP, 100, 258, 36, 9 
    CONTROL "Overwrite\r\n+Shift", 1969, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 99, 178, 35, 20 
    CONTROL "↓Copy", 1917, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 80, 117, 26, 17 
