@@ -62,7 +62,7 @@ E-Mail: WoditorGameGallery@protonmail.com<br>I'm Brazillian! But I can understan
 
 Currectly only pt-BR and en-US are the one I'm updating when is necessary.
 
-The version of the dll being translated and from the latest folder is 3.613.
+The version of the dll being translated and from the latest folder is 3.618.
 
 🇧🇷 pt-BR - (Em progresso) Sendo feito por mim.
 
@@ -70,7 +70,7 @@ MENU - [##########] 100%
 
 DIALOG - [##########] 100%
 
-STRINGTABLE - [#########-]  99%
+STRINGTABLE - [##########] 100%
 
 SystemString.txt ( :x: )
 
@@ -218,12 +218,12 @@ He is the developer of WolfRPGEditor and I would like to thank him for putting t
 <br/>
 
 🇧🇷 pt-BR<br>
-**(v3.39, v3.562, v3.555, v3.574 and v3.613)** translations by [Woditortrans2000](https://github.com/WoditorTrans2000) (Owner of this repository) personally, I prefer to be called **Oki**.
+**(v3.39, v3.562, v3.555, v3.574, v3.613 and v3.618)** translations by [Woditortrans2000](https://github.com/WoditorTrans2000) (Owner of this repository) personally, I prefer to be called **Oki**.
 
 <br/>
 
 🇺🇸 en-US<br/>
-**(v3.613x)** Translation completed and improved by [Yumu](https://github.com/yumunet)<br>Previously, the translation used vgperson and Sugy's translation. But because of Yumu's contribution, it is now something of its own.<br> Also I would like to thank him for helping me with the repository and give me suggestion!
+**(v3.613 and v3.618)** Translation completed and improved by [Yumu](https://github.com/yumunet)<br>Previously, the translation used vgperson and Sugy's translation. But because of Yumu's contribution, it is now something of its own.<br> Also I would like to thank him for helping me with the repository and give me suggestion!
 
 **(v1.10, v1.20, v1.30, v1.31, v3.562, v3.566 and v3.574)** Used Vgperson and Surgy to translate, with the addition of Woditortrans2000 and Yumu. However, the translation is out of date, so it needs to be updated.
 
