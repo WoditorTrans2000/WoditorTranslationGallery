@@ -1,0 +1,170 @@
+0:Face Number
+1:Message Box X
+2:Message Box Y
+3:Choice Box X
+4:Choice Box Y
+5:Message Cursor X (Add to Sys1)
+6:Message Cursor Y (Add to Sys2)
+7:Initial Choice (0,1,2...)
+8:Base Font Size
+9:Message Speed (X char./s)
+10:Message Wait (X frames)
+11:Picture String Speed (X char./s)
+12:Show Message Active? (1=YES)
+13:Event Active? (1=YES)
+14:Show Choice Box? (1=ON)
+15:Direction Key Repeat First Wait (Frames)
+16:Direction Key Repeat Next Wait (Frames)
+17:Choice SE: Confirm (SysDB 3)
+18:Choice SE: Select (SysDB 3)
+19:Choice SE: Cancel (SysDB 3)
+20:Current Choice Selected (0,1,2.. N/A:-1)
+21:Add Shadow to String? (0=OFF/1=ON)
+22:Choice Cursor Blend Mode(0:Normal/1:Add)
+23:Ruby Font Size
+24:[RO] Save Data Read? (1:Success)
+25:Current Save Data Number (0+)
+26:Choice Box X Margin
+27:Choice Box Y Margin
+28:Elapsed Frames [Loops at 10M]
+29:Playtime (in seconds)
+30:[RO] Playtime (in ms)
+31:[RO] Inner FPS (each second)
+32:[RO] Screen FPS (each second)
+33:Frame Skip Level (0-2)
+34: -----
+35:Hero Moving? (1=YES) *Between Tiles?
+36:Hero Shadow (SysDB 9)
+37:Distance Between Members (Steps)
+38:Input During KB-I [1:Mouse&Touch +2:Pad]
+39:[RO] KB Input (0:Entered/-1:Canceled)
+40:KB Input X
+41:KB Input Y
+42:KB-I Anti-Aliasing [0:OFF/1:ON +2:Edge]
+43:[RO] Net/Downloaded Size (bytes)
+44:[RO] Net/Est. Size (bytes) [-1:Unknown]
+45:[RO] Net/Download Speed
+46:[RO] Net/Connection Time (seconds)
+47:[RO] Net/Remaining Time (seconds)
+48:[RO] Net/Status -1:Failed/0:Doing/1:Done
+49: -----
+50: -----
+51:◆ Key Config Below ◆
+52:Confirm Key (Keyboard)
+53:Cancel Key (Keyboard)
+54:Sub Key (Keyboard)
+55:Confirm Key (Pad)
+56:Cancel Key (Pad)
+57:Sub Key (Pad)
+58:◆End of Key Config◆
+59:Repeat Confirm Key? (1=ON)
+60:Repeat Cancel Key? (1=ON)
+61:Fog Number (SysDB 13)
+62:Fog X Speed
+63:Fog Y Speed
+64:Fog Blend Mode (0:Normal/1:Add/2:Sub)
+65:Fog Opacity (0-255)
+66:Background Number (SysDB 13)
+67:Background X Speed
+68:Background Y Speed
+69: -----
+70: -----
+71:Mouse X
+72:Mouse Y
+73:Allow Mouse on Message/Choice? (1=ON)
+74:Show Mouse Pointer? (1=ON)
+75: -----
+76: -----
+77:Time [Year]
+78:Time [Month]
+79:Time [Day]
+80:Time [Hour]
+81:Time [Minute]
+82:Time [Second]
+83: -----
+84:Screen Resolution (For Old/0-2/-1:Other)
+85:Rendering Mode (0:3D/1:Software)
+86: -----
+87:Ally 1 Shadow (-1=Hero's)
+88:Ally 2 Shadow (-1=Hero's)
+89:Ally 3 Shadow (-1=Hero's)
+90:Ally 4 Shadow (-1=Hero's)
+91:Ally 5 Shadow (-1=Hero's)
+92: -----
+93:Playing BGM Panning [±255]
+94:Playing BGS Panning (Ch=Sys99) [±255]
+95:Playing BGM Volume [%]
+96:Playing BGM Tempo/Frequency [%]
+97:Playing BGS Volume (Ch=Sys99) [%]
+98:Playing BGS Frequency (Ch=Sys99) [%]
+99:BGS Channel
+100:BGM Volume Multiplier [%]
+101:BGS Volume Multiplier [%]
+102:SE Volume Multiplier [%]
+103: -----
+104:Map Scroll X
+105:Map Scroll Y
+106: -----
+107: -----
+108:[RO] Processed Commands in Current Frame
+109: -----
+110:Current Random Seed
+111:[RO] Window Active? (1=YES)
+112:[RO] Test Play? (1=YES)
+113: -----
+114:[RO] Adjusted Version (x100)
+115:[RO] Game.exe Version (x100)
+116:[RO] Screen Width
+117:[RO] Screen Height
+118:[RO] Tile Size
+119:[RO] Screen Resolution Multiplier [x1-3]
+120:Reset Log (0=None/1=F12/2=Command)
+121: -----
+122:Smoothly Scale Zooming Map&Ev? (1=ON)[α]
+123:Sharply Scale Next Picture? (1=ON)
+124: -----
+125:Font Thickness (1-10)
+126: -----
+127:Don't Save Map Tiles? (1=ON)
+128: -----
+129:Event Diagonal Move X Speed [%]
+130:Event Diagonal Move Y Speed [%]
+131:Hero Center X Offset
+132:Hero Center Y Offset
+133: -----
+134:Directional Input with D-Pad? [1=ON]
+135:Directional Input with L-Stick? [1=ON]
+136:Precise Window Scale [0.1%] (-1=Auto)
+137:Window Scale [%] (-1=Auto)
+138:Screen Mode [0:Window/1:Borderless/2:FS]
+139:[P] Show Full Map when Zoomed Out?(1=ON)
+140:Window Scaling Mode [0:Sharp/1:Smooth]
+141:[P] System Language [0:JA/1:EN]
+142: -----
+143:[RO] Pro Commands Available? [1=YES]
+144: -----
+145: -----
+146:DirectInput for PS/Switch? (Recommended)
+147: -----
+148:[P] Next Startup Window Scale [0.1%]
+149: -----
+150:Disable Special Char. Conversion [1=ON]
+151: -----
+152: -----
+153: -----
+154: -----
+155:[RO] Character Movement Direction [4/8]
+156:[RO] Character Movement Unit [0:0.5/1:1]
+157:[RO] Horizontal Spacing [px]
+158:[RO] Line Spacing [px]
+159:[RO] Choice Separation [px]
+160: -----
+161: -----
+162: -----
+163: -----
+164: -----
+165: -----
+166: -----
+167: -----
+168: -----
+169: -----

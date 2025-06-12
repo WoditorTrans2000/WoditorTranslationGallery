@@ -1,3 +1,5 @@
 * text=auto
 
 *.rc working-tree-encoding=UTF-16LE-BOM eol=CRLF
+Editor.Lang.SystemString.txt working-tree-encoding=UTF-16LE-BOM eol=CRLF
+Editor.Lang.SystemValue.txt working-tree-encoding=UTF-16LE-BOM eol=CRLF
