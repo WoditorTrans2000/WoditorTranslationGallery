@@ -1,0 +1,90 @@
+0: -----
+1:Confirm Key Name [Keyboard]
+2:Cancel Key Name [Keyboard]
+3:Sub Key Name [Keyboard]
+4:Confirm Key Name [Pad]
+5:Cancel Key Name [Pad]
+6:Sub Key Name [Pad]
+7: -----
+8: -----
+9: -----
+10:Hero Image File
+11:Ally 1 Image File
+12:Ally 2 Image File
+13:Ally 3 Image File
+14:Ally 4 Image File
+15:Ally 5 Image File
+16: -----
+17: -----
+18: -----
+19:[RO] Third-Party Runtime ID
+20:Proxy Address [Ex: aa.net]
+21:Proxy Port [Ex: 80]
+22:[RO] Downloading Data Content
+23: -----
+24: -----
+25:[RO] Message Text
+26:Message Prefix
+27:Message Suffix
+28: -----
+29: -----
+30:Background File
+31:Fog File
+32: -----
+33:[RO] Playing BGM File
+34:[RO] Playing BGS File (Channel=Sys99)
+35: -----
+36: -----
+37: -----
+38: -----
+39: -----
+40:[RO] Choice 1
+41:[RO] Choice 2
+42:[RO] Choice 3
+43:[RO] Choice 4
+44:[RO] Choice 5
+45:[RO] Choice 6
+46:[RO] Choice 7
+47:[RO] Choice 8
+48:[RO] Choice 9
+49:[RO] Choice 10
+50: -----
+51: -----
+52:[RO] Data Folder
+53: -----
+54:[RO] Last Error Message
+55:[RO] Event Stacktrace
+56: -----
+57:[P] Clipboard Text
+58: -----
+59: -----
+60:[P] Title Bar Overwrite
+61: -----
+62:[P] Base Font Overwrite
+63:[P] Sub 1 Font Overwrite
+64:[P] Sub 2 Font Overwrite
+65:[P] Sub 3 Font Overwrite
+66: -----
+67:[P] Font for Keyboard Input
+68:Current Keyboard Input Text
+69: -----
+70:[RO] Gamepad Device Name
+71:[RO] Gamepad Device Type
+72: -----
+73:[RO] Basic Data Folder
+74:[P] Next Startup Basic Data Folder
+75:[RO] Game.exe Arguments
+76:[RO] OS Language
+77: -----
+78: -----
+79: -----
+80: -----
+81: -----
+82: -----
+83: -----
+84: -----
+85: -----
+86: -----
+87: -----
+88: -----
+89: -----
