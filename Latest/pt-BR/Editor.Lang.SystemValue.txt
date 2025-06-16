@@ -1,0 +1,170 @@
+0:Número da Face
+1:Caixa de Mensagem X
+2:Caixa de Mensagem Y
+3:Caixa de Escolha X
+4:Caixa de Escolha Y
+5:Cursor da Mensagem X (Adic. Sys1)
+6:Cursor da Mensagem Y (Adic. Sys1)
+7:Escolha inicial(0,1,2...)
+8:Tamanho da Fonte Base
+9:Velo. da Mensagem (X Letras/segundos)
+10:Pausa da Mensagem (X Frames)
+11:Velo. do String (X Letras/segundos)
+12:[L] Mensagem ativo? (1:ON)
+13:[L] Evento ativo? (1:ON)
+14:Caixa de escolha ativo?( 1:ON)
+15:Primeira repetição Teclas direcionais (Frames)
+16:Próximo repetição Teclas direcionais (Frames)
+17:[Escolha] SE: Confirmação (Sys3)
+18:[Escolha] SE: Cursor (Sys3)
+19:[Escolha] SE: Cancela (Sys3)
+20:[L] Escolha Atual (0,1,2..N/A:-1)
+21:Sombrear String? (0:OFF,1+:ON)
+22:Modo de Mistura do Cursor (0:Normal,1:Adicionar)
+23:Tamanho da anotações Ruby
+24:[L] Dados do Save lidos? (1:Sim 0:Não)
+25:Save atual(0+)
+26:Margem da Janela de Escolha X
+27:Margem da Janela de Escolha Y
+28:[L] Contagem de Frames (Loops de 10M)
+29:[L] Tempo de Jogo（em s.)
+30:[L] Tempo de Jogo (em ms.)
+31:[L] FPS Interno (Cada segundos)
+32:[L] FPS da Tela (Cada segundos)
+33:Frameskip (0 até 2)
+34: -----
+35:[L]Herói em movi.? (1:Sim) *Entre as tiles?
+36:Sombra do Herói (Sys9)
+37:Separação do grupo (Passos)
+38:Entrada durante Teclado [1:Mouse e Toque +2:Pad]
+39:[L]Entrada do Teclado (0:Entrado -1:Cancelado)
+40:Entrada do Teclado X
+41:Entrada do Teclado Y
+42:Entrada do Teclado Anti-Aliasing ([0:OFF/1:ON/2+ Limite)
+43:[L]Net/Tamanho instalado (bytes)
+44:[L]Net/Tam. estimado (byte) (-1:Incógnita)
+45:[L]Net/Velocidade de Download
+46:[L]Net/Tempo de conexão (segundos)
+47:[L]Net/Tempo faltando (segundos)
+48:[L]Net/Status -1:Falhou/0:Processo/1:Feito
+49: -----
+50: -----
+51:◆ Configuração das teclas abaixo ◆
+52:Confimar (Teclas)
+53:Cancelar (Teclas)
+54:Sub key（Teclas)
+55:Confirmar（Pad)
+56:Cancelar（Pad)
+57:Sub key（Pad)
+58:◆[Fim] Configuração das teclas◆
+59:Repetir tecla confirmar? (1=ON)
+60:Repetir tecla cancelar? (1=ON)
+61:Número da névoa (SysDB 13)
+62:Velocidade da névoa X
+63:Velocidade da névoa Y
+64:Modo da névoa (0:Normal 1:Adicionar 2:Subtrair)
+65:Opacidade da névoa (0 até 255)
+66:Número do fundo(Sys13)
+67:Velocidade do fundo X
+68:Velocidade do fundo Y
+69: -----
+70: -----
+71:Mouse X
+72:Mouse Y
+73:Habilitar mouse? (1:Habilitado)
+74:Mostrar o curso do mouse? (1:ON)
+75: -----
+76: -----
+77:[L]Tempo atual (Ano)
+78:[L]Tempo atual (Mês)
+79:[L]Tempo atual (Dias)
+80:[L]Tempo atual (Horas)
+81:[L]Tempo atual (Minutos)
+82:[L]Tempo atual (Segundos)
+83: -----
+84:[L]Tamanho da tela (Para velho/0-2/-1:Outro)
+85:[L]Modo de renderização(0:3D/1:Software)
+86: -----
+87:Sombra do aliado 1(-1:Herói
+88:Sombra do aliado 2(-1:Herói
+89:Sombra do aliado 3(-1:Herói)
+90:Sombra do aliado 4(-1:Herói)
+91:Sombra do aliado 5(-1:Herói)
+92: -----
+93:Dist. do BGM tocado [±255]
+94:Dist. do BGS tocando  (Ch=Sys99) [±255]
+95:Vol. do BGM tocando (±255)
+96:Tempo/freq. da BGM tocando (±255)
+97:Vol. do BGS tocando (Ch=Sys99) (%)
+98:Fre. da BGS tocando (Ch=Sys99) (%)
+99:Canal Atual do BGS
+100:Compens. do vol. da BGM (%)
+101:Compens. do vol. da BGS (%)
+102:Compens. do vol. da SE (%)
+103: -----
+104:Rolagem Ｘ
+105:Rolagem Ｙ
+106: -----
+107: -----
+108:[L]Comandos por frame
+109: -----
+110:Valor atual da Seed (Aleatório)
+111:[L] Janela ativa (1:Sim)
+112:[L] Test Play?(1:Sim)
+113: -----
+114:[L] Versão do Movimento(x100)
+115:[L] Versão do Game.exe(x100)
+116:[L] Tamanho da Tela Ｘ
+117:[L] Tamanho da Tela Ｙ
+118:[L] Tamanho das Tiles
+119:[L] Mult. da resolução da tela (x1-3)
+120:Resetar log 0:Nada/1:F12/2:Comando
+121: -----
+122:Escala suave no mapa e evento (YES:1)(α)
+123:Escala nítido para próxima imagem (1:ON)
+124: -----
+125:Espessura da Fonte (1 até 10)
+126: -----
+127:Não salvar o Tile de Mapa(1:ON)
+128: -----
+129:Velo. do Evento em Mov. diagonal X(%)
+130:Velo. do Evento em Mov. diagonal Y(%)
+131:[Herói] Correção Central X
+132:[Herói] Correção Central Y
+133: -----
+134:Entrada direcional com Pad direc.?(1:ON)
+135:Entrada direcional analógico esquerdo?(1:ON)
+136:Escala de Janela precisa (0.1%) (-1=Auto)
+137:Escala da Janela (%) (-1=Auto)
+138:Modo de tela (0:Janela/1;Virtual/2:Cheio)
+139:[P]Exibe o mapa inteiro quando desampliar? (1:ON)
+140:Modo de escala da Janela (0:Nítido/1:Suave)
+141:[P]Linguagem do Sistema (0:JA/1:EN)
+142: -----
+143:[L]Comando Pro dispornivel? (1:SIM)
+144: -----
+145: -----
+146:DirectInput pra PS/Switch? (Recomendado)
+147: -----
+148:[P]Proxima inic. de escala da Janela (0.1%)
+149: -----
+150:Desligar conversão de car. especiais (1:ON)
+151: -----
+152: -----
+153: -----
+154: -----
+155:[L] Dir. do Personagem (4/8)
+156:[L] Mov. do personagem (0:0.5/1:1)
+157:[L] Esp. Horz. das letras (px)
+158:[L] Quebra de linha (px)
+159:[L] Separação de escolha (px)
+160: -----
+161: -----
+162: -----
+163: -----
+164: -----
+165: -----
+166: -----
+167: -----
+168: -----
+169: -----

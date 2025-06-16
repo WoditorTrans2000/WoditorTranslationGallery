@@ -1,0 +1,90 @@
+0: -----
+1:[L] Confimar (Teclas)
+2:[L] Cancelar (Teclas)
+3:[L] Sub key (Teclas)
+4:[L] Confimar (Pad)
+5:[L] Cancelar (Pad)
+6:[L] Sub key (Pad)
+7: -----
+8: -----
+9: -----
+10:Arquivo de Imagem (Heroi)
+11:Arquivo de Imagem (Aliado 1)
+12:Arquivo de Imagem (Aliado 2)
+13:Arquivo de Imagem (Aliado 3)
+14:Arquivo de Imagem (Aliado 4)
+15:Arquivo de Imagem (Aliado 5)
+16: -----
+17: -----
+18: -----
+19:[L] ID Execução de Terceiros
+20:Proxy Address [Exemplo:aa.net]
+21:Proxy Port [Ex:80]
+22:[L] Instalação de conteúdos dos Dados
+23: -----
+24: -----
+25:[L] Texto de Mensagem
+26:Prefixo da Mensagem
+27:Sufixo da Mensagem
+28: -----
+29: -----
+30:Arquivo do Fundo
+31:Arquivo da Nevoa 
+32: -----
+33:[L] BGM Atual
+34:[L] BGS Atual (Canal=Sys99)
+35: -----
+36: -----
+37: -----
+38: -----
+39: -----
+40:[L] Escolha 1
+41:[L] Escolha 2
+42:[L] Escolha 3
+43:[L] Escolha 4
+44:[L] Escolha 5
+45:[L] Escolha 6
+46:[L] Escolha 7
+47:[L] Escolha 8
+48:[L] Escolha 9
+49:[L] Escolha 10
+50: -----
+51: -----
+52:[L] Pasta de Dados
+53: -----
+54:[L] Última mensagem de erro 
+55:[L] Stacktrace do Evento 
+56: -----
+57:[P] Conteúdos na área de transferências
+58: -----
+59: -----
+60:[P] Título de barra subtituído
+61: -----
+62:[P] Fonte Básica subtituído
+63:[P] Sub-fonte 1 subtituído
+64:[P] Sub-fonte 2 subtituído
+65:[P] Sub-fonte 3 subtituído
+66: -----
+67:[P] Fontes para entradas de Teclados
+68:Texto atual da entradas de Teclados
+69: -----
+70:[L] Nome de dispositivo Gamepad
+71:[L] Tipo de dispositivo Gamepad
+72: -----
+73:[L] Pasta do Basic Data 
+74:[P] Próxima Inic. da Pasta Basic Data
+75:[L] Argumentos Game.exe
+76:[L] Idioma do OS
+77: -----
+78: -----
+79: -----
+80: -----
+81: -----
+82: -----
+83: -----
+84: -----
+85: -----
+86: -----
+87: -----
+88: -----
+89: -----
