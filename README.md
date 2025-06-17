@@ -64,7 +64,7 @@ Currectly only pt-BR and en-US are the one I'm updating when is necessary.
 
 The version of the dll being translated and from the latest folder is 3.618.
 
-🇧🇷 pt-BR - (Em progresso) Sendo feito por mim.
+🇧🇷 pt-BR - (Feito) Sendo feito por mim.
 
 MENU - [##########] 100%
 
@@ -72,9 +72,9 @@ DIALOG - [##########] 100%
 
 STRINGTABLE - [##########] 100%
 
-SystemString.txt ( :x: )
+SystemString.txt ( 🟢 )
 
-SystemValue.txt ( :x: )
+SystemValue.txt ( 🟢 )
 
 
 ---
