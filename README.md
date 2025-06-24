@@ -181,7 +181,7 @@ And at the end, compile the .rc with the new parts, save it as .rec and add it t
 
 <br>
 
-That's basically all you need to understand, you also can do this with the exe not just dll! <br>Oh, actually, there is **one** last thing: be *patient*, because you will get very frustrated.
+That's basically all you need to understand, you also can do this with the exe not just dll! However, there are many things I haven't mentioned here, things related to some problems you may encounter. For this, I recommend checking out some [translation tips from Yumunet](https://github.com/yumunet/WoditorTranslationGallery/wiki).
 
 ---
 
