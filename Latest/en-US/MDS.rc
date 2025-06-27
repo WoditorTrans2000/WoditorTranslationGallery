@@ -241,7 +241,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Insert Face Change Command", 1229, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_TABSTOP, 254, 5, 11, 13 
    CONTROL "Face Number (SysDB 24) / Text Color (SysDB 12) Check", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 8, 125, 192, 31 
    CONTROL "*@NUMBER on first line to change Sys0 (Face Number)", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 16, 7, 209, 11 
-   CONTROL "1    2    3    4    5    6    7    8    9    10   11   12   13   14   15   16   17   18   19   20", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 20, 21, 222, 9 
+   CONTROL "1    2    3    4    5    6    7    8    9    10   11   12   13   14   15   16   17   18   19   20", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 20, 20, 222, 9 
    CONTROL "Show Message", 1283, BUTTON, BS_AUTORADIOBUTTON | WS_CHILD | WS_GROUP, 94, 92, 57, 14 
    CONTROL "Comment", 1284, BUTTON, BS_AUTORADIOBUTTON | WS_CHILD, 154, 92, 42, 13 
    CONTROL "Debug Text", 1285, BUTTON, BS_AUTORADIOBUTTON | WS_CHILD, 205, 92, 52, 13 

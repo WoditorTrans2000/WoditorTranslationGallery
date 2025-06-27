@@ -241,7 +241,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Inserir Comando de mudan\xE7a de face", 1229, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_TABSTOP, 254, 5, 11, 13 
    CONTROL "N\xFAmero da face Check (SysDB 24) / Cor do texto (SysDB 12) Check", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 8, 125, 200, 31 
    CONTROL "*@N\xFAmero na primeira linha para mudar a Face (SysDB0)", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 16, 7, 209, 11 
-   CONTROL "1    2    3    4    5    6    7    8    9    10   11   12   13   14   15   16   17   18   19   20   21", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 20, 21, 232, 9 
+   CONTROL "1    2    3    4    5    6    7    8    9    10   11   12   13   14   15   16   17   18   19   20   21", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 20, 20, 232, 9 
    CONTROL "Texto", 1283, BUTTON, BS_AUTORADIOBUTTON | WS_CHILD | WS_GROUP, 94, 92, 50, 14 
    CONTROL "Coment\xE1rio", 1284, BUTTON, BS_AUTORADIOBUTTON | WS_CHILD, 147, 92, 50, 13 
    CONTROL "Debug", 1285, BUTTON, BS_AUTORADIOBUTTON | WS_CHILD, 209, 92, 50, 13 
