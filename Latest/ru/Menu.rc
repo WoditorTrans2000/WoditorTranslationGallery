@@ -1,0 +1,233 @@
+// Menu.rc
+// Этот файл был автоматически создан RisohEditor 5.7.9.
+// † <-- Этот крестик помогает определять UTF-8.
+
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include <windows.h>
+#include <commctrl.h>
+#undef APSTUDIO_HIDDEN_SYMBOLS
+#pragma code_page(65001) // UTF-8
+
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+
+127 MENU
+{
+    POPUP "Файлы(&F)"
+    {
+        MENUITEM "Создать карту", 32819
+        MENUITEM "Загрузить карту", 57601
+        MENUITEM "Сохранить карту\tCtrl+S(&S)", 57603
+        MENUITEM "Сохранить как(&A)...", 57604
+        MENUITEM SEPARATOR
+        MENUITEM "[Про] Индивидуальное шифрование (.wolfx)", 33076
+        MENUITEM "Собрать данные игры(&G)", 32846
+        MENUITEM SEPARATOR
+        MENUITEM "Закрыть редактор(&X)", 57665
+    }
+    POPUP "Редактировать(&E)"
+    {
+        MENUITEM "Вырезать событие\tX", 57635
+        MENUITEM "Копировать событие \tC", 57634
+        MENUITEM "Вставить событие\tV", 57637
+        MENUITEM "Удалить \tDel или Bs", 32794
+        MENUITEM "Настройки карты", 32814
+    }
+    POPUP "Отображение(&V)"
+    {
+        MENUITEM "Панель инструментов(&T)", 59392
+        MENUITEM "Редактор Тайлсетов", 32792
+        MENUITEM "Системная база данных", 32797
+        MENUITEM "Пользовательская база данных", 32790
+        MENUITEM "База переменных", 32831
+        MENUITEM "Общие события", 32815
+        MENUITEM "Окно выбора карты", 32823
+        MENUITEM "Список задач", 33108
+    }
+    POPUP "Слои"
+    {
+        MENUITEM "Слой 1", 32771
+        MENUITEM "Слой 2", 32772
+        MENUITEM "Слой 3", 32773
+        MENUITEM "Слой 4", 33084
+        MENUITEM "Слой 5", 33085
+        MENUITEM "События", 32774
+    }
+    POPUP "Настройки игры"
+    {
+        MENUITEM "Открыть настройки игры", 32830
+        MENUITEM "Открыть настройки игры (Версия Pro)", 33066
+        MENUITEM "Настроить защитный ключ (Версия Pro)", 33069
+        MENUITEM SEPARATOR
+        MENUITEM "Открыть окно конфигурации", 32865
+        MENUITEM "Отобразить окно отладки (Галочка = Вкл)", 32942, CHECKED
+    }
+    POPUP "Опции"
+    {
+        MENUITEM "Настройки Редактора", 32943
+    }
+    POPUP "Помощь(&H)"
+    {
+        MENUITEM "Информация о версии WOLF RPG Editor (&A)", 57664
+        MENUITEM "Открыть офф. сайт WOLF RPG Editor", 32871
+        POPUP "└Страницы [Специальных значений и ссылок]"
+        {
+            MENUITEM "Значения ссылок на переменные", 33090
+            MENUITEM "Список специальных символов", 33092
+        }
+        MENUITEM "Открыть онлайн-руководство (&M)", 32861
+        MENUITEM "Открыть сайт Полного Руководства", 32872
+        MENUITEM "Открыть список изменений", 33073
+    }
+}
+
+146 MENU
+{
+    POPUP "Редактировать"
+    {
+        MENUITEM "Вырезать\t&X", 33048
+        MENUITEM "Копировать\t&C", 33050
+        MENUITEM "Вставить\t&V", 33052
+        MENUITEM "Удалить\t&Del", 33054
+    }
+}
+
+172 MENU
+{
+    POPUP "TEST"
+    {
+        MENUITEM "Создание/Редактирование события", 32852
+        MENUITEM SEPARATOR
+        MENUITEM "Вырезать событие\t&X", 57635
+        MENUITEM "Копировать событие\t&C", 57634
+        MENUITEM "Вставить событие\t&V", 57637
+        MENUITEM "Удалить событие\t&Del", 32794
+        MENUITEM SEPARATOR
+        MENUITEM "Открыть настройки карты", 32814
+        MENUITEM "Обновить тайлсеты", 32818
+        POPUP "Прочее"
+        {
+            MENUITEM "Создать карту", 33083
+            MENUITEM "Открыть окно выбора карт", 32823
+        }
+        MENUITEM SEPARATOR
+        MENUITEM "Поставить точку начала игры", 32855
+        MENUITEM "Сохранить место в Базу данных", 32853
+    }
+}
+
+216 MENU
+{
+    POPUP "EDITMENU"
+    {
+        MENUITEM "Открыть окно ввода\t&Enter", 32954
+        MENUITEM "Редактировать команду\t(Ctrl+)&Space", 32953
+        MENUITEM "Вставить команду в окно ввода\t&Ctrl+Shit+Space", 33089
+        MENUITEM SEPARATOR
+        MENUITEM "Вырезать\t&X", 32946
+        MENUITEM "Копировать\t&C", 32958
+        MENUITEM "Вставить\t&V", 32959
+        MENUITEM "Удалить\t&Del", 32960
+        MENUITEM "Выбрать всё\t&A", 33044
+        MENUITEM SEPARATOR
+        MENUITEM "Свернуть/Развернуть\t&E", 33094
+        POPUP "Свернуть/Развернуть всё"
+        {
+            MENUITEM "Свернуть всё", 33096
+            MENUITEM "Развернуть всё", 33097
+        }
+        MENUITEM "Обернуть выделение в цикл 0 раз\t&Q", 33101
+        MENUITEM "Изменить циклы с 1 раза на 0\t&Q", 33102
+        MENUITEM "Изменить циклы с 0 раз на 1\t&Q", 33103
+        MENUITEM "Перейти к следующей ветке \t(Shift+: К предыдущей)&G", 33095
+        MENUITEM SEPARATOR
+        MENUITEM "Копировать команду в буфер обмена\tCtrl+Shift+C", 32962
+        MENUITEM "Скопировать код события в буфер обмена\tCtrl+Alt+C", 32963
+        MENUITEM "Вставить код события из буфера обмена\tCtrl+Alt+V", 32957
+    }
+    POPUP "SUB"
+    {
+        MENUITEM "ResetNotUseTimer", 33042
+    }
+}
+
+217 MENU
+{
+    POPUP "EDITMENU"
+    {
+        MENUITEM "Вырезать событие\t&X", 32978
+        MENUITEM "Копировать событие\t&C", 32979
+        MENUITEM "Множественное копирование события\t&M", 32980
+        MENUITEM "Вставить событие\t&V", 32981
+        MENUITEM "Удалить событие\t&Del", 32982
+    }
+}
+
+218 MENU
+{
+    POPUP "EDITMENU"
+    {
+        MENUITEM "Вырезать\t&X", 32983
+        MENUITEM "Копировать\t&C", 32984
+        MENUITEM "Множественное копирование\t&M", 32985
+        MENUITEM "Вставить\t&V", 32986
+        MENUITEM "Удалить\t&Del", 32987
+        MENUITEM SEPARATOR
+        MENUITEM "Экспорт типов в файл", 32988
+        MENUITEM "Экспорт типов и данных в файл", 32989
+    }
+}
+
+219 MENUEX
+{
+    POPUP "EDITMENU", -1
+    {
+        MENUITEM "Вырезать\t&X", 32990
+        MENUITEM "Копировать\t&C", 32991
+        MENUITEM "Множественное копирование\t&M", 32992
+        MENUITEM "Вставить\t&V", 32993
+        MENUITEM "Удалить\t&Del", 32994
+        MENUITEM "", 0, MFT_SEPARATOR
+        MENUITEM "Экспорт данных в файл", 32995
+        MENUITEM "Экспорт данных в CSV", 32996, MFT_RIGHTJUSTIFY
+    }
+}
+
+220 MENU
+{
+    POPUP "EDITMENU"
+    {
+        MENUITEM "Создать карту\t(&N)", 33007
+        MENUITEM "Копировать карту\t(&C)", 33013
+        MENUITEM "Вставить карту\t(&V)", 33014
+        MENUITEM "Удалить карту\t(&D)", 33015
+        MENUITEM SEPARATOR
+        MENUITEM "(←) Переместить к предку\tShift+[←]", 33020
+        MENUITEM "(→) Переместить к потомку\tShift+[→]", 33017
+        MENUITEM "(↑) Переместить выше\tShift+[↑]", 33018
+        MENUITEM "(↓) Переместить ниже\tShift+[↓]", 33019
+    }
+}
+
+#ifdef APSTUDIO_INVOKED
+
+1 TEXTINCLUDE
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include <windows.h>\r\n"
+    "#include <commctrl.h>\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
