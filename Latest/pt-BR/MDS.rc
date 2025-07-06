@@ -2414,7 +2414,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "", 1260, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 129, 197, 26, 12 
    CONTROL "", 1443, "msctls_updown32", UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | WS_CHILD | WS_VISIBLE, 151, 196, 11, 14 
    CONTROL "", 1016, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 179, 113, 65, 80 
-   CONTROL "Condi\xE7\xF5es/Tipo de execu\xE7\xE3o", 1976, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 81, 116, 226, 71  , WS_EX_TRANSPARENT
+   CONTROL "Condi\xE7\xF5es/Tipo de execu\xE7\xE3o", 1976, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 81, 116, 226, 71 , WS_EX_TRANSPARENT
    CONTROL "", 1617, LISTBOX, LBS_NOTIFY | LBS_NOINTEGRALHEIGHT | LBS_WANTKEYBOARDINPUT | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_VSCROLL | WS_TABSTOP, 1, 9, 75, 162 
    CONTROL "Lista de evento", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 3, 0, 58, 9 
    CONTROL "↑Clique duplo para mover at\xE9 o evento.", 1618, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 3, 171, 71, 20 , WS_EX_STATICEDGE
@@ -3079,7 +3079,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "A cada inicializa\xE7\xE3o, os arquivos .dat no Basicdata s\xE3o copiados na pasta AutoBackup. Define quantos backups devem presevar.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 123, 49, 126, 37 , WS_EX_STATICEDGE
    CONTROL "Tema de cor", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 458, 4, 127, 31 
    CONTROL "", 1638, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 461, 16, 122, 93 
-   CONTROL "Idioma de leituras dos arquivos velhos", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 121, 98, 131, 66
+   CONTROL "Idioma de leituras dos arquivos velhos", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 121, 98, 131, 66 
    CONTROL "Idioma do texto nos arquivos criados antes da v2.X ou anterior. Se eles n\xE3o combinam, eles estar\xE3o ileg\xEDvel durante o carregamento.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 126, 125, 122, 37 , WS_EX_STATICEDGE
    CONTROL "", 1639, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 124, 110, 125, 102 
    CONTROL "Op\xE7\xF5es de Janela", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 458, 38, 127, 288 
@@ -4036,7 +4036,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   10369, 	"Este CommonEv%d: %s"
   10370, 	" ["
   10371, 	"]  ← "
-  10372, 	"(=) Igual;N\xE3o Igual;Incluir;N\xE3o incluido;Come\xE7a com;Termina com;Combina com express\xE3o regular do;"
+  10372, 	"(=) Igual;N\xE3o Igual;Cont\xE9m;N\xE3o Cont\xE9m;Come\xE7a com;Termina com;Combina com express\xE3o regular do;"
   10373, 	"Entrada B\xE1sica (Enter/Cancelar/Subﾞ/DIr) ;Teclas do teclado  (100+) ;Mouse Clique /Posi\xE7\xE3o;Bot\xF5es do Controle (300+) ;Anal\xF3gico;POV Setas;Multi-toque;"
   10374, 	"N\xE3o aceitar;4 Setas(2,4,6,8);8 Setas(1-9);Cima-Baixo(8,2);Esquerda Direita(4,6);Cima(8);Baixo(2);Esquerda(4);Direita(6);"
   10375, 	"Entrada B\xE1sica;Keyboard;Mouse;"
@@ -4816,10 +4816,10 @@ LANGUAGE LANG_JAPANESE, 0x1
   10964, 	"O Self deste Common"
   10965, 	"CommonEv%d's Self%d"
   10966, 	"S%d[%s]"
-  10967, 	" Igual"
-  10968, 	" N\xE3o igual"
-  10969, 	" Incluir"
-  10970, 	" Come\xE7ar com"
+  10967, 	" \xE9 igual ao"
+  10968, 	" n\xE3o \xE9 igual ao"
+  10969, 	" Cont\xE9m"
+  10970, 	" come\xE7ar com"
   10971, 	"■Definir Vari\xE1vel: "
   10972, 	"Vinculado"
   10973, 	"Calcula\xE7\xE3o de n\xFAmero real"
@@ -6285,7 +6285,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   12083, 	"Importado o arquivo de configura\xE7\xE3o de Jogo (Vers\xE3o Pro)"
   12084, 	"Arquivo\r\n \"%s\" \r\nn\xE3o \xE9 um arquivo de configura\xE7\xE3o de Jogo (Vers\xE3o Pro)"
   12085, 	" n\xE3o cont\xEAm"
-  12086, 	" termina com"
+  12086, 	" terminam com"
   12087, 	" consistente com a express\xE3o regular"
   12088, 	" =<substituido com a express\xE3o regular> "
   12089, 	" =<extrai dentro () com a express\xE3o regular> "
