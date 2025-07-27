@@ -5548,10 +5548,10 @@ LANGUAGE LANG_JAPANESE, 0x1
   11521, 	"Valor de rota\xE7\xE3o Y[\xB11000/Direct/XInput]"
   11522, 	"Valor de Z-axis[\xB11000/Direct/XInput]"
   11523, 	"M\xE9moria Usada[MB]"
-  11524, 	"M\xE9moria Restando[MB]"
+  11524, 	"M\xE9moria Restando(不安定)[MB]"
   11525, 	"M\xE9moria Usada[MB]"
   11526, 	"[Pro] Desligar as funcionalidades PRO"
-  11527, 	"M\xE9moria Restando[MB]"
+  11527, 	"M\xE9moria Restando(不安定)[MB]"
   11528, 	"Trocar licen\xE7a"
   11529, 	"Resetar Jogo"
   11530, 	"Screenshot (JPG)"
@@ -6436,6 +6436,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   12199, 	"[Loop] "
   12200, 	"[Pular] "
   12201, 	"Arquivo de configura\xE7\xE3o de Tiles (*.txt)|*.txt|All files(*.*)|*.*||"
+  12202, 	"■Game.exe　Ver3.636\r\n「キー入力禁止」で方向キーを禁止しても、「選択肢」における方向キー処理が受け付けられてしまうバグを修正。\r\n→　前の挙動に合わせて作っていた場合は、バージョン調整を「旧Ver3.582時点の挙動」以前にしてください。"
 }
 
 STRINGTABLE

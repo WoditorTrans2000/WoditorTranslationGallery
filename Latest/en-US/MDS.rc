@@ -5548,10 +5548,10 @@ LANGUAGE LANG_JAPANESE, 0x1
   11521, 	"Y-Rotation [\xB11000/For both Direct/XInput]"
   11522, 	"Z-Axis [\xB11000/For both Direct/XInput]"
   11523, 	"[Memory] Memory Usage [MB]"
-  11524, 	"[Memory] Available Memory [MB]"
+  11524, 	"[Memory] Available Memory (Unstable) [MB]"
   11525, 	"[Memory] Memory Usage [MB]"
   11526, 	"[Pro] Disabled the Pro version only features."
-  11527, 	"[Memory] Available Memory [MB]"
+  11527, 	"[Memory] Available Memory (Unstable) [MB]"
   11528, 	"License Switched"
   11529, 	"Restart Game"
   11530, 	"Screenshot (JPG)"
@@ -6436,6 +6436,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   12199, 	"[Loop] "
   12200, 	"[Skip] "
   12201, 	"Tileset settings file (*.txt)|*.txt|All files(*.*)|*.*||"
+  12202, 	"■Game.exe v3.636\r\nFixed a bug where directional key input was accepted on Choices even if the directional keys were disabled by \"Disable Input\".\r\n→ If you want to revert to the old behavior, adjust the version to \"3.582\" or earlier."
 }
 
 STRINGTABLE
