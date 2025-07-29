@@ -1,4 +1,4 @@
-0:Face Number
+0:Portrait Number
 1:Message Window X
 2:Message Window Y
 3:Choice Window X
@@ -32,9 +32,9 @@
 31:[RO] Inner FPS (each second)
 32:[RO] Screen FPS (each second)
 33:Frame Skip Level (0-2)
-34:ｷｬﾗ表示Y補正[-(ﾀｲﾙ-1)～0]px
-35:Hero Moving? (1:Yes) *Between Tiles?
-36:Hero Shadow (SysDB 9)
+34:Characters Y Offset [-(TileSize-1) to 0]
+35:Leader Moving? (1:Yes) *Between Tiles?
+36:Leader Shadow (SysDB 9)
 37:Distance Between Members (Steps)
 38:Take KB Input [1:Mouse&Touch +2:Pad]
 39:[RO] KB Input (0:Entered/-1:Canceled)
@@ -85,11 +85,11 @@
 84:Screen Resolution (For Old/0-2/-1:Other)
 85:Draw Mode (0:3D/1:Software)
 86: -----
-87:Ally 1 Shadow (-1:Hero's)
-88:Ally 2 Shadow (-1:Hero's)
-89:Ally 3 Shadow (-1:Hero's)
-90:Ally 4 Shadow (-1:Hero's)
-91:Ally 5 Shadow (-1:Hero's)
+87:Follower 1 Shadow (-1:Leader's)
+88:Follower 2 Shadow (-1:Leader's)
+89:Follower 3 Shadow (-1:Leader's)
+90:Follower 4 Shadow (-1:Leader's)
+91:Follower 5 Shadow (-1:Leader's)
 92: -----
 93:Playing BGM Panning [±255]
 94:Playing BGS Panning (Ch=Sys99) [±255]
@@ -129,8 +129,8 @@
 128: -----
 129:Event Diagonal Move X Speed [%]
 130:Event Diagonal Move Y Speed [%]
-131:Hero Center X Offset
-132:Hero Center Y Offset
+131:Leader Center X Offset
+132:Leader Center Y Offset
 133: -----
 134:Directional Input with D-Pad? [1:ON]
 135:Directional Input with L-Stick? [1:ON]
