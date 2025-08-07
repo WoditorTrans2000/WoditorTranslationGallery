@@ -1058,7 +1058,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "▼Open\r\nMap\r\nWindow", 1941, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 470, 332, 40, 28 
    CONTROL "Auto Move\r\nOne Step Only[?]", 1943, BUTTON, BS_AUTOCHECKBOX | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 221, 102, 45, 27 
    CONTROL "Jump to Position", 1240, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 378, 84, 60, 17 
-   CONTROL "*The Auto Move command continues until the character reaches the specified position.\r\n*If \"Skip Impossible Moves\" is enabled, the command will be skipped if the character cannot move even one step.", -1, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_GROUP, 221, 132, 219, 37 
+   CONTROL "*[自動移動]開始には開始～目標までの1\xD71通行可の連続経路が必要です（「半ﾏｽ通行禁止」タイルがあるマスは通れません）。\r\n*The Auto Move command continues until the character reaches the specified position.\r\n*If \"Skip Impossible Moves\" is enabled, the command will be skipped if the character cannot move even one step.", -1, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_GROUP, 221, 132, 219, 37 
 }
 
 146 DIALOGEX 0, 0, 277, 193
@@ -6437,6 +6437,10 @@ LANGUAGE LANG_JAPANESE, 0x1
   12200, 	"[Skip] "
   12201, 	"Tileset settings file (*.txt)|*.txt|All files(*.*)|*.*||"
   12202, 	"■Game.exe v3.636\r\nFixed a bug where directional key input was accepted on Choices even if the directional keys were disabled by \"Disable Input\".\r\n→ If you want to revert to the old behavior, adjust the version to \"3.582\" or earlier."
+  12203, 	"ファイルが再生できません。\r\nファイルが破損しているか、再生非対応のフォーマットである可能性があります。\r\n（音声ファイルを音声編集ツールで保存し直すと再生可能になる場合があります）"
+  12204, 	"※マップを広げると右端と下端のオートタイルが切れたような見た目になるのでご注意ください。塗りなおしで修正できます。"
+  12205, 	【注意！】：[乗算]では「半透明部分」が正常に表示されません！ 完全に透明と不透明部分が分かれた画像か、JPGのような完全不透明な画像がおすすめです"
+  12206, 	"■Game.exe　Ver3.643\r\n [変数操作]の[ピクチャ]の「マウス重なってる？[1=YES]」と[位置]の「[画面座標] X:? Y:?のpx座標の最上ﾋﾟｸﾁｬID」時、ピクチャの右位置と下位置の判定が1ピクセル大きくなっていたバグを修正\r\n→　前の挙動に合わせて作っていた場合は、バージョン調整を「旧Ver3.636時点の挙動」以前にしてください。"
 }
 
 STRINGTABLE
