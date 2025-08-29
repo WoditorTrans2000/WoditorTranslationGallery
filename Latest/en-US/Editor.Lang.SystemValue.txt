@@ -32,7 +32,7 @@
 31:[RO] Inner FPS (each second)
 32:[RO] Screen FPS (each second)
 33:Frame Skip Level (0-2)
-34: -----
+34:ｷｬﾗ表示Y補正[-(ﾀｲﾙ-1)～0]px
 35:Hero Moving? (1:Yes) *Between Tiles?
 36:Hero Shadow (SysDB 9)
 37:Distance Between Members (Steps)

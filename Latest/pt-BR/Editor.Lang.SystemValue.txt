@@ -32,7 +32,7 @@
 31:[L] FPS Interno (Cada segundos)
 32:[L] FPS da Tela (Cada segundos)
 33:Frameskip (0 até 2)
-34: -----
+34:Correção Y (px) do personagem [(Tile -1) até 0]
 35:[L]Herói em movi.? (1:Sim) *Entre as tiles?
 36:Sombra do Herói (Sys9)
 37:Separação do grupo (Passos)

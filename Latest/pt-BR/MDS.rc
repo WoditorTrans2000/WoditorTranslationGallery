@@ -6440,7 +6440,7 @@ LANGUAGE LANG_JAPANESE, 0x1
      12203, 	"O arquivo não foi reproduzido. \r\n Não foi possível reproduzir. por causa do formato do arquivo é incompatível ou corrompido. \r\n (É possívol reproduzir, ao salvar o arquivo de som com um editor de áudio.)"
      12204, 	"Atenção! Auto-tiles no canto direito infeiror aparecerem cortadas ao expandir o mapa. Corrigia ao pintar de novo."
      12205, 	"[Atenção!]: As partes semitransparentes com multiplicação não exibirão corretamente! Recomenda-se que a imagem seja completamente opaca como de um JPG, ou a imagem é completamente opacas e transparentes separadas."
-     12206, 	"■Game.exe　Ver3.643\r\n Corrigido um bug onde a posição direita e inferior da imagem se tornavam mais de 1 pixels, quando selecionado "ID da imagem superior da posição px da "posição da tela" X:? Y:?" em "Posição e "Cursor do mouse em cima?[1=SIM]" do "Imagem" em "Definir variável".\r\n→ Para mudar como era antes, ajuste o comportamento para a vers\xE3o \"3.636\" ou anterior."
+  12206, 	"■Game.exe　Ver3.644\r\n●Corrigido um bug onde a posi\xE7\xE3o direita e inferior da imagem se tornavam mais de 1 pixels, quando selecionado \"ID da imagem superior da posi\xE7\xE3o px da \"posi\xE7\xE3o da tela\" X:? Y:?\" em \"Posi\xE7\xE3o e \"Cursor do mouse em cima?[1=SIM]\" do \"Imagem\" em \"Definir vari\xE1vel\".\r\n●Corrigido um bug onde nome do evento de mapa n\xE3o \xE9 salvo.\r\n→ Para mudar como era antes, ajuste o comportamento para a vers\xE3o \"3.636\" ou anterior."
 }
 
 STRINGTABLE
