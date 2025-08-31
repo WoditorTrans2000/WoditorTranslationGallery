@@ -51,10 +51,12 @@ Download the dll [here](https://silversecond.com/WolfRPGEditor/Download.shtml#dl
 
 Please check the [credit](https://github.com/WoditorTrans2000/WoditorTranslationGallery#credit) to see what versions were made by which author. 
 
-If the authors don't want their translations here, please send an e-mail or open a issue. That way, I can remove the translation.
+If the authors don't want their translations here, please send an e-mail or open an issue. That way, I can remove the translation.
 
-E-Mail: WoditorGameGallery@protonmail.com<br>I'm Brazillian! But I can understand English, but not Japanese (Learning!)
+E-Mail: WoditorGameGallery@protonmail.com<br>I'm Brazillian! I can understand English, but not Japanese (Learning!)
 
+[Discord]( 
+https://discord.com/invite/c3F7fNyDKE) **WolfRPGEditor Hub** If you want to discuss about translations, please join the discord! 
 
 ---
 
@@ -62,9 +64,9 @@ E-Mail: WoditorGameGallery@protonmail.com<br>I'm Brazillian! But I can understan
 
 Currectly only pt-BR and en-US are the one I'm updating when is necessary.
 
-The version of the dll being translated and from the latest folder is 3.632.
+The version of the dll being translated and from the latest folder is 3.656.
 
-🇧🇷 pt-BR - (Feito) Sendo feito por mim.
+🇧🇷 pt-BR - Sendo feito por [Woditortrans2000](https://github.com/WoditorTrans2000).
 
 MENU - [##########] 100%
 
@@ -79,22 +81,24 @@ SystemValue.txt ( 🟢 )
 
 ---
 
-🇺🇸 en-US - DONE - translation completed by [Yumu](https://github.com/yumunet)
+🇺🇸 en-US - DONE - translation being done by [Yumu](https://github.com/yumunet)
 
 MENU - [##########] 100%
 
-DIALOG - [##########] 100%
+DIALOG - [##########] 99%
 
-STRINGTABLE - [##########]  100%
+STRINGTABLE - [##########]  99%
 
+SystemString.txt ( 🟢 )
 
+SystemValue.txt ( 🔴 )
 
 ---
 
 ## Contribution
 As it's a very recent project, I'm still looking for a way for other people to contribute to the repository.
 
-For now, this is the way to go if you've translated WolfRPGEditor into another language and it's not here. If you translated a language that didn't have a folder in the repository, make a forck and add the folder of said translation and, after that, do a pull request.
+For now, this is the way to go if you've translated WolfRPGEditor into another language and it's not here. If you translated a language that didn't have a folder in the repository, make a fork and add the folder of said translation and, after that, do a pull request.
 
 
 You can either complete the .rc that needs to be completed or use another translation to translate from another language. If you do this, give credit to the author of the translation you're using.
@@ -109,9 +113,10 @@ Let me know if you find a translation is not archived here. (Completed or not).
 
 If you want to translate the WolfRPGEditor to another language and want to use the .rc files from here.
 
- First you need the following stuff:<br>
+ First you need the following:<br>
 • A **Text editor** or an **IDE** to edit the .rc file.<br>
-• **Resource Hacker** or **RisohEditor** to add the .rc file translated to the dll and adjust the UI<br>
+• **Resource Hacker** or **RisohEditor** to add the .rc file translated to the dll.<br>
+• **Visual Studio** to adjust the UI.<br>
 • A software that allow the compare File and highlight diff. **(WinMerge and Meld.)**
 
 
@@ -197,9 +202,6 @@ https://www.moddb.com/groups/wolfrpgeditor-community) **- wolfrpgeditor -**
 [Reddit]( 
 https://www.reddit.com/r/Udita_wolfrpgeditor/?rdt=34274) **-r/udita_wolfrpgeditor -**<br>Good place to share your devlog, but also the show ongoing project. 
 
-[Discord]( 
-https://discord.com/invite/c3F7fNyDKE) **- WolfRPGEditor Hub -**<br>Good place to talk with other translators, but also share you games, resources and even wodistant plugin! 
-
 [Bluesky](
 https://bsky.app/profile/woditorgamegallery.bsky.social) **- WoditorNews -**<br>
 Where I post updates on translations in progress, sometimes I posts games by other developers. 
@@ -253,6 +255,6 @@ He is the developer of WolfRPGEditor and I would like to thank him for putting t
 <br/>
 
 🇰🇷 kr-KR<br/>
-**(v3.611, v3.39, v3.27, v3.14 and v2.296)** ko-KR translation by [Kamasun](https://sites.google.com/view/kamasun214/).<br>Placed here for archiving purposes.
+**(v2.296, v3.14, v3.27, v3.39, v3.611, v6.613 and v3.632)** ko-KR translation by [Kamasun](https://sites.google.com/view/kamasun214/).<br>Placed here for archiving purposes.
 
 
