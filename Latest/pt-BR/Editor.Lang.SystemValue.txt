@@ -1,18 +1,18 @@
 0:Número da Face
-1:Caixa de Mensagem X
-2:Caixa de Mensagem Y
-3:Caixa de Escolha X
-4:Caixa de Escolha Y
+1:Janela de Mensagem X
+2:Janela de Mensagem Y
+3:Janela de Escolha X
+4:Janela de Escolha Y
 5:Cursor da Mensagem X (Adic. Sys1)
 6:Cursor da Mensagem Y (Adic. Sys1)
-7:Escolha inicial(0,1,2...)
+7:Escolha inicial (0,1,2...)
 8:Tamanho da Fonte Base
 9:Velo. da Mensagem (X Letras/segundos)
 10:Pausa da Mensagem (X Frames)
 11:Velo. do String (X Letras/segundos)
 12:[L] Mensagem ativo? (1:ON)
 13:[L] Evento ativo? (1:ON)
-14:Caixa de escolha ativo?( 1:ON)
+14:Janela de escolha ativo?( 1:ON)
 15:Primeira repetição Teclas direcionais (Frames)
 16:Próximo repetição Teclas direcionais (Frames)
 17:[Escolha] SE: Confirmação (Sys3)
@@ -32,7 +32,7 @@
 31:[L] FPS Interno (Cada segundos)
 32:[L] FPS da Tela (Cada segundos)
 33:Frameskip (0 até 2)
-34: -----
+34:Correção Y (px) do personagem [-(Tile -1) até 0]
 35:[L]Herói em movi.? (1:Sim) *Entre as tiles?
 36:Sombra do Herói (Sys9)
 37:Separação do grupo (Passos)
@@ -64,7 +64,7 @@
 63:Velocidade da névoa Y
 64:Modo da névoa (0:Normal 1:Adicionar 2:Subtrair)
 65:Opacidade da névoa (0 até 255)
-66:Número do fundo(Sys13)
+66:Número do fundo (Sys13)
 67:Velocidade do fundo X
 68:Velocidade do fundo Y
 69: -----
@@ -102,8 +102,8 @@
 101:Compens. do vol. da BGS (%)
 102:Compens. do vol. da SE (%)
 103: -----
-104:Rolagem Ｘ
-105:Rolagem Ｙ
+104:Rolagem X
+105:Rolagem Y
 106: -----
 107: -----
 108:[L]Comandos por frame
@@ -112,10 +112,10 @@
 111:[L] Janela ativa (1:Sim)
 112:[L] Test Play?(1:Sim)
 113: -----
-114:[L] Versão do Movimento(x100)
-115:[L] Versão do Game.exe(x100)
-116:[L] Tamanho da Tela Ｘ
-117:[L] Tamanho da Tela Ｙ
+114:[L] Versão do Movimento (x100)
+115:[L] Versão do Game.exe (x100)
+116:[L] Tamanho da Tela X
+117:[L] Tamanho da Tela Y
 118:[L] Tamanho das Tiles
 119:[L] Mult. da resolução da tela (x1-3)
 120:Resetar log 0:Nada/1:F12/2:Comando
@@ -127,13 +127,13 @@
 126: -----
 127:Não salvar o Tile de Mapa(1:ON)
 128: -----
-129:Velo. do Evento em Mov. diagonal X(%)
-130:Velo. do Evento em Mov. diagonal Y(%)
+129:Velo. do Evento em Mov. diagonal X (%)
+130:Velo. do Evento em Mov. diagonal Y (%)
 131:[Herói] Correção Central X
 132:[Herói] Correção Central Y
 133: -----
-134:Entrada direcional com Pad direc.?(1:ON)
-135:Entrada direcional analógico esquerdo?(1:ON)
+134:Entrada direcional com Pad direc.? (1:ON)
+135:Entrada direcional analógico esquerdo? (1:ON)
 136:Escala de Janela precisa (0.1%) (-1=Auto)
 137:Escala da Janela (%) (-1=Auto)
 138:Modo de tela (0:Janela/1;Virtual/2:Cheio)

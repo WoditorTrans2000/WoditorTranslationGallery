@@ -41,7 +41,7 @@ Download the Editor [here](https://silversecond.com/WolfRPGEditor/Download.shtml
 
 ### 2° By modifying the Editor.Lang.dll
 
-Dll file contains all the WolfRPGEditor resources (menu, commands, stringtables and etc.), when the file in the same place as Editor.exe and open the Editor. All text will be replaced by the dll file. 
+Dll file contains all the WolfRPGEditor resources (menu, commands, stringtables and etc.), when the file is on the same place as Editor.exe and open the Editor. All text will be replaced by the dll file. 
 
 This way, you can keep reusing the dll in other versions, but at some point it will stop working or some features will be missing. When this happens, you should update the dll. <br>However, the dll is not available in all versions, the oldest dll is from version 2.29X and there is also a risk of them being corrupted.
 
@@ -51,10 +51,12 @@ Download the dll [here](https://silversecond.com/WolfRPGEditor/Download.shtml#dl
 
 Please check the [credit](https://github.com/WoditorTrans2000/WoditorTranslationGallery#credit) to see what versions were made by which author. 
 
-If the authors don't want their translations here, please send an e-mail or open a issue. That way, I can remove the translation.
+If the authors don't want their translations here, please send an e-mail or open an issue. That way, I can remove the translation.
 
-E-Mail: WoditorGameGallery@protonmail.com<br>I'm Brazillian! But I can understand English, but not Japanese (Learning!)
+E-Mail: WoditorGameGallery@protonmail.com<br>I'm Brazillian! I can understand English, but not Japanese (Learning!)
 
+[Discord]( 
+https://discord.com/invite/c3F7fNyDKE) **WolfRPGEditor Hub** If you want to discuss about translations, please join the discord! 
 
 ---
 
@@ -62,9 +64,9 @@ E-Mail: WoditorGameGallery@protonmail.com<br>I'm Brazillian! But I can understan
 
 Currectly only pt-BR and en-US are the one I'm updating when is necessary.
 
-The version of the dll being translated and from the latest folder is 3.632.
+The version of the dll being translated and from the latest folder is 3.656.
 
-🇧🇷 pt-BR - (Feito) Sendo feito por mim.
+🇧🇷 pt-BR - Sendo feito por [Woditortrans2000](https://github.com/WoditorTrans2000).
 
 MENU - [##########] 100%
 
@@ -79,22 +81,24 @@ SystemValue.txt ( 🟢 )
 
 ---
 
-🇺🇸 en-US - DONE - translation completed by [Yumu](https://github.com/yumunet)
+🇺🇸 en-US - DONE - translation being done by [Yumu](https://github.com/yumunet)
 
 MENU - [##########] 100%
 
-DIALOG - [##########] 100%
+DIALOG - [##########] 99%
 
-STRINGTABLE - [##########]  100%
+STRINGTABLE - [##########]  99%
 
+SystemString.txt ( 🟢 )
 
+SystemValue.txt ( 🔴 )
 
 ---
 
 ## Contribution
 As it's a very recent project, I'm still looking for a way for other people to contribute to the repository.
 
-For now, this is the way to go if you've translated WolfRPGEditor into another language and it's not here. Open an issue so that I can add the folder of said translation and, after that, do a pull request with the translation inside the folder.
+For now, this is the way to go if you've translated WolfRPGEditor into another language and it's not here. If you translated a language that didn't have a folder in the repository, make a fork and add the folder of said translation and, after that, do a pull request.
 
 
 You can either complete the .rc that needs to be completed or use another translation to translate from another language. If you do this, give credit to the author of the translation you're using.
@@ -109,14 +113,16 @@ Let me know if you find a translation is not archived here. (Completed or not).
 
 If you want to translate the WolfRPGEditor to another language and want to use the .rc files from here.
 
- First you need the following stuff:<br>
+ First you need the following:<br>
 • A **Text editor** or an **IDE** to edit the .rc file.<br>
-• **Resource Hacker** to add the .rc file translated to the dll and adjust the UI<br>
+• **Resource Hacker** or **RisohEditor** to add the .rc file translated to the dll.<br>
+• **Visual Studio** to adjust the UI.<br>
 • A software that allow the compare File and highlight diff. **(WinMerge and Meld.)**
 
 
 **1. Download the .rc files.**
 <br>First you need to download the .rc flies you want. In this case, let's say you want to translated the en-US to another language. [First download the MDS.rc file.](https://github.com/WoditorTrans2000/WoditorTranslationGallery/blob/main/Latest/en-US/MDS.rc)
+
 
 ![Download the .rc](https://github.com/user-attachments/assets/c6c662fd-d7b4-4c0c-b3d2-c5337b7480f6)
   <br>
@@ -128,17 +134,17 @@ If you want to translate the WolfRPGEditor to another language and want to use t
 
 **3. Resource Hacker.**
 <br>When you have finished translating or want to test it, in **Resource hacker** open the .rc and click on **compile(F5)**. When you do this, three folders will appear (Menu, Dialog and Stringtable) inside which there will be stars representing an element of WolfRPGEditor (Example: Dialog folder, star number 102 is the Show message command ).
-  
+  > For those that use RisohEditor, the .rc will not open due the difference format. But the .rec can be open by both program.
 
 ![Show command](https://github.com/user-attachments/assets/10fa51bf-4c52-4d74-9e6b-ae17492b7b38)
 
 
-  In the Dialog you can adjust the UI if a text get chopped.
-
-![Adjust](https://github.com/user-attachments/assets/e427eb28-5385-4e21-86e9-59b42f51f056)
+  In the Dialog you can adjust the UI if a text get chopped. However, I don't recomend that, because it can cause corruption and the extended styles to be deleted. 
+  Instead, use [Visual studio to adjust UI](https://github.com/yumunet/WoditorTranslationGallery/wiki/Edit-dialog-boxes-with-Visual-Studio)(Credit:Yumunet).
 
 
   When you finishing everthing, click **Save (Ctrl+S)**. It gonna ask you if want saves as .rec or a .rc. Please choose the .rec one.
+
 
  <br>
 
@@ -171,7 +177,7 @@ Now **“Action” -> “Save all resources to an .RC file** and name it somethi
 > As an example let's say my current version is **3.613** and the new version is **3.617**, when you done all the stuff above, you will have a **MDS_3_613.rc** and a **MDS_3_617.rc**.
 
 
-Then use software that allows you to compare files and show diff, such as **Winmerge**, **Meld** and the like.<br>
+Then use software that allows you to compare files and show diff, such as **Winmerge**, **Meld** and like.<br>
 You will compare the **previous .rc version** with the **new .rc version**. Now, note all the important differences, translate those parts and add them to the translated .rc.
 
 ![Meld](https://github.com/user-attachments/assets/c365b5a6-e846-412f-8813-1f2bea40b201)
@@ -196,12 +202,9 @@ https://www.moddb.com/groups/wolfrpgeditor-community) **- wolfrpgeditor -**
 [Reddit]( 
 https://www.reddit.com/r/Udita_wolfrpgeditor/?rdt=34274) **-r/udita_wolfrpgeditor -**<br>Good place to share your devlog, but also the show ongoing project. 
 
-[Discord]( 
-https://discord.com/invite/c3F7fNyDKE) **- WolfRPGEditor Hub -**<br>Good place to talk with other translators, but also share you games, resources and even wodistant plugin! (Still organizing, so when you join, you must stay on the mainhub)
-
 [Bluesky](
 https://bsky.app/profile/woditorgamegallery.bsky.social) **- WoditorNews -**<br>
-Where I post updates on translations in progress, there are sometimes posts promoting games by other developers. 
+Where I post updates on translations in progress, sometimes I posts games by other developers. 
 
 ---
 
@@ -252,6 +255,6 @@ He is the developer of WolfRPGEditor and I would like to thank him for putting t
 <br/>
 
 🇰🇷 kr-KR<br/>
-**(v3.611, v3.39, v3.27, v3.14 and v2.296)** ko-KR translation by [Kamasun](https://sites.google.com/view/kamasun214/).<br>Placed here for archiving purposes.
+**(v2.296, v3.14, v3.27, v3.39, v3.611, v6.613 and v3.632)** ko-KR translation by [Kamasun](https://sites.google.com/view/kamasun214/).<br>Placed here for archiving purposes.
 
 

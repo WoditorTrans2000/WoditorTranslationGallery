@@ -247,13 +247,12 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Debug Text", 1285, BUTTON, BS_AUTORADIOBUTTON | WS_CHILD, 205, 92, 52, 13 
    CONTROL "Debug Text", 1070, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 210, 93, 41, 15 
    CONTROL "↑Clear Debug", 1071, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 207, 108, 47, 14 
-   CONTROL "?", 1904, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 89, 158, 10, 9 
-   CONTROL "ValWatch", 1905, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 103, 158, 43, 10 
-   CONTROL "PictureWatch", 1906, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 149, 158, 52, 10 
+   CONTROL "?", 1904, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 114, 158, 10, 9 
+   CONTROL "ValWatch", 1905, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 128, 158, 43, 10 
+   CONTROL "PictureWatch", 1906, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 174, 158, 52, 10 
    CONTROL "Insert with Double Linebreaks", 1226, BUTTON, BS_AUTOCHECKBOX | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 14, 86, 74, 20 
    CONTROL "", 1907, STATIC, SS_OWNERDRAW | WS_CHILD | WS_VISIBLE, 180, 135, 16, 15 
    CONTROL "", 1959, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 150, 106, 53, 30 
-   CONTROL "MoveWatch", 1908, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 202, 158, 52, 10
 }
 
 133 DIALOGEX 400, 0, 160, 292
@@ -1059,7 +1058,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "▼Open\r\nMap\r\nWindow", 1941, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 470, 332, 40, 28 
    CONTROL "Auto Move\r\nOne Step Only[?]", 1943, BUTTON, BS_AUTOCHECKBOX | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 221, 102, 45, 27 
    CONTROL "Jump to Position", 1240, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 378, 84, 60, 17 
-   CONTROL "*[自動移動]開始には開始～目標までの1\xD71通行可の連続経路が必要です（「半ﾏｽ通行禁止」タイルがあるマスは通れません）。\r\n*The Auto Move command continues until the character reaches the specified position.\r\n*If \"Skip Impossible Moves\" is enabled, the command will be skipped if the character cannot move even one step.", -1, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_GROUP, 221, 132, 219, 37 
+   CONTROL "*The Auto Move command continues until the character reaches the specified position.\r\n*If \"Skip Impossible Moves\" is enabled, the command will be skipped if the character cannot move even one step.", -1, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_GROUP, 221, 132, 219, 37 
 }
 
 146 DIALOGEX 0, 0, 277, 193
@@ -5865,7 +5864,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   11762, 	"[Remove delayed SE]"
   11763, 	"■Game.exe v3.180\r\n  Fixed a bug where the internal position of the value returned by \"Top Tile Tag Number\" of \"Set Variable+\" with \"Precise Position\" enabled was incorrect.\r\n  If you want to revert to the old behavior, adjust the version to \"3.17\" (the internal position will be shifted)."
   11764, 	"■Game.exe v3.190\r\n  Fixed a bug where Data entries in Variable DB was automatically expanded when a \"Data Number\" greater than the current number of entries was read.\r\n  If you want to revert to the old behavior, adjust the version to \"3.18\" (the number of Data entries in Variable DB will automatically increase when read)."
-  11765, 	"Do you want to open the description page for each version of \"Adjust Game.exe Version\" in your browser?\r\n\r\nnhttps://smokingwolf.github.io/tool_wolf_rpg_editor/help/02ver_ajust.html"
+  11765, 	"Do you want to open the description page for each version of \"Adjust Game.exe Version\" in your browser?\r\n\r\nhttps://www.silversecond.com/WolfRPGEditor/Help/02ver_ajust.html"
   11766, 	"*Print Screen may not work properly!"
   11767, 	"The System Database was corrupted and could not be loaded.\r\nStartup will be aborted.\r\n\r\n[Solution]\r\nIf you have a backup (AutoBackup folder), try copying \"SysDatabase.dat\" and \"SysDatabase.project\" in the BasicData folder from the backup folder and overwrite the existing files."
   11768, 	"The Common Events file was corrupted and could not be loaded.\r\nStartup will be aborted.\r\n\r\n[Solution]\r\nIf you have a backup (AutoBackup folder), try copying \"CommonEvent.dat\" in the BasicData folder from the backup folder and overwrite the existing file."
@@ -5927,7 +5926,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   11809, 	"Update data"
   11810, 	"- If you execute a jump to a label within branches 1 to 4 of \"Condition (Number)\" that has an \"Else\" case,\r\n  the process will jump to the \"Else\" case when the processing in that branch is completed!\r\n  Be careful when jumping to a label within a Condition branch.\r\n  (This is for processing speed optimization.)"
   11811, 	"Notes on Label!"
-  11812, 	"If you insert a Debug Text with the following command,\r\nthe information will be displayed in \"Debug Window\"\r\nwhen the game is run.\r\n (Enter only one line, with correct case)\r\n\r\nValWatch:ON=2000009\r\n→　After execution, monitors the value\r\n　　of normal variable 9 (2000009)\r\n　　and displays the value after it has been changed.\r\n\r\nPictureWatch:ON=123\r\n→　After execution, monitors picture 123 \r\n　　and displays information\r\n　　when that picture has been processed.\r\n\r\nMoveWatch:ON=-2\r\n → 実行後、主人公(-2)を監視し、\r\n　そのマップイベントIDに動作指定が行われたときに\r\n　情報を表示します。0以上ならマップイベントが対象です"
+  11812, 	"If you insert a Debug Text with the following command,\r\nthe information will be displayed in \"Debug Window\"\r\nwhen the game is run.\r\n (Enter only one line, with correct case)\r\n\r\nValWatch:ON=2000009\r\n→　After execution, monitors the value\r\n　　of normal variable 9 (2000009)\r\n　　and displays the value after it has been changed.\r\n\r\nPictureWatch:ON=123\r\n→　After execution, monitors picture 123 \r\n　　and displays information\r\n　　when that picture has been processed."
   11813, 	"Debug Text Command Tricks"
   11814, 	"Data could not be loaded because it is protected by a protection that is newer than the current version.\r\n\r\nPlease update Editor to the latest version."
   11815, 	"■Game.exe v3.310\r\n  ●Fixed a bug where waiting time did not occur when \"Wait\" was executed during \"Prepare Transition\".\r\n  If you want to revert to the old behavior, adjust the version to \"3.300\" (\"Wait\" during \"Prepare Transition\" will be almost disabled).\r\n  ●Pixel Movement is now in beta. In the old alpha version of Pixel Movement, direction changes and animations did not work with 4-way graphics, but did work with 8-way graphics, and T/TX character graphics did not animate with either 4-way or 8-way graphics.\r\n  You can revert to that behavior by adjusting the version to \"3.300\" or earlier."
@@ -6029,12 +6028,12 @@ STRINGTABLE
 LANGUAGE LANG_JAPANESE, 0x1
 {
   11888, 	" =<Execute Special Code>"
-  11889, 	"Do you want to open the \"Special Code List\" page of the manual in your browser?\r\n\r\nhttps://smokingwolf.github.io/tool_wolf_rpg_editor/help/04ev_string_specialcode.html"
+  11889, 	"Do you want to open the \"Special Code List\" page of the manual in your browser?\r\n\r\nhttps://silversecond.com/WolfRPGEditor/Help/04ev_string_specialcode.html"
   11890, 	"= √[x1000] ="
   11891, 	"Bitwise OR"
   11892, 	"Bitwise XOR"
   11893, 	"Bit Shift<<"
-  11894, 	"Do you want to open the description page for each version of \"Picture Behavior\" in your browser?\r\n\r\nhttps://smokingwolf.github.io/tool_wolf_rpg_editor/help/02gamesetting.html"
+  11894, 	"Do you want to open the description page for each version of \"Picture Behavior\" in your browser?\r\n\r\nhttps://silversecond.com/WolfRPGEditor/Help/02gamesetting.html"
   11895, 	"Picture Behavior v2 [3.50+];Picture Behavior v1 [Old];"
   11896, 	"Cut String Up To Characters..."
   11897, 	" =<Cut String Up To Characters>"
@@ -6062,7 +6061,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   11914, 	" "
   11915, 	" Link [As Picture]"
   11916, 	"■Game.exe v3.50\r\n●The display interval of special characters p[?], [?], and mg[?] is now faster.\r\n●\"DB Management\" now flexibly converts between numbers and strings (old behavior caused an error).\r\n●When a picture is erased with a duration of 0 frames, the picture information now cannot be gotten by Set Variable+ immediately afterwards. (In the old behavior, the picture information can be gotten by Set Variable+ during the same frame that the picture was erased over 0 frames.)\r\n●When a character's body graphic is erased by the \"Change Character Image\" command of \"Effects\", all layers are now erased. (In the old behavior, all layers disappeared visually, but the overlay layers remained internally.)\r\n●\"Event ID at Mouse Position\" in \"Other\" of Set Variable+ now takes map zoom into account. (In the old behavior, it does not take map zoom into account.)\r\n●When an event touches the hero by \"Approach Event\" or \"Approach Position\" commands of \"Move Route\", the event is now triggered by \"Event Touch\". (In the old behavior, these two commands do not activate Event Touch.)\r\n●When the hero touches an event by Move Route in \"Parallel Process\", the event is now triggered by \"Player Touch\". (In the old behavior, \"Player Touch\" is not activated when an event is touched by Move Route.)\r\n●Fixed a bug where the continue icon goes out of screen when a large value is set in \"Sys6:Message Continue Icon Y\" for 320x240 screen resolution.\r\n●Fixed a bug where \"Event Touch\" events placed at position (0,0) were triggered once after startup or during loading.\r\n●Fixed a bug where scroll-linked pictures were not displayed in the expected position after a certain loop.\r\n●When a forced picture pattern is overwritten by \"Character\" in \"Effects\", the pattern value returned by \"Set Variable+\" is now also changed during the same frame. (In the old behavior, it is delayed by one frame.)\r\n●The graphic of an event with a tile can now also be changed by \"Change Character Image\" in \"Character\" of \"Effects\". (In the old behavior, the graphic of an event with a tile cannot be changed.)\r\n●Fixed a bug where the run state was stuck when \"Reserved\" and \"Confirm Key / Touch\" events were triggered in the same frame.\r\n●Fixed a bug where if the game was saved while talking to a map event, it remained the same direction after loading and cannot be restored.\r\n●Fixed a bug where the cursor width of a Choice is smaller than the character width when the character spacing was reduced by \\-[?], etc.\r\n●Fixed a bug where if a string picture is set to an empty string, its image size returned by Set Variable+ remained the previous value.\r\n●Fixed a bug where \"Passable (Tile & Event)\" of Set Variable+ was used for a 0.5x1 event, and only the head side was hit, not the foot side.\r\n●\"Get Type/Data/Field Number\" of DB Management now return -1 if a nonexistent name is specified. (In the old behavior, they return 0 after the error message.)\r\n  →  If you want to revert to the old behavior, adjust the version to \"3.390\" or earlier."
-  11917, 	"Do you want to open the keyboard \"Key Code List\" page in your browser?\r\n\r\nhttps://smokingwolf.github.io/tool_wolf_rpg_editor/help/04ev_keyinput.html#keycode"
+  11917, 	"Do you want to open the keyboard \"Key Code List\" page in your browser?\r\n\r\nhttps://silversecond.com/WolfRPGEditor/Help/04ev_keyinput.html#keycode"
   11918, 	"In version <VER>, the data format of the core files changed,\r\nso backups were created in the \"AutoBackup_Before_Ver<VER>\" folder in the BasicData folder.\r\n(Game.dat, CommonEvent.dat, DataBases, TileSet.dat)\r\n\r\n*If you want to revert to the old version of the EXE,\r\n  copy these backup files and overwrite the ones in the BasicData folder."
   11919, 	"Map Event Y's Self X /1000000+10*Y+X"
 }
@@ -6438,10 +6437,6 @@ LANGUAGE LANG_JAPANESE, 0x1
   12200, 	"[Skip] "
   12201, 	"Tileset settings file (*.txt)|*.txt|All files(*.*)|*.*||"
   12202, 	"■Game.exe v3.636\r\nFixed a bug where directional key input was accepted on Choices even if the directional keys were disabled by \"Disable Input\".\r\n→ If you want to revert to the old behavior, adjust the version to \"3.582\" or earlier."
-  12203, 	"ファイルが再生できません。\r\nファイルが破損しているか、再生非対応のフォーマットである可能性があります。\r\n（音声ファイルを音声編集ツールで保存し直すと再生可能になる場合があります）"
-  12204, 	"※マップを広げると右端と下端のオートタイルが切れたような見た目になるのでご注意ください。塗りなおしで修正できます。"
-  12205, 	"【注意！】：[乗算]では「半透明部分」が正常に表示されません！ 完全に透明と不透明部分が分かれた画像か、JPGのような完全不透明な画像がおすすめです"
-12206, 	"■Game.exe　Ver3.644\r\n●[変数操作]の[ピクチャ]の「マウス重なってる？[1=YES]」と[位置]の「[画面座標] X:? Y:?のpx座標の最上ﾋﾟｸﾁｬID」時、ピクチャの右位置と下位置の判定が1ピクセル大きくなっていたバグを修正\r\n●セーブ時に「マップイベント名」が保存されなかったバグを修正\r\n→　前の挙動に合わせて作っていた場合は、バージョン調整を「旧Ver3.636時点の挙動」以前にしてください。"
 }
 
 STRINGTABLE
