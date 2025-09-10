@@ -4165,7 +4165,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   10467, 	"Top Tile Tag Number;Event ID (None: -1);Passable (Tile Only, 0:Yes/1:No);Passable (Tile + Event);Top Tile ID (0:Clear/1-15:Auto/16+:Other);Layer 1 Tile ID;Layer 2 Tile ID;Layer 3 Tile ID;Layer 1 Tile Tag Number;Layer 2 Tile Tag Number;Layer 3 Tile Tag Number;"
   10468, 	"XX Current Map ID;Playing BGM Number (Only BGM Selected from SysDB);Playing BGS Number (Only BGS Selected from SysDB);BGM Playback Position (ms; Up to First Loop/For MIDI, tick);BGS Playback Position (ms; Up to First Loop/For MIDI, tick);Current BGM Length (ms/For MIDI, tick);Current BGS Length (ms);Mouse Left Click (0:Normal/1:Hold/2:Pressed);Mouse Right Click (0:Normal/1:Hold/2:Pressed);Mouse Middle Click (0:Normal/1:Hold/2:Pressed);Mouse Wheel Delta (Change from Last Frame);Mouse X Delta (Change from Last Frame);Mouse Y Delta (Change from Last Frame);Event ID at Mouse Position (Smaller ID Priority, -1 for None);This Map Event ID (In Common, Caller's ID);Map Size [Width];Map Size [Height];This Common Event ID (-1: Outside Common);Active Autorun/Touch/Confirm Event ID [+500000 for Common];Active Event Line [Autorun/Touch/Confirm Event];Memory Usage [MB];Available Memory [MB];"
   10469, 	"X Position;Y Position;Image Size (Width);Image Size (Height);Pattern;Opacity;Angle;Zoom (Width or Overall);Zoom (Height);Mouse Pointer Hover? (1:Yes, Angle 0 Only);Picture In Use? (1:Yes);String Display Done? (1:Yes);"
-  10470, 	"Event ID (None: -1)"
+  10470, 	"Event ID [None/Erased: -1]"
   10471, 	"Passable (Tile) [0:Yes/1:No]"
   10472, 	"Passable (Tile & Event) [0:Yes/1:No]"
   10473, 	"Top Tile ID [0:Clear/1+:Auto/32+:Other]"
@@ -4921,7 +4921,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   11043, 	"Screen Y Position (Bottom of Character)"
   11044, 	"Shadow Image Number"
   11045, 	"Current Tile Tag Number"
-  11046, 	"Event ID"
+  11046, 	"Event ID (*Even If Erased)"
   11047, 	"On Screen? [1:Yes/0:No]"
   11048, 	"Active Page [0:None/1+:Page Number]"
   11049, 	"Run Type [0: Confirm ... 4: Event Touch]"
@@ -6442,6 +6442,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   12204, 	"*When the map is expanded, the auto-tiles on the right and bottom edges may be cut off. This can be fixed by repainting."
   12205, 	"[Caution] Multiply mode does not display semi-transparent areas correctly! Images without semi-transparent areas or opaque images like JPG are recommended."
   12206, 	"■Game.exe v3.644\r\n●Fixed a bug in Set Variable+ when retrieving Picture \"Mouse Pointer Hover? [1:Yes]\" or Position \"[Screen] Top Picture ID at Pixel Position\", where the right and bottom positions were calculated 1 pixel larger than intended.\r\n●Fixed a bug where map event names were not saved when saving the game.\r\n→ If you want to revert to the old behavior, adjust the Game.exe version to \"3.636\" or earlier."
+  12207, 	"Is the window too large for the screen?\r\n\r\nTo reduce the window size, select \"Editor Options\" from the \"Options\" menu at the top of the main window."
 }
 
 STRINGTABLE

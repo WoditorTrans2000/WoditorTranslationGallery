@@ -4165,7 +4165,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   10467, 	"Tag da camada mais alta;ID do Evento (N/A: -1);Pass\xE1vel (Apenas Tile; SIM=0, NÃO=1);Pass\xE1vel (Tile + Evento);Chip mais alto n.\xBA (Limpo: 0/1-15: Auto/16-: etc);Camada chip 1 n.\xBA;Camada chip 2 n.\xBA;Camada chip 3 n.\xBA;Tag tile da camada 1;Tag tile da camada 2;Tag tile da camada 3;"
   10468, 	"N\xFAmero atual XX de mapa;Reproduzir BGM n.\xBA (Apenas BGM acessado do SysDB);Reproduzir BGS n.\xBA (BGS acessado do SysDB);Posi\xE7\xE3o do BGM (ms \xE1cima at\xE9 o primeiro Loop / Ticks, para MIDI); Posi\xE7\xE3o do BGS (ms \xE1cima at\xE9 o primeiro Loop / Ticks, para MIDI);Dura\xE7\xE3o atual do BGM (ms/MIDI Ticks);Dura\xE7\xE3o atual do BGS (ms);Clique  esquerdo do mouse (Normal=0, Segurar=1, Pressionar=2);Clique  direito do mouse (Normal=0, Segurar=1, Pressionar=2);Clique meio do mouse  (Normal=0, Segurar=1, Pressionar=2);Roda Delta do Mouse(Muda no ult\xEDmo frame);X Delta do Mouse(Muda no ult\xEDmo frame);Y Delta do Mouse(Muda no ult\xEDmo frame);Posi\xE7\xE3o do mouse no ID do Evento (Prioridade ao Menor ID, -1 para nada);ID desse Evento do Mapa (Em commom, ID do chamado);Tamanho do Mapa [Largura];Tamanho do Mapa [Altura];ID desse CommomEv (-1 para Commom do lado de fora);ID do Evento Activo Auto/Toque/Confirmar[+500000 para Commom];Linha ativo do Evento [Eventos Auto/Toque/Confirmar];Mem\xF3ria usada [MB];Mem\xF3ria dispornivel [MB];"
   10469, 	"Posi\xE7\xE3o X;Posi\xE7\xE3o Y;Tamanho da imagem (Largura);Tamanho da imagem (Altura);Padr\xE3o n.\xBA;Opacidade;\xC2ngulo;Zoom (Largura ou ao todo);Zoom (Altura);Cursor do Mouse em cima? (1=Sim, 0 apenas \xE2ngulo);imagem em uso? (1=Sim);String concluiu em mostrar? (1=Sim);"
-  10470, 	"ID do Evento(N/A : -1)"
+  10470, 	"ID do Evento [N/A : -1/一時消去:-1]"
   10471, 	"Caminh\xE1vel (✓=0,\xD7=1)"
   10472, 	"Caminh\xE1vel (Tiles+Ev)"
   10473, 	"Chip mais alto (0:Nada/1-:Auto/32-:Outros)"
@@ -4921,7 +4921,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   11043, 	"Tela Y"
   11044, 	"N\xFAmero de imagem da sombra"
   11045, 	"N\xFAmero da tag do tile"
-  11046, 	"ID do Ev"
+  11046, 	"ID do Ev ※[一時消去]後もID返す"
   11047, 	"Est\xE1 na tela?(1=SIM 0=N\xC2O)"
   11048, 	"P\xE1gina ativo[0=Nenhum/1+=P\xE1g. atual/-1=Apagado]"
   11049, 	"Condi\xE7\xE3o atual(0:Tecla Enter - 4:Ao tocar o Evento)"
@@ -6442,6 +6442,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   12204, 	"Atenção! Auto-tiles no canto direito infeiror aparecerem cortadas ao expandir o mapa. Corrigia ao pintar de novo."
   12205, 	"[Atenção!]: As partes semitransparentes com multiplicação não exibirão corretamente! Recomenda-se que a imagem seja completamente opaca como de um JPG, ou a imagem é completamente opacas e transparentes separadas."
   12206, 	"■Game.exe　Ver3.644\r\n●Corrigido um bug onde a posi\xE7\xE3o direita e inferior da imagem se tornavam mais de 1 pixels, quando selecionado \"ID da imagem superior da posi\xE7\xE3o px da \"posi\xE7\xE3o da tela\" X:? Y:?\" em \"Posi\xE7\xE3o e \"Cursor do mouse em cima?[1=SIM]\" do \"Imagem\" em \"Definir vari\xE1vel\".\r\n●Corrigido um bug onde nome do evento de mapa n\xE3o \xE9 salvo.\r\n→ Para mudar como era antes, ajuste o comportamento para a vers\xE3o \"3.636\" ou anterior."
+  12207, 	"ウィンドウが画面からはみ出していませんか？\r\n\r\nウィンドウサイズを小さくしたい場合は、メインウィンドウ上部メニューにある\r\n「オプション」→「エディターオプション」内から変更可能です。"
 }
 
 STRINGTABLE
