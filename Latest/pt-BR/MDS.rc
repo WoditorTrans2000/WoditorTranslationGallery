@@ -237,7 +237,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "", 1015, "msctls_updown32", UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS | WS_CHILD | WS_VISIBLE, 46, 134, 9, 14 
    CONTROL "■For\xE7ar a fechar Mensagem", 1038, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 209, 129, 46, 28 
    CONTROL "", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 16, 3, 212, 10 
-   CONTROL "*Informa\xE7\xE3o do n\xFAmero de face \xE9 mostrado aqui.", 1330, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 48, 135, 135, 19 , WS_EX_STATICEDGE
+   CONTROL "※ここに顔番号と文字色の内容が表示されます", 1330, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 48, 135, 135, 19 , WS_EX_STATICEDGE
    CONTROL "Inserir Comando de mudan\xE7a de face", 1229, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_TABSTOP, 254, 5, 11, 13 
    CONTROL "N\xFAmero da face Check (SysDB 24) / Cor do texto (SysDB 12) Check", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 8, 125, 200, 31 
    CONTROL "*@N\xFAmero na primeira linha para mudar a Face (SysDB0)", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 16, 7, 209, 11 
@@ -945,7 +945,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Caso <", 1290, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 62, 142, 51, 10 
    CONTROL "*Escolha em branco n\xE3o ser\xE3o mostrados.", -1, STATIC, SS_CENTER | WS_CHILD | WS_VISIBLE | WS_GROUP, 61, 2, 184, 9 
    CONTROL "For\xE7ar sa\xEDda de caso", 1376, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 179, 142, 72, 10 
-   CONTROL "■For\xE7ar a sa\xEDda de escolha", 1377, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 69, 154, 54, 19 
+   CONTROL "■For\xE7ar a sa\xEDda de escolha", 1377, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 62, 154, 54, 19 
 }
 
 145 DIALOGEX 0, 0, 531, 395
@@ -1556,8 +1556,8 @@ FONT 9, "MS Shell Dlg"
    CONTROL "", 1304, "msctls_updown32", UDS_ALIGNRIGHT | UDS_ARROWKEYS | UDS_NOTHOUSANDS | WS_CHILD, 91, 0, 6, 9 
    CONTROL "Condi\xE7\xE3o", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 285, 19, 236, 22 
    CONTROL "OK", 1, BUTTON, BS_DEFPUSHBUTTON | WS_CHILD | WS_VISIBLE, 296, 327, 43, 20 
-   CONTROL "Cancelar", 2, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE, 436, 328, 43, 17 
-   CONTROL "Atualizar", 1082, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE, 342, 328, 44, 18 
+   CONTROL "Cancelar", 2, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE, 432, 328, 43, 17 
+   CONTROL "Atualizar", 1082, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE, 341, 328, 44, 18 
    CONTROL "Salvar um", 1069, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 2, 324, 41, 12 
    CONTROL "Load", 1348, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 91, 325, 22, 19 
    CONTROL "Arriscado para apagar", 1606, STATIC, SS_LEFT | WS_CHILD | WS_GROUP, 439, 296, 34, 9 
@@ -1570,8 +1570,8 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Configura\xE7\xE3o", 1429, BUTTON, BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_CHILD | WS_TABSTOP, 97, 0, 13, 8 
    CONTROL "", 1470, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 532, 3, 27, 12 
    CONTROL "Linha", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 512, 5, 18, 9 
-   CONTROL "Testar\r\nJogo\r\n(F9)", 1486, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 485, 305, 32, 37 
-   CONTROL "Desfazer", 1596, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 390, 328, 42, 17 
+   CONTROL "Testar\r\nJogo\r\n(F9)", 1486, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 492, 300, 31, 42 
+   CONTROL "Desfazer", 1596, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 387, 328, 42, 17 
    CONTROL "Ctrl+R: Ev anterior  Ctrl+Shift+↑↓: Escolha Ev, \r\nCtrl+↑↓: Escolha comando F12: para \"Call Event\": Pule, \r\nF5/F6: Ir para a sele\xE7\xE3o anterior/pr\xF3xima", 1607, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 116, 321, 178, 26 , WS_EX_STATICEDGE
    CONTROL "Procurar (Ctrl+F)", 1603, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 443, 1, 31, 20 
    CONTROL "", 1604, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 243, 4, 42, 264 , WS_EX_LEFTSCROLLBAR
@@ -6125,7 +6125,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   11962, 	"[Refere as vari\xE1veis] Inserir Caracteres Especiais"
   11963, 	"Alterar pelo valor da vari\xE1vel normal X / \\v[X]"
   11964, 	"Vari\xE1vel X do variável de reserva (0-9) / \\v?[X]"
-  11965, 	"Alterar pelo vari\xE1vel string X / \\s[?]"
+  11965, 	"Alterar pelo vari\xE1vel string X / \\s[X]"
   11966, 	"Alterar pelo valor da vari\xE1vel do Ev selfX desse Mapa / \\self[X]"
   11967, 	"Alterar pelo valor SelfX do Common Event / \\cself[X]"
 }
@@ -6441,8 +6441,19 @@ LANGUAGE LANG_JAPANESE, 0x1
   12203, 	"O arquivo não foi reproduzido. \r\n Não foi possível reproduzir. por causa do formato do arquivo é incompatível ou corrompido. \r\n (É possívol reproduzir, ao salvar o arquivo de som com um editor de áudio.)"
   12204, 	"Atenção! Auto-tiles no canto direito infeiror aparecerem cortadas ao expandir o mapa. Corrigia ao pintar de novo."
   12205, 	"[Atenção!]: As partes semitransparentes com multiplicação não exibirão corretamente! Recomenda-se que a imagem seja completamente opaca como de um JPG, ou a imagem é completamente opacas e transparentes separadas."
-  12206, 	"■Game.exe　Ver3.644\r\n●Corrigido um bug onde a posi\xE7\xE3o direita e inferior da imagem se tornavam mais de 1 pixels, quando selecionado \"ID da imagem superior da posi\xE7\xE3o px da \"posi\xE7\xE3o da tela\" X:? Y:?\" em \"Posi\xE7\xE3o e \"Cursor do mouse em cima?[1=SIM]\" do \"Imagem\" em \"Definir vari\xE1vel\".\r\n●Corrigido um bug onde nome do evento de mapa n\xE3o \xE9 salvo.\r\n→ Para mudar como era antes, ajuste o comportamento para a vers\xE3o \"3.636\" ou anterior."
+  12206, 	"■Game.exe　Ver3.644\r\n●Corrigido um bug onde a posi\xE7\xE3o direita e inferior da imagem se tornavam mais de 1 pixels, quando selecionado \"ID da imagem superior da posi\xE7\xE3o px da \"posi\xE7\xE3o da tela\" X:? Y:?\" em \"Posi\xE7\xE3o e \"Cursor do mouse em cima?[1=SIM]\" do \"Imagem\" em \"Definir vari\xE1vel+\".\r\n●Corrigido um bug onde nome do evento de mapa n\xE3o \xE9 salvo.\r\n→ Para mudar como era antes, ajuste o comportamento para a vers\xE3o \"3.636\" ou anterior."
   12207, 	"ウィンドウが画面からはみ出していませんか？\r\n\r\nウィンドウサイズを小さくしたい場合は、メインウィンドウ上部メニューにある\r\n「オプション」→「エディターオプション」内から変更可能です。"
+}
+
+STRINGTABLE
+LANGUAGE LANG_JAPANESE, 0x1
+{
+  12208, 	"<X>人目をPTから削除"
+  12209, 	"<X>人目の前に<FILE>を挿入"
+  12210, 	"<X>人目を<FILE>に変更"
+  12211, 	"PTから<FILE>を全削除"
+  12212, 	"■エラー："
+  12213, 	"【エラー!】 コマンドのデータ個数が足りません、不正なイベントコードです！ [編集]するとクラッシュするので[削除]してください"
 }
 
 STRINGTABLE

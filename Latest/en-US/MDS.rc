@@ -945,7 +945,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Left Key Case", 1290, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 62, 142, 51, 10 
    CONTROL "*Choices left blank will not be shown.", -1, STATIC, SS_CENTER | WS_CHILD | WS_VISIBLE | WS_GROUP, 61, 2, 174, 9 
    CONTROL "Force Close Case", 1376, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 179, 142, 62, 10 
-   CONTROL "■Force Close Choice", 1377, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 69, 154, 54, 19 
+   CONTROL "■Force Close Choice", 1377, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 62, 154, 48, 19 
 }
 
 145 DIALOGEX 0, 0, 516, 377
@@ -1556,8 +1556,8 @@ FONT 9, "MS Shell Dlg"
    CONTROL "", 1304, "msctls_updown32", UDS_ALIGNRIGHT | UDS_ARROWKEYS | UDS_NOTHOUSANDS | WS_CHILD, 91, 0, 6, 9 
    CONTROL "Condition", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 275, 19, 236, 22 
    CONTROL "OK", 1, BUTTON, BS_DEFPUSHBUTTON | WS_CHILD | WS_VISIBLE, 286, 327, 43, 20 
-   CONTROL "Cancel", 2, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE, 426, 328, 43, 17 
-   CONTROL "Update", 1082, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE, 332, 328, 44, 18 
+   CONTROL "Cancel", 2, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE, 422, 328, 43, 17 
+   CONTROL "Update", 1082, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE, 331, 328, 44, 18 
    CONTROL "Save One", 1069, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 2, 324, 38, 12 
    CONTROL "Load", 1348, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 81, 325, 22, 19 
    CONTROL "Risky to Erase", 1606, STATIC, SS_LEFT | WS_CHILD | WS_GROUP, 429, 296, 34, 9 
@@ -1570,8 +1570,8 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Settings", 1429, BUTTON, BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_CHILD | WS_TABSTOP, 97, 0, 13, 8 
    CONTROL "", 1470, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 491, 3, 27, 12 
    CONTROL "Line", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 474, 5, 15, 9 
-   CONTROL "Test\r\nPlay\r\n(F9)", 1486, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 475, 305, 32, 37 
-   CONTROL "Undo", 1596, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 380, 328, 42, 17 
+   CONTROL "Test\r\nPlay\r\n(F9)", 1486, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 482, 300, 31, 42 
+   CONTROL "Undo", 1596, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 377, 328, 42, 17 
    CONTROL "Ctrl+R: Previous Ev, Ctrl+Shift+↑↓: Choose Ev,\r\nCtrl+↑↓: Choose Command, F12 on \"Call Event\": Jump, F5/F6: Jump to the Previous/Next Selected", 1607, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 106, 321, 178, 26 , WS_EX_STATICEDGE
    CONTROL "Search\r\n(Ctrl+F)", 1603, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 405, 1, 31, 20 
    CONTROL "", 1604, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 233, 4, 40, 264 , WS_EX_LEFTSCROLLBAR
@@ -6443,6 +6443,17 @@ LANGUAGE LANG_JAPANESE, 0x1
   12205, 	"[Caution] Multiply mode does not display semi-transparent areas correctly! Images without semi-transparent areas or opaque images like JPG are recommended."
   12206, 	"■Game.exe v3.644\r\n●Fixed a bug in Set Variable+ when retrieving Picture \"Mouse Pointer Hover? [1:Yes]\" or Position \"[Screen] Top Picture ID at Pixel Position\", where the right and bottom positions were calculated 1 pixel larger than intended.\r\n●Fixed a bug where map event names were not saved when saving the game.\r\n→ If you want to revert to the old behavior, adjust the Game.exe version to \"3.636\" or earlier."
   12207, 	"Is the window too large for the screen?\r\n\r\nTo reduce the window size, select \"Editor Options\" from the \"Options\" menu at the top of the main window."
+}
+
+STRINGTABLE
+LANGUAGE LANG_JAPANESE, 0x1
+{
+  12208, 	"Remove Member <X> from Party"
+  12209, 	"Insert <FILE> Before Member <X>"
+  12210, 	"Replace Member <X> with <FILE>"
+  12211, 	"Remove All <FILE> from Party"
+  12212, 	"■Error: "
+  12213, 	"[ERROR] Insufficient command data items, invalid event code! Editing this may cause a crash, so please delete it."
 }
 
 STRINGTABLE
