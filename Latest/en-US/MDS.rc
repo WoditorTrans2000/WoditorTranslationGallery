@@ -5833,7 +5833,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   11740, 	"Pixel Offset X [0 to (Half Tile -1)]"
   11741, 	"Pixel Offset Y [0 to (Half Tile -1)]"
   11742, 	"The key is set in Editor.ini even though it is not protected.\r\n\r\nPlease set or delete the protection key in the next dialog."
-  11743, 	"Force Moving Animation"
+  11743, 	"Force Walk Animation"
 }
 
 STRINGTABLE
