@@ -56,15 +56,15 @@ https://discord.com/invite/c3F7fNyDKE) **WolfRPGEditor Hub** If you want to disc
 
 Currently only pt-BR and en-US are the one I'm updating when is necessary.
 
-The version of the dll being translated and from the latest folder is 3.646.
+The version of the dll being translated and from the latest folder is 3.648.
 
 🇧🇷 pt-BR - Sendo feito por [Woditortrans2000](https://github.com/WoditorTrans2000).
 
 MENU - [##########] 100%
 
-DIALOG - [##########] 100%
+DIALOG - [##########] 99%
 
-STRINGTABLE - [##########] 100%
+STRINGTABLE - [##########] 99%
 
 SystemString.txt ( 🟢 )
 
@@ -76,13 +76,13 @@ SystemValue.txt ( 🟢 )
 
 MENU - [##########] 100%
 
-DIALOG - [##########] 99%
+DIALOG - [##########] 100%
 
-STRINGTABLE - [##########]  99%
+STRINGTABLE - [##########]  100%
 
 SystemString.txt ( 🟢 )
 
-SystemValue.txt ( 🔴 )
+SystemValue.txt ( 🟢 )
 
 ---
 
