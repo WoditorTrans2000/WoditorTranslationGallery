@@ -8,12 +8,12 @@
 7: -----
 8: -----
 9: -----
-10:Leader Image File
-11:Follower 1 Image File
-12:Follower 2 Image File
-13:Follower 3 Image File
-14:Follower 4 Image File
-15:Follower 5 Image File
+10:Leader Sprite File
+11:Follower 1 Sprite File
+12:Follower 2 Sprite File
+13:Follower 3 Sprite File
+14:Follower 4 Sprite File
+15:Follower 5 Sprite File
 16: -----
 17: -----
 18: -----

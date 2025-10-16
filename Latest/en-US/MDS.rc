@@ -426,10 +426,10 @@ FONT 9, "MS Shell Dlg"
    CONTROL "File", 1397, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 411, 299, 14, 12 
    CONTROL "Type Definition", 1420, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 5, 363, 55, 15 
    CONTROL "Type && All Data", 1421, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 60, 362, 57, 15 
-   CONTROL "Export File", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 4, 353, 121, 55 
+   CONTROL "File Export", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 4, 353, 121, 55 
    CONTROL "Data[Multi]", 1422, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 5, 392, 42, 15 
    CONTROL "Import", 1423, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 129, 371, 36, 28 
-   CONTROL "Import File", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 126, 361, 41, 40 
+   CONTROL "File Import", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 126, 361, 41, 40 
    CONTROL "", 1137, "msctls_updown32", UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_ARROWKEYS | WS_CHILD, 230, 390, 10, 12 
    CONTROL "", 1418, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VSCROLL | WS_TABSTOP, 223, 384, 21, 215 
    CONTROL "[99]", 1538, STATIC, SS_CENTER | WS_CHILD | WS_VISIBLE | WS_GROUP, 426, 21, 13, 9 
@@ -719,7 +719,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Load", 1423, BUTTON, BS_PUSHBUTTON | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 190, 134, 20, 12 
    CONTROL "Load", 1424, BUTTON, BS_PUSHBUTTON | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 190, 149, 20, 12 
    CONTROL "O: Passable     X: Impassable\r\n▲: Hides Character Behind\r\n★: Always Above Character\r\n↓: Matches O/X to Layer Below\r\n□: Makes Lower Body Transparent", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 100, 267, 113, 45 , WS_EX_STATICEDGE
-   CONTROL "Tileset Settings I/O", 1451, BUTTON, BS_GROUPBOX | BS_FLAT | WS_CHILD | WS_VISIBLE, 3, 260, 92, 56 
+   CONTROL "File Export/Import", 1451, BUTTON, BS_GROUPBOX | BS_FLAT | WS_CHILD | WS_VISIBLE, 3, 260, 92, 56 
    CONTROL "Save One", 1620, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 4, 272, 24, 19 
    CONTROL "Load", 1621, BUTTON, BS_PUSHBUTTON | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 67, 274, 26, 17 
    CONTROL "Settings", 1452, BUTTON, BS_GROUPBOX | BS_FLAT | WS_CHILD | WS_VISIBLE, 97, 1, 119, 314 
@@ -741,10 +741,10 @@ FONT 9, "MS Shell Dlg"
    CONTROL "★=L-click\r\n▲=R-click", 1725, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_MULTILINE | WS_CHILD | WS_VISIBLE, 294, 2, 57, 18 
    CONTROL "↓=L-click\r\n□=R-click", 1726, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_MULTILINE | WS_CHILD | WS_VISIBLE, 352, 2, 53, 18 
    CONTROL "Display Click State", 1727, STATIC, SS_CENTER | WS_CHILD | WS_VISIBLE | WS_GROUP, 217, 21, 187, 10 , WS_EX_STATICEDGE
-   CONTROL "[Tips for Passage Settings]\r\n*Hold Shift while clicking a tile to set O/X for each quarter tile.\r\n*When setting ★/▲/□, hold Ctrl while clicking to add the ↓ attribute.\r\n*When setting Tag Number, use Ctrl+Right-click to copy and Ctrl+Left-click to paste.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 3, 316, 223, 45 , WS_EX_ACCEPTFILES | WS_EX_STATICEDGE
+   CONTROL "[Tips for Tile Settings]\r\n*Hold Shift while clicking a tile to set O/X for each quarter tile.\r\n*When setting ★/▲/□, hold Ctrl while clicking to add the ↓ attribute.\r\n*When setting Tag Number, use Ctrl+Right-click to copy and Ctrl+Left-click to paste.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 3, 316, 223, 45 , WS_EX_ACCEPTFILES | WS_EX_STATICEDGE
    CONTROL "Set\r\nPass", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 219, 3, 17, 17 
-   CONTROL "32px Display", 1729, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_GROUP, 281, 298, 56, 12 
-   CONTROL "48px Display", 1730, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_MULTILINE | WS_CHILD | WS_VISIBLE, 337, 298, 56, 12 
+   CONTROL "32px View", 1729, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_GROUP, 281, 298, 56, 12 
+   CONTROL "48px View", 1730, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_MULTILINE | WS_CHILD | WS_VISIBLE, 337, 298, 56, 12 
    CONTROL "Export to CSV", 1622, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 10, 295, 37, 18 
    CONTROL "Import CSV", 1623, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 47, 295, 37, 18 
    CONTROL "Export\r\nMulti(TXT)", 1624, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 28, 272, 39, 19 
@@ -1036,7 +1036,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Set Animation Freq", 1192, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 293, 310, 68, 13 
    CONTROL "", 1219, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 447, 33, 60, 12 
    CONTROL "", 1224, "msctls_updown32", UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS | WS_CHILD | WS_VISIBLE, 486, 32, 11, 13 
-   CONTROL "Set Image to X", 1206, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 447, 48, 60, 13 
+   CONTROL "Set Sprite to X", 1206, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 447, 48, 60, 13 
    CONTROL "Set Opacity to X", 1207, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 447, 61, 60, 13 
    CONTROL "Set Height to X", 1236, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 447, 74, 60, 13 
    CONTROL "Play SE X [Ch:0]", 1208, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 447, 87, 60, 13 
@@ -1318,16 +1318,16 @@ FONT 9, "MS Shell Dlg"
    CONTROL "ms (For MIDI, tick)", 1858, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 197, 84, 62, 9 
    CONTROL "*Variable name is displayed here.", 1254, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 9, 154, 163, 21 , WS_EX_STATICEDGE
    CONTROL "*For MIDI, tick", 1857, STATIC, SS_LEFT | WS_CHILD | WS_GROUP, 32, 164, 57, 9 
-   CONTROL "", 1516, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 45, 131, 30, 13 
+   CONTROL "", 1516, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 46, 131, 30, 13 
    CONTROL "", 1021, "msctls_updown32", UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_ARROWKEYS | UDS_NOTHOUSANDS | WS_CHILD | WS_VISIBLE, 42, 128, 9, 11 
-   CONTROL "Volume[%]", 1519, STATIC, SS_RIGHT | WS_CHILD | WS_VISIBLE | WS_GROUP, 6, 133, 36, 9 
-   CONTROL "", 1517, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 128, 131, 30, 13 
+   CONTROL "Volume [%]", 1519, STATIC, SS_RIGHT | WS_CHILD | WS_VISIBLE | WS_GROUP, 6, 133, 37, 9 
+   CONTROL "", 1517, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 115, 131, 30, 13 
    CONTROL "", 1022, "msctls_updown32", UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_ARROWKEYS | UDS_NOTHOUSANDS | WS_CHILD | WS_VISIBLE, 106, 128, 9, 11 
-   CONTROL "Frequency[%]", 1520, STATIC, SS_RIGHT | WS_CHILD | WS_VISIBLE | WS_GROUP, 77, 133, 48, 9 
-   CONTROL "", 1518, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 223, 131, 33, 13 
+   CONTROL "Pitch [%]", 1520, STATIC, SS_RIGHT | WS_CHILD | WS_VISIBLE | WS_GROUP, 78, 133, 34, 9 
+   CONTROL "", 1518, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 213, 131, 33, 13 
    CONTROL "", 1023, "msctls_updown32", UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_ARROWKEYS | UDS_NOTHOUSANDS | WS_CHILD | WS_VISIBLE, 222, 129, 9, 11 
-   CONTROL "Loop Start [ms]\r\n[0: Auto]\r\n(MIDI: Key[\xB124])", 1521, STATIC, SS_RIGHT | WS_CHILD | WS_VISIBLE | WS_GROUP, 162, 125, 57, 26 
-   CONTROL "Settings", 1522, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 3, 120, 257, 33 
+   CONTROL "Loop Start [ms]\r\n[0: Auto]\r\n(MIDI: Key[\xB124])", 1521, STATIC, SS_RIGHT | WS_CHILD | WS_VISIBLE | WS_GROUP, 152, 125, 57, 26 
+   CONTROL "Settings", 1522, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 3, 120, 247, 33 
    CONTROL "", 1523, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 56, 60, 75, 13 
    CONTROL "", 1524, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 56, 80, 75, 13 
    CONTROL "", 1525, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 56, 100, 75, 13 
@@ -1337,9 +1337,9 @@ FONT 9, "MS Shell Dlg"
    CONTROL "File", 1530, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 133, 101, 16, 12 
    CONTROL "", 1938, EDIT, ES_LEFT | ES_AUTOHSCROLL | ES_NUMBER | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 157, 108, 41, 12 
    CONTROL "", 1939, "msctls_updown32", UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS | WS_CHILD | WS_VISIBLE, 190, 111, 9, 11 
-   CONTROL "Panning (Invalid for MIDI)", 1532, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 153, 98, 108, 24 
+   CONTROL "Pan (Invalid for MIDI)", 1532, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 153, 98, 100, 24 
    CONTROL "", 1937, "msctls_trackbar32", TBS_HORZ | TBS_AUTOTICKS | TBS_BOTH | TBS_NOTICKS | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 208, 111, 35, 9 
-   CONTROL "Reset", 1940, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 242, 99, 22, 10 
+   CONTROL "Reset", 1940, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 230, 99, 22, 10 
    CONTROL "L", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 201, 109, 8, 9 
    CONTROL "R", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 242, 109, 8, 9 
    CONTROL "BGS Channel", 1533, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 154, 23, 100, 24 
@@ -1498,10 +1498,10 @@ FONT 9, "MS Shell Dlg"
    CONTROL "", 1562, "msctls_updown32", UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS | WS_CHILD | WS_VISIBLE, 439, 67, 11, 14 
    CONTROL "By Filename", 1563, BUTTON, BS_AUTOCHECKBOX | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 401, 108, 60, 12 
    CONTROL "Volume[%]", 1564, STATIC, SS_RIGHT | WS_CHILD | WS_VISIBLE | WS_GROUP, 236, 74, 38, 9 
-   CONTROL "Freq[%]", 1565, STATIC, SS_RIGHT | WS_CHILD | WS_VISIBLE | WS_GROUP, 309, 74, 29, 9 
+   CONTROL "Pitch[%]", 1565, STATIC, SS_RIGHT | WS_CHILD | WS_VISIBLE | WS_GROUP, 309, 74, 29, 9 
    CONTROL "Loop Start[ms]", 1566, STATIC, SS_RIGHT | WS_CHILD | WS_VISIBLE | WS_GROUP, 373, 74, 48, 9 
    CONTROL "Volume[%]", 1567, STATIC, SS_RIGHT | WS_CHILD | WS_VISIBLE | WS_GROUP, 236, 126, 38, 9 
-   CONTROL "Freq[%]", 1568, STATIC, SS_RIGHT | WS_CHILD | WS_VISIBLE | WS_GROUP, 309, 126, 29, 9 
+   CONTROL "Pitch[%]", 1568, STATIC, SS_RIGHT | WS_CHILD | WS_VISIBLE | WS_GROUP, 309, 126, 29, 9 
    CONTROL "Loop Start[ms]", 1569, STATIC, SS_RIGHT | WS_CHILD | WS_VISIBLE | WS_GROUP, 373, 126, 48, 9 
    CONTROL "Default BGS (*)", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 233, 97, 231, 44 
    CONTROL "Default BGM (*)", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 233, 45, 231, 44 
@@ -1526,7 +1526,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Static", 1961, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_GROUP, 17, 119, 194, 28 
    CONTROL "*Changing \"Slot\" is not recommended, but \"Name\" (displayed in the map selection) is OK.", 1978, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 152, 56, 78, 36 , WS_EX_STATICEDGE
    CONTROL "Fields including \"(*)\" are stored in System Database.", 1979, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 241, 18, 201, 20 , WS_EX_STATICEDGE
-   CONTROL "Create a new map with the above settings.", 1980, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 152, 200, 144, 15 , WS_EX_STATICEDGE
+   CONTROL "A new map will be created with the above settings.", 1980, STATIC, SS_CENTER | WS_CHILD | WS_VISIBLE | WS_GROUP, 137, 200, 174, 15 , WS_EX_STATICEDGE
 }
 
 153 DIALOGEX 0, 200, 1145, 830
@@ -1563,7 +1563,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Risky to Erase", 1606, STATIC, SS_LEFT | WS_CHILD | WS_GROUP, 429, 296, 34, 9 
    CONTROL "Note", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 130, 44, 17, 9 
    CONTROL "Save[Multi]", 1071, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 40, 324, 40, 12 
-   CONTROL "File Input/Output", 1605, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 0, 315, 105, 34 , WS_EX_TRANSPARENT
+   CONTROL "File Export/Import", 1605, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 0, 315, 105, 34 , WS_EX_TRANSPARENT
    CONTROL "", 1361, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 149, 42, 359, 12 
    CONTROL "◆Add Checkpoint", 1402, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 336, 301, 60, 12 
    CONTROL "Next Checkpoint", 1403, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 397, 301, 58, 12 
@@ -1903,7 +1903,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "", 1594, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 47, 24, 61, 154 
    CONTROL "", 1597, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 123, 82, 120, 140 
    CONTROL "Get Field Name [S]", 1307, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 200, 48, 73, 10 
-   CONTROL "CSV I/O", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 5, 144, 56, 34 
+   CONTROL "CSV File", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 5, 144, 56, 34 
    CONTROL "↓ Export Data to CSV", 1639, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 64, 60, 179, 62 
    CONTROL "", 1640, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_BORDER | WS_TABSTOP, 109, 74, 38, 14 
    CONTROL "", 1646, "msctls_updown32", UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS | WS_CHILD, 154, 78, 9, 14 
@@ -1938,8 +1938,8 @@ FONT 9, "MS Shell Dlg"
    CONTROL "", 1254, STATIC, SS_LEFT | WS_CHILD | WS_GROUP, 180, 153, 60, 14 , WS_EX_STATICEDGE
    CONTROL "Wait Until Download Completes", 1747, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 140, 114, 111, 10 
    CONTROL "", 1748, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 96, 89, 150, 144 
-   CONTROL "Information during downloading is stored in system variables 43 to 48. In system variable 48 \"Net/Status\", you can check for: Doing = 0, Failed = -1, Done = 1.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 15, 131, 165, 36 , WS_EX_STATICEDGE
-   CONTROL "End with / to save in folder. If there's no /, it saves with that filename.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 23, 71, 230, 10 , WS_EX_STATICEDGE
+   CONTROL "Information during downloading is stored in System Variables 43 to 48. In System Variable 48 \"Net/Status\", you can check for: Doing = 0, Failed = -1, Done = 1.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 15, 131, 165, 36 , WS_EX_STATICEDGE
+   CONTROL "End with \"/\" to save to a folder. Otherwise, save with that filename.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 23, 71, 230, 10 , WS_EX_STATICEDGE
    CONTROL "Multi-convert", 1291, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 199, 18, 60, 10 
    CONTROL "Send URL-Encoded [Only Query]", 1292, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 75, 17, 121, 10 
    CONTROL "Send POST", 1293, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 25, 31, 46, 10 
@@ -1947,7 +1947,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Multi-convert", 1294, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 199, 42, 60, 10 
    CONTROL "Send URL-Encoded", 1295, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 75, 42, 82, 10 
    CONTROL "Receive multi-string", 1749, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 140, 104, 89, 10 
-   CONTROL "*All incoming and outgoing character encodings are normally set as \"UTF-8\".", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 14, 109, 123, 19 , WS_EX_STATICEDGE
+   CONTROL "*All incoming and outgoing text is handled as UTF-8 by default.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 14, 109, 106, 19 , WS_EX_STATICEDGE
 }
 
 163 DIALOGEX 0, 0, 277, 178
@@ -2003,7 +2003,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "640 x 480 ", 1353, BUTTON, BS_AUTORADIOBUTTON | WS_CHILD | WS_GROUP | WS_TABSTOP, 171, 285, 50, 10 
    CONTROL "320 x 240", 1354, BUTTON, BS_AUTORADIOBUTTON | WS_CHILD, 173, 279, 48, 10 
    CONTROL "800 x 600 ", 1355, BUTTON, BS_AUTORADIOBUTTON | WS_CHILD | WS_TABSTOP, 172, 274, 50, 10 
-   CONTROL "Character Image Direction Type", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 10, 137, 107, 36 
+   CONTROL "Character Sprite Direction Type", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 10, 137, 107, 36 
    CONTROL "4-Directional", 1358, BUTTON, BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_GROUP | WS_TABSTOP, 14, 152, 50, 10 
    CONTROL "8-Directional", 1359, BUTTON, BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE, 66, 152, 50, 10 
    CONTROL "Character Movement Direction", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 10, 187, 107, 27 
@@ -2054,7 +2054,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "", 1064, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 381, 56, 107, 13 
    CONTROL "Sub 3", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 361, 57, 18, 9 
    CONTROL "Register License", 1416, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_DISABLED | WS_TABSTOP, 183, 291, 28, 7 
-   CONTROL "Starting Leader Character Image", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 10, 267, 168, 45 
+   CONTROL "Starting Leader Character Sprite", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 10, 267, 168, 45 
    CONTROL "", 1065, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 15, 277, 133, 13 
    CONTROL "Load", 1419, BUTTON, BS_PUSHBUTTON | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 151, 277, 21, 12 
    CONTROL "Font Anti-Aliasing", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 358, 91, 132, 22 
@@ -2175,7 +2175,7 @@ FONT 9, "MS Shell Dlg"
 
 167 DIALOGEX 0, 0, 277, 178
 STYLE DS_SHELLFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
-CAPTION "Party Images"
+CAPTION "Party Sprites"
 LANGUAGE LANG_JAPANESE, 0x1
 FONT 9, "MS Shell Dlg"
 {
@@ -2184,10 +2184,10 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Remove", 1341, BUTTON, BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE, 6, 21, 50, 9 
    CONTROL "Insert Before", 1342, BUTTON, BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE, 6, 42, 50, 9 
    CONTROL "Replace", 1343, BUTTON, BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE, 6, 61, 50, 9 
-   CONTROL "Remove All Specified Images", 1344, BUTTON, BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE, 6, 81, 100, 9 
+   CONTROL "Remove All Specified Sprites", 1344, BUTTON, BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE, 6, 81, 100, 9 
    CONTROL "Special", 1345, BUTTON, BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE, 6, 100, 37, 9 
    CONTROL "Insert", 1068, BUTTON, BS_DEFPUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 174, 141, 54, 23 
-   CONTROL "Character Image Filename", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 125, 35, 93, 59 
+   CONTROL "Character Sprite Filename", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 125, 35, 93, 59 
    CONTROL "", 1363, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 137, 47, 59, 14 
    CONTROL "Load", 1348, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 196, 47, 20, 13 
    CONTROL "", 1259, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 165, 72, 42, 13 
@@ -2198,11 +2198,11 @@ FONT 9, "MS Shell Dlg"
    CONTROL "", 1364, BUTTON, BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE, 127, 50, 9, 8 
    CONTROL "", 1365, BUTTON, BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE, 127, 74, 10, 8 
    CONTROL "Variable", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 138, 74, 24, 9 
-   CONTROL "-", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 110, 42, 8, 9 
+   CONTROL "→", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 110, 42, 8, 9 
    CONTROL "Member", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 60, 16, 41, 57 
-   CONTROL "-", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 112, 81, 8, 9 
+   CONTROL "→", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 112, 81, 8, 9 
    CONTROL "", 1280, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 51, 99, 135, 92 
-   CONTROL "*Manage party member's character images.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 10, 4, 156, 9 
+   CONTROL "*Manage party member's character sprites.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 10, 4, 156, 9 
    CONTROL "*Variable name is displayed here.", 1254, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 15, 114, 212, 21 , WS_EX_STATICEDGE
    CONTROL "With", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 105, 61, 15, 9 , WS_EX_TRANSPARENT
    CONTROL "", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 222, 62, 28, 9 
@@ -2289,14 +2289,14 @@ FONT 9, "MS Shell Dlg"
    CONTROL "[Attention]\r\n - The encryption version should be the latest for the first time.\r\n - If .wolf files with different encryption versions are mixed, they cannot be read, so if you have implemented online updates and such, please use the same version as the base.\r\n - Encryption with [v3.31+] or [Protect 1.1+] may prevent the game from starting on PCs older than about 2011.", 1890, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 240, 98, 200, 62 , WS_EX_STATICEDGE
    CONTROL "Select Encryption Version (Last used is loaded)", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 231, 73, 214, 90 
    CONTROL "", 1746, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 235, 84, 206, 92 
-   CONTROL "[P] Feature Only When Protection Key Is Set", 1886, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 235, 170, 204, 129 
+   CONTROL "[P] Features Available with Protection Key", 1886, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 235, 170, 204, 129 
    CONTROL "", 1747, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 327, 203, 101, 92 
    CONTROL "", 1748, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 257, 233, 113, 92 
    CONTROL "Key Filename", 1885, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 242, 219, 191, 74 
    CONTROL "●The file is required for encryption using the protection key.\r\n●This key file is created in the same location as Game.exe when \"Encrypt Entire Data Folder\" is selected, and in the Data folder when \"Encrypt Limited Folders\" is selected.", 1889, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 245, 248, 186, 42 , WS_EX_STATICEDGE
-   CONTROL "Extension of Encrypted File", 1887, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 248, 204, 75, 9 
+   CONTROL "Encrypted File Extension", 1887, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 248, 204, 75, 9 
    CONTROL " This feature is not available because no protection key has been set.", 1888, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_GROUP, 248, 182, 180, 19 
-   CONTROL "[P] Change Icon of GamePro.exe (.ico file)", 1892, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 232, 2, 219, 67 
+   CONTROL "[P] Change GamePro.exe Icon (.ico file)", 1892, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 232, 2, 219, 67 
    CONTROL "", 1891, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 240, 14, 165, 14 
    CONTROL "Set Icon", 1413, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 409, 14, 38, 14 , WS_EX_STATICEDGE
    CONTROL "*A single transparent 32x32 [.ico] icon is strongly recommended.\r\n*Changing the icon will also erase the copyright information from GamePro.exe, further reducing the traces of this software.\r\n*EXE icon sometimes appears as old, so PC restart may be required.", 1893, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_GROUP, 234, 30, 216, 37 
@@ -2391,7 +2391,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "", -1, STATIC, SS_LEFT | WS_CHILD | WS_GROUP, 187, 143, 8, 9 
    CONTROL "", -1, STATIC, SS_LEFT | WS_CHILD | WS_GROUP, 187, 158, 8, 9 
    CONTROL "", -1, STATIC, SS_LEFT | WS_CHILD | WS_GROUP, 187, 174, 8, 9 
-   CONTROL "Shadow Image", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 171, 188, 100, 9 
+   CONTROL "Shadow Sprite", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 171, 188, 100, 9 
    CONTROL "", 1144, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 173, 197, 105, 72 
    CONTROL "■Specify Movement", 1071, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_DISABLED | WS_TABSTOP, 279, 202, 28, 10 
    CONTROL "Save\r\n(Entire\r\nMap)", 1229, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_DISABLED | WS_TABSTOP, 490, 181, 34, 30 
@@ -2428,7 +2428,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Keep Direction", 1077, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 79, 99, 62, 11 , WS_EX_TRANSPARENT
    CONTROL "Map/Ev", 1406, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_TABSTOP, 74, 208, 28, 14 
    CONTROL "Export[Multi]", 1407, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 3, 202, 43, 14 
-   CONTROL "Input/Output (TXT)", 1944, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 1, 192, 73, 28 
+   CONTROL "Export/Import (TXT)", 1944, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 1, 192, 73, 28 
    CONTROL "Import", 1408, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 47, 202, 25, 14 
    CONTROL "", 1949, "SysTabControl32", TCS_TABS | TCS_FORCELABELLEFT | TCS_FIXEDWIDTH | TCS_OWNERDRAWFIXED | WS_CHILD, 0, 1, 62, 14 
 }
@@ -2609,7 +2609,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "1/4 Tile", 1338, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_TABSTOP, 194, 0, 50, 11 
    CONTROL "Lower Transparent", 1339, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 147, 32, 68, 11 
    CONTROL "Counter", 1340, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 162, 43, 40, 11 
-   CONTROL "0-31: Auto Tile / 32+: Base Tile", 1895, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 113, 3, 135, 9 
+   CONTROL "0-31: Auto-Tile / 32+: Base Tile", 1895, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 113, 3, 135, 9 
    CONTROL "Reset All", 1296, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 23, 15, 45, 10 
    CONTROL "Overwrite Map Tiles", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 16, 100, 243, 47 
    CONTROL "Switch Tileset", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 17, 69, 224, 30 
@@ -2686,7 +2686,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "", 1578, "SysTreeView32", TVS_HASBUTTONS | TVS_HASLINES | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_HSCROLL | WS_TABSTOP, 0, 22, 112, 160 , TVS_EX_DIMMEDCHECKBOXES
    CONTROL "Selected Map  [---]", 1579, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 0, 1, 112, 9 
    CONTROL "Save Tree", 1580, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 4, 188, 52, 14 
-   CONTROL "Update", 1069, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 58, 188, 39, 14 
+   CONTROL "Refresh", 1069, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 58, 188, 39, 14 
    CONTROL "Allow Tree Changes", 1595, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 3, 11, 91, 10 , WS_EX_STATICEDGE
 }
 
@@ -2729,7 +2729,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Search [+Shift: backward]", 1603, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 4, 37, 91, 17 
    CONTROL "Replace [Next]", 1608, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 98, 37, 59, 17 
    CONTROL "Command Texts\r\n (Takes a long time / Cannot be replaced)", 1283, BUTTON, BS_AUTORADIOBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_GROUP, 6, 87, 148, 20 
-   CONTROL "Strings Used in Commands", 1284, BUTTON, BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE, 6, 107, 148, 12 
+   CONTROL "Strings in Commands", 1284, BUTTON, BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE, 6, 107, 148, 12 
    CONTROL "Variables/Values in Commands\r\n (*Unstable as it catches internal values)", 1285, BUTTON, BS_AUTORADIOBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE, 6, 119, 148, 20 
    CONTROL "Common Event Names", 1286, BUTTON, BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE, 6, 139, 148, 10 
    CONTROL "Search Range", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 2, 157, 147, 36 
@@ -3065,7 +3065,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Set how dark lower layers appear when editing maps.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 8, 50, 102, 19 , WS_EX_STATICEDGE
    CONTROL "", 1633, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 17, 32, 87, 93 
    CONTROL "Display Order && Shortcuts", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 245, 30, 86, 11 , WS_EX_STATICEDGE
-   CONTROL "*If you make changes to \"Customize Command Insertion Window\" or \"Window Settings\" and click \"Done\", Editor will automatically restart to apply the changes.\r\nDon't forget to save your data such as Common Events.", -1, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_GROUP, 246, 258, 188, 38 
+   CONTROL "*If you make changes to \"Customize Command Insertion Window\" or \"Window Settings\" and click \"Done,\" Editor will automatically restart to apply the changes.\r\nDon't forget to save your data such as Common Events.", -1, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_GROUP, 246, 258, 188, 38 
    CONTROL "Map Editor Background Display", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 3, 151, 115, 31 
    CONTROL "", 1634, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 15, 164, 87, 93 
    CONTROL "Map Editor Event Layer Opacity", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 3, 83, 116, 51 
@@ -3081,7 +3081,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Editor Color Theme", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 443, 4, 107, 31 
    CONTROL "", 1638, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 446, 16, 102, 93 
    CONTROL "Old File Reading Language", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 121, 98, 116, 66 
-   CONTROL "Language of text in files created with version 2.X or earlier. If it doesn't match, the text will be garbled when loading.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 126, 125, 107, 37 , WS_EX_STATICEDGE
+   CONTROL "Language of text in files created with version 2.X or earlier. If it doesn't match, the text will be garbled when loaded.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 126, 125, 107, 37 , WS_EX_STATICEDGE
    CONTROL "", 1639, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 124, 110, 110, 102 
    CONTROL "Window Settings", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 443, 38, 107, 288 
    CONTROL "Font Setting", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 445, 203, 103, 28 
@@ -3104,10 +3104,10 @@ FONT 9, "MS Shell Dlg"
    CONTROL "", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 446, 72, 101, 128 
    CONTROL "  If you cannot see the \"Done\" button because the window size is too large, press the Enter key instead.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_DISABLED | WS_GROUP, 5, 1, 426, 10 , WS_EX_STATICEDGE
    CONTROL "Auto Export to Text on Save", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 121, 173, 115, 148 
-   CONTROL "When saving Game Settings, DB, Map, Common Events, and Tileset Settings, they are exported in text format as \".Auto.txt\" to the above folder (mainly for Git management). *Saving is often slow!", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 126, 203, 104, 62 , WS_EX_STATICEDGE
+   CONTROL "When saving game settings, databases, maps, Common Events, and tileset settings, they are exported in text format as \".Auto.txt\" to the above folder (mainly for Git management). *Saving is often slow!", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 126, 203, 104, 62 , WS_EX_STATICEDGE
    CONTROL "ON", 1946, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 127, 188, 21, 10 
    CONTROL "", 1945, COMBOBOX, CBS_DROPDOWN | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 151, 187, 83, 30 
-   CONTROL "↑ .Auto.txt Input/Output", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 124, 265, 109, 55 
+   CONTROL "↑ .Auto.txt Export/Import", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 124, 265, 109, 55 
    CONTROL "Import\r\nBasic Data", 1947, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 162, 280, 36, 32 
    CONTROL "Import\r\nAll Maps", 1948, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 198, 280, 34, 31 
    CONTROL "Export\r\nAll Maps", 1949, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 125, 297, 37, 21 
@@ -3137,7 +3137,7 @@ FONT 9, "MS Shell Dlg"
 {
    CONTROL "Insert", 1068, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 223, 146, 45, 25 
    CONTROL "Folder", 1866, STATIC, SS_RIGHT | WS_CHILD | WS_VISIBLE | WS_GROUP, 7, 128, 52, 9 
-   CONTROL "[Other Features Added in Pro Version]\r\n - Free screen resolution in \"Game Settings\". / Added \"Game Settings Pro\".\r\n - Added map effects to the Effects command.\r\n - Added [P] system variables and system strings.\r\n - Download command with Zip extraction and browser opening, rate limit removal.\r\n - Added \"Protection\" feature. / Additional options for \"Create Game Data\".\r\n*For more information, see the \"[P]\" pages in the manual (JPN).", 1861, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 5, 2, 260, 71 , WS_EX_STATICEDGE
+   CONTROL "[Other Features Added in Pro Version]\r\n - Free screen resolution in Game Settings. / Added Game Settings for Pro.\r\n - Added map effects to the Effects command.\r\n - Added [P] System Variables and System Strings.\r\n - Download command with Zip extraction and browser opening, rate limit removal.\r\n - Added the Protection feature. / Additional options for Create Game Data.\r\n*For more information, see the \"[P]\" pages in the manual (JPN).", 1861, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 5, 2, 260, 71 , WS_EX_STATICEDGE
    CONTROL "Restart Game\r\n(Arguments are kept)", 1069, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 9, 74, 75, 23 
    CONTROL "Commands with Options", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 5, 99, 267, 77 
    CONTROL "Function", 1285, BUTTON, BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE, 9, 112, 37, 10 
@@ -3194,7 +3194,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "F11 [Maximize]", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 265, 60, 72, 9 
    CONTROL "F12 [Reset Game]", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 265, 74, 68, 9 
    CONTROL "PrtScr/ScrLock/Pause\r\n[Take Screenshot]", -1, STATIC, SS_CENTER | WS_CHILD | WS_VISIBLE | WS_GROUP, 263, 89, 81, 20 
-   CONTROL "*If left blank, iconXXX.png in the basic data folder (usually BasicData folder) will be loaded.\r\n*If blank and the basic data folder has been changed by the \"SysS74:[P] Next Startup Basic Data Folder\" variable or the command line argument \"-basic\", the iconXXX.png will be loaded from the changed folder.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 14, 246, 230, 45 , WS_EX_STATICEDGE
+   CONTROL "*If left blank, iconXXX.png in the basic data folder (usually BasicData folder) will be loaded.\r\n*If blank and the basic data folder has been changed by the \"SysS74:[P] Next Startup Basic Data Folder\" variable or the command line argument \"-basic,\" the iconXXX.png will be loaded from the changed folder.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 14, 246, 230, 45 , WS_EX_STATICEDGE
    CONTROL "Fade Out", 1871, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 186, 98, 47, 10 
    CONTROL "Fade In", 1872, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 135, 98, 43, 10 
    CONTROL "[Pro] Default Window Scale", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 259, 119, 132, 77 
@@ -3203,13 +3203,13 @@ FONT 9, "MS Shell Dlg"
    CONTROL "\xD7 0.1%", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 313, 134, 36, 9 
    CONTROL "Reset", 1424, BUTTON, BS_PUSHBUTTON | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 344, 131, 28, 13 
    CONTROL "*Change the window scale at startup. If \"Sys148:[P] Next Startup Window Scale\" is set to a value other than 0, that value will take precedence from the next time onward.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 261, 148, 129, 44 , WS_EX_STATICEDGE
-   CONTROL "[Pro] Set Folder of Icon Images (iconXXX.png)", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 9, 216, 239, 78 
+   CONTROL "[Pro] Set Icon Folder (iconXXX.png)", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 9, 216, 239, 78 
    CONTROL "", 1906, COMBOBOX, CBS_DROPDOWN | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 16, 231, 164, 88 
    CONTROL "Reset", 1425, BUTTON, BS_PUSHBUTTON | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 190, 230, 28, 13 
    CONTROL "*Gauge Image is displayed above Loading Image (in 0,0 position) from left to right.\r\n*If the game data is large, such as several hundred MB or more, placing the image files in the BasicData folder may speed up the image loading process a little.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 13, 166, 227, 45 , WS_EX_STATICEDGE
-   CONTROL "[Pro] Max Number of Layers in Map", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 259, 204, 131, 54 
+   CONTROL "[Pro] Max Number of Layers in Map", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 259, 204, 131, 51 
    CONTROL "", 1860, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 270, 216, 110, 60 
-   CONTROL "*Layers 4-5 are automatically not displayed in the Free version of Game.exe.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 266, 230, 120, 26 , WS_EX_STATICEDGE
+   CONTROL "*In the free version of Game.exe, layers 4 and 5 are automatically hidden.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 266, 230, 120, 22 , WS_EX_STATICEDGE
 }
 
 225 DIALOGEX 0, 0, 232, 118
@@ -3218,9 +3218,9 @@ CAPTION "Select Tile Image"
 LANGUAGE LANG_JAPANESE, 0x1
 FONT 9, "MS Shell Dlg"
 {
-   CONTROL "Save", 1, BUTTON, BS_DEFPUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 109, 98, 50, 14 
+   CONTROL "OK", 1, BUTTON, BS_DEFPUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 109, 98, 50, 14 
    CONTROL "Cancel", 2, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 169, 99, 50, 14 
-   CONTROL "Which tile image passage settings do you want to export?", 1711, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 8, 8, 213, 58 
+   CONTROL "Which tile image do you want to export settings?", 1711, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 8, 8, 213, 58 
    CONTROL "", 1872, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 16, 24, 191, 102 
    CONTROL "", 1254, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_GROUP, 18, 40, 193, 19 
    CONTROL "Different descriptions are loaded for input and output.", 1255, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_GROUP, 15, 72, 193, 19 
@@ -3237,29 +3237,29 @@ FONT 9, "MS Shell Dlg"
    CONTROL "", 1883, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 10, 93, 169, 14 
    CONTROL "◆Protection Key (alphanumerics only / minimum 4 characters)", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 5, 83, 235, 9 
    CONTROL "Delete", 1881, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 183, 93, 36, 14 , WS_EX_STATICEDGE
-   CONTROL "[Protection Feature] (Pro version only)\r\n●Setting a protection key improves the security of the game data.\r\n●The protection key is saved in the Editor.ini file.\r\n●If the protection key is not correct, the editor will not start!\r\n  (Basic Game Settings, various DB files, Tileset Settings and Common Events cannot be loaded)\r\n●The protection key is also used for game data encryption.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 6, 6, 237, 68 , WS_EX_STATICEDGE
+   CONTROL "[Protection Feature] (Pro version only)\r\n●Setting a protection key improves the security of the game data.\r\n●The protection key is saved in the Editor.ini file.\r\n●If the protection key is not correct, Editor cannot start!\r\n  (Basic game settings, various databases, tileset settings and Common Events will no longer be loaded.)\r\n●The protection key is also used for game data encryption.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 6, 6, 237, 68 , WS_EX_STATICEDGE
    CONTROL "*Editor will restart when you select OK.", -1, STATIC, SS_CENTER | WS_CHILD | WS_VISIBLE | WS_GROUP, 23, 148, 140, 9 
    CONTROL "None", 1882, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 75, 109, 156, 16 
    CONTROL "Last Protection Key:", -1, STATIC, SS_RIGHT | WS_CHILD | WS_VISIBLE | WS_GROUP, 4, 109, 65, 9 
 }
 
-227 DIALOGEX 0, 0, 489, 216
+227 DIALOGEX 0, 0, 489, 206
 STYLE DS_SHELLFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
 CAPTION "[For Users of WOLF RPG Editor 2 or Earlier]  Convert Files First"
 LANGUAGE LANG_JAPANESE, 0x1
 FONT 9, "MS Shell Dlg"
 {
    CONTROL 127, -1, STATIC, SS_ICON | WS_CHILD | WS_VISIBLE, 7, 30, 20, 20 
-   CONTROL "  Welcome to WOLF RPG Editor 3!\r\n  As the character encoding of all data has been changed to \"UTF-8\" in version 3, so you will first need to convert your files. Are you ready?\r\n\r\n[Files to be converted]\r\n- Basic data (.dat/.project) in the Data/BasicData folder\r\n- All map files (.mps) in the Data folder\r\n- All text files (.txt) in the Data folder\r\n- All CSV files (.csv) in the Data folder", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 36, 4, 228, 74 , WS_EX_STATICEDGE
-   CONTROL "Convert Data", 1, BUTTON, BS_DEFPUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_GROUP | WS_TABSTOP, 55, 140, 86, 31 
-   CONTROL "", 1893, EDIT, ES_LEFT | ES_MULTILINE | ES_READONLY | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_VSCROLL | WS_TABSTOP, 273, 18, 210, 184 
-   CONTROL "[Important!!] The files to be converted will be backed up (saved) in the \"Backup_Before_Ver3\" folder.\r\nIf a problem occurs, please revert to these files.", -1, STATIC, SS_CENTER | WS_CHILD | WS_VISIBLE | WS_GROUP, 12, 179, 241, 36 
-   CONTROL "Cancel\r\n(Close Editor)", 2, BUTTON, BS_DEFPUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_GROUP | WS_TABSTOP, 167, 143, 56, 25 
+   CONTROL "  Welcome to WOLF RPG Editor 3!\r\n  The character encoding of all data has been changed to \"UTF-8\" in Version 3, so you first need to convert your files. Are you ready?\r\n\r\n[Files to be converted]\r\n - Basic data (.dat/.project) in the Data/BasicData folder\r\n - All map files (.mps) in the Data folder\r\n - All text files (.txt) in the Data folder\r\n - All CSV files (.csv) in the Data folder", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 36, 4, 228, 74 , WS_EX_STATICEDGE
+   CONTROL "Convert Data", 1, BUTTON, BS_DEFPUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_GROUP | WS_TABSTOP, 55, 130, 86, 31 
+   CONTROL "", 1893, EDIT, ES_LEFT | ES_MULTILINE | ES_READONLY | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_VSCROLL | WS_TABSTOP, 273, 18, 210, 174 
+   CONTROL "[Important!!] The files to be converted will be backed up (saved) in the \"Backup_Before_Ver3\" folder.\r\nIf a problem occurs, please revert to these files.", -1, STATIC, SS_CENTER | WS_CHILD | WS_VISIBLE | WS_GROUP, 12, 169, 241, 36 
+   CONTROL "Cancel\r\n(Close Editor)", 2, BUTTON, BS_DEFPUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_GROUP | WS_TABSTOP, 167, 133, 56, 25 
    CONTROL "[Conversion Log] It is saved in Backup_Before_Ver3/ConvertLog.txt", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 267, 5, 218, 12 
-   CONTROL "[Text Files Conversion]\r\n *Text files other than .txt in Data (such as .log) will not be converted. Please convert the character encoding of these files to UTF-8 by yourself later.\r\n *Text files encoded in UTF-8 will not be converted, but non-UTF-8 files may be converted even if they are in a different language.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 19, 80, 245, 53 , WS_EX_STATICEDGE
-   CONTROL "Restart Editor!", 3, BUTTON, BS_DEFPUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_GROUP | WS_TABSTOP, 47, 142, 114, 26 
-   CONTROL "Open Manual Work List\r\n(TaskList.txt)", 4, BUTTON, BS_DEFPUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_GROUP | WS_TABSTOP, 173, 144, 88, 25 
-   CONTROL "Open Conversion Log\r\n(ConvertLog.txt)", 5, BUTTON, BS_DEFPUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_GROUP | WS_TABSTOP, 174, 145, 78, 25 
+   CONTROL "[Text Files Conversion]\r\n *Text files other than .txt files in the Data folder (such as .log files) will not be converted. Please convert those files to UTF-8 encoding yourself later.\r\n *UTF-8 encoded text files are generally not be converted, but non-UTF-8 files may be forcibly converted using the wrong language.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 19, 80, 245, 43 , WS_EX_STATICEDGE
+   CONTROL "Restart Editor!", 3, BUTTON, BS_DEFPUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_GROUP | WS_TABSTOP, 47, 132, 114, 26 
+   CONTROL "Open Manual Work List\r\n(TaskList.txt)", 4, BUTTON, BS_DEFPUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_GROUP | WS_TABSTOP, 173, 134, 88, 25 
+   CONTROL "Open Conversion Log\r\n(ConvertLog.txt)", 5, BUTTON, BS_DEFPUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_GROUP | WS_TABSTOP, 174, 135, 78, 25 
 }
 
 228 DIALOGEX 0, 0, 310, 232
@@ -3269,13 +3269,13 @@ LANGUAGE LANG_JAPANESE, 0x1
 FONT 9, "MS Shell Dlg"
 {
    CONTROL 1674, -1, STATIC, SS_BITMAP | WS_CHILD | WS_VISIBLE, 19, 36, 37, 37 
-   CONTROL " [With Base RPG System]\r\n\r\n - Common Events, User DB and Variable DB for the Base System.\r\n - Only \"Title Map\" and \"Post-start Map\" for maps.\r\n - Pre-configured system images and sounds (SystemGraphic).\r\n - Four pre-configured Tileset settings.\r\n - Some character images, monster images and background music.\r\n\r\n *What you can do in Test Play: Test the title screen, walk around the isolated island after start, open the menu with the cancel key.", -1, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_GROUP, 77, 25, 220, 93 
+   CONTROL " [With Base RPG System]\r\n\r\n - Common Events, User DB and Variable DB for the Base System\r\n - The maps are only \"Title Map\" and \"Post-Start Map\"\r\n - Pre-configured system images and sounds (SystemFile)\r\n - 4 pre-configured tileset settings\r\n - Some character sprites, monster images and background music\r\n\r\n *What you can do in Test Play: Use the title screen, walk around the island after starting, and open the menu with the Cancel key.", -1, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_GROUP, 77, 25, 220, 93 
    CONTROL "Cancel", 2, BUTTON, BS_DEFPUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_GROUP | WS_TABSTOP, 249, 209, 50, 17 
    CONTROL "Create Empty Data with Base RPG System", 1898, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 7, 76, 64, 36 
    CONTROL 1673, -1, STATIC, SS_BITMAP | WS_CHILD | WS_VISIBLE, 20, 130, 37, 37 
-   CONTROL " [Completely Empty Data]\r\n\r\n - Only one start-up map.\r\n - No assets, no data.\r\n - Only BasicData and MapData folders.\r\n\r\n *In Test Play only a blank screen appears.", -1, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_GROUP, 77, 132, 220, 70 
+   CONTROL " [Completely Empty Data]\r\n\r\n - Only one starting map\r\n - No assets, no data\r\n - The folders are only \"BasicData\" and \"MapData\"\r\n\r\n *In Test Play, only a black screen appears.", -1, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_GROUP, 77, 132, 220, 70 
    CONTROL "Create Completely Empty Data", 1899, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 8, 172, 64, 26 
-   CONTROL "Let's create a new data! Which do you want to use?", -1, STATIC, SS_CENTER | WS_CHILD | WS_VISIBLE | WS_GROUP, 13, 6, 274, 11 , WS_EX_STATICEDGE
+   CONTROL "Let's create new data! Which do you want to use?", -1, STATIC, SS_CENTER | WS_CHILD | WS_VISIBLE | WS_GROUP, 13, 6, 274, 11 , WS_EX_STATICEDGE
 }
 
 229 DIALOGEX 0, 0, 256, 219
@@ -3301,7 +3301,7 @@ FONT 8, "MS Shell Dlg", FW_NORMAL, FALSE, 1
    CONTROL "", 1908, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 11, 31, 295, 110 
    CONTROL "Drag and drop file to encrypt (.wolfx)", 1918, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 2, 46, 139, 115 
    CONTROL "←Encryption (Conditions to be met when loading files)", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 143, 49, 211, 114 
-   CONTROL "Encrypt many file formats such as txt, png, jpg, ogg, mps, ttf, etc. to \".wolfx\". (Output in the same folder as the original file)\r\n\t\r\nNote that when you drag a \".wolfx\" file into this window, its encryption conditions are displayed on the right side. (Only if they are recorded in Editor_Crypt_Log.ini)", 1917, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_DISABLED | WS_GROUP, 7, 57, 127, 101 , WS_EX_ACCEPTFILES
+   CONTROL "Encrypt many file formats such as txt, png, jpg, ogg, mps, ttf, etc. to \".wolfx.\" (Output in the same folder as the original file)\r\n\t\r\nNote that when you drag a \".wolfx\" file into this window, its encryption conditions are displayed on the right side. (Only if they are recorded in Editor_Crypt_Log.ini)", 1917, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_DISABLED | WS_GROUP, 7, 57, 127, 101 , WS_EX_ACCEPTFILES
    CONTROL "", 1920, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 229, 60, 112, 14 
    CONTROL "↓ Encrypted File History", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 145, 20, 92, 9 
    CONTROL "String Key", 1909, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 151, 99, 75, 10 
@@ -3345,7 +3345,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Task", 1970, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | WS_CHILD | WS_VISIBLE | WS_GROUP, 1, 1, 34, 15 
    CONTROL "Done", 1971, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | WS_CHILD | WS_VISIBLE, 36, 1, 34, 15 
    CONTROL "Other", 1972, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | WS_CHILD | WS_VISIBLE, 72, 1, 34, 15 
-   CONTROL "Insert\r\nCtrl+\r\nEnter", 1968, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 99, 152, 35, 27 
+   CONTROL "Insert\r\n(Ctrl+\r\nEnter)", 1968, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 99, 152, 35, 27 
    CONTROL "MapEv", 1743, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 24, 198, 25, 12 
    CONTROL "Common", 1744, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 49, 198, 33, 12 
    CONTROL "UDB", 1745, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 82, 198, 21, 12 
@@ -3353,7 +3353,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Marker", 1973, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 1, 200, 23, 9 
    CONTROL "*Can set the current position as a marker.\r\n*Double-click on a marked item or press F12 to jump to its position.\r\n*Ctrl+[Space or Double-click]: ↓Copy,\r\n Ctrl+↑↓: Choose, F5: Insert Date, Del: Delete,\r\n Ctrl+Shift+Arrow-key: Move Item / Change Indent", 1974, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_GROUP, 0, 212, 143, 62 
    CONTROL "This is bottom", 1975, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_TABSTOP, 100, 258, 36, 9 
-   CONTROL "Overwrite\r\n+Shift", 1969, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 99, 178, 35, 20 
+   CONTROL "Overwrite\r\n(+Shift)", 1969, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 99, 178, 35, 20 
    CONTROL "↓Copy", 1917, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 80, 117, 26, 17 
    CONTROL "SDB", 1747, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 124, 198, 20, 12 
    CONTROL "<", 1632, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 106, 122, 11, 13 
@@ -3421,8 +3421,8 @@ LANGUAGE LANG_JAPANESE, 0x1
   152, 	"[Lang] Language [1:Japanese/2:English/3:W.Europe/4:Chinese(Simp.)/5:Chinese(Trad.)/6:Korean]"
   153, 	"Start Time"
   154, 	"ms"
-  155, 	"*For MIDI, tick to use"
-  156, 	"Set SE Channel"
+  155, 	"*For MIDI, use tick"
+  156, 	"SE Channel"
   157, 	"Channel"
   158, 	"*When stopped -1: All channels"
   159, 	"(%s Channel) "
@@ -3438,8 +3438,8 @@ LANGUAGE LANG_JAPANESE, 0x1
   164, 	"Amount %s"
   165, 	"Pattern %s"
   166, 	"Height %s"
-  167, 	"[Change Character Image]"
-  168, 	"[Change Overlay Character Image]"
+  167, 	"[Change Character Sprite]"
+  168, 	"[Change Layered Character Sprite]"
   169, 	"H%s/S%s/L%s  [%s] Frames"
   170, 	"Blue Difference %s/Red Difference %s  [%s] Frames"
   171, 	"Amount %s  [%s] Frames"
@@ -3460,7 +3460,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   181, 	"[Remove All Effects]"
   182, 	"Layer"
   183, 	"Complete"
-  184, 	"Confirmation"
+  184, 	"Confirm"
   185, 	"[Map] Current Map Tileset Number"
   186, 	"[Enable Character Mask] =>"
   187, 	"[Disable Character Mask] =>"
@@ -3474,27 +3474,27 @@ STRINGTABLE
 LANGUAGE LANG_JAPANESE, 0x1
 {
   192, 	"Data folder could not be found.\r\nDo you want to create a new one?"
-  193, 	"A minimal new game project has been created in the Data folder.\r\n\r\nWelcome to the world of WOLF RPG Editor.\r\nEnjoy developing your game to a heart's content!"
+  193, 	"A minimal new game project has been created in the Data folder.\r\n\r\nWelcome to the world of WOLF RPG Editor.\r\nEnjoy developing your game to your heart's content!"
   194, 	"Could not create Data folder.\r\nProcessing canceled."
   195, 	"Val."
-  196, 	"[Empty Data with Basic RPG System] or [Completely Empty Data],\r\nwhich initial data do you want to create?\r\n\r\n■ If you select \"Yes\": [Empty Data with Base RPG System]\r\n - Common Events, User DB and Variable DB for the Base System.\r\n - \"Title Map\" and \"Post-start Map\" for maps.\r\n - Pre-configured system images and sounds (SystemGraphic).\r\n - Some character images, monster images and background music.\r\n - Four pre-configured Tileset settings.\r\n  Creates a Data folder with the above RPG creation data.\r\n\r\n■ If you select \"No\": [Completely Empty Data]\r\n - Only one start-up map.\r\n - No assets, no data.\r\n  Creates a Data folder with the above empty data.\r\n\r\n■ If you select \"Cancel\":\r\n  The process will be canceled."
-  197, 	"The basic data folder \"%s\" by the -basic option did not exist.\r\n\r\nStartup will be aborted."
+  196, 	"[Empty Data with Basic RPG System] or [Completely Empty Data],\r\nwhich initial data do you want to create?\r\n\r\n■ If you select \"Yes\": [Empty Data with Base RPG System]\r\n - Common Events, User DB and Variable DB for the Base System.\r\n - The maps are only \"Title Map\" and \"Post-Start Map.\"\r\n - Pre-configured system images and sounds (SystemFile).\r\n - Some character sprites, monster images and background music.\r\n - 4 pre-configured tileset settings.\r\n  Creates a Data folder with the above RPG creation data.\r\n\r\n■ If you select \"No\": [Completely Empty Data]\r\n - Only one starting map.\r\n - No assets, no data.\r\n  Creates a Data folder with the above empty data.\r\n\r\n■ If you select \"Cancel\":\r\n  The process will be canceled."
+  197, 	"The basic data folder \"%s\" specified by the -basic option did not exist.\r\n\r\nStartup will be aborted."
   198, 	"The basic data folder has been changed to \"%s\" by the -basic option.\r\n\r\n*When editing this time, please replace to read the \"BasicData\" folder name in the error message with the \"%s\" folder."
-  199, 	"Data conversion to version 3 was attempted because the data you tried to open was older than version 2, but Editor could not be started because the \"-basic\" option was set.\r\nPlease restart without the \"-basic\" option.\r\n\r\n*Files in the basic data folder other than \"BasicData\" cannot be converted successfully."
+  199, 	"The data you tried to open is outdated (version 2 or earlier), so data conversion to version 3 was attempted. However, it could not be started because the -basic option was set.\r\nPlease restart without the -basic option.\r\n\r\n*Files in the basic data folder with names other than BasicData cannot be converted successfully."
   200, 	"ms (For MIDI, tick)"
   201, 	"File could not be saved.\r\n\r\n*Check the access permissions.\r\n*If the data is in a shared folder, it is often temporarily not writable."
   202, 	"Japanese (1) [Default];English (2);Western European (3);Chinese (Simplified) (4);Chinese (Traditional) (5);Korean (6);"
-  203, 	"Export basic data (Game Settings, DB, Map, Common Events, Tileset Settings) as text to the \"%s\" folder.\r\nAre you sure?"
-  204, 	"Export to TXT has been completed!\r\n\r\n[Exported .Auto.txt files]\r\n%s"
+  203, 	"Export basic data (game settings, databases, maps, Common Events, tileset settings) as text to the \"%s\" folder.\r\nAre you sure?"
+  204, 	"The TXT export has been completed!\r\n\r\n[Exported .Auto.txt files]\r\n%s"
   205, 	"\r\n[Other %d Files (All %d Files)]"
-  206, 	"Import .Auto.txt files from the \"%s\" folder\r\nand overwrite basic data (Game Settings, DB, Map, Common Events, Tileset Settings).\r\nAre you sure?\r\n\r\n*This process may unintentionally import contents that are not as expected.\r\nIf you are unsure, drag and drop them one by one into each window while checking the contents."
-  207, 	"Import .mps.Auto.txt files from the \"%s\" folder\r\nand overwrite all map data (.mps).\r\nAre you sure?\r\n\r\n*This process may unintentionally import contents that are not as expected.\r\nIf you are unsure, drag and drop them into each window one by one while checking the contents."
+  206, 	"Import .Auto.txt files from the \"%s\" folder and overwrite basic data (game settings, databases, maps, Common Events, tileset settings).\r\nAre you sure?\r\n\r\n*This process carries the risk of importing unexpected content.\r\n  If you are concerned, please import by dragging and dropping each file\r\n  into its respective window one by one to check the contents."
+  207, 	"Import .mps.Auto.txt files from the \"%s\" folder and overwrite all map data (.mps).\r\nAre you sure?\r\n\r\n*This process carries the risk of importing unexpected content.\r\n  If you are concerned, please import by dragging and dropping each file\r\n  into its respective window one by one to check the contents."
 }
 
 STRINGTABLE
 LANGUAGE LANG_JAPANESE, 0x1
 {
-  208, 	"TXT import has been completed!\r\n\r\n[Imported .Auto.txt files]\r\n%s"
+  208, 	"The TXT import has been completed!\r\n\r\n[Imported .Auto.txt files]\r\n%s"
   209, 	"Export all map data (.mps) as text to the \"%s\" folder.\r\nAre you sure?"
   210, 	"✓[Success]"
   211, 	"\xD7[Failed]"
@@ -3508,14 +3508,14 @@ LANGUAGE LANG_JAPANESE, 0x1
   219, 	"● "
   220, 	"New Tab (Duplicate Current Tab)\tCtrl+Double-click"
   221, 	"Close Tab\tDouble-click"
-  222, 	"Close Other Tabs (except [●]Home)"
-  223, 	"Close Tabs on the Left (except [●]Home)"
+  222, 	"Close Other Tabs (Except ●Home)"
+  223, 	"Close Tabs to the Left (Except ●Home)"
 }
 
 STRINGTABLE
 LANGUAGE LANG_JAPANESE, 0x1
 {
-  224, 	"Close Tabs on the Right (except [●]Home)"
+  224, 	"Close Tabs to the Right (Except ●Home)"
   225, 	"Go to Left Tab\tF3"
   226, 	"Go to Right Tab\tF4"
   227, 	"Automatic TXT export has been turned on for the first time!\r\nIt is recommended that you first do [Export TXT Basic Data] and [Export TXT All Maps] below."
@@ -3595,7 +3595,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   10032, 	"■Erase Event"
   10033, 	"■Wait"
   10034, 	"■Move Route: "
-  10035, 	"■Party Images: "
+  10035, 	"■Party Sprites: "
   10036, 	"■Wait for Movement"
   10037, 	"■Adjust Color"
   10038, 	"■Call Event:"
@@ -3636,7 +3636,7 @@ LANGUAGE LANG_JAPANESE, 0x1
 {
   10064, 	"Transfer"
   10065, 	"Tile Management"
-  10066, 	"Party Images"
+  10066, 	"Party Sprites"
   10067, 	"Effect"
   10068, 	"Sound"
   10069, 	"Voice Synth"
@@ -3677,8 +3677,8 @@ STRINGTABLE
 LANGUAGE LANG_JAPANESE, 0x1
 {
   10096, 	"[Nothing]"
-  10097, 	"This is a multiple Common Events file.\r\nAre you sure you want to overwrite Common Events %d to %d?"
-  10098, 	"Common Event Editor - Copied (Common Event %d)"
+  10097, 	"Common Events %d to %d will be overwritten.\r\nAre you sure?"
+  10098, 	"Common Event Editor - Event Copied (Common Event %d)"
   10099, 	"*Indentation does not match correctly!"
   10100, 	"Common Event Editor - Command Copied (Common %d > Line %d) %s"
   10101, 	"Common Event Editor - Commands Copied (Common %d > Lines %d-%d) %s"
@@ -3687,26 +3687,26 @@ LANGUAGE LANG_JAPANESE, 0x1
   10104, 	"Recognized as event code,\r\nbut the end point was not recognized.\r\n\r\nThe last line must be WoditorEvCOMMAND_END."
   10105, 	"Not recognized as event code.\r\n\r\nThe first line must be WoditorEvCOMMAND_START."
   10106, 	"File\r\n  \"%s\"\r\nis not a Common Event file.\r\n\r\nOnly .common files can be dragged and dropped."
-  10107, 	"This is not a Common Event file."
-  10108, 	"Loading Error"
-  10109, 	"This is a single Common Event file.\r\nAre you sure you want to overwrite Common Event %d?"
-  10110, 	"Load One"
-  10111, 	"This is a multiple Common Events file.\r\nAre you sure you want to overwrite Common Events %d to %d?"
+  10107, 	"This file is not a Common Event file."
+  10108, 	"Load Error"
+  10109, 	"This file contains a single Common Event.\r\nOverwrite Common Event %d?"
+  10110, 	"Load Single Event"
+  10111, 	"This file contains multiple Common Events.\r\nOverwrite Common Events %d to %d?"
 }
 
 STRINGTABLE
 LANGUAGE LANG_JAPANESE, 0x1
 {
-  10112, 	"Load Multiple"
+  10112, 	"Load Multiple Events"
   10113, 	"■"
   10114, 	"○"
   10115, 	" Data Entries"
   10116, 	"Copy Multiple Events"
   10117, 	"Copy Multiple Data"
   10118, 	"Copy Multiple Types"
-  10119, 	"From [Ev%.3i:%s]\r\nTo [Ev%.3i:%s]\r\nSave %d Common Events to a file"
+  10119, 	"From [Event %.3i:%s]\r\nTo [Event %.3i:%s]\r\nSave %d Common Events to a file"
   10120, 	"From [Data %.3i:%s]\r\nTo [Data %.3i:%s]\r\nSave %d Data entries to a file"
-  10121, 	"From [Ev%.3i:%s]\r\nTo [Ev%.3i:%s]\r\nCopy %d Events"
+  10121, 	"From [Event %.3i:%s]\r\nTo [Event %.3i:%s]\r\nCopy %d Events"
   10122, 	"From [Data %.3i:%s]\r\nTo [Data %.3i:%s]\r\nCopy %d Data entries"
   10123, 	"From [Type %.3i:%s]\r\nTo [Type %.3i:%s]\r\nCopy %d Data Types"
   10124, 	"System DB;User DB;Variable DB;"
@@ -3730,9 +3730,9 @@ LANGUAGE LANG_JAPANESE, 0x1
   10137, 	"◆"
   10138, 	"  <<■ [Selected]\r\n"
   10139, 	"Type Count"
-  10140, 	"Are you sure you want to overwrite Data %d to %d?"
+  10140, 	"Overwrite Data %d to %d?"
   10141, 	"%s - Pasted"
-  10142, 	"%s - Cannot paste data, please copy first"
+  10142, 	"%s - Cannot paste data. Please copy first."
   10143, 	"%s - Copied: Type %d > Data %d"
 }
 
@@ -3740,12 +3740,12 @@ STRINGTABLE
 LANGUAGE LANG_JAPANESE, 0x1
 {
   10144, 	"%s - Copied (Multiple): Type %d > Data %d-%d"
-  10145, 	"Are you sure you want to overwrite Types %d to %d?"
+  10145, 	"Overwrite Types %d to %d?"
   10146, 	"%s - Pasted: Types %d-%d"
-  10147, 	"%s  Cannot paste Type, please copy first"
+  10147, 	"%s  Cannot paste Type. Please copy first."
   10148, 	"%s - Copied: Type %d"
   10149, 	"%s - Copied (Multiple): Types %d-%d"
-  10150, 	"Are you sure you want to delete the entire Type %d [%s]?"
+  10150, 	"Delete the entire Type %d [%s]?"
   10151, 	"TypeDefinition_%.3i_%s"
   10152, 	"＜"
   10153, 	"＞"
@@ -3769,23 +3769,23 @@ LANGUAGE LANG_JAPANESE, 0x1
   10166, 	"DB Data file (*.dbdata)|*.dbdata|All files(*.*)|*.*||"
   10167, 	"DB Data file (CSV) (*.csv)|*.csv|All files(*.*)|*.*||"
   10168, 	"DB file (*.db*;*.csv)|*.db*; *.csv|All files(*.*)|*.*||"
-  10169, 	"This is not a Type Definition file."
+  10169, 	"This file is not a Type Definition file."
   10170, 	"Loading Error"
-  10171, 	"%s is a Type Definition file.\r\nAre you sure you want to overwrite Type Definition?"
+  10171, 	"File \"%s\" is a Type Definition file.\r\nOverwrite Type Definition?"
   10172, 	"Load Type Definition"
-  10173, 	"This is not a Type file."
-  10174, 	"%s is a Type Definition & Full Data file.\r\nAre you sure you want to overwrite the entire Type including Data?"
+  10173, 	"This file is not a Type file."
+  10174, 	"File \"%s\" is a Type Definition + Data file.\r\nOverwrite the entire Type, including all its Data?"
   10175, 	"Load Type & Data"
 }
 
 STRINGTABLE
 LANGUAGE LANG_JAPANESE, 0x1
 {
-  10176, 	"This is not a Data file."
-  10177, 	"%s is a file containing %d Data entries.\r\nAre you sure you want to overwrite Data %d to %d?"
+  10176, 	"This file is not a Data file."
+  10177, 	"File \"%s\" contains %d Data entries.\r\nOverwrite Data %d to %d?"
   10178, 	"Load Data"
-  10179, 	"This is not a Data file or has no Data."
-  10180, 	"%s \r\nThis file has an extension not supported for the database.\r\nReadable extensions are dbtype / dbtypeset / dbdata / csv."
+  10179, 	"This file is not a Data file or has no Data."
+  10180, 	"\"%s\"\r\nThis file has an unsupported extension for the database.\r\nSupported extensions: .dbtype, .dbtypeset, .dbdata, .csv"
   10181, 	"This database has been changed.\r\nSave before closing?"
   10182, 	"Save"
   10183, 	"Field %d"
@@ -3795,7 +3795,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   10187, 	"System DB;User DB;Variable DB;Common Event;"
   10188, 	"Set specification method for Data of Field [ %s ]"
   10189, 	"Not enough values when processing choice input!"
-  10190, 	"Call Common Event by name."
+  10190, 	"The common event name is called."
   10191, 	"Deleting position is after the number of Value!"
 }
 
@@ -3833,7 +3833,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   10215, 	"Effects"
   10216, 	"Sound"
   10217, 	"Save/Load"
-  10218, 	"Party Images"
+  10218, 	"Party Sprites"
   10219, 	"Tile Management"
   10220, 	"Transfer"
   10221, 	"Event Control"
@@ -3855,7 +3855,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   10232, 	"Self%d: SelfVar%d"
   10233, 	"Cannot create any more pages."
   10234, 	"MS Shell Dlg"
-  10235, 	"\r\nImage\r\n\r\nDouble-Click\r\nto Select Image"
+  10235, 	"\r\nSprite\r\n\r\nDouble-Click\r\nto Select Sprite"
   10236, 	"*Indentation does not match correctly!"
   10237, 	"%s - Command Copied (Line %d) %s"
   10238, 	"%s - Commands Copied (Lines %d-%d) %s"
@@ -3992,7 +3992,7 @@ STRINGTABLE
 LANGUAGE LANG_JAPANESE, 0x1
 {
   10336, 	"This CommonEv: Self%d"
-  10337, 	"[ Simple Switch ]"
+  10337, 	"[ Instant Display ]"
   10338, 	"%d: %s"
   10339, 	"[ This Event ]"
   10340, 	"This Event: Self%d "
@@ -4105,7 +4105,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   10422, 	"[Pro] Open URL in Browser"
   10423, 	"<Don't Store in Variable>"
   10424, 	"Top-Left;Bottom-Left;Center;Top-Center;Bottom-Center;Top-Right;Bottom-Right;"
-  10425, 	"[1] Load File (Direct Specification);[2] Load File (By String Variable);[3] Show String as Picture (Special Chars \\s, \\v, etc. OK);[4] Simple Window (3x3 Divisible Base Image + Size);[5] Simple Window (File by String Variable);"
+  10425, 	"[1] Load File (Direct Specification);[2] Load File (By String Variable);[3] Show String as Picture (Special Characters \\s, \\v, etc. OK);[4] Simple Window (3x3 Divisible Base Image + Size);[5] Simple Window (File by String Variable);"
   10426, 	"Normal;Add;Subtract;Multiply;"
   10427, 	"Size       W"
   10428, 	"Divisions  W"
@@ -4161,7 +4161,7 @@ LANGUAGE LANG_JAPANESE, 0x1
 {
   10464, 	"This CSelf%d: %s"
   10465, 	"=;+=;-=;*=;/=;%=;Lower Bound;Upper Bound;Absolute;"
-  10466, 	"X Position (Standard);Y Position (Standard);X Position (Precise);Y Position (Precise);Height Off Ground (pixels);Direction (1-9, Matches Numpad);Screen X Position;Screen Y Position;Shadow Image Number;Current Tile Tag Number;Event ID;On Screen? (1:Yes/0:No);Active Page [0:None/1+:Page Number/-1:Erased];Run Type [0: Confirm ... 4: Event Touch];Range Extend X;Range Extend Y;Animation Pattern [0-9];Moving? [1:Yes/0:No];Image Division H;Image Division V;Current Patterns [1-12+];"
+  10466, 	"X Position (Standard);Y Position (Standard);X Position (Precise);Y Position (Precise);Height Off Ground (pixels);Direction (1-9, Matches Numpad);Screen X Position;Screen Y Position;Shadow Sprite Number;Current Tile Tag Number;Event ID;On Screen? (1:Yes/0:No);Active Page [0:None/1+:Page Number/-1:Erased];Run Type [0: Confirm ... 4: Event Touch];Range Extend X;Range Extend Y;Animation Pattern [0-9];Moving? [1:Yes/0:No];Sprite Division H;Sprite Division V;Current Patterns [1-12+];"
   10467, 	"Top Tile Tag Number;Event ID (None: -1);Passable (Tile Only, 0:Yes/1:No);Passable (Tile + Event);Top Tile ID (0:Clear/1-15:Auto/16+:Other);Layer 1 Tile ID;Layer 2 Tile ID;Layer 3 Tile ID;Layer 1 Tile Tag Number;Layer 2 Tile Tag Number;Layer 3 Tile Tag Number;"
   10468, 	"XX Current Map ID;Playing BGM Number (Only BGM Selected from SysDB);Playing BGS Number (Only BGS Selected from SysDB);BGM Playback Position (ms; Up to First Loop/For MIDI, tick);BGS Playback Position (ms; Up to First Loop/For MIDI, tick);Current BGM Length (ms/For MIDI, tick);Current BGS Length (ms);Mouse Left Click (0:Normal/1:Hold/2:Pressed);Mouse Right Click (0:Normal/1:Hold/2:Pressed);Mouse Middle Click (0:Normal/1:Hold/2:Pressed);Mouse Wheel Delta (Change from Last Frame);Mouse X Delta (Change from Last Frame);Mouse Y Delta (Change from Last Frame);Event ID at Mouse Position (Smaller ID Priority, -1 for None);This Map Event ID (In Common, Caller's ID);Map Size [Width];Map Size [Height];This Common Event ID (-1: Outside Common);Active Autorun/Touch/Confirm Event ID [+500000 for Common];Active Event Line [Autorun/Touch/Confirm Event];Memory Usage [MB];Available Memory [MB];"
   10469, 	"X Position;Y Position;Image Size (Width);Image Size (Height);Pattern;Opacity;Angle;Zoom (Width or Overall);Zoom (Height);Mouse Pointer Hover? (1:Yes, Angle 0 Only);Picture In Use? (1:Yes);String Display Done? (1:Yes);"
@@ -4275,7 +4275,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   10552, 	"Error"
   10553, 	"Cannot generate game data in the current development folder."
   10554, 	"Processing aborted.\r\n\r\n(\"Attempted an Unsupported Operation\"\r\nmay appear when you run it next time, but you can ignore it because the process can be executed)"
-  10555, 	"Game data creation has been completed!\r\n\r\n\r\n*The Data folder of the generated game data may not be visible. If this is the case, try pressing F5 (Refresh) at the location where the Data folder should exist."
+  10555, 	"Game data creation has been completed!\r\n\r\n\r\n*The Data folder of the generated game data may not be visible.\r\n  In that case, try pressing F5 (Refresh) in the location where the Data folder should exist."
   10556, 	"Select the folder to output the data to."
   10557, 	"Select a target folder."
   10558, 	"1x;1.25x;1.5x;1.75x;2.0x;●Custom;"
@@ -4290,7 +4290,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   10562, 	"Current speed limit is [ %d ]\r\nUnits are [0.25 pixels / 1 frame]"
   10563, 	"Saved data for game \"%s\"."
   10564, 	"Basic Settings Done"
-  10565, 	"Saved data for game \"%s\".\r\nEditor will restart because \"Screen Resolution\" has been changed."
+  10565, 	"Saved data for game \"%s\".\r\nEditor will now restart because \"Screen Resolution\" has been changed."
   10566, 	"Add"
   10567, 	"Subtract"
   10568, 	"Multiply"
@@ -4298,7 +4298,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   10570, 	"[Music]"
   10571, 	"[SE]"
   10572, 	"[Picture]"
-  10573, 	"[Character Image]"
+  10573, 	"[Character Sprite]"
   10574, 	"(No Image)"
   10575, 	"(Tileset)"
 }
@@ -4313,12 +4313,12 @@ LANGUAGE LANG_JAPANESE, 0x1
   10580, 	"(Tileset)"
   10581, 	"[L] License mode on, please restart. (Not implementing, will delete soon)"
   10582, 	"[L] Could not find license, turning special functions off.\r\nPlease restart. (Not implementing, will delete soon)"
-  10583, 	"The Tileset settings for this map does not exist.\r\nIt will be forced to open with Tileset #0."
-  10584, 	"The size of auto-tile \"%s\" is [%dx%d pixels] and it has a single animation.\n\nOn Windows 7 64bit or other environments,\nthe auto-tile with one animation may not be displayed in the editor (but it will be displayed correctly in the game).\n\nIf it is not displayed in the editor, make the image %d pixels wide.\nThis warning is displayed only once after startup."
+  10583, 	"The tileset settings for this map does not exist.\r\nIt will be forced to open with Tileset #0."
+  10584, 	"Auto-Tile \"%s\" has a size of \"%d pixels wide by %d pixels tall\" and is single-frame.\n\nIn some environments such as Windows 7 64-bit,\nsingle-frame auto-tiles may not be displayed in Editor (but they will be displayed correctly in-game).\n\nIf it is not displayed in Editor, make the image %d pixels wide.\nThis warning is displayed only once after startup."
   10585, 	"Auto-Tile Warning"
-  10586, 	"Base Tileset\r\n\"%s\"\r\nhas incorrect width size (currently %d pixels wide).\r\nPlease make the image %d pixels wide.\r\n\r\n[How do you want to handle this?]\r\nYes → Open \"Basic Game Settings\" to change Tile Size.\r\nNo → Open \"Tileset Settings\" to change the tile graphic.\r\nCancel → Do nothing.\r\n\r\n(If you do nothing, Editor may be forced to close after this!)"
-  10587, 	"Base Tileset\r\n\"%s\"\r\nheight size is not a multiple of %d (currently %d pixels).\r\n\r\n[How do you want to handle this?]\r\nYes → Open \"Basic Game Settings\" to change Tile Size.\r\nNo → Open \"Tileset Settings\" to change the tile graphic.\r\nCancel → Do nothing.\r\n\r\n(If you do nothing, Editor may be forced to close after this!)"
-  10588, 	"Tileset\r\n\"%s\"\r\nwidth/height size is incorrect → %d x %d pixels [Width x Height] (Must be %d x %d or greater)\r\n\r\n[Which action do you want to take?]\r\nYes → Open \"Basic Game Settings\" to change Tile Size.\r\nNo → Open \"Tileset Settings\" to change the tile graphic.\r\nCancel → Do nothing.\r\n\r\n(If you do nothing, Editor may be forced to close after this!)"
+  10586, 	"Base Tileset \"%s\" has an incorrect width (currently %d pixels wide).\r\nPlease make the image %d pixels wide.\r\n\r\n[What would you like to do?]\r\nYes — Open \"Basic Game Settings\" to change Tile Size.\r\nNo — Open \"Tileset Settings\" to change the tile image.\r\nCancel — Do nothing.\r\n\r\n(If you do nothing, Editor may be forced to close after this!)"
+  10587, 	"Base Tileset \"%s\" has a height that is not a multiple of %d (currently %d pixels).\r\n\r\n[What would you like to do?]\r\nYes — Open \"Basic Game Settings\" to change Tile Size.\r\nNo — Open \"Tileset Settings\" to change the tile image.\r\nCancel — Do nothing.\r\n\r\n(If you do nothing, Editor may be forced to close after this!)"
+  10588, 	"Tile\r\n\"%s\"\r\nhas an incorrect width or height → %d x %d pixels [Width x Height] (Must be %d x %d or greater)\r\n\r\n[What would you like to do?]\r\nYes — Open \"Basic Game Settings\" to change Tile Size.\r\nNo — Open \"Tileset Settings\" to change the tile image.\r\nCancel — Do nothing.\r\n\r\n(If you do nothing, Editor may be forced to close after this!)"
   10589, 	"Could not load background file.\r\n%s"
   10590, 	"File Load Error"
   10591, 	"Failed to create Map Tile dialog.\n"
@@ -4348,8 +4348,8 @@ LANGUAGE LANG_JAPANESE, 0x1
 STRINGTABLE
 LANGUAGE LANG_JAPANESE, 0x1
 {
-  10608, 	"Could not load previous file %s.\r\nCreate a new map from the Map Selection window,\r\nor open an existing map."
-  10609, 	"Could not find image file\r\n%s\r\nfor event display.\r\nEvents without graphics will not be visible."
+  10608, 	"Could not load the previous file %s.\r\nCreate a new map from the Map Selection window,\r\nor open an existing map."
+  10609, 	"Could not find the image file\r\n%s\r\nfor event display.\r\nEvents without sprites will not be visible."
   10610, 	"No File"
   10611, 	"Time Spent %d:%02d"
   10612, 	"%s Position (%d,%d) [ Selected Event: %d - %s ] %s"
@@ -4379,12 +4379,12 @@ LANGUAGE LANG_JAPANESE, 0x1
   10631, 	"Current map has been changed.\r\nSave changes before exiting?"
   10632, 	"Config.exe not found."
   10633, 	"Warning"
-  10634, 	"Editor options saved.\r\nEditor will restart for the changes to take effect."
+  10634, 	"Editor options saved.\r\nEditor will now restart for the changes to take effect."
   10635, 	"Failed to create the Toolbar.\n"
   10636, 	"Failed to create the Status bar.\n"
   10637, 	"Failed to create Map Tile dialog.\n"
   10638, 	"No manual data."
-  10639, 	"Double-Click Tile"
+  10639, 	"Double-click a tile."
 }
 
 STRINGTABLE
@@ -4395,7 +4395,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   10642, 	"□"
   10643, 	"○"
   10644, 	"\xD7"
-  10645, 	"Map Tile / Blank Tile / Passable %s [If Layer 1]"
+  10645, 	"Map Tile / Clear Tile / Passable %s [If Layer 1]"
   10646, 	"Map Tile / Tile ID %d / Tag # %d / Passable %s"
   10647, 	"Map Tile"
   10648, 	"No Loop;Loop Horizontal;Loop Vertical;Loop Both Ways;"
@@ -4417,7 +4417,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   10659, 	"-1: Stop BGS"
   10660, 	"-1: No Background"
   10661, 	"<Enter Map Name>"
-  10662, 	"Map size must be at least Width 10, Height 8!"
+  10662, 	"The map size must be at least width 10 and height 8!"
   10663, 	"No filename entered!"
   10664, 	"＜"
   10665, 	"＞"
@@ -4438,8 +4438,8 @@ LANGUAGE LANG_JAPANESE, 0x1
   10675, 	"Enter filename."
   10676, 	"Error"
   10677, 	"Could not load the map %d\r\nbecause Map Filename is not set."
-  10678, 	"Load Error\r\nMap file "
-  10679, 	" does not exist."
+  10678, 	"Load Error\r\nMap file \""
+  10679, 	"\" does not exist."
   10680, 	"Current Map has been changed.\r\nSave changes first?"
   10681, 	"Save"
   10682, 	"[Selected Map] [None]"
@@ -4453,11 +4453,11 @@ LANGUAGE LANG_JAPANESE, 0x1
 STRINGTABLE
 LANGUAGE LANG_JAPANESE, 0x1
 {
-  10688, 	"Are you sure you want to delete the map \"%s\"?\r\nJust selecting \"Yes\" will not delete the mps file.\r\n\r\nIf you want to delete the following map file as well,\r\nhold Shift as you select \"Yes\" (cannot be undone).\r\n\r\n\"%s\""
-  10689, 	"Confirm Delete"
-  10690, 	"Map data was deleted,\r\nbut the map file \"%s\" was not.\r\nEither it did not exist or there was a file access error.\r\nPlease delete it manually."
-  10691, 	"Map File Delete"
-  10692, 	"Along with the map data, the map file \"%s\" was deleted."
+  10688, 	"Delete map \"%s\"?\r\nJust selecting \"Yes\" will not delete the mps file.\r\n\r\nIf you want to delete the following map file as well,\r\nhold Shift as you select \"Yes\" (cannot be undone).\r\n\r\n\"%s\""
+  10689, 	"Confirm Deletion"
+  10690, 	"Map information was successfully deleted, but the map file \"%s\" either did not exist or could not be deleted due to a file access error. \r\nPlease delete it manually."
+  10691, 	"Map File Deletion"
+  10692, 	"The map file \"%s\" has been deleted along with the map information."
   10693, 	"[Map]"
   10694, 	"[Map Data]"
   10695, 	"Map filename is not set."
@@ -4468,23 +4468,23 @@ LANGUAGE LANG_JAPANESE, 0x1
   10700, 	"Map file (*.mps)|*.mps|All files(*.*)|*.*||"
   10701, 	"Data Count"
   10702, 	" Setting"
-  10703, 	"The currently open map file\r\n\"%s\"\r\nis not registered in the System Database.\r\nIt could not be opened."
+  10703, 	"The currently open map file\r\n\"%s\"\r\nis not registered in System Database.\r\nIt could not be opened."
 }
 
 STRINGTABLE
 LANGUAGE LANG_JAPANESE, 0x1
 {
   10704, 	"Pick Transfer Destination"
-  10705, 	"[ERROR!] Map %d does not have a filename set!"
-  10706, 	"[ERROR!] Not a Map file! SystemDB (Type 0 Data %d) Filename: %s"
-  10707, 	"Base Tileset %s not found.\r\nYou can change the image in Tileset Settings."
-  10708, 	"Base Tileset %s is incorrect size.\r\nPlease make image %d pixels wide.\r\n\r\nYou can change the image in Tileset Settings."
-  10709, 	"Width of Base Tileset %s is not a multiple of %d (currently %d pixels).\r\n\r\nYou can change the image in Tileset Settings."
-  10710, 	"Auto-Tile %s Width/Height is less than standard. Currently %dx%d pixels (default is %dx%d or more).\r\n\r\nYou can change the image in Tileset Settings."
+  10705, 	"[ERROR!] No map filename has been set for Map %d!"
+  10706, 	"[ERROR!] No map file! SystemDB (Type 0 > Data %d) Filename: %s"
+  10707, 	"Base Tileset \"%s\" not found.\r\nYou can change the image in Tileset Settings."
+  10708, 	"Base Tileset \"%s\" has an incorrect width.\r\nPlease make image %d pixels wide.\r\n\r\nYou can change the image in Tileset Settings."
+  10709, 	"Base Tileset \"%s\" has a height that is not a multiple of %d (currently %d pixels).\r\n\r\nYou can change the image in Tileset Settings."
+  10710, 	"Auto-Tile \"%s\" has a width or height that is below the required size → %d x %d pixels [Width x Height] (Must be %d x %d or greater)\r\n\r\nYou can change the image in Tileset Settings."
   10711, 	"No Data"
   10712, 	"[Selected Position] Map ID: %d  X: %d  Y: %d"
   10713, 	"[Selected Position] Parameters are displayed here"
-  10714, 	"This Map is not registered in the SystemDB,\r\nso saved position cannot be used.\r\n\r\nRegister this Map to SystemDB from Map Settings."
+  10714, 	"This map is not registered in System Database,\r\nso saved position cannot be used.\r\n\r\nPlease register this map to System Database in Map Settings."
   10715, 	"Map %.2i: %s (%s)"
   10716, 	"SysDB Type7-%.2i   Map %.2i: %s   X: %d   Y: %d"
   10717, 	"0: Slowest/Every Frame;1;2;3: Standard;4;5;6: Fastest/Most Delayed;"
@@ -4562,7 +4562,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   10769, 	"Pass-Through OFF"
   10770, 	"Above Characters ON"
   10771, 	"Above Characters OFF"
-  10772, 	"Set Image to %s:%s"
+  10772, 	"Set Sprite to %s:%s"
   10773, 	"Set Opacity to %s"
   10774, 	"Play SE %s:%s"
   10775, 	"Wait %s Frames"
@@ -4584,8 +4584,8 @@ LANGUAGE LANG_JAPANESE, 0x1
   10786, 	"Set Height -> Height %s"
   10787, 	"Approach Event [%s]"
   10788, 	"Approach X:[%s] Y:[%s]"
-  10789, 	"[Image %s]SysDB:8\n%s\n[SE %s]SysDB:3\n%s"
-  10790, 	"[Image %d]SysDB:8\n%s\n[SE %d]SysDB:3\n%s"
+  10789, 	"[Sprite %s]SysDB:8\n%s\n[SE %s]SysDB:3\n%s"
+  10790, 	"[Sprite %d]SysDB:8\n%s\n[SE %d]SysDB:3\n%s"
   10791, 	" Creating"
   10792, 	"\r\n Encrypting..."
   10793, 	"\r\n Copying..."
@@ -4749,12 +4749,12 @@ LANGUAGE LANG_JAPANESE, 0x1
 {
   10912, 	"Tileset Settings"
   10913, 	"Tileset Settings  ■Error: Could not load auto-tile image %d [ %s ]"
-  10914, 	"The width size of the Base Tileset file is not %d pixels! => Width: %d pixels\r\nThe game cannot start as it is. Please fix the size."
+  10914, 	"The width of the Base Tileset file is not %d pixels! => Width: %d pixels\r\nThe game will not work as is. Please adjust it to the correct size."
   10915, 	"Warning"
-  10916, 	"The internal height size of the Base Tileset file exceeds 32,000 pixels! => Height: %d pixels\r\n\r\n*Depending on the environment, a tileset over 16,000 pixels for the tile size 16 may not be displayed correctly. If it is displayed correctly, you may edit it as is.\r\n\r\n*This warning is displayed only the first time after startup."
+  10916, 	"The internal height of the Base Tileset file exceeds 32,000 pixels! => Height: %d pixels\r\n\r\n*In some environments, tilesets exceeding 16,000 pixels may not be displayed correctly when the tile size is set to 16. If it is displayed correctly, you may continue editing as is.\r\n\r\n*This warning is displayed only the first time after startup."
   10917, 	"Tileset Pasted"
   10918, 	"Tileset Copied"
-  10919, 	"Are you sure you want to delete this Tileset?"
+  10919, 	"Delete this tileset?"
   10920, 	"Tileset Cut"
   10921, 	"Tileset Deleted"
   10922, 	"＜"
@@ -4773,12 +4773,12 @@ LANGUAGE LANG_JAPANESE, 0x1
   10930, 	"？"
   10931, 	"”"
   10932, 	"Tileset settings file (*.tile;*.txt)|*.tile;*.txt|All files(*.*)|*.*||"
-  10933, 	"This is not a Tileset settings file."
+  10933, 	"This file is not a tileset settings file."
   10934, 	"Loading Error"
-  10935, 	"This is a single Tileset settings file.\r\nAre you sure you want to overwrite Tileset %d?"
-  10936, 	"Load One"
-  10937, 	"This is a single Tileset settings file.\r\nAre you sure you want to overwrite Tileset %d?"
-  10938, 	"File\r\n  \"%s\"\r\nis not a Tileset file.\r\n\r\nOnly .tile files can be dragged and dropped."
+  10935, 	"This file contains the settings for a single tileset.\r\nOverwrite tileset %d?"
+  10936, 	"Load Single Tileset"
+  10937, 	"This file contains the settings for a single tileset.\r\nOverwrite tileset %d?"
+  10938, 	"File\r\n  \"%s\"\r\nis not a tileset file.\r\n\r\nOnly .tile files can be dragged and dropped."
   10939, 	"■"
   10940, 	"■ Checkpoint ■■■■■■■■■■■■■■■■■■■■■■■■"
   10941, 	"■ [Special] Checkpoint ■■■■■■■■■■■■■■■■■■■■■■■■"
@@ -4876,8 +4876,8 @@ LANGUAGE LANG_JAPANESE, 0x1
   11008, 	"Pad (300+)"
   11009, 	" [Key Code [%s] Only]"
   11010, 	" Key ) "
-  11011, 	" 4-Dir."
-  11012, 	" 8-Dir."
+  11011, 	" 4-Dir"
+  11012, 	" 8-Dir"
   11013, 	" Up Only (8)"
   11014, 	" Down Only (2)"
   11015, 	" Left Only (4)"
@@ -4919,7 +4919,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   11041, 	"Direction [1-9]"
   11042, 	"Screen X Position (Center of Character)"
   11043, 	"Screen Y Position (Bottom of Character)"
-  11044, 	"Shadow Image Number"
+  11044, 	"Shadow Sprite Number"
   11045, 	"Current Tile Tag Number"
   11046, 	"Event ID (*Even If Erased)"
   11047, 	"On Screen? [1:Yes/0:No]"
@@ -5065,7 +5065,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   11152, 	" Stop "
   11153, 	" %d[%s] "
   11154, 	" Variable[%s] "
-  11155, 	" File [%s] Vol %s%% Freq %s%% "
+  11155, 	" File [%s] Vol %s%% Pitch %s%% "
   11156, 	"Loop %s ms "
   11157, 	" / Fade Time: %s Frames"
   11158, 	" / Delay: %s Frames"
@@ -5116,7 +5116,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   11193, 	"Color R[%s] G[%s] B[%s]"
   11194, 	"Color R[%d] G[%d] B[%d]"
   11195, 	"■Set Transition: "
-  11196, 	" [Simple Switch] %s Frames"
+  11196, 	" [Instant] %s Frames"
   11197, 	" [%d: %s] %s Frames"
   11198, 	" (Wait)"
   11199, 	"■Prepare Transition"
@@ -5135,8 +5135,8 @@ LANGUAGE LANG_JAPANESE, 0x1
   11207, 	"■Go to Title"
   11208, 	"■Game End"
   11209, 	"■Go to Loop Start" // This command color won't change unless it starts with the string ID 11201, but it's hard to read, so ignore it.
-  11210, 	"■Non-Picture Drawing Updates [Stop]"
-  11211, 	"■Non-Picture Drawing Updates [Resume]"
+  11210, 	"■Rendering Updates Except Pictures [Stop]"
+  11211, 	"■Rendering Updates Except Pictures [Resume]"
   11212, 	"■Repeat Loop"
   11213, 	" [ %s ] Times"
   11214, 	"■Wait: "
@@ -5197,7 +5197,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   11254, 	"Pass-Through OFF"
   11255, 	"Above Characters ON"
   11256, 	"Above Characters OFF"
-  11257, 	"Set Image to %s:%s"
+  11257, 	"Set Sprite to %s:%s"
   11258, 	"Set Opacity to %s"
   11259, 	"Play SE %s:%s"
   11260, 	"Wait %s Frames"
@@ -5237,7 +5237,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   11284, 	"[%s%d From This Common]  Common %d: [ %s ]"
   11285, 	"Common %d: [ %s ]"
   11286, 	"No Common Event Exists"
-  11287, 	" / Corrupted command, please delete it."
+  11287, 	" / Corrupted command! Please delete it."
   11288, 	"Caller Map Ev > Page[%s]"
   11289, 	"Caller Map Ev"
   11290, 	"Ev%d: [ %s ] > Page[%s]"
@@ -5322,7 +5322,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   11349, 	"<Wait>"
   11350, 	" Save To [ "
   11351, 	" ]"
-  11352, 	"■Party Images: "
+  11352, 	"■Party Sprites: "
   11353, 	"Delete"
   11354, 	"Insert"
   11355, 	"Replace"
@@ -5445,7 +5445,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   11442, 	"[18]Copy File (Specify Source >> Destination)"
   11443, 	"[19]Send Steam Achievement [If argument is -1, stats update only]"
   11444, 	"Run as Old Version 2.10"
-  11445, 	"Data could not be written because the output destination folder does not exist, the file is locked, or access is restricted.\r\n%s \r\n\r\n*Tips\r\n  If the game crashes incorrectly, the previously created Data.wolf file\r\n  may not be unlocked and cannot be overwritten.\r\n  In that case, restart your PC or try to output to a different folder name."
+  11445, 	"The data could not be written due to factors such as the output folder does not exist, the file is locked, or access is restricted.\r\n\"%s\" \r\n\r\n*Tips:\r\n  If the game crashed abnormally, the current Data.wolf file may remain\r\n  locked and can no longer be overwritten.\r\n  In that case, restart your PC or try to output with a different folder name."
   11446, 	"Game folder name is blank!\r\nGame data could not be created."
   11447, 	"Map removed"
   11448, 	"Editor is already running.\r\nSelect \"Yes\" to force startup.\r\n\r\n*Editing with multiple instances may cause the file to be overwritten by the other Editor."
@@ -5623,13 +5623,13 @@ LANGUAGE LANG_JAPANESE, 0x1
   11580, 	"[P] Overall Filter / Monotone [Heavy!]"
   11581, 	"[P] Overall Filter / Blur [Very Heavy!!]"
   11582, 	"Picture;Character;Map;Mask;"
-  11583, 	"Change Character Image"
+  11583, 	"Change Character Sprite"
 }
 
 STRINGTABLE
 LANGUAGE LANG_JAPANESE, 0x1
 {
-  11584, 	"Change Overlay Character Image"
+  11584, 	"Change Layered Character Sprite"
   11585, 	"Overwrite Picture Pattern [0:None]"
   11586, 	"Change Height"
   11587, 	"Pattern"
@@ -5677,14 +5677,14 @@ LANGUAGE LANG_JAPANESE, 0x1
   11619, 	"\\cS[XX] : Sets the font shadow color to X (SysDB12)\r\n"
   11620, 	"\\isize[XX] Changes following image size to XX%\r\n"
   11621, 	"\\bx[XX] : Changes starting X position from next line\r\n"
-  11622, 	"Could not save basic data. Check the access permissions:\r\n\r\nIn BasicData, Game.dat / CommonEvent.dat / DataBase.dat / CDataBase.dat / SysDatabase.dat / TileSetData.dat"
-  11623, 	"Basic data has been protected. Editor will restart.\r\n\r\n*Protection key is written in Editor.ini, so be careful not to delete it by accident."
+  11622, 	"Could not save basic data. Check the access permissions:\r\n\r\nIn BasicData, Game.dat, CommonEvent.dat, DataBase.dat, CDataBase.dat, SysDatabase.dat, TileSetData.dat"
+  11623, 	"Basic data has been protected. Editor will now restart.\r\n\r\n*Protection key is written in Editor.ini, so be careful not to delete it by accident."
   11624, 	"Wrong protection key, data could not be read.\r\nStartup will be aborted."
-  11625, 	"Could not load basic data.\r\nCheck the existence and permissions for the following files:\r\n\r\n In BasicData, Game.dat / CommonEvent.dat / DataBase.dat / CDataBase.dat / SysDatabase.dat / TileSetData.dat"
+  11625, 	"Could not load basic data.\r\nCheck the existence and permissions for the following files:\r\n\r\nIn BasicData, Game.dat, CommonEvent.dat, DataBase.dat, CDataBase.dat, SysDatabase.dat, TileSetData.dat"
   11626, 	"Basic data could not be read because it is protected (for the Pro version only).\r\nStartup will be aborted."
-  11627, 	"Wrong protection key, data could not be read.\r\nEnter the correct protection key on the next dialog."
+  11627, 	"Wrong protection key, data could not be read.\r\nEnter the correct protection key in the next dialog."
   11628, 	"Protection will be removed because the protection key is blank.\r\nAre you sure?"
-  11629, 	"Protection for basic data has been removed. Editor will restart."
+  11629, 	"Protection for basic data has been removed. Editor will now restart."
   11630, 	".wolf"
   11631, 	".data"
 }
@@ -5706,7 +5706,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   11643, 	"No Key File"
   11644, 	"\\f+[X] : Adds to font size\r\n"
   11645, 	"Icon file (*.ico)|*.ico|All files(*.*)|*.*||"
-  11646, 	"Enter the \"Game Folder Name\"."
+  11646, 	"Enter the game folder name."
   11647, 	"Protection key must be 4 characters or more."
 }
 
@@ -5724,8 +5724,8 @@ LANGUAGE LANG_JAPANESE, 0x1
   11656, 	"[Precise] Top Auto-Tile Picture Pattern"
   11657, 	"Top Auto-Tile Picture Pattern Count"
   11658, 	"Top Auto-Tile Horizontal Animation Pattern Count"
-  11659, 	"Character Image Horizontal Divisions"
-  11660, 	"Character Image Vertical Divisions"
+  11659, 	"Character Sprite Horizontal Divisions"
+  11660, 	"Character Sprite Vertical Divisions"
   11661, 	"Current Picture Pattern [1-12+]"
   11662, 	"Top Auto-Tile ID"
   11663, 	"Remove All Filters"
@@ -5746,7 +5746,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   11673, 	"[!!] Copy failed! <1> → <2> \r\n [!!] If the destination file is read-only, please remove the read-only attribute."
   11674, 	"Backup of the target files has been completed.\r\nThe data conversion process will start."
   11675, 	"[!!] Backup completed, but failed to copy the following files.\r\nDo you want to ignore it and continue?\r\n(If you are unsure, please manually save the copy somewhere.)\r\n\r\n<1>"
-  11676, 	"File conversion will start.\r\n\r\nThe language of the string to be converted is [ <1> ].\r\n(Automatically uses the language setting in Basic Game Settings.)"
+  11676, 	"File conversion will start.\r\n\r\nThe language of the string to be converted is [ <1> ].\r\n(The language setting in Basic Game Settings is used automatically.)"
   11677, 	"●Conversion OK! => <1>"
   11678, 	"★Conversion failed! => <1>"
   11679, 	"\r\n[!!] Please remove the read-only attribute from the file <1> and do the following steps.\r\n<2>\r\n"
@@ -5755,12 +5755,12 @@ LANGUAGE LANG_JAPANESE, 0x1
 STRINGTABLE
 LANGUAGE LANG_JAPANESE, 0x1
 {
-  11680, 	"◆No conversion  => <1>\r\n  *This file was determined to already be in UTF-8 or to contain only alphanumeric characters."
+  11680, 	"◆No conversion  => <1>\r\n  *This file was determined to already encoded in UTF-8 or to contain only alphanumeric characters."
   11681, 	"File conversion has been completed.\r\nYou can check the processing results in <BKUP>ConvertLog.txt.\r\n\r\nNow, please continue to enjoy creating your game.\r\nThank you very much for using WOLF RPG Editor!"
-  11682, 	"Failed to convert the following files, please do the following manually later.\r\n\r\n[Manual Required]\r\n<1>"
-  11683, 	"[★] This log can be viewed later in the \"ConvertLog.txt\" in the \"<BKUP>\" folder."
-  11684, 	"The txt file \"<1>\" tried to be converted, but the decision was ambiguous.\r\n  Editor has tentatively converted a part of the file, so please check it for yourself.\r\n\r\n  [Is the \"<3>\" part below displayed correctly without garbled characters?]\r\n  (Garbled characters in other languages are be ignored)\r\n\r\n\r\n<2>\r\n\r\n(If the \"<3>\" part is converted correctly, please convert it with \"Yes\".\r\n If not, please keep it with \"No\".)\r\n *If this is troublesome, you can hold down the \"Y\" key to select \"Yes\" repeatedly. It will stop when needed."
-  11685, 	"\r\n◆Do not convert => <1>  [No: Garbled]\r\n  The text file \"<1>\" will not be converted, because it seems to be garbled when converted.\r\n    *If you want to convert it later, use Notepad of Windows or other software, and save the file in the character encoding \"UTF-8\" (no BOM).\r\n"
+  11682, 	"Failed to convert the following files. Please do the following manually later.\r\n\r\n[Manual Required]\r\n<1>"
+  11683, 	"[★] This log can be viewed later in \"ConvertLog.txt\" in the \"<BKUP>\" folder."
+  11684, 	"The txt file \"<1>\" was attempted to be converted, but the determination was ambiguous.\r\n  Editor has tentatively converted a part of the file, so please check it for yourself.\r\n\r\n  [Is the \"<3>\" part below displayed correctly without garbled characters?]\r\n  (Garbled characters in other languages are be ignored)\r\n\r\n\r\n<2>\r\n\r\n(If the \"<3>\" part is converted correctly, please convert it with \"Yes.\"\r\n If not, please keep it with \"No.\")\r\n *If this is troublesome, you can hold down the \"Y\" key to select \"Yes\" repeatedly. It will stop when needed."
+  11685, 	"\r\n◆Do not convert => <1>  [No: Garbled]\r\n  The text file \"<1>\" will not be converted, because it seems to be garbled when converted.\r\n    *If you want to convert it later, use Windows Notepad or similar software, and save the file with UTF-8 (without BOM) encoding.\r\n"
   11686, 	"\r\n◆Convert => <1> [Yes: No garbled]\r\n  The text file \"<1>\" will be converted, because it seems to be converted as expected.\r\n"
   11687, 	" - Open Basic Game Settings and click OK once (<1>)."
   11688, 	" - Open each Database Editor and click OK once (<1>)."
@@ -5768,8 +5768,8 @@ LANGUAGE LANG_JAPANESE, 0x1
   11690, 	" - Open Tileset Settings and click OK once (<1>)."
   11691, 	" - Open the target map file and save it again (<1>)."
   11692, 	" - MapTree.dat → No action required."
-  11693, 	" - <1> → Check file access permissions, then open the file with Notepad or other software, select \"Save As\", set the character encoding to \"UTF-8\" (no BOM), and save the file again."
-  11694, 	"The process was aborted because the conversion of the most important file failed.\r\nOpen \"Properties\" of BasicData/Game.dat, and if it is set to \"read-only\", please remove that attribute and run Editor.exe again."
+  11693, 	" - <1> → Check the file access permissions, open the file with Notepad or similar software, select \"Save As,\" set the encoding to \"UTF-8\" (without BOM), and save it again."
+  11694, 	"The process was aborted because the conversion of the most important file failed.\r\nOpen the \"Properties\" of BasicData/Game.dat. If it is marked as \"Read-only,\" uncheck that option and run Editor.exe again."
   11695, 	"Failed to convert some files.\r\n\r\nSee the text file (<1>) displayed next, and do the work manually."
 }
 
@@ -5777,7 +5777,7 @@ STRINGTABLE
 LANGUAGE LANG_JAPANESE, 0x1
 {
   11696, 	"  *It was determined that it contains the string \"<1>\", but it may also contain characters from other languages mixed in.\r\n"
-  11697, 	"\r\n*Editor tries to avoid converting txt files in UTF-8 character encoding as much as possible, but non-UTF-8 files may be forced to be converted even if they are in a different language.\r\n  If necessary, copy the data from the backup."
+  11697, 	"\r\n*Editor tries to avoid converting UTF-8 encoded text files as much as possible, but non-UTF-8 files may be forcibly converted using the wrong language.\r\n  If necessary, copy the data from the backup."
   11698, 	"Aborted with an error. Possible cases:\r\n- Could not create a temporary folder.\r\n- Could not use the create folder name in the language of this OS.\r\n- Other reasons."
   11699, 	"Due to the character encoding, the game folder name will be\r\n\r\n[%s]\r\n\r\nand the game data will be created.\r\nAre you sure you want to continue?"
   11700, 	"[Process] Processing Stop Wait (ms): Stop all processing including screen updates"
@@ -5800,14 +5800,14 @@ LANGUAGE LANG_JAPANESE, 0x1
   11712, 	"Microsoft YaHei"
   11713, 	"Microsoft JhengHei"
   11714, 	"Malgun Gothic"
-  11715, 	"0-15: Auto Tile / 16+: Base Tile [Old mode!!]"
-  11716, 	"0-31: Auto Tile / 32+: Base Tile"
-  11717, 	"Auto-Tiles 16 to 31 cannot be selected (will be treated as -1),\r\nbecause \"Adjust Game.exe Version\" in \"Basic Game Settings\" is set to less than Version 3.00."
+  11715, 	"0-15: Auto-Tile / 16+: Base Tile [Old mode!!]"
+  11716, 	"0-31: Auto-Tile / 32+: Base Tile"
+  11717, 	"Auto-Tiles 16 to 31 cannot be selected (will be treated as -1),\r\nbecause \"Game.exe Version\" in Basic Game Settings is set to less than Version 3.00."
   11718, 	" Convert"
   11719, 	" String Receiving"
-  11720, 	"[Warning! Behavior will change drastically in Version 3!]\r\n\r\nDo you want to keep \"Adjust Game.exe Version\" in \"Basic Game Settings\" as \"Latest\"?\r\n\r\nIf any of the following apply, \"No\" is recommended.\r\n(If you select \"No\", it will be set to \"Run as Old Version 2.29\". You can change it later.)\r\n\r\n●Using \"Get Tile ID\" of the \"Set Variable+\" command.\r\n●Using \"Overwrite Map Tiles\" or \"Change Map Tile Settings\" of the \"Tile Management\" command.\r\n  → In these cases, the tile ID will shift\r\n       because the number of auto-tiles increased from 16 to 31,\r\n       so if you do not select \"No\" to keep the old behavior,\r\n       it may not work as expected!!\r\n\r\n●Using \"Keyboard Input\" of the \"Set String\" command.\r\n  → One Japanese character has changed from 2 bytes to 3 bytes,\r\n       so the number of characters will be insufficient.\r\n       If you select \"No\", the number of input characters will be modified by 1.5 times.\r\n\r\n●Otherwise, if you want to keep the previous behavior rather than use the new features, \"No\" is recommended."
-  11721, 	"\"Adjust Game.exe Version\" has been changed to \"Run as Old Version 2.29\".\r\n\r\nIf you want to use the new features, change it to Version 3.00 or later in \"Basic Game Settings\"."
-  11722, 	"\"Adjust Game.exe Version\" will remain \"Latest\" as before.\r\nIf the behavior is strange, change it to \"Run as Old Version 2.29\" in \"Basic Game Settings\"."
+  11720, 	"[Warning! Behavior will change drastically in Version 3!]\r\n\r\nDo you want to keep the \"Game.exe Version\" setting in Basic Game Settings as \"Latest\"?\r\n\r\nIf any of the following apply, \"No\" is recommended.\r\n(If you select \"No,\" it will be set to \"Old Version 2.29.\" It can be changed later.)\r\n\r\n●Using \"Get Tile ID\" of the Set Variable+ command.\r\n●Using \"Overwrite Map Tiles\" or \"Change Map Tile Settings\" of the Tile Management command.\r\n  → In these cases, the tile ID will shift\r\n       because the number of auto-tiles increased from 16 to 31,\r\n       so if you do not select \"No\" to keep the old behavior,\r\n       it may not work as expected!!\r\n\r\n●Using \"Keyboard Input\" of the Set String command.\r\n  → One Japanese character has changed from 2 bytes to 3 bytes,\r\n       so the number of characters will be insufficient.\r\n       If you select \"No,\" the number of input characters will be modified by 1.5 times.\r\n\r\n●Otherwise, if you want to keep the previous behavior rather than use the new features, \"No\" is recommended."
+  11721, 	"Game.exe Version has been changed to \"Old Version 2.29.\"\r\n\r\nIf you want to use the new features, change it to Version 3.00 or later in Basic Game Settings."
+  11722, 	"Game.exe Version will remain \"Latest\" as before.\r\nIf the behavior is strange, change it to \"Old Version 2.29\" in Basic Game Settings."
   11723, 	"Auto Detect Encoding"
   11724, 	"UTF-8 [Default]"
   11725, 	" "
@@ -5821,15 +5821,15 @@ LANGUAGE LANG_JAPANESE, 0x1
   11728, 	"Loop Display"
   11729, 	"Don't Show"
   11730, 	"It must save the current map data before it can be opened.\r\nSave the map? (If not, data will be lost on restart)"
-  11731, 	"Screen Resolution range is 150 to 1920 in width and 100 to 1440 in height.\r\nNumbers have been changed."
+  11731, 	"The screen resolution range is 150 to 1920 horizontally and 100 to 1440 vertically.\r\nThe values have been changed."
   11732, 	"[Map] Current Map Event Count"
   11733, 	"Could not load icon file successfully.\r\nSpecify \".ico\" icon file."
   11734, 	"Zoom % (1+)"
-  11735, 	"This is an old version file that is not in UTF-8.\r\nThe character information is not Unicode,\r\nso the character language will be temporarily read as [%s].\r\n\r\nIf the characters are garbled, please change \"Old File Reading Language\" to the correct language in \"Editor Options\"."
+  11735, 	"This is an older version of the file that has not been converted to UTF-8.\r\nSince the file is not Unicode-encoded, it will be read as if it were written in \"%s.\"\r\n\r\nIf the characters are garbled, please change \"Old File Reading Language\" to the correct language in Editor Options."
   11736, 	" Value[not CommonSelf]"
   11737, 	"Cut Last Character Of..."
   11738, 	" =<Cut Last Character> "
-  11739, 	"[Pro] Failed to switch to the Pro version because access to files was restricted!\r\nPlease remove the read-only attribute from all files in the Data/BasicData folder and try again."
+  11739, 	"[Pro] Failed to switch to the Pro version because access to the files was restricted!\r\nPlease remove the read-only attribute from all files in the Data/BasicData folder and try again."
   11740, 	"Pixel Offset X [0 to (Half Tile -1)]"
   11741, 	"Pixel Offset Y [0 to (Half Tile -1)]"
   11742, 	"The key is set in Editor.ini even though it is not protected.\r\n\r\nPlease set or delete the protection key in the next dialog."
@@ -5843,9 +5843,9 @@ LANGUAGE LANG_JAPANESE, 0x1
   11745, 	"OFF"
   11746, 	"Switching 0/1"
   11747, 	"Japanese;Korean (Hangul);Chinese (Traditional);Chinese (Simplified);English;Western European"
-  11748, 	"UTF-8/BOM [Default]"
-  11749, 	"UTF-8/NoBOM"
-  11750, 	"NoBOM"
+  11748, 	"UTF-8 (BOM) [Default]"
+  11749, 	"UTF-8 (No BOM)"
+  11750, 	"No BOM"
   11751, 	"BOM"
   11752, 	"Force Exit Main Running Event"
   11753, 	"■[Pro] "
@@ -5854,20 +5854,20 @@ LANGUAGE LANG_JAPANESE, 0x1
   11756, 	"Encryption at v<X>"
   11757, 	"Use Latest Encryption [Current v<X>]"
   11758, 	"■Game.exe v3.170\r\n  In a Common Event, the map self variables are now correctly loaded from the map of the destination moved by the \"Transfer\" command. This may change game behavior.\r\n  (Previously, even after a Transfer command, the map self variables of the previous map were loaded until the end of the Common Event.)\r\n  You can revert to the old behavior by adjusting the version to \"3.155\" or earlier."
-  11759, 	"Are you sure you want to cut Event [ %s ]?\r\n\r\n(Hold Shift to skip this confirmation)"
+  11759, 	"Cut Event [ %s ]?\r\n\r\n(Hold Shift beforehand to skip this confirmation)"
 }
 
 STRINGTABLE
 LANGUAGE LANG_JAPANESE, 0x1
 {
-  11760, 	"Are you sure you want to delete Event [ %s ]?\r\n\r\n(Hold Shift to skip this confirmation)"
+  11760, 	"Delete Event [ %s ]?\r\n\r\n(Hold Shift beforehand to skip this confirmation)"
   11761, 	"Confirm Map Event Deletion"
   11762, 	"[Remove Delayed SE]"
   11763, 	"■Game.exe v3.180\r\n  Fixed a bug where the internal position of the value returned by \"Top Tile Tag Number\" of \"Set Variable+\" with \"Precise Position\" enabled was incorrect.\r\n  If you want to revert to the old behavior, adjust the Game.exe version to \"3.17\" (the internal position will be shifted)."
   11764, 	"■Game.exe v3.190\r\n  Fixed a bug where Data entries in Variable DB was automatically expanded when a \"Data Number\" greater than the current number of entries was read.\r\n  If you want to revert to the old behavior, adjust the Game.exe version to \"3.18\" (the number of Data entries in Variable DB will automatically increase when read)."
-  11765, 	"Do you want to open the description page for each version of \"Adjust Game.exe Version\" in your browser?\r\n\r\nhttps://smokingwolf.github.io/tool_wolf_rpg_editor/help/02ver_ajust.html"
+  11765, 	"Do you want to open the description page for each version of \"Game.exe Version\" in your browser?\r\n\r\nhttps://smokingwolf.github.io/tool_wolf_rpg_editor/help/02ver_ajust.html"
   11766, 	"*Print Screen may not work properly!"
-  11767, 	"The System Database was corrupted and could not be loaded.\r\nStartup will be aborted.\r\n\r\n[Solution]\r\nIf you have a backup (AutoBackup folder), try copying \"SysDatabase.dat\" and \"SysDatabase.project\" in the BasicData folder from the backup folder and overwrite the existing files."
+  11767, 	"The System Database files were corrupted and could not be loaded.\r\nStartup will be aborted.\r\n\r\n[Solution]\r\nIf you have a backup (AutoBackup folder), try copying \"SysDatabase.dat\" and \"SysDatabase.project\" in the BasicData folder from the backup folder and overwrite the existing files."
   11768, 	"The Common Events file was corrupted and could not be loaded.\r\nStartup will be aborted.\r\n\r\n[Solution]\r\nIf you have a backup (AutoBackup folder), try copying \"CommonEvent.dat\" in the BasicData folder from the backup folder and overwrite the existing file."
   11769, 	"■Game.exe v3.211\r\n  Set Variable+ now returns -1 for events erased by \"Erase Event\".\r\n  If you want to revert to the old behavior, adjust the Game.exe version to \"3.19\" (all values of an event gotten by Set Variable+ will remain the same even if the event is erased by \"Erase Event\")."
   11770, 	" Before %s[ %s:%s ]%s%s%s%s%s  [ %s ]"
@@ -5915,7 +5915,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   11802, 	"Move Frequency [0-6 (Every Frame → Most Delayed)]"
   11803, 	"Animation Frequency [0-6 (Every Frame → Most Delayed)]"
   11804, 	"■Game.exe v3.300\r\n  When a picture is erased over 0 frames, all picture effects are now immediately removed.\r\n  If you want to revert to the old behavior, adjust the Game.exe version to \"3.270\". (If a picture is erased over 0 frames and immediately shown again using the same picture ID, the picture effects will be carried over.)"
-  11805, 	"Could not delete file \"%s\"!\r\nIf it is loaded, end the related process.\r\nIf that does not seem to work, try restarting your PC."
+  11805, 	"Could not delete file: \"%s\"\r\n\r\nPlease close the game or another application using the file.\r\nIf that does not work, try restarting your PC."
   11806, 	"Encryption with Protection Key v1.1 (v3.31+/Preload Whole/Fast Load)"
   11807, 	" (Preload Whole/Fast Load)"
 }
@@ -5923,14 +5923,14 @@ LANGUAGE LANG_JAPANESE, 0x1
 STRINGTABLE
 LANGUAGE LANG_JAPANESE, 0x1
 {
-  11808, 	"The data protection feature has been updated.\r\nThe basic game settings, common events, various databases, and tileset data will be re-protected with the latest protection using the same protection key as before."
+  11808, 	"The data protection feature has been updated.\r\nThe basic game settings, Common Events, various databases, and tileset data will be re-protected with the latest protection using the same protection key as before."
   11809, 	"Update data"
   11810, 	"- If you execute a jump to a label within branches 1 to 4 of \"Condition (Number)\" that has an \"Else\" case,\r\n  the process will jump to the \"Else\" case when the processing in that branch is completed!\r\n  Be careful when jumping to a label within a Condition branch.\r\n  (This is for processing speed optimization.)"
   11811, 	"Notes on Label!"
   11812, 	"If you insert a Debug Text with the following command,\r\nthe information will be displayed in \"Debug Window\"\r\nwhen the game is run.\r\n (Enter only one line, with correct case)\r\n\r\nValWatch:ON=2000009\r\n→ After execution, monitors the value\r\n    of normal variable 9 (2000009)\r\n    and displays the value after it has been changed.\r\n\r\nPictureWatch:ON=123\r\n→ After execution, monitors picture 123\r\n    and displays information\r\n    when that picture has been processed.\r\n\r\nMoveWatch:ON=-2\r\n → After execution, monitors the leader (-2)\r\n    and displays information when Move Route is\r\n    executed on the leader.\r\n    If the value is 0 or greater, the map event with\r\n    the specified ID is targeted."
   11813, 	"Debug Text Command Tricks"
-  11814, 	"Data could not be loaded because it is protected by a protection that is newer than the current version.\r\n\r\nPlease update Editor to the latest version."
-  11815, 	"■Game.exe v3.310\r\n  ●Fixed a bug where waiting time did not occur when \"Wait\" was executed during \"Prepare Transition\".\r\n  If you want to revert to the old behavior, adjust the Game.exe version to \"3.300\" (\"Wait\" during \"Prepare Transition\" will be almost disabled).\r\n  ●Pixel Movement is now in beta. In the old alpha version of Pixel Movement, direction changes and animations did not work with 4-way graphics, but did work with 8-way graphics, and T/TX character graphics did not animate with either 4-way or 8-way graphics.\r\n  You can revert to that behavior by adjusting the version to \"3.300\" or earlier."
+  11814, 	"The data could not be loaded because it is protected by a newer version of the protection.\r\n\r\nPlease update Editor to the latest version."
+  11815, 	"■Game.exe v3.310\r\n  ●Fixed a bug where waiting time did not occur when \"Wait\" was executed during \"Prepare Transition\".\r\n  If you want to revert to the old behavior, adjust the Game.exe version to \"3.300\" (\"Wait\" during \"Prepare Transition\" will be almost disabled).\r\n  ●Pixel Movement is now in beta. In the old alpha version of Pixel Movement, direction changes and animations did not work with 4-way sprites, but did work with 8-way sprites, and T/TX character sprites did not animate with either 4-way or 8-way sprites.\r\n  You can revert to that behavior by adjusting the version to \"3.300\" or earlier."
   11816, 	"Files are protected, but there is no protection key information in Editor.ini!\r\nPlease enter the protection key again."
   11817, 	"In version 3.31, the data format of the core files was changed,\r\nso backups were created in the \"AutoBackup_Before_Ver3.31\" folder in the BasicData folder.\r\n(Game.dat, CommonEvent.dat, DataBases, TileSet.dat)\r\n\r\n*If you want to revert to the old version of the EXE,\r\n  copy these backup files and overwrite the ones in the BasicData folder."
   11818, 	"Auto backup"
@@ -5944,7 +5944,7 @@ LANGUAGE LANG_JAPANESE, 0x1
 STRINGTABLE
 LANGUAGE LANG_JAPANESE, 0x1
 {
-  11824, 	"■Game.exe v3.340\r\n  ●When \"Inactive Window Behavior\" in \"Basic Game Settings\" is set to \"Pause Processing\", the system variables \"Playtime\" (Sys29, Sys30) now does not advance while the game is inactive.\r\n  If you want to revert to the old behavior, adjust the Game.exe version to \"3.310\" or earlier. (Playtime will advance even while inactive.)"
+  11824, 	"■Game.exe v3.340\r\n  ●When \"Inactive Window Behavior\" in \"Basic Game Settings\" is set to \"Pause Processing\", System Variables \"Playtime\" (Sys29, Sys30) now does not advance while the game is inactive.\r\n  If you want to revert to the old behavior, adjust the Game.exe version to \"3.310\" or earlier. (Playtime will advance even while inactive.)"
   11825, 	"[Process] Restart Game (With Arguments) [Test-play flag is preserved]"
   11826, 	"Arguments"
   11827, 	"Restart Game (With Arguments)"
@@ -5954,11 +5954,11 @@ LANGUAGE LANG_JAPANESE, 0x1
   11831, 	"Encryption with Protection Key v1.2 (v3.50+/Preload Whole/Fast Load)"
   11832, 	"Processing... "
   11833, 	"ChaCha20 v<X> (Standard Encryption/Large Capacity/Medium Load Speed)"
-  11834, 	"*When creating game data, files without the \".wolfx\" extension will be automatically deleted at the destination, so there is no problem if both the .wolfx file and the original file exist during development.\r\n\r\n*Also, in the editor, you can continue to specify the file name without the .wolfx extension.\r\n(When GamePro.exe is running, it automatically attempts to load the \".wolfx\" file first, and if found, the .wolfx file will be prioritized. Please note that this feature is not available in the free version of Game.exe!)"
+  11834, 	"*When creating game data, files without the \".wolfx\" extension will be automatically deleted at the destination, so there is no problem if both the .wolfx file and the original file exist during development.\r\n\r\n*Also, in Editor, you can continue to specify the file name without the .wolfx extension.\r\n(When GamePro.exe is running, it automatically attempts to load the \".wolfx\" file first, and if found, the .wolfx file will be prioritized. Please note that this feature is not available in the free version of Game.exe!)"
   11835, 	".wolfx Encryption Tips"
-  11836, 	"[\xD7!] Could not access the output file [ %s ], save failed.\r\n"
+  11836, 	"[\xD7!] Could not access the output file [ %s ] and failed to save.\r\n"
   11837, 	"[✓] Encrypted file [ %s ] saved successfully!\r\n"
-  11838, 	"[\xD7] File that cannot be encrypted > [ %s ]\r\n"
+  11838, 	"[\xD7] This file cannot be encrypted > [ %s ]\r\n"
   11839, 	"[△] Encrypted without any keys because it is a font ([!!] This file will not be recorded in the history) > [ %s ]\r\n  *Fonts are automatically loaded at game startup without any key settings.\r\n"
 }
 
@@ -6061,7 +6061,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   11913, 	"XY Only"
   11914, 	" "
   11915, 	" Link [As Picture]"
-  11916, 	"■Game.exe v3.50\r\n●The display interval of special characters p[?], [?], and mg[?] is now faster.\r\n●\"DB Management\" now flexibly converts between numbers and strings (old behavior caused an error).\r\n●When a picture is erased with a duration of 0 frames, the picture information now cannot be gotten by Set Variable+ immediately afterwards. (In the old behavior, the picture information can be gotten by Set Variable+ during the same frame that the picture was erased over 0 frames.)\r\n●When a character's body graphic is erased by the \"Change Character Image\" command of \"Effects\", all layers are now erased. (In the old behavior, all layers disappeared visually, but the overlay layers remained internally.)\r\n●\"Event ID at Mouse Position\" in \"Other\" of Set Variable+ now takes map zoom into account. (In the old behavior, it does not take map zoom into account.)\r\n●When an event touches the leader by \"Approach Event\" or \"Approach Position\" commands of \"Move Route\", the event is now triggered by \"Event Touch\". (In the old behavior, these two commands do not activate Event Touch.)\r\n●When the leader touches an event by Move Route in \"Parallel Process\", the event is now triggered by \"Player Touch\". (In the old behavior, \"Player Touch\" is not activated when an event is touched by Move Route.)\r\n●Fixed a bug where the continue icon goes out of screen when a large value is set in \"Sys6:Message Continue Icon Y\" for 320x240 screen resolution.\r\n●Fixed a bug where \"Event Touch\" events placed at position (0,0) were triggered once after startup or during loading.\r\n●Fixed a bug where scroll-linked pictures were not displayed in the expected position after a certain loop.\r\n●When a forced picture pattern is overwritten by \"Character\" in \"Effects\", the pattern value returned by \"Set Variable+\" is now also changed during the same frame. (In the old behavior, it is delayed by one frame.)\r\n●The graphic of an event with a tile can now also be changed by \"Change Character Image\" in \"Character\" of \"Effects\". (In the old behavior, the graphic of an event with a tile cannot be changed.)\r\n●Fixed a bug where the run state was stuck when \"Reserved\" and \"Confirm Key / Touch\" events were triggered in the same frame.\r\n●Fixed a bug where if the game was saved while talking to a map event, it remained the same direction after loading and cannot be restored.\r\n●Fixed a bug where the cursor width of a Choice is smaller than the character width when the character spacing was reduced by \\-[?], etc.\r\n●Fixed a bug where if a string picture is set to an empty string, its image size returned by Set Variable+ remained the previous value.\r\n●Fixed a bug where \"Passable (Tile & Event)\" of Set Variable+ was used for a 0.5x1 event, and only the head side was hit, not the foot side.\r\n●\"Get Type/Data/Field Number\" of DB Management now return -1 if a nonexistent name is specified. (In the old behavior, they return 0 after the error message.)\r\n  →  If you want to revert to the old behavior, adjust the Game.exe version to \"3.390\" or earlier."
+  11916, 	"■Game.exe v3.50\r\n●The display interval of special characters p[?], [?], and mg[?] is now faster.\r\n●\"DB Management\" now flexibly converts between numbers and strings (old behavior caused an error).\r\n●When a picture is erased with a duration of 0 frames, the picture information now cannot be gotten by Set Variable+ immediately afterwards. (In the old behavior, the picture information can be gotten by Set Variable+ during the same frame that the picture was erased over 0 frames.)\r\n●When a character's body sprite is erased by the \"Change Character Sprite\" command of \"Effects\", all layers are now erased. (In the old behavior, all layers disappeared visually, but the overlay layers remained internally.)\r\n●\"Event ID at Mouse Position\" in \"Other\" of Set Variable+ now takes map zoom into account. (In the old behavior, it does not take map zoom into account.)\r\n●When an event touches the leader by \"Approach Event\" or \"Approach Position\" commands of \"Move Route\", the event is now triggered by \"Event Touch\". (In the old behavior, these two commands do not activate Event Touch.)\r\n●When the leader touches an event by Move Route in \"Parallel Process\", the event is now triggered by \"Player Touch\". (In the old behavior, \"Player Touch\" is not activated when an event is touched by Move Route.)\r\n●Fixed a bug where the continue icon goes out of screen when a large value is set in \"Sys6:Message Continue Icon Y\" for 320x240 screen resolution.\r\n●Fixed a bug where \"Event Touch\" events placed at position (0,0) were triggered once after startup or during loading.\r\n●Fixed a bug where scroll-linked pictures were not displayed in the expected position after a certain loop.\r\n●When a forced picture pattern is overwritten by \"Character\" in \"Effects\", the pattern value returned by \"Set Variable+\" is now also changed during the same frame. (In the old behavior, it is delayed by one frame.)\r\n●The sprite of an event with a tile can now also be changed by \"Change Character Sprite\" in \"Character\" of \"Effects\". (In the old behavior, the sprite of an event with a tile cannot be changed.)\r\n●Fixed a bug where the run state was stuck when \"Reserved\" and \"Confirm Key / Touch\" events were triggered in the same frame.\r\n●Fixed a bug where if the game was saved while talking to a map event, it remained the same direction after loading and cannot be restored.\r\n●Fixed a bug where the cursor width of a Choice is smaller than the character width when the character spacing was reduced by \\-[?], etc.\r\n●Fixed a bug where if a string picture is set to an empty string, its image size returned by Set Variable+ remained the previous value.\r\n●Fixed a bug where \"Passable (Tile & Event)\" of Set Variable+ was used for a 0.5x1 event, and only the head side was hit, not the foot side.\r\n●\"Get Type/Data/Field Number\" of DB Management now return -1 if a nonexistent name is specified. (In the old behavior, they return 0 after the error message.)\r\n  →  If you want to revert to the old behavior, adjust the Game.exe version to \"3.390\" or earlier."
   11917, 	"Do you want to open the keyboard \"Key Code List\" page in your browser?\r\n\r\nhttps://smokingwolf.github.io/tool_wolf_rpg_editor/help/04ev_keyinput.html#keycode"
   11918, 	"In version <VER>, the data format of the core files changed,\r\nso backups were created in the \"AutoBackup_Before_Ver<VER>\" folder in the BasicData folder.\r\n(Game.dat, CommonEvent.dat, DataBases, TileSet.dat)\r\n\r\n*If you want to revert to the old version of the EXE,\r\n  copy these backup files and overwrite the ones in the BasicData folder."
   11919, 	"Map Event Y's Self X /1000000+10*Y+X"
@@ -6092,7 +6092,7 @@ STRINGTABLE
 LANGUAGE LANG_JAPANESE, 0x1
 {
   11936, 	"X=8:Pixel Offset Y"
-  11937, 	"X=9:Event Character Image (String)"
+  11937, 	"X=9:Event Character Sprite (String)"
   11938, 	"Event Y's Information X / 9100000+10*Y+X"
   11939, 	"Leader(Y=0)/Follower Y's Information X / 9180000+10*Y+X"
   11940, 	"This Event's Information / 9190000+X"
@@ -6210,7 +6210,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   12027, 	" Fields"
   12028, 	" New Fields"
   12029, 	" / Start Time: %s ms"
-  12030, 	" / Panning: %s"
+  12030, 	" / Pan: %s"
   12031, 	"XY-Array (By Number) / \\xy[Number:X:Y]"
 }
 
@@ -6266,21 +6266,21 @@ LANGUAGE LANG_JAPANESE, 0x1
   12068, 	"[Map Precise] "
   12069, 	"TXT containing DB Type & Data (*.txt)|*.txt|All files(*.*)|*.*||"
   12070, 	"Type(WithData)_%.3i_%s_to_%.3i_%s"
-  12071, 	"%s is a Type Definition file containing %d Type Definitions and all their Data.\r\nAre you sure you want to overwrite Types and all their Data?"
+  12071, 	"File \"%s\" contains %d Type Definitions and all Data.\r\nOverwrite Types and all their Data?"
   12072, 	"Map Event file (*.txt)|*.txt|All files(*.*)|*.*||"
-  12073, 	"This is not a Map Event file."
-  12074, 	"This is a single Map Event file.\r\nAre you sure you want to overwrite Map Event %d?"
-  12075, 	"This is a multiple Map Events file.\r\nAre you sure you want to overwrite Map Events %d to %d?"
-  12076, 	"This is a file containing the entire map and multiple Map Events.\r\nAre you sure you want to overwrite the map and Map Events %d to %d?"
+  12073, 	"This file is not a Map Event file."
+  12074, 	"This file contains a single Map Event.\r\nOverwrite Map Event %d?"
+  12075, 	"This file contains multiple Map Events.\r\nOverwrite Map Events %d to %d?"
+  12076, 	"This file contains the entire map, including Map Events.\r\nOverwrite the map and Map Events %d to %d?"
   12077, 	"Copy Multiple Tilesets"
-  12078, 	"From [Tileset%.3i:%s]\r\nTo [Tileset %.3i:%s]\r\nCopy %d Tilesets"
-  12079, 	"This is a file containing multiple Tileset settings.\r\nAre you sure you want to overwrite Tilesets %d to %d?"
+  12078, 	"From [Tileset %.3i: %s]\r\nTo [Tileset %.3i: %s]\r\nCopy %d Tilesets"
+  12079, 	"This file contains the settings for multiple tilesets.\r\nOverwrite tilesets %d to %d?"
 }
 
 STRINGTABLE
 LANGUAGE LANG_JAPANESE, 0x1
 {
-  12080, 	"Import[Multi]"
+  12080, 	"Load Multiple Tilesets"
   12081, 	"File\r\n  \"%s\"\r\nis not a game settings file."
   12082, 	"Imported game settings file."
   12083, 	"Imported game settings file (for Pro version)."
@@ -6312,11 +6312,11 @@ LANGUAGE LANG_JAPANESE, 0x1
   12104, 	"SystemDB"
   12105, 	"UserDB"
   12106, 	"VarDB"
-  12107, 	"This is a file containing the entire map and multiple Map Events.\r\nAre you sure you want to completely overwrite the current map and all its Map Events?"
+  12107, 	"This file contains the entire map, including Map Events.\r\nOverwrite the current map and all its Map Events completely?"
   12108, 	"This is a map file, but it does not contain any map information.\r\nProcessing canceled."
   12109, 	"Tileset settings file (*.tile)|*.tile|All files(*.*)|*.*||"
   12110, 	"Could not load the file due to incorrect format.\r\nLoading aborted."
-  12111, 	"The basic files have been imported from TXT. Editor will restart."
+  12111, 	"The basic files have been imported from TXT. Editor will now restart."
 }
 
 STRINGTABLE
@@ -6329,11 +6329,11 @@ LANGUAGE LANG_JAPANESE, 0x1
   12116, 	"DB file (*.db*;*.csv;*.txt)|*.db*;*.csv;*.txt|All files(*.*)|*.*||"
   12117, 	"Frames"
   12118, 	" Delay Frames"
-  12119, 	"[Pad] Vibrate Gamepad"
+  12119, 	"[Pad] Set Gamepad Vibration"
   12120, 	"Power 0-1000"
   12121, 	"Time [ms]"
   12122, 	"Reset All Decryption Keys for .wolfx Encrypted Files"
-  12123, 	"Vibrate Gamepad  Power [%s]  Time [%s] ms"
+  12123, 	"Set Gamepad Vibration  Power [%s]  Time [%s] ms"
   12124, 	"  + [Folding] %d Lines  "
   12125, 	"   (Double-Click to Unfold)"
   12126, 	"  + [Folding]"
@@ -6351,11 +6351,11 @@ LANGUAGE LANG_JAPANESE, 0x1
   12133, 	"\r\nOther "
   12134, 	" "
   12135, 	"The encryption process has been completed!"
-  12136, 	"Because Shift was pressed, all in-game data files in the history will be re-encrypted.\r\nDo you want to re-encrypt the following files?\r\n"
+  12136, 	"Since the Shift key was pressed, all game data files in the history will be re-encrypted.\r\nDo you want to re-encrypt the following files?\r\n"
   12137, 	"No files requiring re-encryption were found.\r\n(All .wolfx files are up to date.)\r\n"
   12138, 	"Number of files not requiring re-encryption "
   12139, 	"Copied to clipboard!"
-  12140, 	"Do you want to delete the \"%s\" file itself along with the history?\r\nIt is usually safer to delete it.\r\n\r\n(Hold down [Shift] to skip this confirmation and delete the file together.\r\n Hold down [Ctrl] to skip this confirmation and delete only the history, leaving the .wolfx file.)"
+  12140, 	"Do you want to delete the \"%s\" file itself along with the history?\r\nIt is usually safer to delete it.\r\n\r\n(Hold down [Shift] beforehand to skip this confirmation and delete the file together.\r\n Hold down [Ctrl] beforehand to skip this confirmation and delete only the history, leaving the .wolfx file.)"
   12141, 	"Deleted the \"%s\" file and history."
   12142, 	"Deleted 1 history only."
   12143, 	"Could not delete the \"%s\" file!\r\nProcessing canceled."
@@ -6366,17 +6366,17 @@ LANGUAGE LANG_JAPANESE, 0x1
 {
   12144, 	"The following files are not in the current game data!\r\n\r\n%s\r\n\r\nPlease place the files in the game data before encryption if at all possible. (Otherwise, \"Re-Encrypt All\" cannot be used for them.)\r\nDo you still want to encrypt?"
   12145, 	"The key settings for the following files are in the history!\r\n\r\n[ %s ]\r\n\r\nDo you want to encrypt using the key in the history?\r\n\r\n Yes: Encrypt using the key in the history.\r\n No: Encrypt using the currently entered key."
-  12146, 	"Special Code to Execute (Always start with <<)"
-  12147, 	"Map is smaller than the screen! "
-  12148, 	"(Width)"
-  12149, 	"(Height)"
+  12146, 	"Special Code to Execute (Always starts with <<)"
+  12147, 	"Map is smaller than the screen!"
+  12148, 	" (Width)"
+  12149, 	" (Height)"
   12150, 	"  *Characters may move instantly during the loop."
   12151, 	"No problem with map size."
-  12152, 	"Since \"Adjust Game.exe Version\" was less than Version <VER>, \"Picture Behavior\" was lowered to \"v<VER2>\"."
+  12152, 	"Since \"Game.exe Version\" was less than Version <VER>, \"Picture Behavior\" was lowered to \"v<VER2>.\""
   12153, 	"TIPS"
   12154, 	"If \"Auto Move One Step Only\" is on, Auto Move will end after moving one step, and the\r\nnext command will be executed.\r\nYou can chase a moving target with this option. If you repeatedly execute Auto Move,\r\nthe character will move toward the target's latest position one step at a time."
   12155, 	"The file name was converted as follows because it contained invalid characters.\r\n"
-  12156, 	"(If no image, only the leader can pass, but not Events.)"
+  12156, 	"(If no sprite, only the leader can pass, but not Events.)"
   12157, 	"Task "
   12158, 	"Done "
   12159, 	"Other "
@@ -6389,16 +6389,16 @@ LANGUAGE LANG_JAPANESE, 0x1
   12161, 	"← Return\r\nTo Task"
   12162, 	"← Move\r\nTo Task"
   12163, 	"Task List (Planned to be implemented)"
-  12164, 	"Do you want to delete it?\r\n(Hold Shift to skip this confirmation)"
+  12164, 	"Do you want to delete it?\r\n(Hold Shift beforehand to skip this confirmation)"
   12165, 	"▽Close"
   12166, 	"△Open Fields"
   12167, 	" □ Change map settings."
-  12168, 	"Change the map settings with the above."
+  12168, 	"The map settings will be changed as specified above."
   12169, 	"Tile Passable Directions [1↑+2←+4→+8↓]"
   12170, 	"Movable Directions [1↑+2←+4→+8↓+16↖+32↗+64↙+128↘]"
   12171, 	"Define Type [Risky!!]"
   12172, 	"[Do not modify the Type definition basically]"
-  12173, 	"Do you want to delete it?\r\nWarning: Child items will also be deleted!\r\n\r\n(Hold Shift to skip this confirmation)"
+  12173, 	"Do you want to delete it?\r\nWarning: Child items will also be deleted!\r\n\r\n(Hold Shift beforehand to skip this confirmation)"
   12174, 	"SystemDB Type <NUM> [<NAME>]\r\nCould not be processed because Fields of the Type are locked."
   12175, 	"SystemDB Type <NUM> [<NAME>]\r\nCould not be processed because Data is locked."
 }
@@ -6412,23 +6412,23 @@ LANGUAGE LANG_JAPANESE, 0x1
   12179, 	"Import"
   12180, 	"Import\r\n*[Data] Only"
   12181, 	"[Time] Event Processing Time in Previous Frame [x0.1ms]"
-  12182, 	"[Time] Drawing Time in Previous Frame [x0.1ms]"
+  12182, 	"[Time] Rendering Time in Previous Frame [x0.1ms]"
   12183, 	"Since all map files have been loaded from TXT, the current map will be reloaded."
   12184, 	"TestPlay "
   12185, 	"Paint "
   12186, 	"Writing "
   12187, 	"Other "
-  12188, 	"■Game.exe v3.566\r\n●When referencing Data by name in DB Management, the latest data name is now used for Variable DB.\r\n →  In the old behavior, the data name at the time of game startup is used.\r\n●Fixed a bug where character settings \"1x1 Hitbox\", \"Fixed Direction\", \"Pass-Through\", \"Above Characters\", \"Half-Tile Up/Left\", and \"Shadow Image\" reverted to the page defaults instead of the saved ones when the game was loaded.\r\n●Fixed a bug where strings such as \"\\\\self[0]\" (which should not be converted because it has two \\) were converted to numbers when processed by \"Remove Special Characters\" of Set String.\r\n●Fixed a bug where the Free Transform size was carried over when a Free Transform picture was erased over 0 frames and a normal picture was shown using the same ID."
+  12188, 	"■Game.exe v3.566\r\n●When referencing Data by name in DB Management, the latest data name is now used for Variable DB.\r\n →  In the old behavior, the data name at the time of game startup is used.\r\n●Fixed a bug where character settings \"1x1 Hitbox\", \"Fixed Direction\", \"Pass-Through\", \"Above Characters\", \"Half-Tile Up/Left\", and \"Shadow Sprite\" reverted to the page defaults instead of the saved ones when the game was loaded.\r\n●Fixed a bug where strings such as \"\\\\self[0]\" (which should not be converted because it has two \\) were converted to numbers when processed by \"Remove Special Characters\" of Set String.\r\n●Fixed a bug where the Free Transform size was carried over when a Free Transform picture was erased over 0 frames and a normal picture was shown using the same ID."
   12189, 	"■Game.exe v3.582\r\nPixel movement is now automatically canceled depending on the situation when using the \"Approach Position\", \"Auto Move\", and \"Jump to Position\" commands of \"Move Route\".\r\nAlso, fixed a bug where using \"Pixel Movement\" and \"Auto Move\" together caused the character to move back and forth to the same position indefinitely.\r\n→  If you want to revert to the old behavior, adjust the Game.exe version to \"3.566\" or earlier."
   12190, 	"Normal Color;Red;Blue;Green;Pink;Yellow;Brown;"
-  12191, 	"3 Layers [Default];4 Layers / Drawing Load+;5 Layers / Drawing Load++;"
+  12191, 	"3 Layers [Default];4 Layers / Rendering Load+;5 Layers / Rendering Load++;"
 }
 
 STRINGTABLE
 LANGUAGE LANG_JAPANESE, 0x1
 {
   12192, 	"OFF;ON;"
-  12193, 	"OFF (If field types are different, stop & error);ON (Match field types) [Default];"
+  12193, 	"OFF (If Field types are different, stop & error);ON (Match Field types) [Default];"
   12194, 	"16x16;32x32;40x40;48x48;"
   12195, 	"↙"
   12196, 	"↘"
@@ -6453,34 +6453,34 @@ LANGUAGE LANG_JAPANESE, 0x1
   12210, 	"Replace Member <X> with <FILE>"
   12211, 	"Remove All <FILE> from Party"
   12212, 	"■Error: "
-  12213, 	"[ERROR] Insufficient command data items, invalid event code! Editing this may cause a crash, so please delete it."
+  12213, 	"[ERROR] Insufficient command data items, invalid event code! Editing may cause a crash, so please delete this!"
 }
 
 STRINGTABLE
 LANGUAGE LANG_JAPANESE, 0x1
 {
-  30900, 	"Which tile image passage settings do you want to export?"
-  30901, 	"Which tile image passage settings do you want to apply the CSV contents to?"
-  30902, 	"*The exported CSV files will be automatically loaded when loading the tile image with the same name."
-  30903, 	"*Passage settings CSV files can also be read by dragging and dropping them onto the tiles."
+  30900, 	"Which tile image to export settings to CSV from?"
+  30901, 	"Which tile image to apply CSV data to?"
+  30902, 	"*The exported CSV files will be automatically imported when the tile image with the same name is selected."
+  30903, 	"*CSV files for tile settings can also be imported by dragging and dropping them onto the tiles."
   30904, 	"Base Tiles : [ %s ]"
-  30905, 	"Auto Tile %d : [ %s ]"
-  30906, 	"Passage settings CSV file (*.csv)|*.csv|All files(*.*)|*.*||"
+  30905, 	"Auto-Tile %d : [ %s ]"
+  30906, 	"Tile settings CSV file (*.csv)|*.csv|All files(*.*)|*.*||"
   30907, 	"File could not be saved."
   30908, 	"File could not be read or had no data."
-  30909, 	"Passage settings to save: 1 tile"
-  30910, 	"Passage settings to save: Tiles 8 x %d (Width x Height)"
-  30911, 	"Loaded CSV passage settings: Tiles %d x %d (Width x Height)\r\n  → File Name \"%s\""
+  30909, 	"Tile Settings to Export: 1 tile"
+  30910, 	"Tile Settings to Export: 8 x %d tiles (Width x Height)"
+  30911, 	"Loaded CSV Tile Settings: %d x %d tiles (Width x Height)\r\n  → File Name \"%s\""
 }
 
 STRINGTABLE
 LANGUAGE LANG_JAPANESE, 0x1
 {
   30912, 	"The following file has been exported.\r\n\r\n%s"
-  30913, 	"The following passage settings CSV file was found in the same location.\r\nDo you want to load the passage settings?\r\n\r\n[ %s ]"
-  30914, 	"The following passage settings CSV file was found in the same location.\r\nDo you want to load the passage settings?\r\n\r\n[ %s ]"
-  30915, 	"Do you want to load the passage settings CSV file to the following tile location?\r\n\r\nColumn %d / Row %d  [1 Tile]\r\n\r\n[ %s ]"
-  30916, 	"Do you want to load the passage settings CSV file to the following tile location?\r\n\r\nFrom Column 1 / Row %d  [%d Rows]\r\n\r\n[ %s ]"
+  30913, 	"The following tile settings CSV file was found in the same location.\r\nDo you want to load the tile settings?\r\n\r\n\"%s\""
+  30914, 	"The following tile settings CSV file was found in the same location.\r\nDo you want to load the tile settings?\r\n\r\n\"%s\""
+  30915, 	"Import the tile settings CSV file at the following tile position?\r\n\r\n  Column %d, Row %d  [1 tile]\r\n\r\n\"%s\""
+  30916, 	"Import the tile settings CSV file at the following tile position?\r\n\r\n  From Column 1, Row %d  [%d rows]\r\n\r\n\"%s\""
 }
 
 STRINGTABLE
@@ -6503,7 +6503,7 @@ LANGUAGE LANG_JAPANESE, 0x1
 STRINGTABLE
 LANGUAGE LANG_JAPANESE, 0x1
 {
-  32814, 	"\nChange Map Settings (Map size, Tileset, BGM, etc.)"
+  32814, 	"\nChange Map Settings (Map size, tileset, BGM, etc.)"
   32815, 	"\nCommon Event Settings"
 }
 
