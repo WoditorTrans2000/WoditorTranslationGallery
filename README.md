@@ -62,9 +62,9 @@ The version of the dll being translated and from the latest folder is 3.648.
 
 MENU - [##########] 100%
 
-DIALOG - [##########] 99%
+DIALOG - [##########] 100%
 
-STRINGTABLE - [##########] 99%
+STRINGTABLE - [##########] 100%
 
 SystemString.txt ( 🟢 )
 
