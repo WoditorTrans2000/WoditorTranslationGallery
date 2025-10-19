@@ -974,7 +974,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "OK", 1, BUTTON, BS_DEFPUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 367, 369, 50, 18 
    CONTROL "Cancelar", 2, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 422, 369, 50, 17 
    CONTROL "", 1176, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 9, 6, 188, 229 
-   CONTROL "", 1065, LISTBOX, LBS_NOTIFY | LBS_NOINTEGRALHEIGHT | LBS_WANTKEYBOARDINPUT | LBS_EXTENDEDSEL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_VSCROLL | WS_TABSTOP, 3, 27, 206, 284 
+   CONTROL "", 1065, LISTBOX, LBS_NOTIFY | LBS_NOINTEGRALHEIGHT | LBS_WANTKEYBOARDINPUT | LBS_EXTENDEDSEL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP, 3, 27, 206, 284 
    CONTROL "＼", 1074, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 224, 12, 16, 14 
    CONTROL "↑", 1071, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 241, 12, 16, 14 
    CONTROL "／", 1075, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 258, 12, 16, 14 
@@ -3269,7 +3269,7 @@ LANGUAGE LANG_JAPANESE, 0x1
 FONT 9, "MS Shell Dlg"
 {
    CONTROL 1674, -1, STATIC, SS_BITMAP | WS_CHILD | WS_VISIBLE, 19, 36, 37, 37 
-   CONTROL "[Sistema b\xE1sico de RPG]\n\n - Common Event, User DB e Variable DB para o Sistema b\xE1sico\n - Apenas o \"mapa de t\xEDtulo\" e \"mapa inicial\"\n - Sistema de imagem e som pr\xE9-configurado (Sistema de imagem)\n - 4 configura\xE7\xF5es de Tileset pr\xE9-configuradas\n - Algumas imagens de personagens, monstros e mat\xE9riais de m\xFAsica de fundo.\r\n O que voc\xEA pode fazer no test play: Testar o t\xEDtulo de menu, ande ao redor da ilha isolada depois do come\xE7o, abra o menu com a tecla Cancel.", -1, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_GROUP, 77, 25, 220, 93 
+   CONTROL "[Sistema b\xE1sico de RPG]\n\n - Common Event, User DB e Variable DB para o Sistema b\xE1sico\n - Apenas o \"mapa de t\xEDtulo\" e \"mapa inicial\"\n - Sistema de imagem e som pr\xE9-configurado (SystemFile)\n - 4 configura\xE7\xF5es de Tileset pr\xE9-configuradas\n - Algumas imagens de personagens, monstros e mat\xE9riais de m\xFAsica de fundo.\r\n O que voc\xEA pode fazer no test play: Testar o t\xEDtulo de menu, ande ao redor da ilha isolada depois do come\xE7o, abra o menu com a tecla Cancel.", -1, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_GROUP, 77, 25, 220, 93 
    CONTROL "Cancelar", 2, BUTTON, BS_DEFPUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_GROUP | WS_TABSTOP, 249, 209, 50, 17 
    CONTROL "Cria\xE7\xE3o de dados vazios com Sistema b\xE1sico de RPG.", 1898, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 7, 76, 64, 36 
    CONTROL 1673, -1, STATIC, SS_BITMAP | WS_CHILD | WS_VISIBLE, 20, 130, 37, 37 
@@ -6455,6 +6455,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   12212, 	"■Erro:"
   12213, 	"[Erro!] Ítens de dados do comando insuficientes, código de evento invalido! Excluia, pois pode ocorrer um crash quando editar."
   12214, 	"画像が見つかりません"
+  12215, 	"[px]"
 }
 
 STRINGTABLE
