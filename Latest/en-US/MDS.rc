@@ -10,7 +10,7 @@ LANGUAGE LANG_JAPANESE, 0x1
     MENUITEM "&Save Map\tCtrl+S",  57603
     MENUITEM "Save &as...",  57604
     MENUITEM SEPARATOR
-    MENUITEM "[Pro] Encrypt Files Individually (.wolfx)",  33076
+    MENUITEM "[Pro] Encrypt Individual Files (.wolfx)",  33076
     MENUITEM "Create &Game Data",  32846
     MENUITEM SEPARATOR
     MENUITEM "E&xit Editor",  57665
@@ -28,8 +28,8 @@ LANGUAGE LANG_JAPANESE, 0x1
     MENUITEM "&Toolbar",  59392
     MENUITEM "Tileset Editor",  32792
     MENUITEM "System Database (Core Data)",  32797
-    MENUITEM "User Database (Immutable Data)",  32790
-    MENUITEM "Variable Database (Manipulable Data)",  32831
+    MENUITEM "User Database (Static Data)",  32790
+    MENUITEM "Variable Database (Dynamic Data)",  32831
     MENUITEM "Common Events",  32815
     MENUITEM "Map Selection",  32823
     MENUITEM "Task List",  33108
@@ -49,8 +49,8 @@ LANGUAGE LANG_JAPANESE, 0x1
     MENUITEM "Open Game Settings [Pro]",  33066
     MENUITEM "Set Protection Key [Pro]",  33069
     MENUITEM SEPARATOR
-    MENUITEM "Open Config for Game.exe",  32865
-    MENUITEM "Use Debug Window [Check = Use]",  32942,  CHECKED
+    MENUITEM "Open Game.exe Config",  32865
+    MENUITEM "Show Debug Window (ON/OFF)",  32942,  CHECKED
   }
   POPUP "Options"
   {
@@ -67,7 +67,7 @@ LANGUAGE LANG_JAPANESE, 0x1
     }
     MENUITEM "WOLF RPG Editor &Manual [JPN]",  32861
     MENUITEM "Perfect Guide Site [JPN]",  32872
-    MENUITEM "Behavior Change History",  33073
+    MENUITEM "Behavior Change Log",  33073
   }
 }
 
@@ -95,7 +95,7 @@ LANGUAGE LANG_JAPANESE, 0x1
     MENUITEM "Paste Event\t&V",  57637
     MENUITEM "Delete\t&Del",  32794
     MENUITEM SEPARATOR
-    MENUITEM "Open Settings for This Map",  32814
+    MENUITEM "Open Map Settings",  32814
     MENUITEM "Reload Map Tile Images",  32818
     POPUP "Other Menus"
     {
@@ -104,7 +104,7 @@ LANGUAGE LANG_JAPANESE, 0x1
     }
     MENUITEM SEPARATOR
     MENUITEM "Set Game Start Position",  32855
-    MENUITEM "Save Position to DB",  32853
+    MENUITEM "Save Position to Database",  32853
   }
 }
 
@@ -113,7 +113,7 @@ LANGUAGE LANG_JAPANESE, 0x1
 {
   POPUP "EDITMENU"
   {
-    MENUITEM "Open Command Insertion Window\t&Enter",  32954
+    MENUITEM "Insert Command\t&Enter",  32954
     MENUITEM "Edit Command\t(Ctrl+)&Space",  32953
     MENUITEM "Continue Command\t&Ctrl+Shit+Space",  33089
     MENUITEM SEPARATOR
@@ -129,9 +129,9 @@ LANGUAGE LANG_JAPANESE, 0x1
       MENUITEM "Fold All",  33096
       MENUITEM "Unfold All",  33097
     }
-    MENUITEM "Put Into Loop [0] Time\t&Q",  33101
-    MENUITEM "Change Loop from 1 to 0 Time (Be Ignored)\t&Q",  33102
-    MENUITEM "Change Loop from 0 to 1 Time (Be Processed)\t&Q",  33103
+    MENUITEM "Add to Loop (0 Times)\t&Q",  33101
+    MENUITEM "Change Loop from 1 to 0 (Ignore)\t&Q",  33102
+    MENUITEM "Change Loop from 0 to 1 (Process)\t&Q",  33103
     MENUITEM "Jump to Next Case\t&G (Shift+G:Previous)",  33095
     MENUITEM SEPARATOR
     MENUITEM "Copy Command Text to Clipboard\tCtrl+Shift+C",  32962
@@ -3280,7 +3280,7 @@ FONT 9, "MS Shell Dlg"
 
 229 DIALOGEX 0, 0, 256, 219
 STYLE DS_SHELLFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
-CAPTION "Behavior Change History"
+CAPTION "Behavior Change Log"
 LANGUAGE LANG_JAPANESE, 0x1
 FONT 9, "MS Shell Dlg"
 {
@@ -3294,7 +3294,7 @@ FONT 9, "MS Shell Dlg"
 1676 DIALOGEX 0, 0, 363, 204
 STYLE DS_SHELLFONT | DS_MODALFRAME | DS_NOIDLEMSG | WS_POPUP | WS_CAPTION | WS_SYSMENU
 EXSTYLE WS_EX_ACCEPTFILES
-CAPTION "Encrypt Files Individually (.wolfx) [Pro Only]"
+CAPTION "Encrypt Individual Files (.wolfx) [Pro Only]"
 LANGUAGE LANG_JAPANESE, 0x1
 FONT 8, "MS Shell Dlg", FW_NORMAL, FALSE, 1
 {
@@ -6497,7 +6497,7 @@ LANGUAGE LANG_JAPANESE, 0x1
 STRINGTABLE
 LANGUAGE LANG_JAPANESE, 0x1
 {
-  32790, 	"\nUser Database (Immutable Data)"
+  32790, 	"\nUser Database (Static Data)"
   32792, 	"\nTileset Settings"
   32797, 	"\nSystem Database (Core Data. Do not edit if not necessary!)"
 }
@@ -6522,7 +6522,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   32826, 	"\nShow Map at 4x"
   32827, 	"\nShow Map at 1/4x (Ctrl+Mouse-wheel to switch)"
   32828, 	"\nShow Map at 1/8x (Ctrl+Mouse-wheel to switch)"
-  32829, 	"\nVariable Database (Manipulable Data)"
+  32829, 	"\nVariable Database (Dynamic Data)"
   32830, 	"Configure Basic Game Settings"
 }
 
