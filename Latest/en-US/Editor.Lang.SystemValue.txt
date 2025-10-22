@@ -83,7 +83,7 @@
 82:Time [Second]
 83: -----
 84:Screen Resolution (For Old/0-2/-1:Other)
-85:Draw Mode (0:3D/1:Software)
+85:Rendering Mode (0:3D/1:Software)
 86: -----
 87:Follower 1 Shadow (-1:Leader's)
 88:Follower 2 Shadow (-1:Leader's)
@@ -91,12 +91,12 @@
 90:Follower 4 Shadow (-1:Leader's)
 91:Follower 5 Shadow (-1:Leader's)
 92: -----
-93:Playing BGM Panning [±255]
-94:Playing BGS Panning (Ch=Sys99) [±255]
+93:Playing BGM Pan [±255]
+94:Playing BGS Pan (Ch=Sys99) [±255]
 95:Playing BGM Volume [%]
-96:Playing BGM Tempo/Frequency [%]
+96:Playing BGM Tempo/Pitch [%]
 97:Playing BGS Volume (Ch=Sys99) [%]
-98:Playing BGS Frequency (Ch=Sys99) [%]
+98:Playing BGS Pitch (Ch=Sys99) [%]
 99:BGS Channel
 100:BGM Volume Multiplier [%]
 101:BGS Volume Multiplier [%]
