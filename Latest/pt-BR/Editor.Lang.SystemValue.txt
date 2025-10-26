@@ -1,14 +1,14 @@
-0:Número da Face
+0:Número de Retrato
 1:Janela de Mensagem X
 2:Janela de Mensagem Y
 3:Janela de Escolha X
 4:Janela de Escolha Y
-5:Cursor da Mensagem X (Adic. Sys1)
-6:Cursor da Mensagem Y (Adic. Sys1)
+5:Ícone de avançar Mensagem X (Adic. Sys1)
+6:Ícone de avançar Mensagem Y (Adic. Sys1)
 7:Escolha inicial (0,1,2...)
 8:Tamanho da Fonte Base
 9:Velo. da Mensagem (X Letras/segundos)
-10:Pausa da Mensagem (X Frames)
+10:Espera da Mensagem (X Frames)
 11:Velo. do String (X Letras/segundos)
 12:[L] Mensagem ativo? (1:ON)
 13:[L] Evento ativo? (1:ON)
@@ -23,7 +23,7 @@
 22:Modo de Mistura do Cursor (0:Normal,1:Adicionar)
 23:Tamanho da anotações Ruby
 24:[L] Dados do Save lidos? (1:Sim 0:Não)
-25:Save atual(0+)
+25:Save atual (0+)
 26:Margem da Janela de Escolha X
 27:Margem da Janela de Escolha Y
 28:[L] Contagem de Frames (Loops de 10M)
@@ -33,8 +33,8 @@
 32:[L] FPS da Tela (Cada segundos)
 33:Frameskip (0 até 2)
 34:Correção Y (px) do personagem [-(Tile -1) até 0]
-35:[L]Herói em movi.? (1:Sim) *Entre as tiles?
-36:Sombra do Herói (Sys9)
+35:[L]Lider em movi.? (1:Sim) *Entre as tiles?
+36:Sombra do Lider (Sys9)
 37:Separação do grupo (Passos)
 38:Entrada durante Teclado [1:Mouse e Toque +2:Pad]
 39:[L]Entrada do Teclado (0:Entrado -1:Cancelado)
@@ -85,11 +85,11 @@
 84:[L]Tamanho da tela (Para velho/0-2/-1:Outro)
 85:[L]Modo de renderização(0:3D/1:Software)
 86: -----
-87:Sombra do aliado 1(-1:Herói)
-88:Sombra do aliado 2(-1:Herói)
-89:Sombra do aliado 3(-1:Herói)
-90:Sombra do aliado 4(-1:Herói)
-91:Sombra do aliado 5(-1:Herói)
+87:Sombra do seguidor 1 (-1:Lider)
+88:Sombra do seguidor 2 (-1:Lider)
+89:Sombra do seguidor 3 (-1:Lider)
+90:Sombra do seguidor 4 (-1:Lider)
+91:Sombra do seguidor 5 (-1:Lider)
 92: -----
 93:Dist. do BGM tocado [±255]
 94:Dist. do BGS tocando  (Ch=Sys99) [±255]
@@ -110,7 +110,7 @@
 109: -----
 110:Valor atual da Seed (Aleatório)
 111:[L] Janela ativa (1:Sim)
-112:[L] Test Play?(1:Sim)
+112:[L] Test Play? (1:Sim)
 113: -----
 114:[L] Versão do Movimento (x100)
 115:[L] Versão do Game.exe (x100)
@@ -129,8 +129,8 @@
 128: -----
 129:Velo. do Evento em Mov. diagonal X (%)
 130:Velo. do Evento em Mov. diagonal Y (%)
-131:[Herói] Correção Central X
-132:[Herói] Correção Central Y
+131:[Lider] Correção Central X
+132:[Lider] Correção Central Y
 133: -----
 134:Entrada direcional com Pad direc.? (1:ON)
 135:Entrada direcional analógico esquerdo? (1:ON)
