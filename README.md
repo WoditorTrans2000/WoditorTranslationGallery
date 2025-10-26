@@ -1,8 +1,6 @@
 ![BannerWODITOR](https://github.com/user-attachments/assets/e2d1f1ab-113e-440a-9391-6e9e5d0ad7de)
 
-# Galeria de tradução para WolfRPGEditor |
-
-# Translation Gallery for WolfRPGEditor  |
+# Translation Gallery for WolfRPGEditor  
 
 This repository contains translations for WolfRPGEditor
 
@@ -17,8 +15,6 @@ There is 2 goal of this repository:
 - To translate WolfRPGEditor itself, from the previous or latest versions.
 
 You won't find the program in the repository, only the resource files. But if you want to use the **translated Editor**, then check the [releases](https://github.com/WoditorTrans2000/WoditorTranslationGallery/releases).
-
----
 
 ## How the translations is done
 
@@ -50,41 +46,16 @@ E-Mail: WoditorGameGallery@protonmail.com<br>I'm Brazilian! I can understand Eng
 [Discord](
 https://discord.com/invite/c3F7fNyDKE) **WolfRPGEditor Hub** If you want to discuss about translations, please join the discord!
 
----
-
 ## Status
 
 Currently only pt-BR and en-US are the one I'm updating when is necessary.
 
-The version of the dll being translated and from the latest folder is 3.648.
+The version of the dll being translated and from the latest folder is 3.660.
 
-🇧🇷 pt-BR - Sendo feito por [Woditortrans2000](https://github.com/WoditorTrans2000).
+🇧🇷 pt-BR - 100% - Sendo feito por [Woditortrans2000](https://github.com/WoditorTrans2000).
 
-MENU - [##########] 100%
 
-DIALOG - [##########] 100%
-
-STRINGTABLE - [##########] 100%
-
-SystemString.txt ( 🟢 )
-
-SystemValue.txt ( 🟢 )
-
----
-
-🇺🇸 en-US - DONE - translation being done by [Yumu](https://github.com/yumunet)
-
-MENU - [##########] 100%
-
-DIALOG - [##########] 100%
-
-STRINGTABLE - [##########]  100%
-
-SystemString.txt ( 🟢 )
-
-SystemValue.txt ( 🟢 )
-
----
+🇺🇸 en-US - 100% - Translation being done by [Yumu](https://github.com/yumunet)
 
 ## Contribution
 
@@ -95,8 +66,6 @@ For now, this is the way to go if you've translated WolfRPGEditor into another l
 You can either complete the .rc that needs to be completed or use another translation to translate from another language. If you do this, give credit to the author of the translation you're using.
 
 Let me know if you find a translation is not archived here. (Completed or not).
-
----
 
 ## How to use
 
@@ -170,8 +139,6 @@ And at the end, compile the .rc with the new parts, save it as .rec and add it t
 
 That's basically all you need to understand, you also can do this with the exe not just dll! However, there are many things I haven't mentioned here, things related to some problems you may encounter. For this, I recommend checking out some [translation tips from Yumunet](https://github.com/yumunet/WoditorTranslationGallery/wiki).
 
----
-
 ## Social media
 
 - Join the community of WolfRPGEditor !<br>When there's a release, I'll post it on all the social media below, if I can.
@@ -187,8 +154,6 @@ https://www.reddit.com/r/Udita_wolfrpgeditor/?rdt=34274) **-r/udita_wolfrpgedito
 https://bsky.app/profile/woditorgamegallery.bsky.social) **- WoditorNews -**<br>
 Where I post updates on translations in progress, sometimes I posts games by other developers.
 
----
-
 ## Credit
 
 <p align="center">
@@ -201,12 +166,12 @@ He is the developer of WolfRPGEditor and I would like to thank him for putting t
 <br/>
 
 🇧🇷 pt-BR<br>
-**(v3.39, v3.562, v3.555, v3.574, v3.613, v3.618, v3.626 and v3.632)** translations by [Woditortrans2000](https://github.com/WoditorTrans2000) (Owner of this repository) personally, I prefer to be called **Oki**.
+**(v3.39, v3.562, v3.555, v3.574, v3.613, v3.618, v3.626, v3.632 and v3.660)** translations by [Woditortrans2000](https://github.com/WoditorTrans2000) (Owner of this repository) personally, I prefer to be called **Oki**.
 
 <br/>
 
 🇺🇸 en-US<br/>
-**(v3.613, v3.618, v3.626 and v3.632)** Translation completed and improved by [Yumu](https://github.com/yumunet)<br>Previously, the translation used vgperson and Sugy's translation. But because of Yumu's contribution, it is now something of its own.<br> Also I would like to thank him for helping me with the repository and give me suggestion!
+**(v3.613, v3.618, v3.626, v3.632 and v3.660)** Translation completed and improved by [Yumu](https://github.com/yumunet)<br>Previously, the translation used vgperson and Sugy's translation. But because of Yumu's contribution, it is now something of its own.<br> Also I would like to thank him for helping me with the repository and give me suggestion!
 
 **(v1.10, v1.20, v1.30, v1.31, v3.562, v3.566 and v3.574)** Used Vgperson and Surgy to translate, with the addition of Woditortrans2000 and Yumu. However, the translation is out of date, so it needs to be updated.
 
