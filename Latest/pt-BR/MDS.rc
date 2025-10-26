@@ -28,8 +28,8 @@ LANGUAGE LANG_JAPANESE, 0x1
     MENUITEM "Barra de Ferramen&ta",  59392
     MENUITEM "Editor de Tileset",  32792
     MENUITEM "System Database (Dados Centrais)",  32797
-    MENUITEM "User Database (Dados Inater\xE1veis)",  32790
-    MENUITEM "Variables Database (Dados Alteráveis)",  32831
+    MENUITEM "User Database (Dados Estático)",  32790
+    MENUITEM "Variables Database (Dados Dinâmico)",  32831
     MENUITEM "Commom Events",  32815
     MENUITEM "Sele\xE7\xE3o de mapa",  32823
     MENUITEM "Lista de tarefa",  33108
@@ -43,14 +43,14 @@ LANGUAGE LANG_JAPANESE, 0x1
     MENUITEM "Camada 5",  33085
     MENUITEM "Eventos",  32774
   }
-  POPUP "Configura\xE7\xE3o do jogo"
+  POPUP "Configura\xE7\xE3o de jogo"
   {
-    MENUITEM "Alterar a Conf. Básica do Jogo",  32830
-    MENUITEM "Alterar a Conf. Básica do Jogo [Pro]",  33066
+    MENUITEM "Alterar Conf. Básica do Jogo",  32830
+    MENUITEM "Alterar Conf. Básica do Jogo [Pro]",  33066
     MENUITEM "Definir Chave de Prote\xE7\xE3o [Pro]",  33069
     MENUITEM SEPARATOR
     MENUITEM "Abrir o Config.exe",  32865
-    MENUITEM "Usar o Debug [✓ = Em uso]",  32942,  CHECKED
+    MENUITEM "Mostrar janela de Debug [✓ = Em uso]",  32942,  CHECKED
   }
   POPUP "Op\xE7\xF5es"
   {
@@ -95,7 +95,7 @@ LANGUAGE LANG_JAPANESE, 0x1
     MENUITEM "Colar Evento\t&V",  57637
     MENUITEM "Deletar\t&Del",  32794
     MENUITEM SEPARATOR
-    MENUITEM "Abrir a configura\xE7\xE3o deste Mapa",  32814
+    MENUITEM "Abrir a Configura\xE7\xE3o de Mapa",  32814
     MENUITEM "Atualizar o Mapa",  32818
     POPUP "Outros op\xE7\xF5es de mapa"
     {
@@ -104,7 +104,7 @@ LANGUAGE LANG_JAPANESE, 0x1
     }
     MENUITEM SEPARATOR
     MENUITEM "Colocar o Ponto Inicial",  32855
-    MENUITEM "Salvar a Posi\xE7\xE3o no DB",  32853
+    MENUITEM "Salvar a Posi\xE7\xE3o no Database",  32853
   }
 }
 
@@ -113,7 +113,7 @@ LANGUAGE LANG_JAPANESE, 0x1
 {
   POPUP "EDITMENU"
   {
-    MENUITEM "Abrir Janela de inserção\t&Enter",  32954
+    MENUITEM "Inserir Comando\t&Enter",  32954
     MENUITEM "Editar Comando\t(Ctrl+)&Space",  32953
     MENUITEM "Copie o cont\xEAudo para janela de inser\xE7\xE3o\t&Ctrl+Shit+Space",  33089
     MENUITEM SEPARATOR
@@ -129,7 +129,7 @@ LANGUAGE LANG_JAPANESE, 0x1
       MENUITEM "Reduzir Tudo",  33096
       MENUITEM "Expandir Tudo",  33097
     }
-    MENUITEM "Coloque em loop (0 vezes)\t&Q",  33101
+    MENUITEM "Adicionar loop (0 vezes)\t&Q",  33101
     MENUITEM "Mudar loop para 0 (Ignorado)\t&Q",  33102
     MENUITEM "Mudar loop para 1 (Executado)\t&Q",  33103
     MENUITEM "Pule para pr\xF3xima linha \t&G (Shift+G: Linha anterior)",  33095
@@ -247,9 +247,9 @@ FONT 9, "MS Shell Dlg"
    CONTROL "PictureWatch", 1906, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 149, 158, 52, 10 
    CONTROL "MoveWatch", 1908, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 202, 158, 52, 10 
    CONTROL "", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 16, 3, 212, 10 
-   CONTROL "*Aqui exibirão informação de cor da fonte e número do retrato.", 1330, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 48, 135, 135, 19 , WS_EX_STATICEDGE
+   CONTROL "*Exibe informação de cor de fonte e número de retrato.", 1330, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 48, 135, 135, 19 , WS_EX_STATICEDGE
    CONTROL "Inserir Comando de Mudan\xE7a de Retrato", 1229, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_TABSTOP, 254, 5, 11, 13 
-   CONTROL "N\xFAmero do retrato (SysDB 24) / Cor do texto (SysDB 12)", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 8, 125, 200, 31 
+   CONTROL "N\xFAmero de retrato (SysDB 24) / Cor do texto (SysDB 12)", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 8, 125, 200, 31 
    CONTROL "*@N\xFAmero na primeira linha para mudar retrato (SysDB 0)", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 16, 7, 209, 11 
    CONTROL "1    2    3    4    5    6    7    8    9    10   11   12   13   14   15   16   17   18   19   20   21", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 20, 20, 232, 9 
    CONTROL "Texto de Debug", 1070, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 210, 93, 57, 15 
@@ -287,11 +287,11 @@ FONT 9, "MS Shell Dlg"
    CONTROL "200%", 1930, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | WS_CHILD | WS_VISIBLE, 187, 2, 32, 12 
    CONTROL "", 1254, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_GROUP, 280, 3, 44, 11 
    CONTROL "*Mostra Tamanho da Imagem aqui", 1952, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 125, 15, 136, 10 , WS_EX_STATICEDGE
-   CONTROL "Reproduzir /\r\nPausa ", 1953, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 135, 51, 45, 28 
+   CONTROL "Reproduzir /\r\nPausar ", 1953, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 135, 51, 45, 28 
    CONTROL "Parar", 1954, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 184, 51, 45, 28 
    CONTROL "", 1955, "msctls_trackbar32", TBS_HORZ | TBS_BOTH | TBS_NOTICKS | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 143, 117, 182, 17 
    CONTROL "", 1956, "msctls_trackbar32", TBS_HORZ | TBS_BOTH | TBS_NOTICKS | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 237, 62, 88, 14 
-   CONTROL "Reproduzir aut\xF3maticamente", 1957, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 136, 36, 100, 13 
+   CONTROL "Reproduzir automaticamente", 1957, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 136, 36, 100, 13 
    CONTROL "Volume", 1958, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 240, 48, 64, 9 
    CONTROL "\r\n\xCDnicio da reprodu\xE7\xE3o", 1959, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 137, 92, 206, 23 
    CONTROL "Ctrl+Clique Duplo para abrir ", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 13, 264, 97, 11 
@@ -719,7 +719,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "...", 1423, BUTTON, BS_PUSHBUTTON | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 206, 134, 19, 12 
    CONTROL "...", 1424, BUTTON, BS_PUSHBUTTON | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 206, 149, 19, 12 
    CONTROL "O: Pass\xE1vel     X: Impassável\r\n▲: Atr\xE1s do Personagem\r\n★: Acima do Personagem\r\n↓: Mescla O/X com a camada abaixo\r\n□: Metade transparente", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 116, 267, 121, 45 , WS_EX_STATICEDGE
-   CONTROL "Exportar Configura\xE7\xF5es de Tiles", 1451, BUTTON, BS_GROUPBOX | BS_FLAT | WS_CHILD | WS_VISIBLE, 3, 260, 108, 56 
+   CONTROL "Exportar/Importar Arquivos", 1451, BUTTON, BS_GROUPBOX | BS_FLAT | WS_CHILD | WS_VISIBLE, 3, 260, 108, 56 
    CONTROL "Salvar", 1620, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 4, 272, 24, 19 
    CONTROL "Carregar", 1621, BUTTON, BS_PUSHBUTTON | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 79, 274, 30, 17 
    CONTROL "Configura\xE7\xE3o", 1452, BUTTON, BS_GROUPBOX | BS_FLAT | WS_CHILD | WS_VISIBLE, 113, 1, 127, 314 
@@ -741,7 +741,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "★/▲", 1725, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_MULTILINE | WS_CHILD | WS_VISIBLE, 304, 10, 57, 18 
    CONTROL "↓/□", 1726, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_MULTILINE | WS_CHILD | WS_VISIBLE, 362, 10, 53, 18 
    CONTROL "Mostra o estado do clique", 1727, STATIC, SS_CENTER | WS_CHILD | WS_VISIBLE | WS_GROUP, 247, 29, 174, 10 , WS_EX_STATICEDGE
-   CONTROL "[Dicas para configurar passagens]\r\n *Segure SHIFT para atribuir X/O em 1/4. \r\n *(★・▲・□) Segure Ctrl para atribuir ↓.  \r\n*(N\xFAmero de tag) Ctrl+Clique Direito: Copiar e Ctrl+Clique Esquerdo: Colar.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 3, 316, 223, 45 , WS_EX_ACCEPTFILES | WS_EX_STATICEDGE
+   CONTROL "[Dicas para configurar Tile]\r\n *Segure SHIFT para atribuir X/O em 1/4. \r\n *(★・▲・□) Segure Ctrl para atribuir ↓.  \r\n*(N\xFAmero de tag) Ctrl+Clique Direito: Copiar e Ctrl+Clique Esquerdo: Colar.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 3, 316, 223, 45 , WS_EX_ACCEPTFILES | WS_EX_STATICEDGE
    CONTROL "Configurar Passagem", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 245, 1, 180, 9 
    CONTROL "Exibir em 32px", 1729, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_GROUP, 297, 306, 56, 12 
    CONTROL "Exibir em 48px", 1730, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_MULTILINE | WS_CHILD | WS_VISIBLE, 353, 306, 56, 12 
@@ -942,7 +942,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Tecla ←", 1290, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 62, 142, 51, 10 
    CONTROL "Tecla →", 1351, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 117, 142, 57, 10 
    CONTROL "For\xE7ar sa\xEDda", 1376, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 179, 142, 72, 10 
-   CONTROL "*Escolha em branco n\xE3o ser\xE3o mostrados.", -1, STATIC, SS_CENTER | WS_CHILD | WS_VISIBLE | WS_GROUP, 61, 2, 184, 9 
+   CONTROL "*Escolha em branco n\xE3o será exibido.", -1, STATIC, SS_CENTER | WS_CHILD | WS_VISIBLE | WS_GROUP, 61, 2, 184, 9 
    CONTROL "■Interromper Escolha", 1377, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 62, 154, 54, 19 
    CONTROL "Inserir\r\n(+Shift)", 1068, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 130, 153, 48, 20 
    CONTROL "Limpar", 1069, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 184, 154, 45, 19 
@@ -1036,7 +1036,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Definir freq. da anima\xE7\xE3o", 1192, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 289, 328, 82, 13 
    CONTROL "", 1219, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 452, 33, 75, 12 
    CONTROL "", 1224, "msctls_updown32", UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS | WS_CHILD | WS_VISIBLE, 496, 32, 11, 13 
-   CONTROL "Mudar Imagem", 1206, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 452, 48, 75, 13 
+   CONTROL "Mudar Sprite", 1206, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 452, 48, 75, 13 
    CONTROL "Mudar opacidade", 1207, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 452, 61, 75, 13 
    CONTROL "Mudar altura(px)", 1236, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 452, 74, 75, 13 
    CONTROL "Reproduzir SE [Canal:0]", 1208, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 452, 87, 75, 13 
@@ -1403,7 +1403,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "OFF", 1330, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 268, 17, 17, 14 
    CONTROL "Ir ao t\xEDtulo", 1300, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 2, 32, 39, 14 
    CONTROL "Fim do jogo", 1302, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 41, 32, 42, 14 
-   CONTROL "ﾋﾟｸﾁｬ[↑0]以外停止", 1304, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 91, 32, 98, 14 
+   CONTROL "Parar excetos as imagens (ID ≥ 0)", 1304, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 84, 32, 105, 14 
    CONTROL "Retornar", 1305, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 189, 32, 32, 14 
    CONTROL "Sa\xEDda de evento", 1299, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 229, 32, 56, 14 
    CONTROL "Definir transi\xE7\xE3o", 1285, BUTTON, BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_GROUP, 10, 67, 70, 10 
@@ -1445,7 +1445,7 @@ FONT 9, "MS Shell Dlg"
 
 152 DIALOGEX 0, 0, 471, 243
 STYLE DS_SHELLFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
-CAPTION "Configura\xE7\xE3o do Mapa"
+CAPTION "Configura\xE7\xE3o de Mapa"
 LANGUAGE LANG_JAPANESE, 0x1
 FONT 9, "MS Shell Dlg"
 {
@@ -1524,9 +1524,9 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Usar", 1583, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 296, 149, 45, 10 
    CONTROL "Mapa anterior", 1584, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 347, 149, 57, 10 
    CONTROL "Est\xE1tico", 1961, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_GROUP, 17, 119, 194, 28 
-   CONTROL "*Não mude o \"Slot\", OK em alterar o \"Nome\" (マップ選択上の名前).", 1978, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 152, 56, 78, 36 , WS_EX_STATICEDGE
+   CONTROL "*Não mude o \"Slot\", OK em alterar o \"Nome\" (Exibido na Seleção de Mapa).", 1978, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 152, 56, 78, 36 , WS_EX_STATICEDGE
    CONTROL "Os Campos (*) s\xE3o armazenado no System Database", 1979, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 241, 18, 201, 20 , WS_EX_STATICEDGE
-   CONTROL "Criar um novo Mapa com as op\xE7\xF5es acimas.", 1980, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 142, 200, 164, 15 , WS_EX_STATICEDGE
+   CONTROL "Um novo Mapa será criado com as op\xE7\xF5es acimas.", 1980, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 142, 200, 164, 15 , WS_EX_STATICEDGE
 }
 
 153 DIALOGEX 0, 200, 1145, 830
@@ -1563,7 +1563,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Arriscado para apagar", 1606, STATIC, SS_LEFT | WS_CHILD | WS_GROUP, 439, 296, 34, 9 
    CONTROL "Notas", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 140, 44, 19, 9 
    CONTROL "Salvar[M\xFAlt.]", 1071, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 43, 324, 47, 12 
-   CONTROL "Arquivo Importar/Exportar", 1605, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 0, 315, 115, 34 , WS_EX_TRANSPARENT
+   CONTROL "Importar/Exportar Arquivo", 1605, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 0, 315, 115, 34 , WS_EX_TRANSPARENT
    CONTROL "", 1361, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 161, 42, 359, 12 
    CONTROL "◆Inserir Checkpoint", 1402, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 341, 301, 65, 12 
    CONTROL "Proximo Checkpoint", 1403, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 407, 301, 67, 12 
@@ -1851,7 +1851,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "User\r\nDB", 1279, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_MULTILINE | WS_CHILD | WS_VISIBLE, 24, 4, 21, 20 
    CONTROL "Sys\r\nDB", 1346, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_MULTILINE | WS_CHILD | WS_VISIBLE, 3, 24, 21, 20 
    CONTROL "Matriz\r\nXY", 1283, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_MULTILINE | WS_CHILD | WS_VISIBLE, 24, 26, 22, 18 
-   CONTROL "DataBase ↑", 1347, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | WS_CHILD | WS_VISIBLE | WS_GROUP, 8, 56, 50, 15 
+   CONTROL "Database ↑", 1347, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | WS_CHILD | WS_VISIBLE | WS_GROUP, 8, 56, 50, 15 
    CONTROL "Variável →", 1348, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | WS_CHILD | WS_VISIBLE, 8, 71, 50, 14 
    CONTROL "Inserir novo↑", 1351, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_MULTILINE | WS_CHILD | WS_VISIBLE, 8, 94, 50, 12 
    CONTROL "Cortar ↑", 1352, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_MULTILINE | WS_CHILD | WS_VISIBLE, 8, 106, 50, 12 
@@ -2054,14 +2054,14 @@ FONT 9, "MS Shell Dlg"
    CONTROL "", 1064, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 433, 56, 107, 13 
    CONTROL "Sub-Fonte 3", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 383, 57, 48, 9 
    CONTROL "Registrar licen\xE7a", 1416, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_DISABLED | WS_TABSTOP, 205, 291, 28, 7 
-   CONTROL "Imagem de personagem inicial (Líder)", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 10, 267, 190, 45 
+   CONTROL "Sprite de personagem inicial (Líder)", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 10, 267, 190, 45 
    CONTROL "", 1065, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 15, 277, 155, 13 
    CONTROL "...", 1419, BUTTON, BS_PUSHBUTTON | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 173, 277, 21, 12 
    CONTROL "Anti-Aliasing da fonte", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 380, 91, 162, 22 
    CONTROL "ON", 1375, BUTTON, BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_GROUP | WS_TABSTOP, 404, 101, 29, 10 
    CONTROL "OFF", 1376, BUTTON, BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 434, 101, 31, 10 
    CONTROL "OFF + 2x", 1377, BUTTON, BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 468, 101, 50, 10 
-   CONTROL "Ajustar Velocidade do Movimento", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 240, 158, 117, 153 
+   CONTROL "Ajustar Velocidade de Movimento", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 240, 158, 117, 153 
    CONTROL "Eventos", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 318, 170, 25, 9 
    CONTROL "Líder/Seguidores", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 262, 170, 49, 9 
    CONTROL "", 1485, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 266, 180, 43, 103 
@@ -2175,7 +2175,7 @@ FONT 9, "MS Shell Dlg"
 
 167 DIALOGEX 0, 0, 287, 179
 STYLE DS_SHELLFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
-CAPTION "Imagem do grupo"
+CAPTION "Sprite do grupo"
 LANGUAGE LANG_JAPANESE, 0x1
 FONT 9, "MS Shell Dlg"
 {
@@ -2184,9 +2184,9 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Remover", 1341, BUTTON, BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE, 6, 21, 46, 9 
    CONTROL "Inserir antes", 1342, BUTTON, BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE, 6, 42, 51, 9 
    CONTROL "Substituir", 1343, BUTTON, BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE, 6, 61, 45, 9 
-   CONTROL "Remover todas as Imagens", 1344, BUTTON, BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE, 6, 81, 101, 9 
+   CONTROL "Remover todos os Sprites", 1344, BUTTON, BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE, 6, 81, 101, 9 
    CONTROL "Especial", 1345, BUTTON, BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE, 6, 100, 37, 9 
-   CONTROL "Arquivo de imagem do personagem", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 134, 35, 111, 59 
+   CONTROL "Arquivo de Sprites do personagem", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 134, 35, 111, 59 
    CONTROL "", 1363, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 146, 47, 77, 14 
    CONTROL "...", 1348, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 223, 47, 20, 13 
    CONTROL "", 1259, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 174, 71, 35, 14 
@@ -2201,7 +2201,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Seguidor", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 60, 16, 47, 57 
    CONTROL " ", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 113, 81, 15, 9 
    CONTROL "", 1280, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 51, 99, 145, 92 
-   CONTROL "*Gerencia a movimenta\xE7\xE3o e imagem do grupo.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 10, 4, 156, 9 
+   CONTROL "*Gerencia a movimenta\xE7\xE3o e sprites do grupo.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 10, 4, 156, 9 
    CONTROL "*O nome da vari\xE1vel \xE9 mostrado aqui", 1254, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 15, 114, 235, 21 , WS_EX_STATICEDGE
    CONTROL " ", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 110, 61, 21, 9 , WS_EX_TRANSPARENT
    CONTROL " ", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 247, 61, 28, 9 
@@ -2391,7 +2391,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "\xE9", -1, STATIC, SS_LEFT | WS_CHILD | WS_GROUP, 187, 143, 8, 9 
    CONTROL "\xE9", -1, STATIC, SS_LEFT | WS_CHILD | WS_GROUP, 187, 158, 8, 9 
    CONTROL "\xE9", -1, STATIC, SS_LEFT | WS_CHILD | WS_GROUP, 187, 174, 8, 9 
-   CONTROL "Imagem de sombra", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 171, 188, 100, 9 
+   CONTROL "Sprite de sombra", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 171, 188, 100, 9 
    CONTROL "", 1144, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 173, 197, 105, 72 
    CONTROL "■Especificar Movimento", 1071, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_DISABLED | WS_TABSTOP, 279, 202, 28, 10 
    CONTROL "Salvar\r\n(Todo\r\nMapa)", 1229, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_DISABLED | WS_TABSTOP, 509, 181, 34, 30 
@@ -2428,7 +2428,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Manter dire\xE7\xE3o", 1077, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 79, 99, 62, 11 , WS_EX_TRANSPARENT
    CONTROL "Map/Ev", 1406, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_TABSTOP, 74, 208, 28, 14 
    CONTROL "Salvar[M\xFAlt.]", 1407, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 2, 202, 42, 14 
-   CONTROL "Entrada/Sa\xEDda (TXT)", 1944, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 0, 192, 75, 28 
+   CONTROL "Exportar/Importar (TXT)", 1944, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 0, 192, 75, 28 
    CONTROL "Importar", 1408, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 44, 202, 30, 14 
    CONTROL "", 1949, "SysTabControl32", TCS_TABS | TCS_FORCELABELLEFT | TCS_FIXEDWIDTH | TCS_OWNERDRAWFIXED | WS_CHILD, 0, 1, 62, 14 
 }
@@ -3081,7 +3081,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Tema de cor", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 458, 4, 127, 31 
    CONTROL "", 1638, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 461, 16, 122, 93 
    CONTROL "Idioma de leituras dos arquivos velhos", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 121, 98, 131, 66 
-   CONTROL "Idioma do texto nos arquivos criados antes da v2.X ou anterior. Se eles n\xE3o combinam, eles estar\xE3o ileg\xEDvel durante o carregamento.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 126, 125, 122, 37 , WS_EX_STATICEDGE
+   CONTROL "Idioma do texto nos arquivos criados antes da v2.X ou anterior. Se eles n\xE3o combinam, eles estar\xE3o ileg\xEDvel quanto carregado.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 126, 125, 122, 37 , WS_EX_STATICEDGE
    CONTROL "", 1639, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 124, 110, 125, 102 
    CONTROL "Op\xE7\xF5es de Janela", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 458, 38, 127, 288 
    CONTROL "Op\xE7\xF5es de Fonte", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 460, 203, 123, 28 
@@ -3097,17 +3097,17 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Janela de inser\xE7\xE3o", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 464, 132, 88, 9 
    CONTROL "M\xE1ximo%\xD7", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 468, 143, 34, 9 
    CONTROL "", 1644, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 504, 168, 75, 93 
-   CONTROL "Janelas de DataBase", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 465, 159, 86, 9 
+   CONTROL "Janelas de Database", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 465, 159, 86, 9 
    CONTROL "M\xE1ximo%\xD7", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 469, 169, 34, 9 
    CONTROL "", 1645, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 463, 214, 117, 93 
    CONTROL "*O design pode quebrar se o tamanho n\xE3o \xE9 100%. \r\n*Em algumas \xE1reas, como a barra de menu superior, tamanho de fontes e escala de janelas n\xE3o ser\xE3o aplicados.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 460, 232, 124, 45 , WS_EX_STATICEDGE
    CONTROL "", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 461, 72, 121, 128 
    CONTROL "Se o bot\xE3o \"Feito\" n\xE3o \xE9 visivel por causa do tamanho da Janela. Aperte a tecla Enter para confirmar.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_DISABLED | WS_GROUP, 5, 1, 421, 10 , WS_EX_STATICEDGE
    CONTROL "Exporta\xE7\xE3o Autom\xE1tico ao salvar (TXT)", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 121, 173, 130, 148 
-   CONTROL "Ao salvar as Configura\xE7\xE3o de Jogo, DB, Mapa, CommonEv e Configura\xE7\xE3os de Tiles.\r\nEles ser\xE3o exportado em formato de texto como \".Auto.txt\" na pasta acima (Use para Git) *Processo de Salvamento \xE9 bastante lento!", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 126, 203, 119, 62 , WS_EX_STATICEDGE
+   CONTROL "Ao salvar a Configura\xE7\xE3o de Jogo, Databases, Mapa, Common Events e Configura\xE7\xE3os de Tiles, eles ser\xE3o exportado em formato de texto como \".Auto.txt\" na pasta acima (Use para Git) *Processo de salvamento \xE9 bastante lento!", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 126, 203, 119, 62 , WS_EX_STATICEDGE
    CONTROL "ON", 1946, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 127, 188, 21, 10 
    CONTROL "", 1945, COMBOBOX, CBS_DROPDOWN | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 151, 187, 98, 30 
-   CONTROL "↑Entrada/Sa\xEDda do .Auto.txt", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 124, 265, 125, 55 
+   CONTROL "↑Importar/Exportar do .Auto.txt", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 124, 265, 125, 55 
    CONTROL "Importar\r\nDados b\xE1sicos", 1947, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 174, 280, 38, 32 
    CONTROL "Importar\r\nMapas (Todos)", 1948, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 212, 280, 36, 31 
    CONTROL "Exportar \r\nMapas (Todos)", 1949, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 125, 297, 49, 21 
@@ -3136,7 +3136,7 @@ LANGUAGE LANG_JAPANESE, 0x1
 FONT 9, "MS Shell Dlg"
 {
    CONTROL "Pasta", 1866, STATIC, SS_RIGHT | WS_CHILD | WS_VISIBLE | WS_GROUP, 7, 128, 75, 9 
-   CONTROL "[Fun\xE7\xF5es adicionais na Vers\xE3o Pro]\r\n - O tamanho da tela pode ser configurado livremente na 'Configura\xE7\xE3o do jogo' e na 'Configura\xE7\xE3o b\xE1sica do jogo Pro' foram adicionados. \r\n - Os efeitos [Mapa] foram adicionados no comando [Efeitos] .\r\n ・[P] Adi\xE7\xE3o de sistema vari\xE1veis e sistema strings.  \r\n - Fun\xE7\xF5es de extra\xE7\xE3o de zip e implementa\xE7\xE3o de navegador adicionado no comando de Download e e limite de uso cont\xEDnuo cancelado\r\n*Para mais informa\xE7\xF5es, veja a p\xE1gina de manual [P].", 1861, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 5, 2, 277, 71 , WS_EX_STATICEDGE
+   CONTROL "[Fun\xE7\xF5es adicionais na Vers\xE3o Pro]\r\n - O tamanho da tela pode ser configurado livremente na \"Configura\xE7\xE3o de jogo\". / foi adicionado na \"Configura\xE7\xE3o b\xE1sica do jogo Pro\". \r\n - Os efeitos de mapa foram adicionados no comando Efeitos.\r\n ・Adicionado [P] sistema vari\xE1veis e sistema strings.  \r\n - Fun\xE7\xF5es de extra\xE7\xE3o de zip e implementa\xE7\xE3o de navegador adicionado no comando de Download e limite de uso cont\xEDnuo cancelado.\r\nAdicionado função de proteção. / Opções adicionais para Criar Dados do jogo.\r\n*Para mais informa\xE7\xF5es, veja a p\xE1gina de manual [P].", 1861, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 5, 2, 277, 71 , WS_EX_STATICEDGE
    CONTROL "Resetar jogo\r\n(Argumentos ficam)", 1069, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 9, 74, 75, 23 
    CONTROL "Comandos com Op\xE7\xF5es", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 5, 99, 277, 77 
    CONTROL "Fun\xE7\xE3o", 1285, BUTTON, BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE, 9, 112, 37, 10 
@@ -3203,13 +3203,13 @@ FONT 9, "MS Shell Dlg"
    CONTROL "\xD7 0.1%", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 313, 144, 36, 9 
    CONTROL "Resetar", 1424, BUTTON, BS_PUSHBUTTON | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 344, 141, 30, 13 
    CONTROL "*Muda a escala da Janela na inicializa\xE7\xE3o. Se no \"Sys148:[P]Pr\xF3xima inicializa\xE7\xE3o de escala de Tela\" configurado o valor outro que 0, ele vai priorizar esse valor daqui adiante.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 261, 158, 129, 44 , WS_EX_STATICEDGE
-   CONTROL "[Pro] Definir pasta para imagem de \xEDcone (iconxxx.png)", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 9, 216, 239, 78 
+   CONTROL "[Pro] Definir pasta de \xEDcone (iconxxx.png)", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 9, 216, 239, 78 
    CONTROL "", 1906, COMBOBOX, CBS_DROPDOWN | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 16, 231, 164, 88 
    CONTROL "Resetar", 1425, BUTTON, BS_PUSHBUTTON | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 190, 230, 30, 13 
    CONTROL "*O medidor de imagem \xE9 mostrado acima da imagem carregada(em 0,0 posi\xE7\xE3o) de esquerda para direita.\r\n*Caso seja grande os Dados do Jogo ex: 100MB ou maior, colocar o arquivo de imagem na pasta BasicData vai carregar um pouquinho mais r\xE1pido.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 13, 166, 227, 45 , WS_EX_STATICEDGE
    CONTROL "[Pro] N\xFAmeros de camadas no seu mapa", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 259, 214, 133, 54 
    CONTROL "", 1860, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 270, 226, 110, 60 
-   CONTROL "Camadas 4-5 ser\xE3o automaticamente n\xE3o mostradas na vers\xE3o Gratis do Game.exe.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 266, 240, 120, 26 , WS_EX_STATICEDGE
+   CONTROL "Camadas 4-5 ser\xE3o escondida automaticamente na vers\xE3o gratis do Game.exe.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 266, 240, 120, 26 , WS_EX_STATICEDGE
 }
 
 225 DIALOGEX 0, 0, 232, 118
@@ -3237,7 +3237,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "", 1883, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 10, 93, 169, 14 
    CONTROL "◆Chave de prote\xE7\xE3o (Apenas Alfanum\xE9ricos / m\xEDnimo de 4 caracteres)", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 5, 83, 235, 9 
    CONTROL "Deletar", 1881, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 183, 93, 36, 14 , WS_EX_STATICEDGE
-   CONTROL "[Funcionalidades da prote\xE7\xE3o](Fun\xE7\xE3o apenas para vers\xE3o Pro)\r\n●Configurando uma chave de prote\xE7\xE3o aprimorar\xE1 a seguran\xE7a dos dados do jogo.\r\n●A chave de prote\xE7\xE3o \xE9 salvado no arquivo Editor.ini.\r\n●Se n\xE3o colocar a chave de prote\xE7\xE3o correta, o Editor n\xE3o iniciar\xE1!\r\n  (Configura\xE7\xE3o b\xE1sica do jogo , v\xE1rios arquivos DB, configura\xE7\xE3o de Tileset e Common Events n\xE3o podem ser carregados)\r\n●A chave de prote\xE7\xE3o \xE9 usado na criptografia de dados do jogo.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 6, 6, 237, 68 , WS_EX_STATICEDGE
+   CONTROL "[Funcionalidades da prote\xE7\xE3o](Fun\xE7\xE3o apenas para vers\xE3o Pro)\r\n●Configurando uma chave de prote\xE7\xE3o aprimorar\xE1 a seguran\xE7a dos dados do jogo.\r\n●A chave de prote\xE7\xE3o \xE9 salvado no arquivo Editor.ini.\r\n●Se n\xE3o colocar a chave de prote\xE7\xE3o correta, o Editor n\xE3o iniciar\xE1!\r\n  (Configura\xE7\xE3o b\xE1sica do jogo , v\xE1rios arquivos DB, configura\xE7\xE3o de Tileset e Common Events n\xE3o vão ser carregados)\r\n●A chave de prote\xE7\xE3o \xE9 usado na criptografia de dados do jogo.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 6, 6, 237, 68 , WS_EX_STATICEDGE
    CONTROL "*O editor ir\xE1 resetar quando pressiona OK.", -1, STATIC, SS_CENTER | WS_CHILD | WS_VISIBLE | WS_GROUP, 23, 148, 140, 9 
    CONTROL "Nenhum", 1882, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 95, 109, 136, 16 
    CONTROL "\xDAltima chave de prote\xE7\xE3o:", -1, STATIC, SS_RIGHT | WS_CHILD | WS_VISIBLE | WS_GROUP, 4, 109, 85, 9 
@@ -3250,7 +3250,7 @@ LANGUAGE LANG_JAPANESE, 0x1
 FONT 9, "MS Shell Dlg"
 {
    CONTROL 127, -1, STATIC, SS_ICON | WS_CHILD | WS_VISIBLE, 7, 30, 20, 20 
-   CONTROL "  Bem vindo ao WOLF RPG Editor 3!\r\nComo a encodifica\xE7\xE3o dos carateres de todos os dados foram mudados para \"UTF-8\", voc\xEA precisar\xE1 primeiro converter os arquivos para essas encodifica\xE7\xE3o. Est\xE1 pronto?\r\n\r\n[Arquivos para serem convertidos]\r\n- Dados b\xE1sicos (.dat/.project) na pastas Data/BasicData \r\n- Todos os arquivos de mapas (.mps) na pasta Data\r\n- Todos arquivos de textos (.txt) na pasta de Data\r\n- Todos arquivos CSV (.csv) na pasta de Data", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 36, 4, 228, 84 , WS_EX_STATICEDGE
+   CONTROL "  Bem vindo ao WOLF RPG Editor 3!\r\nComo a encodifica\xE7\xE3o dos carateres de todos os dados foram mudados para \"UTF-8\", será necessários converter os arquivos para essa encodifica\xE7\xE3o. Est\xE1 pronto?\r\n\r\n[Arquivos para serem convertidos]\r\n- Dados b\xE1sicos (.dat/.project) na pastas Data/BasicData \r\n- Todos os arquivos de mapas (.mps) na pasta Data\r\n- Todos arquivos de textos (.txt) na pasta de Data\r\n- Todos arquivos CSV (.csv) na pasta de Data", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 36, 4, 228, 84 , WS_EX_STATICEDGE
    CONTROL "[Convers\xE3o de dados]\nExecute", 1, BUTTON, BS_DEFPUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_GROUP | WS_TABSTOP, 55, 156, 86, 31 
    CONTROL "", 1893, EDIT, ES_LEFT | ES_MULTILINE | ES_READONLY | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_VSCROLL | WS_TABSTOP, 273, 24, 210, 194 
    CONTROL "[Importante]\nOs arquivos convertidos ser\xE3o copiados (salvado) na pasta \"Backup_Before_Ver3\".\nSe um problema ocorrer, por favor reverta para esses arquivos..", -1, STATIC, SS_CENTER | WS_CHILD | WS_VISIBLE | WS_GROUP, 12, 195, 241, 36 
@@ -3269,7 +3269,7 @@ LANGUAGE LANG_JAPANESE, 0x1
 FONT 9, "MS Shell Dlg"
 {
    CONTROL 1674, -1, STATIC, SS_BITMAP | WS_CHILD | WS_VISIBLE, 19, 36, 37, 37 
-   CONTROL "[Sistema b\xE1sico de RPG]\n\n - Common Event, User DB e Variable DB para o Sistema b\xE1sico\n - Apenas o \"mapa de t\xEDtulo\" e \"mapa inicial\"\n - Sistema de imagem e som pr\xE9-configurado (SystemFile)\n - 4 configura\xE7\xF5es de Tileset pr\xE9-configuradas\n - Algumas imagens de personagens, monstros e mat\xE9riais de m\xFAsica de fundo.\r\n O que voc\xEA pode fazer no test play: Testar o t\xEDtulo de menu, ande ao redor da ilha isolada depois do come\xE7o, abra o menu com a tecla Cancel.", -1, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_GROUP, 77, 25, 220, 93 
+   CONTROL "[Sistema b\xE1sico de RPG]\n\n - Common Event, User DB e Variable DB para o Sistema b\xE1sico\n - Contêm o \"Mapa de t\xEDtulo\" e \"Mapa inicial\"\n - Sistema de imagem e som pr\xE9-configurado (SystemFile)\n - 4 configura\xE7\xF5es de Tileset pr\xE9-configuradas\n - Algumas imagens de personagens, monstros e mat\xE9riais de m\xFAsica de fundo.\r\n O que voc\xEA pode fazer no test play: Testar o t\xEDtulo de menu, ande ao redor da ilha isolada depois do título, abra o menu com a tecla Cancel.", -1, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_GROUP, 77, 25, 220, 93 
    CONTROL "Cancelar", 2, BUTTON, BS_DEFPUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_GROUP | WS_TABSTOP, 249, 209, 50, 17 
    CONTROL "Cria\xE7\xE3o de dados vazios com Sistema b\xE1sico de RPG.", 1898, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 7, 76, 64, 36 
    CONTROL 1673, -1, STATIC, SS_BITMAP | WS_CHILD | WS_VISIBLE, 20, 130, 37, 37 
@@ -3280,7 +3280,7 @@ FONT 9, "MS Shell Dlg"
 
 229 DIALOGEX 0, 0, 256, 219
 STYLE DS_SHELLFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
-CAPTION "Informa\xE7\xE3o de mudan\xE7as de comportamentos"
+CAPTION "Log de mudan\xE7as de comportamentos"
 LANGUAGE LANG_JAPANESE, 0x1
 FONT 9, "MS Shell Dlg"
 {
@@ -3345,7 +3345,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Tarefa", 1970, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | WS_CHILD | WS_VISIBLE | WS_GROUP, 1, 1, 34, 15 
    CONTROL "Feito", 1971, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | WS_CHILD | WS_VISIBLE, 36, 1, 34, 15 
    CONTROL "Outro", 1972, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | WS_CHILD | WS_VISIBLE, 72, 1, 34, 15 
-   CONTROL "Inserir\r\nCtrl+\r\nEnter", 1968, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 99, 151, 38, 27 
+   CONTROL "Inserir\r\n(Ctrl+\r\nEnter)", 1968, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 99, 151, 38, 27 
    CONTROL "MapEv", 1743, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 28, 198, 25, 12 
    CONTROL "Common", 1744, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 53, 198, 33, 12 
    CONTROL "UDB", 1745, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 86, 198, 21, 12 
@@ -3353,7 +3353,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Marcado", 1973, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 1, 200, 27, 9 
    CONTROL "*Pode definir a posi\xE7\xE3o atual como marcado.\r\n*Clique-Duplo num item marcado ou F12 para pular na posi\xE7\xE3o.\r\n*Ctrl+[Espa\xE7o ou Clique-Duplo]: ↓Copie\r\n Ctrl+↑↓: Escolha, F5: Inserir data, Del: Deletar,\r\n*Ctrl+Setas:Mova item/Mudar Indenta\xE7\xE3o.", 1974, STATIC, SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_GROUP, 0, 212, 147, 62 
    CONTROL "Este \xE9 embaixo", 1975, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_TABSTOP, 100, 258, 36, 9 
-   CONTROL "Sobrescrever +Shift", 1969, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 99, 178, 38, 20 
+   CONTROL "Sobrescrever (+Shift)", 1969, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 99, 178, 38, 20 
    CONTROL "↓Copiar", 1917, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 80, 117, 28, 17 
    CONTROL "SDB", 1747, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 128, 198, 20, 12 
    CONTROL "<", 1632, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 108, 122, 11, 13 
@@ -3421,7 +3421,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   152, 	"[Idioma] [1:Japon\xEAs/2:Ingl\xEAs/3:Europeu.Oci/4:Chin\xEAs(Simplifi.)/5:Chin\xEAs(Trad.)/6:Coreia]"
   153, 	"Tempo inicial"
   154, 	"ms"
-  155, 	"*Para Midi, tick para usar"
+  155, 	"*Para Midi, usar-se tick"
   156, 	"Definir canal SE"
   157, 	"Canal"
   158, 	"*Quando parado -1:Todos canais"
@@ -3438,8 +3438,8 @@ LANGUAGE LANG_JAPANESE, 0x1
   164, 	"Quantidade %s"
   165, 	"Padr\xE3o %s"
   166, 	"Altura %s"
-  167, 	"[Mudar chip do personagem]"
-  168, 	"[Mudar sobreposi\xE7\xE3o de chip do personagem]"
+  167, 	"[Trocar Sprite de personagem]"
+  168, 	"[Mudar sobreposi\xE7\xE3o de Sprite do personagem]"
   169, 	"H%s/S%s/L%s  [%s]Frames"
   170, 	"Diferen\xE7a azul %s/Diferen\xE7a vermelha %s  (%s)Frames"
   171, 	"Quantidade %s  (%s)Frames"
@@ -3460,14 +3460,14 @@ LANGUAGE LANG_JAPANESE, 0x1
   181, 	"[Remover todos os efeitos]"
   182, 	"Camada"
   183, 	"Completo"
-  184, 	"Confirma\xE7\xE3o"
+  184, 	"Confirmar"
   185, 	"N\xFAmero de Tileset do Mapa"
   186, 	"[Ligar m\xE1scara do personagem] =>"
   187, 	"[Desligar m\xE1scara do personagem] =>"
   188, 	"[Ligar m\xE1scara do mapa]"
   189, 	"[Desligar m\xE1scara do mapa]"
   190, 	"Come\xE7a com a op\xE7\xE3o -f mas a pasta \"%s\" n\xE3o existe\r\nInicializa\xE7\xE3o ser\xE1 interrompido"
-  191, 	"Velho(%s at\xE9 %s) => Novo(%s at\xE9 %s)"
+  191, 	"Velho(%s at\xE9 %s) => Novo (%s at\xE9 %s)"
 }
 
 STRINGTABLE
@@ -3595,7 +3595,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   10032, 	"■Apagar Evento"
   10033, 	"■Esperar"
   10034, 	"■Mover rota: "
-  10035, 	"■Imagem do grupo: "
+  10035, 	"■Sprite do grupo: "
   10036, 	"■Esperar por movimento"
   10037, 	"■Ajustar cor"
   10038, 	"■Chamar Evento: "
@@ -3616,7 +3616,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   10048, 	"●Entiqueta"
   10049, 	"-◇Condi\xE7\xE3o: "
   10050, 	"-◇Caso"
-  10051, 	"-◇Se n\xE3o"
+  10051, 	"-◇If else"
   10052, 	"◇Caso: Cancelar"
   10053, 	"◇Fim do Loop"
   10054, 	"◇Fim"
@@ -3636,7 +3636,7 @@ LANGUAGE LANG_JAPANESE, 0x1
 {
   10064, 	"Tranferir"
   10065, 	"Gerenciar Chips"
-  10066, 	"Imagem do grupo"
+  10066, 	"Sprite do grupo"
   10067, 	"Efeitos"
   10068, 	"Som"
   10069, 	"Sintetizador de Voz"
@@ -3771,10 +3771,10 @@ LANGUAGE LANG_JAPANESE, 0x1
   10168, 	"Arquivo de DB (*.db*;*.csv)|*.db*; *.csv|All files(*.*)|*.*||"
   10169, 	"Este arquivo n\xE3o \xE9 defini\xE7\xE3o de tipo"
   10170, 	"Falhar em carregar"
-  10171, 	"%s \xE9 um arquivo definido de Tipo\r\nVoc\xEA tem certeza em substituir o defini\xE7\xE3o de Tipo?"
+  10171, 	"%s \xE9 um arquivo definido de Tipo\r\nVoc\xEA deseja em substituir o defini\xE7\xE3o de Tipo?"
   10172, 	"Carregar Defini\xE7\xE3o de Tipo"
   10173, 	"Este arquivo n\xE3o \xE9 um dados do Tipo "
-  10174, 	"%s \xE9 um arquivo de defini\xE7\xE3o de Tipo e cheio de dados\r\nVoc\xEA tem certeza em substituir o Tipo inteiro incluindo Dados?"
+  10174, 	"%s \xE9 um arquivo de defini\xE7\xE3o de Tipo e cheio de dados\r\nVoc\xEA deseja em substituir o Tipo inteiro incluindo Dados?"
   10175, 	"Carregar Tipo e Dados"
 }
 
@@ -3833,7 +3833,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   10215, 	"Efeitos"
   10216, 	"Som"
   10217, 	"Salvar / Carregar"
-  10218, 	"Imagem do grupo"
+  10218, 	"Sprite do grupo"
   10219, 	"Gerenciar Chips"
   10220, 	"Transferir"
   10221, 	"Controle de Evento"
@@ -3845,8 +3845,8 @@ STRINGTABLE
 LANGUAGE LANG_JAPANESE, 0x1
 {
   10224, 	"Im\xF3vel;Custom;Aleat\xF3rio;Ir até ao Líder;"
-  10225, 	"0: Mais lento;1: Muito Lento;2: Lento;3: M\xE9dio;4: R\xE1pido;5: Muito R\xE1pido;6: Mais r\xE1pido;"
-  10226, 	"0: Instant\xE2neo;1: Muito R\xE1pido;2: R\xE1pido;3: M\xE9dio;4: Lento;5: Muito Lento;6: Mais atrasado;"
+  10225, 	"0: Mais lento;1: Muito lento;2: Lento;3: M\xE9dio;4: R\xE1pido;5: Muito r\xE1pido;6: Mais r\xE1pido;"
+  10226, 	"0: Instant\xE2neo;1: Muito r\xE1pido;2: R\xE1pido;3: M\xE9dio;4: Lento;5: Muito lento;6: Mais atrasado;"
   10227, 	"Tecla Enter;Automático;Processo Paralelo;Ao Tocar o Líder;Ao Tocar Evento;"
   10228, 	"> (Maior que);≥ (Maior ou igual);= (Igual);≤ (Menor ou igual);< (Menor que);N\xE3o \xE9 igual;Bitwise AND;"
   10229, 	"%d: %s"
@@ -3921,7 +3921,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   10283, 	"?"
   10284, 	"”"
   10285, 	"[CSV] Arquivo de Dados CSV (*.csv)|*.csv|All files(*.*)|*.*||"
-  10286, 	"Puxar o personagem para frente;Remover imagens do grupo;Teleportar todos para o Líder;Sincronizar o líder e o grupo;Dessincronizar o líder e o grupo;Ativar invisibilidade do grupo;Desativar invisibilidade do grupo;Salvar imagem do grupo;Carregar imagem do grupo;Deixa o grupo seguir (*Padr\xE3o) ;N\xE3o deixa o grupo seguir (Cessar o Grupo) ;"
+  10286, 	"Puxar o personagem para frente;Remover sprite do grupo;Teleportar todos para o Líder;Sincronizar o líder e o grupo;Dessincronizar o líder e o grupo;Ativar invisibilidade do grupo;Desativar invisibilidade do grupo;Salvar sprite do grupo;Carregar sprite do grupo;Deixa o grupo seguir (*Padr\xE3o) ;N\xE3o deixa o grupo seguir (Cessar o Grupo) ;"
   10287, 	"Chip%d: %s"
 }
 
@@ -3940,7 +3940,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   10297, 	"-"
   10298, 	"Flash"
   10299, 	"Corre\xE7\xE3o de cor"
-  10300, 	"Mude a posi\xE7\xE3o da imagem"
+  10300, 	"Mudar posi\xE7\xE3o da imagem"
   10301, 	"Shake"
   10302, 	"Zoom"
   10303, 	"Piscar A [Oscilar]"
@@ -4037,7 +4037,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   10369, 	"Este CommonEv%d: %s"
   10370, 	" ["
   10371, 	"]  ← "
-  10372, 	"É igual;N\xE3o é igual;Cont\xE9m;N\xE3o Cont\xE9m;Come\xE7a com;Termina com;Combina com express\xE3o regular do;"
+  10372, 	"É igual...;N\xE3o é igual...;Cont\xE9m...;N\xE3o Cont\xE9m...;Come\xE7a com...;Termina com...;Combina com express\xE3o regular do...;"
   10373, 	"Entrada B\xE1sica (Enter/Cancelar/Sub/DIr) ;Teclas do teclado (100+) ;Clique do Mouse /Posi\xE7\xE3o;Bot\xF5es do Controle (300+) ;Anal\xF3gico;Setas direcionais;Multi-toque;"
   10374, 	"N\xE3o aceitar;4 Setas (2, 4, 6, 8); 8 Setas (1-9);Cima-Baixo (8, 2);Esquerda Direita (4, 6);Cima (8);Baixo (2);Esquerda (4);Direita (6);"
   10375, 	"Entrada B\xE1sica;Teclas do teclado;Mouse;"
@@ -4140,7 +4140,7 @@ LANGUAGE LANG_JAPANESE, 0x1
 {
   10448, 	"<Cortar variável depois do String>"
   10449, 	"Definir nome da Vari\xE1vel Common%d [%s]"
-  10450, 	"Nome do arquivo(Ex:Data/Basicdata/test.txt | Separe com / )"
+  10450, 	"Nome do arquivo (Ex:Data/Basicdata/test.txt | Separe com / )"
   10451, 	"Carregar Pasta (Data/Basicdata/ | Separe com / )"
   10452, 	"↑Cortar os cont\xE9udos acima para o String abaixo. Se n\xE3o existe <<NotFound>>"
   10453, 	"↑Cortar os cont\xE9udos depois do String abaixo. Se n\xE3o existe <<NotFound>>"
@@ -4298,7 +4298,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   10570, 	"[M\xFAsica]"
   10571, 	"[SE]"
   10572, 	"[Imagem]"
-  10573, 	"[Chip do personagem]"
+  10573, 	"[Chip de personagem]"
   10574, 	" (Sem imagem) "
   10575, 	" (Tileset) "
 }
@@ -4313,12 +4313,12 @@ LANGUAGE LANG_JAPANESE, 0x1
   10580, 	" (Tileset) "
   10581, 	"[L] Modo de licen\xE7a ligado, por favor reinicie (N\xE3o implementado, ser\xE1 deletado depois) "
   10582, 	"[L]Licen\xE7a n\xE3o encontrado, fun\xE7\xE3o especial foram desligada\r\nPor favor reinicie (N\xE3o implementado, ser\xE1 deletado depois) "
-  10583, 	"Esta configura\xE7\xE3o do Tileset do Mapa n\xE3o existe\r\nFor\xE7ando a abrir com Tileset n.\xBA 0"
+  10583, 	"Esta configura\xE7\xE3o de Tileset do Mapa n\xE3o existe\r\nFor\xE7ando a abrir com Tileset n.\xBA 0"
   10584, 	"Auto-Tiles [%s] \ncont\xEAm frames animados de tamanho[%dx%d Pixels].\n\nWindows7 64bit ou outros sistemas,\nn\xE3o poder\xE3o exibir Auto-Tiles animados (Exece\xE7\xE3o no Jogo)\n\nSe eles n\xE3o mostrarem no editor, fa\xE7a a imagem %d pixels largo.\nEste aviso apenas mostrar\xE1 uma vez ao iniciar o Editor"
   10585, 	"Aviso de Auto-Tiles"
-  10586, 	"Tileset B\xE1sico [%s] est\xE1 com tamanho incorreto(Atualmente com %d pixels largo).\nPor favor fa\xE7a a imagem %d pixels largo\n\n [Como voc\xEA quer resolver?] \r\nSim  →  Abra a Configura\xE7\xE3o B\xE1sica do jogo para mudar a resolu\xE7\xE3o\r\nN\xE3o  →  Abra a Configura\xE7\xE3o do Tileset para mudar a imagem\r\nCancelar  →  Fazer nada.\r\n\r\n (Se ignorado, ter\xE1 que fazer uma sa\xEDda for\xE7ada depois!) "
-  10587, 	"A largura do Tileset b\xE1sica [%s] n\xE3o \xE9 multiplicado do %d (Atualmente %d pixels). \n\n [Como voc\xEA quer resolver?] \r\nSim  →  Abra a Configura\xE7\xE3o B\xE1sica do jogo para mudar a resolu\xE7\xE3o\r\nN\xE3o  →  Abra a Configura\xE7\xE3o do Tileset para mudar a imagem\r\nCancelar  →  Fazer nada.\r\n\r\n (Se ignorado, ter\xE1 que fazer uma sa\xEDda for\xE7ada depois!) "
-  10588, 	"Tiles\r\n [%s] \r\nTamanho da Altura e Largura n\xE3o \xE9 padr\xE3o → Largura%dx Altura%d (Padr\xE3o \xE9 %dx%d ou maior) . \n\n [Como voc\xEA quer resolver?] \r\nSim  →  Abra a Configura\xE7\xE3o B\xE1sica do jogo para mudar a resolu\xE7\xE3o\r\nN\xE3o  →  Abra a Configura\xE7\xE3o do Tileset para mudar a imagem\r\nCancelar  →  Fazer nada.\r\n\r\n (Se ignorado, ter\xE1 que fazer uma sa\xEDda for\xE7ada depois!) "
+  10586, 	"Tileset B\xE1sico [%s] est\xE1 com tamanho incorreto(Atualmente com %d pixels largo).\nPor favor fa\xE7a a imagem %d pixels largo\n\n [Como voc\xEA quer resolver?] \r\nSim  →  Abra a Configura\xE7\xE3o B\xE1sica do jogo para mudar a resolu\xE7\xE3o\r\nN\xE3o  →  Abra a Configura\xE7\xE3o de Tileset para mudar a imagem\r\nCancelar  →  Fazer nada.\r\n\r\n (Se ignorado, ter\xE1 que fazer uma sa\xEDda for\xE7ada depois!) "
+  10587, 	"A largura do Tileset b\xE1sica [%s] n\xE3o \xE9 multiplicado do %d (Atualmente %d pixels). \n\n [Como voc\xEA quer resolver?] \r\nSim  →  Abra a Configura\xE7\xE3o B\xE1sica do jogo para mudar a resolu\xE7\xE3o\r\nN\xE3o  →  Abra a Configura\xE7\xE3o de Tileset para mudar a imagem\r\nCancelar  →  Fazer nada.\r\n\r\n (Se ignorado, ter\xE1 que fazer uma sa\xEDda for\xE7ada depois!) "
+  10588, 	"Tiles\r\n [%s] \r\nTamanho da Altura e Largura n\xE3o \xE9 padr\xE3o → Largura%dx Altura%d (Padr\xE3o \xE9 %dx%d ou maior) . \n\n [Como voc\xEA quer resolver?] \r\nSim  →  Abra a Configura\xE7\xE3o B\xE1sica do jogo para mudar a resolu\xE7\xE3o\r\nN\xE3o  →  Abra a Configura\xE7\xE3o de Tileset para mudar a imagem\r\nCancelar  →  Fazer nada.\r\n\r\n (Se ignorado, ter\xE1 que fazer uma sa\xEDda for\xE7ada depois!) "
   10589, 	"Arquivo de fundo n\xE3o pode ser carregado\r\n%s"
   10590, 	"Erro em carregar arquivo"
   10591, 	"Falha em criar dial\xF3go de Chip do Mapa\n"
@@ -4360,9 +4360,9 @@ LANGUAGE LANG_JAPANESE, 0x1
   10617, 	"MS PGothic"
   10618, 	"Mapa n\xE3o aberto.\r\nSelecione um Mapa na Sele\xE7\xE3o de Mapa.\r\nOu faça clique direito e selecione \"Outros op\xE7\xF5es de mapa\" depois em \"Criar Novo Mapa\""
   10619, 	"- WOLF RPG Editor"
-  10620, 	"%s - Salvado / %s"
+  10620, 	"%s - Salvo / %s"
   10621, 	"[MPS] Arquivo de Mapa (*.mps)|*.mps|All files(*.*)|*.*||"
-  10622, 	"%s - Salvado"
+  10622, 	"%s - Salvo"
   10623, 	"Mapa atual foi alterado\r\nSalvar as altera\xE7\xF5es primeiro?"
 }
 
@@ -4403,7 +4403,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   10650, 	"%d: %s"
   10651, 	"Dados de mapa"
   10652, 	"Criar um novo Mapa"
-  10653, 	"Coloque a pasta do mapa salvo e o nome do arquivo (そのままでも可)"
+  10653, 	"Coloque a pasta do mapa salvo e o nome do arquivo (Aceita como está.)"
   10654, 	"*Corretamente n\xE3o registrado"
   10655, 	"Deve salvar uma vez para registrar"
 }
@@ -4416,9 +4416,9 @@ LANGUAGE LANG_JAPANESE, 0x1
   10658, 	"%2d: %s"
   10659, 	"-1: Pare BGS"
   10660, 	"-1: Sem BG"
-  10661, 	"<Coloque nome do Mapa>"
-  10662, 	"Tamanho do Mapa deve ser no m\xEDnimo Altura: 10 e Largura: 8"
-  10663, 	"Sem nome do arquivo!"
+  10661, 	"<Coloque o nome do Mapa>"
+  10662, 	"Tamanho do Mapa deve ser no m\xEDnimo. Altura: 10 e Largura: 8"
+  10663, 	"Não há nome do arquivo!"
   10664, 	"<"
   10665, 	">"
   10666, 	"|"
@@ -4434,7 +4434,7 @@ LANGUAGE LANG_JAPANESE, 0x1
 {
   10672, 	"?"
   10673, 	"”"
-  10674, 	"O arquivo j\xE1 existe\r\nVoc\xEA tem certeza em substituir?"
+  10674, 	"O arquivo j\xE1 existe\r\nVoc\xEA deseja em substituí-lo?"
   10675, 	"Por favor coloque o nome de arquivo"
   10676, 	"Erro"
   10677, 	"Tentativa em ler o Mapa %d\r\nmas o nome do mapa n\xE3o foi configurado."
@@ -5086,9 +5086,9 @@ LANGUAGE LANG_JAPANESE, 0x1
   11168, 	"■Imagem (Deletar): %s "
   11169, 	"■Imagem [Delay reset]: %s "
   11170, 	"at\xE9 %s "
-  11171, 	"Arquivo[%s]"
-  11172, 	"Arquivo(%s)"
-  11173, 	"String[%s]"
+  11171, 	"Arquivo [%s]"
+  11172, 	"Arquivo (%s)"
+  11173, 	"String [%s]"
   11174, 	"Janela [%s] Tamanho [%s,%s]"
   11175, 	"Janela (%s) Tamanho [%s,%s]"
   11176, 	"Relativo"
@@ -5179,9 +5179,9 @@ LANGUAGE LANG_JAPANESE, 0x1
   11241, 	"At\xE9 o Líder"
   11242, 	"Longe do Líder"
   11243, 	"Definir Var: [%s] = [%s]"
-  11244, 	"Definir velocidade do movimento => %d"
-  11245, 	"Definir frequ\xEAncia do movimento => %d"
-  11246, 	"Definir velocidade da anima\xE7\xE3o => %d"
+  11244, 	"Definir velocidade de movimento => %d"
+  11245, 	"Definir frequ\xEAncia de movimento => %d"
+  11246, 	"Definir velocidade de anima\xE7\xE3o => %d"
   11247, 	"Anima\xE7\xE3o de Idle ON"
 }
 
@@ -5237,7 +5237,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   11284, 	"[Desse Common%s%d]  Common %d: [ %s ]"
   11285, 	"Common %d: [ %s ]"
   11286, 	"Sem Common Event"
-  11287, 	" / Comando corrupido, por favor apague ele."
+  11287, 	" / Comando corrupido, por favor apague-o."
   11288, 	"EsteMapEv > P\xE1gina[%s]"
   11289, 	"EsteMapEv"
   11290, 	"Ev%d: [ %s ] > P\xE1gina[%s]"
@@ -5261,8 +5261,8 @@ LANGUAGE LANG_JAPANESE, 0x1
   11303, 	"Salvar Dados [%s] do %s%s%s =  %s"
   11304, 	"■Mover durante os Eventos ON"
   11305, 	"■Mover durante os Eventos OFF"
-  11306, 	"■Configurar mudança de Mapchip: R"
-  11307, 	"■Configurar mudança de Mapchip:  Chip %s = (%s%s%s%s%s%s%s%s%s%s)"
+  11306, 	"■Configuração de Mapchip: R"
+  11307, 	"■Configuração de Mapchip:  Chip %s = (%s%s%s%s%s%s%s%s%s%s)"
   11308, 	"Sem ↓ "
   11309, 	"Sem ← "
   11310, 	"Sem → "
@@ -5322,7 +5322,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   11349, 	"<Esperar>"
   11350, 	" Salvar para[ "
   11351, 	" ]"
-  11352, 	"■Imagem do grupo : "
+  11352, 	"■Sprite do grupo : "
   11353, 	"Deletar"
   11354, 	"Inserir"
   11355, 	"Substituir"
@@ -5340,9 +5340,9 @@ LANGUAGE LANG_JAPANESE, 0x1
   11362, 	"Do grupo"
   11363, 	"Puxe o personagem para frente"
   11364, 	"Apague todos os personagens"
-  11365, 	"Teleportar o grupo para o her\xF3i"
+  11365, 	"Teleportar o grupo para o Líder"
   11366, 	"Sincronizar o Líder/Seguidores"
-  11367, 	"N\xE3o sincronizar o Líder/Seguidores"
+  11367, 	"Dessincronizar o Líder/Seguidores"
   11368, 	"Fazer o grupo ficar transparente"
   11369, 	"Desligar a transpar\xEAncia do grupo"
   11370, 	"Salvar Seguidores do grupo"
@@ -5388,9 +5388,9 @@ LANGUAGE LANG_JAPANESE, 0x1
   11400, 	"R%s/G%s/B%s  Intervalo(%s)Frames"
   11401, 	"[Piscar B (Auto-Flash)] "
   11402, 	"R%s/G%s/B%s  Intervalo(%s)Frames"
-  11403, 	"[Auto-Enlarge] "
+  11403, 	"[Auto-ampliação] "
   11404, 	"H%s%/V%s%/ Rest %sFrames  Intervalo(%s)Frames"
-  11405, 	"[Auto-Pattern-Switch(1 vez)] "
+  11405, 	"[Trocar Auto-Padrão (1 vez)] "
   11406, 	"Inicio do padr\xE3o[%s] → Fim do padr\xE3o[%s]  Intervalo(%s)Frames"
   11407, 	"[Trocar Auto-Padrão (Loop)] "
 }
@@ -5442,7 +5442,7 @@ LANGUAGE LANG_JAPANESE, 0x1
 {
   11440, 	"[16]Criar Pasta"
   11441, 	"[17]Salvar Screenshot como JPG"
-  11442, 	"[18]Copia arquivo(Fonte especificado >> Destino)"
+  11442, 	"[18]Copia arquivo (Fonte especificado >> Destino)"
   11443, 	"[19]Manda conquista de Steam [Se o argumento \xE9 : -1, apenas atualizar\xE1 o status]"
   11444, 	"Execute a v2.10"
   11445, 	"Acesso do arquivo negado, n\xE3o pode escrever os dados. O arquivo est\xE1 trancado ou tem acesso restrito\r\n%s \r\n\r\n*Dica\r\n   Se o jogo trave inesperadamente, tem possibilidade de n\xE3o conseguir substituir e n\xE3o relan\xE7ar o arquivo trancado do Data.wolf feito mais a frente\r\n Se renicie o PC 1 vez, exporte o nome de arquivo separado."
@@ -5486,14 +5486,14 @@ LANGUAGE LANG_JAPANESE, 0x1
   11473, 	"■Inserir novos dados no DB:  "
   11474, 	"■Deletar dados do DB:  "
   11475, 	"Esconder por tr\xE1s "
-  11476, 	"Corre\xE7\xE3o da opacidade [\xB1]"
+  11476, 	"Corre\xE7\xE3o de opacidade [\xB1]"
   11477, 	"Opacidade\xB1"
-  11478, 	"[Corre\xE7\xE3o da opacidade[\xB1]] "
-  11479, 	"Corre\xE7\xE3o da opacidade %s  (%s)Frame"
+  11478, 	"[Corre\xE7\xE3o de opacidade[\xB1]] "
+  11479, 	"Corre\xE7\xE3o de opacidade %s  (%s)Frame"
   11480, 	"<Converter>"
   11481, 	"<URL-encode"
   11482, 	"<Converter e receber>"
-  11483, 	"Ler o arquivo abaixo em Base64"
+  11483, 	"Ler em Base64 o arquivo ↓"
   11484, 	"Sa\xEDda Bin\xE1ria da senten\xE7as Base64 para o arquivo"
   11485, 	" =Carregar arquivos com <Base64> "
   11486, 	" =<Base64→ sa\xEDda Bin\xE1ria para o arquivo> "
@@ -5525,8 +5525,8 @@ STRINGTABLE
 LANGUAGE LANG_JAPANESE, 0x1
 {
   11504, 	"[Pro] Troque o dados do Jogo para a Vers\xE3o PRO"
-  11505, 	"Pisca tela"
-  11506, 	"[Pisca tela]"
+  11505, 	"Piscar tela"
+  11506, 	"[Piscar tela]"
   11507, 	"Bot\xF5es・Anal\xF3gico"
   11508, 	"-------"
   11509, 	"Bot\xF5es e Setas direcionais"
@@ -5581,7 +5581,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   11548, 	"Filtro/Monot\xF4nico"
   11549, 	"Filtro/Borr\xE3o"
   11550, 	"C\xF3digo de chave"
-  11551, 	"N\xFAmero de toque? [0-]"
+  11551, 	"N\xFAmero de toque? [0+]"
 }
 
 STRINGTABLE
@@ -5623,13 +5623,13 @@ LANGUAGE LANG_JAPANESE, 0x1
   11580, 	"[P]Filtro Geral/Mon\xF3tono [Intenso!]"
   11581, 	"[P]Filtro Geral/Borr\xE3o [Super Intenso!!]"
   11582, 	"Imagem;Personagem;Mapa;M\xE1scara;"
-  11583, 	"Troca chip do personagem"
+  11583, 	"Trocar Sprite de personagem"
 }
 
 STRINGTABLE
 LANGUAGE LANG_JAPANESE, 0x1
 {
-  11584, 	"Sobreposi\xE7\xE3o de chip do personagem (Vers\xE3o αlpha)"
+  11584, 	"Sobreposi\xE7\xE3o de Sprite de personagem (Vers\xE3o αlpha)"
   11585, 	"Sobreposi\xE7\xE3o de padr\xE3o de imagem [0:Nenhum]"
   11586, 	"Mudar de altura"
   11587, 	"Padr\xE3o"
@@ -5800,7 +5800,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   11712, 	"Microsoft YaHei"
   11713, 	"Microsoft JhengHei"
   11714, 	"Malgun Gothic"
-  11715, 	"0-15:Auto-tile 16+: Tile b\xE1sico  [Vers\xE3o velho] "
+  11715, 	"0-15: Auto-tile 16+: Tile b\xE1sico  [Vers\xE3o velho] "
   11716, 	"0-31: Auto-tile 32+: Tile b\xE1sico"
   11717, 	"N\xE3o pode escolher o Auto-Tile n\xFAmero 16-31 (Obter -1), \r\nporque a vers\xE3o configurada na \"Conf. da vers\xE3o do Mov.\" do \"Conf. B\xE1sica do jogo\" \xE9 vers\xE3o 3.00 Anterior."
   11718, 	" Converter"
@@ -5883,10 +5883,10 @@ LANGUAGE LANG_JAPANESE, 0x1
 {
   11776, 	"Axis-Y[\xB11000/Direct/XInput dual-use]"
   11777, 	"■Game.exe v3.233\r\n  [1] Corrigido um bug, onde o Evento de mapa n\xE3o era apagado quando \"Apagar Evento\" era executado ao mesmo tempo quando troca a p\xE1gina.\r\n [2] Corrigido um bug, onde o valor da vari\xE1vel de refer\xEAncia subtrae para 1 e o n\xFAmero de p\xE1gina aumenta para 1 quando especifica a vari\xE1vel para \"P\xE1gina\" do \"Call Event\".\r\n  [3] Corrigido um bug, onde a p\xE1gina do evento n\xE3o alterava depois de 1 frame quando \"Call Event\" era executado com a p\xE1gina \"0\" depois de trocar para a p\xE1gina com condi\xE7\xE3o de executar.\r\n \r\n   Para mudar como era antes, ajuste o comportamento para a vers\xE3o \"3.21\"."
-  11778, 	"■Game.exe v3.250\r\n  Na rota do movimento, os valores recentes do \"Self Vari\xE1veis do mapa\"  e \" Vari\xE1vel Normal\" que pode se mudado durante a rota do movimento \xE9 agora usado.\r\n  Para mudar como era antes, ajuste o comportamento para a vers\xE3o \"3.233\"."
+  11778, 	"■Game.exe v3.250\r\n  Na rota de movimento, os valores recentes do \"Self Vari\xE1veis do mapa\"  e \" Vari\xE1vel Normal\" que pode se mudado durante a rota de movimento \xE9 agora usado.\r\n  Para mudar como era antes, ajuste o comportamento para a vers\xE3o \"3.233\"."
   11779, 	"Vers\xE3o do Game.exe foi fixado para [<VER>]. \r\n Estabilidade no futuro. Alterado na Conf. de Jogo B\xE1sica."
   11780, 	"■Game.exe v3.270\r\n Corrigido bug onde o evento \xE9 executado duas vezes a cada passo dentro do \"raio de extens\xE3o\" do evento com \"Ao tocar jogador\" se o evento era impass\xE1vel ou em azulejos \xD7.\r\n  Para mudar como era antes, ajuste o comportamento para a vers\xE3o \"3.250\"."
-  11781, 	"Alterar a Z-Order"
+  11781, 	"Alterar Z-Order"
   11782, 	"Z-Order"
   11783, 	" Mudar para [%s]"
   11784, 	"Z-Order"
@@ -5896,14 +5896,14 @@ LANGUAGE LANG_JAPANESE, 0x1
   11788, 	"Atravessar ON/OFF"
   11789, 	"Acima do personagem ON/OFF"
   11790, 	"Mudar velocidade de movimento"
-  11791, 	"Mudar a frequ\xEAncia do movimento"
+  11791, 	"Mudar frequ\xEAncia de movimento"
 }
 
 STRINGTABLE
 LANGUAGE LANG_JAPANESE, 0x1
 {
-  11792, 	"Mudar a frequ\xEAncia da anima\xE7\xE3o"
-  11793, 	"Mudar Dire\xE7\xE3o"
+  11792, 	"Mudar frequ\xEAncia de anima\xE7\xE3o"
+  11793, 	"Mudar dire\xE7\xE3o"
   11794, 	"Velocidade 0-6"
   11795, 	"Frequ\xEAncia 0-6"
   11796, 	"Z-Order"
@@ -5932,11 +5932,11 @@ LANGUAGE LANG_JAPANESE, 0x1
   11814, 	"Dados \xE9 protegido por uma vers\xE3o mais nova e n\xE3o pode ser lido. \r\n\r\nPor favor tenha a ult\xEDma vers\xE3o do Editor."
   11815, 	"■Game.exe v3.310\r\n  ●Corrigido bug onde o tempo de espera n\xE3o ocorria quando \"Esperar\" era executado durante \"Preparar transi\xE7\xE3o\".\r\n   Para mudar como era antes, ajuste o comportamento para a vers\xE3o \"3.300\" (\"Esperar\" durante \"Preparar transi\xE7\xE3o\" ser\xE1 quase desativado).\r\n  ●Movimento por Pixel agora \xE9 βeta. Na vers\xE3o αlpha, as mudan\xE7as de dire\xE7\xF5es e anima\xE7\xE3os n\xE3o funcionava na imagem de 4 dire\xE7\xF5es, mas funcionava na imagem de 8 dire\xE7\xF5es e a imagem de personagem T/TX n\xE3o animava tanto em 4 e 8 dire\xE7\xF5es.\r\n  Para mudar como era antes, ajuste o comportamento para a vers\xE3o \"3.300\" ou anterior. "
   11816, 	"Apesar do arquivo criptografado, n\xE3o existe informa\xE7\xE3o da chave de prote\xE7\xE3o no Editor.ini! \r\n Por favor entre de novo a chave de prote\xE7\xE3o."
-  11817, 	"Na v3.31, os formatos dos dados do arquivo principal foram alterado, \r\nfeito backup na pasta \"AutoBackup_Before_Ver3.31\" dentro da pasta BasicData. \r\n(Game.dat, CommonEvent.dat, Sistema DataBase, Tileset.dat)\r\n\r\nCaso queira restaurar o EXE velho,\r\n por favor substituia pelo backup os cont\xE9udos da pasta BasicData."
+  11817, 	"Na v3.31, os formatos dos dados do arquivo principal foram alterado, \r\nfeito backup na pasta \"AutoBackup_Before_Ver3.31\" dentro da pasta BasicData. \r\n(Game.dat, CommonEvent.dat, Sistema Database, Tileset.dat)\r\n\r\nCaso queira restaurar o EXE velho,\r\n por favor substituia pelo backup os cont\xE9udos da pasta BasicData."
   11818, 	"Backup autom\xE1tico"
-  11819, 	"Tamanho horizontal e vertical do mapa [Limite max\xEDmo de 9999]!"
-  11820, 	"Tamanho do Mapa \xE9 muito grande! O tamanho horizontal e vertigal, deve ser menos que [10000000 (10000) M\xE1ximo]"
-  11821, 	"Tamanho do mapa Horizontal\xD7Vertical atual => "
+  11819, 	"O tamanho do mapa [Limite max\xEDmo de 9999]!"
+  11820, 	"Tamanho do Mapa \xE9 muito grande! A largura e altura, deve ser menos que [10000000 (10000) M\xE1ximo]"
+  11821, 	"Tamanho do mapa Largura\xD7Altura atual => "
   11822, 	"O formato dos arquivo de mapa na vers\xE3o <VER> foram alterados, criado backup na pasta \"AutoBackup_Before_Ver3.33_MapFile\" dentro da pasta Map. \r\n\r\nSe queira restaurar o EXE velho,\r\nsubstituia pela backup a pasta com mesmo nome em Data. \r\n\r\n(Pode deletar a pasta AutoBackup~, se n\xE3o aparecer algum problema.)"
   11823, 	"\xC2ncora [0:Esquerda/10:Centro/20:DIreita+0:Cima/1:Meio/2:Baixo]"
 }
@@ -5949,7 +5949,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   11826, 	"Par\xE2metro do comando"
   11827, 	"Reniciar Jogo (Estabelecer argumento)"
   11828, 	"N\xE3o existe a pasta da sa\xEDda de arquivo configurado na janela \"Criar Dados do jogo\" \r\nArquivo de sa\xEDda ser\xE1 resetado."
-  11829, 	"■Game.exe v3.353\r\n  ●Corrigido bug onde a anima\xE7\xE3o do movimento algumas vezes n\xE3o tocava quando a posi\xE7\xE3o X e Y do evento era alterado ao mudar o valor de vari\xE1vel da refer\xEAncia 9100000+.\r\n  Para mudar como era antes, ajuste o comportamento para a vers\xE3o \"3.340\" ou anterior. (Ao fazer isso, a anima\xE7\xE3o pode n\xE3o tocar.)"
+  11829, 	"■Game.exe v3.353\r\n  ●Corrigido bug onde a anima\xE7\xE3o de movimento algumas vezes n\xE3o tocava quando a posi\xE7\xE3o X e Y do evento era alterado ao mudar o valor de vari\xE1vel da refer\xEAncia 9100000+.\r\n  Para mudar como era antes, ajuste o comportamento para a vers\xE3o \"3.340\" ou anterior. (Ao fazer isso, a anima\xE7\xE3o pode n\xE3o tocar.)"
   11830, 	"■Game.exe v3.390\r\n  ●Corrigido bug quando \" o string n\xE3o \xE9 convertido para \"\" quando \"Exportar DB para CSV\" do \"Gerenciar DB\" era executado.\r\n  Para mudar como era antes, ajuste o comportamento para a vers\xE3o \"3.353\" ou anterior. (\" ser\xE1 salvo como est\xE1.)"
   11831, 	"Chave de prote\xE7\xE3o da criptografia v1.2 (v3.50+/Pr\xE9-carrega/Leitura r\xE1pida)"
   11832, 	"Est\xE1 sendo processado…… "
@@ -6061,7 +6061,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   11913, 	"Apenas XY"
   11914, 	" "
   11915, 	"Ligar [Como Imagem]"
-  11916, 	"■Game.exe v3.50\r\n● O tempo de exibi\xE7\xE3o dos caracteres especiais como p[?], [?], mg[?] foi melhorado. \r\n● Mais flexiblidade na convers\xE3o dos caracteres especial e o n\xFAmeros com o \"Gerenciar DB\" (Antes, causava um erro.) \r\n● N\xE3o \xE9 mais possivel obter a informa\xE7\xE3o da imagem pelo Definir Vari\xE1vel+, se deletar a imagem com dura\xE7\xE3o de 0 frame. (Antes, podia obter as informa\xE7\xF5es pelo Definir Vari\xE1vel+, se a imagem for deletado durante 0 frames.) \r\n● Corrigido onde todas a camadas eram eliminados, quando o chip do personagem \xE9 deletado pelo \"Alterar chip do personagem\" do comando \"Efeitos\". (Antes, eram deletados todas as apar\xEAncias das camadas, por\xEAm ainda ficavam internamente.) \r\n●A adi\xE7\xE3o de zoom [Mapa] do \"ID de Evento nas coordenadas de mouse\" de \"Outro\" do Definir Vari\xE1vel+ agora \xE9 levado em conta. (Antes, n\xE3o adicionava o zoom) \r\n● O evento ao tocar o h\xE9roi pelos comandos \"Aproximar da posi\xE7\xE3o\" ou \"Aproximar do evento\" do Mover rota, executa quando em \"Ao tocar o evento\" (Antes, este 2 comandos n\xE3o inicializava o evento.) \r\n● Agora \xE9 possivel iniciar com \"Ao tocar o jogador\" quando o her\xF3i toca um evento pelo Mover Rota usando \"Processo paralelo\". (Antes, n\xE3o inicializava com \"Ao tocar o jogador\" quando evento \xE9 tocado pelo Mover rota.) \r\n● Corrigido bug onde a posi\xE7\xE3o do curso vai fora da tela, quando define um valor grande no \"sys6: posi\xE7\xE3o do curso Y\" para o tamanho da tela 320\xD7240. (Antes, tirava da tela por ser grande demais o Sys6,) \r\n● Corrigido bug quando o evento de \"Ao Tocar Evento\" nas coordenadas (0.0). inicializava uma vez durante o carregamento ou depois de inicializar. \r\n● Corrigido bug quando n\xE3o exibia na posi\xE7\xE3o esperada ao fazer um loop na imagem com rolagem ligado. (Antes o bug voltar\xE1 reaparecer) \r\n● \"Efeitos\" → Agora altera o valor de padr\xE3o ao obter com \"Definir Vari\xE1vel+\" no mesmo frame ao substituir o padr\xE3o de imagem com \"Personagem\". (Antes, era atrasado por um frame.) \r\n● \"Efeitos\" → Pode alterar o chip do evento com Tile chip pelo \"Alterar chip do personagem\" (Antes, n\xE3o era possivel alterar eventos com Tile chip.) \r\n● Corrigido bug quando um estado de execu\xE7\xE3o ficava preso quando Eventos de \"Ao tocar/Ao confirmar\" e \"reservados\" era executado ao mesmo tempo. (Antes, ao ficavam preso durante a inicizaliza\xE7\xE3o e se iniciar ao mesmo tempo.) \r\n● Corrigido bug quando n\xE3o retornava a dire\xE7\xE3o, depois de salvar durante uma conversa com um Evento do Mapa.(Antes, carregava a dire\xE7\xE3o do save atual.) \r\n● Corrigido bug onde a largura do cursor de escolha \xE9 menor do que a largura do caracteres, ao fazer o espa\xE7amento de caracteres com \\[?] e etc. \r\n● Corrigido bug onde se uma imagem de cadeia era definido em uma cadeia vazia, o tamanho da imagem \xE9 retornado pelo Definir Vari\xE1vel+ com os valores anteriores. \r\n● Corrigido bug onde a detec\xE7\xE3o de colis\xE3o apenas batia a cabe\xE7a e n\xE3o o p\xE9, se \"passagem (Evento/Tiles)\" do Definir Vari\xE1vel+ era usado nos eventos 0.5x1. \r\n● Agora retorna para -1 se n\xE3o h\xE1 um nome espercificado, quando obter (N\xFAmero Tipos/Dados/Campos) do Gerenciar DB (Antes, eles retornava para 0 depois de erro.)\r\n  →  Para mudar como era antes, ajuste o comportamento para a vers\xE3o \"3.353\" ou anterior. (\" ser\xE1 salvo como est\xE1.)"
+  11916, 	"■Game.exe v3.50\r\n● O tempo de exibi\xE7\xE3o dos caracteres especiais como p[?], [?], mg[?] foi melhorado. \r\n● Mais flexiblidade na convers\xE3o dos caracteres especial e o n\xFAmeros com o \"Gerenciar DB\" (Antes, causava um erro.) \r\n● N\xE3o \xE9 mais possivel obter a informa\xE7\xE3o da imagem pelo Definir Vari\xE1vel+, se deletar a imagem com dura\xE7\xE3o de 0 frame. (Antes, podia obter as informa\xE7\xF5es pelo Definir Vari\xE1vel+, se a imagem for deletado durante 0 frames.) \r\n● Corrigido onde todas a camadas eram eliminados, quando o Sprite de personagem \xE9 deletado pelo \"Trocar Sprite de personagem\" do comando \"Efeitos\". (Antes, eram deletados todas as apar\xEAncias das camadas, por\xEAm ainda ficavam internamente.) \r\n●A adi\xE7\xE3o de zoom [Mapa] do \"ID de Evento nas coordenadas de mouse\" de \"Outro\" do Definir Vari\xE1vel+ agora \xE9 levado em conta. (Antes, n\xE3o adicionava o zoom) \r\n● O evento ao tocar o h\xE9roi pelos comandos \"Aproximar da posi\xE7\xE3o\" ou \"Aproximar do evento\" do Mover rota, executa quando em \"Ao tocar o evento\" (Antes, este 2 comandos n\xE3o inicializava o evento.) \r\n● Agora \xE9 possivel iniciar com \"Ao tocar o jogador\" quando o her\xF3i toca um evento pelo Mover Rota usando \"Processo paralelo\". (Antes, n\xE3o inicializava com \"Ao tocar o jogador\" quando evento \xE9 tocado pelo Mover rota.) \r\n● Corrigido bug onde a posi\xE7\xE3o do curso vai fora da tela, quando define um valor grande no \"sys6: posi\xE7\xE3o do curso Y\" para o tamanho da tela 320\xD7240. (Antes, tirava da tela por ser grande demais o Sys6,) \r\n● Corrigido bug quando o evento de \"Ao Tocar Evento\" nas coordenadas (0.0). inicializava uma vez durante o carregamento ou depois de inicializar. \r\n● Corrigido bug quando n\xE3o exibia na posi\xE7\xE3o esperada ao fazer um loop na imagem com rolagem ligado. (Antes o bug voltar\xE1 reaparecer) \r\n● \"Efeitos\" → Agora altera o valor de padr\xE3o ao obter com \"Definir Vari\xE1vel+\" no mesmo frame ao substituir o padr\xE3o de imagem com \"Personagem\". (Antes, era atrasado por um frame.) \r\n● \"Efeitos\" → Pode alterar o chip do evento com Tile chip pelo \"Trocar Sprite de personagem\" (Antes, n\xE3o era possivel alterar eventos com Tile chip.) \r\n● Corrigido bug quando um estado de execu\xE7\xE3o ficava preso quando Eventos de \"Ao tocar/Ao confirmar\" e \"reservados\" era executado ao mesmo tempo. (Antes, ao ficavam preso durante a inicizaliza\xE7\xE3o e se iniciar ao mesmo tempo.) \r\n● Corrigido bug quando n\xE3o retornava a dire\xE7\xE3o, depois de salvar durante uma conversa com um Evento do Mapa.(Antes, carregava a dire\xE7\xE3o do save atual.) \r\n● Corrigido bug onde a largura do cursor de escolha \xE9 menor do que a largura do caracteres, ao fazer o espa\xE7amento de caracteres com \\[?] e etc. \r\n● Corrigido bug onde se uma imagem de cadeia era definido em uma cadeia vazia, o tamanho da imagem \xE9 retornado pelo Definir Vari\xE1vel+ com os valores anteriores. \r\n● Corrigido bug onde a detec\xE7\xE3o de colis\xE3o apenas batia a cabe\xE7a e n\xE3o o p\xE9, se \"passagem (Evento/Tiles)\" do Definir Vari\xE1vel+ era usado nos eventos 0.5x1. \r\n● Agora retorna para -1 se n\xE3o h\xE1 um nome espercificado, quando obter (N\xFAmero Tipos/Dados/Campos) do Gerenciar DB (Antes, eles retornava para 0 depois de erro.)\r\n  →  Para mudar como era antes, ajuste o comportamento para a vers\xE3o \"3.353\" ou anterior. (\" ser\xE1 salvo como est\xE1.)"
   11917, 	"Abrir navegador na p\xE1gina sobre Teclados? [Lista de c\xF3digos de teclas] \r\n\r\nhttps://smokingwolf.github.io/tool_wolf_rpg_editor/help/04ev_keyinput.html#keycode"
   11918, 	"Na v<VER>, os formatos dos dados do arquivo principal foi alterado, \r\nforam feito backup na pasta \"AutoBackup_Before_Ver<VER>\" dentro da pasta BasicData. \r\n(Game.dat, CommonEvent.dat, Sistema DataBase, Tileset.dat)\r\n\r\nCaso queira restaurar o EXE velho,\r\n por favor substituia pelo backup os cont\xE9udos da pasta BasicData."
   11919, 	"Self vari\xE1vel X do Evento Y desse mapa /1000000+10*Y+X"
@@ -6160,7 +6160,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   11987, 	"[Exibi\xE7\xE3o de texto] Inserir Caracteres Especiais"
   11988, 	"Mensagem avan\xE7a quando apertar / \\!"
   11989, 	"Esperar 0.25s / \\."
-  11990, 	"For\xE7ar a fechada de mensagem sem pressionar / \\^"
+  11990, 	"Interromper a mensagem sem pressionar / \\^"
   11991, 	"Faz o resto da linha aparecer instantaneamente / \\>"
   11992, 	"Pare a visualiza\xE7\xE3o instantanea do -> \\> / \\<"
   11993, 	"Mudar a posi\xE7\xE3o X do texto / \\mx[?]"
@@ -6368,8 +6368,8 @@ LANGUAGE LANG_JAPANESE, 0x1
   12145, 	"Localizado a chave de configura\xE7\xE3o do arquivo no Log! \r\n\r\n[ %s ]\r\n\r\nCriptografar a chave usando o do Log?\r\n\r\n Sim=criptografa usando a chave do log.\r\n N\xE3o=criptografa com a chave registrado agora."
   12146, 	"Execute c\xF3digo especial (Come\xE7ar sempre do << )"
   12147, 	"O Mapa \xE9 menor do que a Tela!"
-  12148, 	"(Tamanho Horizontal)"
-  12149, 	"(Tamanho Vertical)"
+  12148, 	" (Largura)"
+  12149, 	" (Altura)"
   12150, 	"  *Personagem talvez movam rapidamente durante o loop. "
   12151, 	"N\xE3o tem problema no tamanho do mapa."
   12152, 	"\"Compt. das imagens\" reduzido para a \"v<VER 2>\", \r\n pois o \"Adjustar vers\xE3o do Game.exe\" era a abaixo da \"v<VER>\"."
@@ -6439,7 +6439,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   12201, 	"Arquivo de configura\xE7\xE3o de Tiles (*.txt)|*.txt|All files(*.*)|*.*||"
   12202, 	"■Game.exe　Ver3.636\r\n Corrigido bug onde as teclas direncionais são aceitos nas [Escolhas], mesmo quando estão desativados. \r\n→ Para mudar como era antes, ajuste o comportamento para a vers\xE3o \"3.582\" ou anterior."
   12203, 	"O arquivo não foi reproduzido. \r\n Não foi possível reproduzir. por causa do formato do arquivo é incompatível ou corrompido. \r\n (É possívol reproduzir, ao salvar o arquivo de som com um editor de áudio.)"
-  12204, 	"Atenção! Auto-tiles no canto direito infeiror aparecerem cortadas ao expandir o mapa. Corrigia ao pintar de novo."
+  12204, 	"Atenção! Auto-tiles no canto direito infeiror aparecerem cortadas ao expandir o mapa. Corrigia ao pintá-lo de novo."
   12205, 	"[Atenção!]: As áreas semi-transparente no multiplicar não exibe corretamente! Recomenda-se imagem que não seja opaca ou transparente como de um JPG."
   12206, 	"■Game.exe　Ver3.644\r\n●Corrigido um bug onde a posi\xE7\xE3o direita e inferior da imagem se tornavam mais de 1 pixels, quando selecionado \"ID da imagem superior da posi\xE7\xE3o px da \"posi\xE7\xE3o da tela\" X:? Y:?\" em \"Posi\xE7\xE3o e \"Cursor do mouse em cima?[1:SIM]\" do \"Imagem\" em \"Definir vari\xE1vel+\".\r\n●Corrigido um bug onde nome do evento de mapa n\xE3o \xE9 salvo.\r\n→ Para mudar como era antes, ajuste o comportamento para a vers\xE3o \"3.636\" ou anterior."
   12207, 	"Não consegue fechar a janela? \r\n\r\nAltere o tamanho da janela pelo \"Opções\" → \"Opções do Editor\" no menu da janela principal."
@@ -6453,8 +6453,8 @@ LANGUAGE LANG_JAPANESE, 0x1
   12210, 	"Altera o <FILE> para o seguidor <X>."
   12211, 	"Delete todos os <FILE> do grupo."
   12212, 	"■Erro:"
-  12213, 	"[Erro!] Ítens de dados do comando insuficientes, código de evento invalido! Excluia, pois pode ocorrer um crash quando editar."
-  12214, 	"画像が見つかりません"
+  12213, 	"[Erro!] Ítens de dados do comando insuficientes, código de evento invalido! Delete, se não pode ocorrer um crash ao editar."
+  12214, 	"Imagem não foi localizado."
   12215, 	"[px]"
 }
 
@@ -6497,9 +6497,9 @@ LANGUAGE LANG_JAPANESE, 0x1
 STRINGTABLE
 LANGUAGE LANG_JAPANESE, 0x1
 {
-  32790, 	"\nUserDb (Dados inateráveis)"
+  32790, 	"\nUserDb (Dados Estático)"
   32792, 	"\nConfigur\xE7\xF5es de Tileset"
-  32797, 	"\nSystemDB (Dados alteráveis)"
+  32797, 	"\nSystemDB (Dados Centrais)"
 }
 
 STRINGTABLE
@@ -6522,7 +6522,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   32826, 	"\nMostra mapa 4x (Ctrl+Rolo do Mouse para alternar)"
   32827, 	"\nMostra mapa 1/4x (Ctrl+Rolo do Mouse para alternar)"
   32828, 	"\nMostra mapa 1/8x (Ctrl+Rolo do Mouse para alternar)"
-  32829, 	"\nVarDB (Dados Vari\xE1veis)"
+  32829, 	"\nVarDB (Dados Dinámico)"
   32830, 	"Ajustar configura\xE7\xE3o do jogo"
 }
 

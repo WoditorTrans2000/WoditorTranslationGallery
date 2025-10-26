@@ -8,12 +8,12 @@
 7: -----
 8: -----
 9: -----
-10:Arquivo de Imagem (Heroi)
-11:Arquivo de Imagem (Aliado 1)
-12:Arquivo de Imagem (Aliado 2)
-13:Arquivo de Imagem (Aliado 3)
-14:Arquivo de Imagem (Aliado 4)
-15:Arquivo de Imagem (Aliado 5)
+10:Arquivo de Sprite (Lider)
+11:Arquivo de Sprite (Seguidor 1)
+12:Arquivo de Sprite (Seguidor 2)
+13:Arquivo de Sprite (Seguidor 3)
+14:Arquivo de Sprite (Seguidor 4)
+15:Arquivo de Sprite (Seguidor 5)
 16: -----
 17: -----
 18: -----
