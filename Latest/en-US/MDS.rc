@@ -697,10 +697,10 @@ FONT 9, "MS Shell Dlg"
    CONTROL "", 1131, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 116, 149, 74, 12 
    CONTROL "", 1132, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 116, 163, 74, 12 
    CONTROL "", 1124, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 107, 195, 83, 12 
-   CONTROL "Set Passable", 1133, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | WS_CHILD | WS_VISIBLE, 100, 217, 113, 12 
-   CONTROL "Set Direction-Pass", 1134, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | WS_CHILD | WS_VISIBLE, 100, 229, 113, 12 
-   CONTROL "Set As Counter", 1135, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | WS_CHILD | WS_VISIBLE, 100, 241, 113, 12 
-   CONTROL "Set Tag Number", 1136, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | WS_CHILD | WS_VISIBLE, 100, 253, 113, 12 
+   CONTROL "Tile Passability", 1133, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | WS_CHILD | WS_VISIBLE, 115, 214, 83, 13 
+   CONTROL "Directional Passability", 1134, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | WS_CHILD | WS_VISIBLE, 115, 227, 83, 13 
+   CONTROL "Counter Tile", 1135, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | WS_CHILD | WS_VISIBLE, 115, 240, 83, 13 
+   CONTROL "Tag Number", 1136, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | WS_CHILD | WS_VISIBLE, 115, 253, 83, 13 
    CONTROL "OK", 1, BUTTON, BS_DEFPUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 238, 332, 50, 18 
    CONTROL "Update", 3, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 298, 332, 50, 17 
    CONTROL "Cancel", 2, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 356, 331, 50, 18 
@@ -718,7 +718,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Load", 1422, BUTTON, BS_PUSHBUTTON | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 190, 119, 20, 12 
    CONTROL "Load", 1423, BUTTON, BS_PUSHBUTTON | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 190, 134, 20, 12 
    CONTROL "Load", 1424, BUTTON, BS_PUSHBUTTON | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 190, 149, 20, 12 
-   CONTROL "O: Passable     X: Impassable\r\n▲: Hides Character Behind\r\n★: Always Above Character\r\n↓: Matches O/X to Layer Below\r\n□: Makes Lower Body Transparent", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 100, 267, 113, 45 , WS_EX_STATICEDGE
+   CONTROL "O: Passable     X: Impassable\r\n▲: Hides Character Behind\r\n★: Always Above Character\r\n↓: Matches O/X to Layer Below\r\n□: Makes Lower Body Transparent", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 100, 269, 113, 45 , WS_EX_STATICEDGE
    CONTROL "File Export/Import", 1451, BUTTON, BS_GROUPBOX | BS_FLAT | WS_CHILD | WS_VISIBLE, 3, 260, 92, 56 
    CONTROL "Save One", 1620, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 4, 272, 24, 19 
    CONTROL "Load", 1621, BUTTON, BS_PUSHBUTTON | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 67, 274, 26, 17 
@@ -1704,6 +1704,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "", 1020, "msctls_updown32", UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_ARROWKEYS | UDS_NOTHOUSANDS | WS_CHILD | WS_VISIBLE, 193, 111, 9, 11 
    CONTROL "Insert", 1068, BUTTON, BS_DEFPUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 173, 130, 49, 26 
    CONTROL "Manual Value", 1295, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 153, 91, 62, 10 
+   CONTROL "[!]Caution", 1903, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 105, 44, 38, 12 
 }
 
 156 DIALOGEX 0, 0, 211, 134
@@ -1917,6 +1918,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Manipulation", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 5, 85, 56, 59 
    CONTROL "", 1284, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 190, 75, 51, 126 
    CONTROL "(Check Box to specify the Y row in the Data operation of the XY Array)", 1933, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 73, 100, 163, 10 
+   CONTROL "?", 1978, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_TABSTOP, 107, 3, 10, 9 
 }
 
 161 DIALOGEX 0, 0, 277, 178
@@ -4162,12 +4164,12 @@ LANGUAGE LANG_JAPANESE, 0x1
   10464, 	"This CSelf%d: %s"
   10465, 	"=;+=;-=;*=;/=;%=;Lower Bound;Upper Bound;Absolute;"
   10466, 	"X Position (Standard);Y Position (Standard);X Position (Precise);Y Position (Precise);Height Off Ground (pixels);Direction (1-9, Matches Numpad);Screen X Position;Screen Y Position;Shadow Sprite Number;Current Tile Tag Number;Event ID;On Screen? (1:Yes/0:No);Active Page [0:None/1+:Page Number/-1:Erased];Run Type [0: Confirm ... 4: Event Touch];Range Extend X;Range Extend Y;Animation Pattern [0-9];Moving? [1:Yes/0:No];Sprite Division H;Sprite Division V;Current Patterns [1-12+];"
-  10467, 	"Top Tile Tag Number;Event ID (None: -1);Passable (Tile Only, 0:Yes/1:No);Passable (Tile + Event);Top Tile ID (0:Clear/1-15:Auto/16+:Other);Layer 1 Tile ID;Layer 2 Tile ID;Layer 3 Tile ID;Layer 1 Tile Tag Number;Layer 2 Tile Tag Number;Layer 3 Tile Tag Number;"
+  10467, 	"Top Tile Tag Number;Event ID (None: -1);Passable? (Tile Only, 0:Yes/1:No);Passable? (Tile & Event);Top Tile ID (0:Clear/1-15:Auto/16+:Other);Layer 1 Tile ID;Layer 2 Tile ID;Layer 3 Tile ID;Layer 1 Tile Tag Number;Layer 2 Tile Tag Number;Layer 3 Tile Tag Number;"
   10468, 	"XX Current Map ID;Playing BGM Number (Only BGM Selected from SysDB);Playing BGS Number (Only BGS Selected from SysDB);BGM Playback Position (ms; Up to First Loop/For MIDI, tick);BGS Playback Position (ms; Up to First Loop/For MIDI, tick);Current BGM Length (ms/For MIDI, tick);Current BGS Length (ms);Mouse Left Click (0:Normal/1:Hold/2:Pressed);Mouse Right Click (0:Normal/1:Hold/2:Pressed);Mouse Middle Click (0:Normal/1:Hold/2:Pressed);Mouse Wheel Delta (Change from Last Frame);Mouse X Delta (Change from Last Frame);Mouse Y Delta (Change from Last Frame);Event ID at Mouse Position (Smaller ID Priority, -1 for None);This Map Event ID (In Common, Caller's ID);Map Size [Width];Map Size [Height];This Common Event ID (-1: Outside Common);Active Autorun/Touch/Confirm Event ID [+500000 for Common];Active Event Line [Autorun/Touch/Confirm Event];Memory Usage [MB];Available Memory [MB];"
   10469, 	"X Position;Y Position;Image Size (Width);Image Size (Height);Pattern;Opacity;Angle;Zoom (Width or Overall);Zoom (Height);Mouse Pointer Hover? (1:Yes, Angle 0 Only);Picture In Use? (1:Yes);String Display Done? (1:Yes);"
   10470, 	"Event ID [None/Erased: -1]"
-  10471, 	"Passable (Tile) [0:Yes/1:No]"
-  10472, 	"Passable (Tile & Event) [0:Yes/1:No]"
+  10471, 	"Passable? (Tile) [0:Yes/1:No]"
+  10472, 	"Passable? (Tile & Event) [0:Yes/1:No]"
   10473, 	"Top Tile ID [0:Clear/1+:Auto/32+:Other]"
   10474, 	"Layer 1 Tile ID [0:Clear/1+:Auto/32+:Other]"
   10475, 	"Layer 2 Tile ID [0:Clear/1+:Auto/32+:Other]"
@@ -4395,8 +4397,8 @@ LANGUAGE LANG_JAPANESE, 0x1
   10642, 	"□"
   10643, 	"○"
   10644, 	"\xD7"
-  10645, 	"Map Tile / Clear Tile / Passable %s [If Layer 1]"
-  10646, 	"Map Tile / Tile ID %d / Tag # %d / Passable %s"
+  10645, 	"Map Tile / Clear Tile / Passability %s [If Layer 1]"
+  10646, 	"Map Tile / Tile ID %d / Tag %d / Passability %s"
   10647, 	"Map Tile"
   10648, 	"No Loop;Loop Horizontal;Loop Vertical;Loop Both Ways;"
   10649, 	"Don't Link;Link to Map;"
@@ -4937,8 +4939,8 @@ STRINGTABLE
 LANGUAGE LANG_JAPANESE, 0x1
 {
   11056, 	"Event ID"
-  11057, 	"Passable: Tile [0:Yes/1:No]"
-  11058, 	"Passable: Tile & Event [0:Yes/1:No]"
+  11057, 	"Passable? (Tile) [0:Yes/1:No]"
+  11058, 	"Passable? (Tile & Event) [0:Yes/1:No]"
   11059, 	"Top Tile ID [1-31:Auto/32+:Other]"
   11060, 	"Layer 1 Tile ID [0:Clear/1-31:Auto/32+:Other]"
   11061, 	"Layer 2 Tile ID [0:Clear/1-31:Auto/32+:Other]"
@@ -6456,6 +6458,12 @@ LANGUAGE LANG_JAPANESE, 0x1
   12213, 	"[ERROR] Insufficient command data items, invalid event code! Editing may cause a crash, so please delete this!"
   12214, 	"Image not found"
   12215, 	"[px]"
+  12216, 	"How to Remove XY-Array Names"
+  12217, 	"To remove XY-Array name suggestions,\r\ndelete the corresponding lines\r\nfrom the file \"Editor_XY_array_Name.ini\".\r\n(It's okay if the numbering skips.)\r\n\r\nHold down Shift and press this [?] button\r\nto open \"Editor_XY_array_Name.ini\"."
+  12218, 	"File not found."
+  12219, 	"The file could not be opened."
+  12220, 	"Caution: Self Variable Usage / XY-Arrays Not Supported"
+  12221, 	"- When you read or write self variables in \"Read/Write Specific Save Data,\"\r\n  use 1000000 or 15000000 (self variable of the specified event)\r\n  instead of 1100000 or 1600000 (self variable of this event).\r\n\r\n- You cannot read or write XY-Arrays in \"Read/Write Specific Save Data.\""
 }
 
 STRINGTABLE
