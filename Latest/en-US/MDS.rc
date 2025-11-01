@@ -1704,6 +1704,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "", 1020, "msctls_updown32", UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_ARROWKEYS | UDS_NOTHOUSANDS | WS_CHILD | WS_VISIBLE, 193, 111, 9, 11 
    CONTROL "Insert", 1068, BUTTON, BS_DEFPUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 173, 130, 49, 26 
    CONTROL "Manual Value", 1295, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 153, 91, 62, 10 
+   CONTROL "[!]Caution", 1903, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 105, 44, 38, 12 
 }
 
 156 DIALOGEX 0, 0, 211, 134
@@ -6461,6 +6462,8 @@ LANGUAGE LANG_JAPANESE, 0x1
   12217, 	"To remove XY-Array name suggestions,\r\ndelete the corresponding lines\r\nfrom the file \"Editor_XY_array_Name.ini\".\r\n(It's okay if the numbering skips.)\r\n\r\nHold down Shift and press this [?] button\r\nto open \"Editor_XY_array_Name.ini\"."
   12218, 	"File not found."
   12219, 	"The file could not be opened."
+  12220, 	"Caution: Self Variable Usage / XY-Arrays Not Supported"
+  12221, 	"- When you read or write self variables in \"Read/Write Specific Save Data,\"\r\n  use 1000000 or 15000000 (self variable of the specified event)\r\n  instead of 1100000 or 1600000 (self variable of this event).\r\n\r\n- You cannot read or write XY-Arrays in \"Read/Write Specific Save Data.\""
 }
 
 STRINGTABLE

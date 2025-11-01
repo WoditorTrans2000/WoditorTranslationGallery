@@ -1704,6 +1704,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "", 1020, "msctls_updown32", UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_ARROWKEYS | UDS_NOTHOUSANDS | WS_CHILD | WS_VISIBLE, 204, 111, 9, 11 
    CONTROL "Inserir", 1068, BUTTON, BS_DEFPUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 173, 130, 49, 26 
    CONTROL "Valor manual", 1295, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 163, 91, 62, 10 
+   CONTROL "[!]注意", 1903, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 105, 44, 31, 12 
 }
 
 156 DIALOGEX 0, 0, 211, 144
@@ -6461,6 +6462,8 @@ LANGUAGE LANG_JAPANESE, 0x1
   12217, 	"XY配列名を削除したいときは\r\nファイル「Editor_XY_array_Name.ini」から\r\n不要な名前の行を削除してください。\r\n（番号が飛んでも問題ありません）\r\n\r\nShiftを押しながらこの[?]ボタンを押すと\r\n「Editor_XY_array_Name.ini」を\r\n開くことができます。"
   12218, 	"ファイルが見つかりませんでした。"
   12219, 	"ファイルが開けませんでした。"
+  12220, 	"【注意！　セルフ変数使用時の注意点 ・ XY配列の読込はできません】"
+  12221, 	"・「各セーブデータの内容読み書き」でセルフ変数を読み書きする場合は、\r\n　1100000や1600000（このイベントのセルフ変数）ではなく\r\n　1000000や15000000（指定したイベントのセルフ変数）で設定してください。\r\n\r\n・「各セーブデータの内容読み書き」で「XY配列」を読み書きすることはできません。"
 }
 
 STRINGTABLE
