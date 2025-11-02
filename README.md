@@ -50,7 +50,7 @@ https://discord.com/invite/c3F7fNyDKE) **WolfRPGEditor Hub** If you want to disc
 
 Currently only pt-BR and en-US are the one I'm updating when is necessary.
 
-The version of the dll being translated and from the latest folder is 3.660.
+The version of the dll being translated and from the latest folder is 3.662.
 
 🇧🇷 pt-BR - 100% - Sendo feito por [Woditortrans2000](https://github.com/WoditorTrans2000).
 
@@ -166,12 +166,12 @@ He is the developer of WolfRPGEditor and I would like to thank him for putting t
 <br/>
 
 🇧🇷 pt-BR<br>
-**(v3.39, v3.562, v3.555, v3.574, v3.613, v3.618, v3.626, v3.632 and v3.660)** translations by [Woditortrans2000](https://github.com/WoditorTrans2000) (Owner of this repository) personally, I prefer to be called **Oki**.
+**(v3.39, v3.562, v3.555, v3.574, v3.613, v3.618, v3.626, v3.632 and v3.662)** translations by [Woditortrans2000](https://github.com/WoditorTrans2000) (Owner of this repository) personally, I prefer to be called **Oki**.
 
 <br/>
 
 🇺🇸 en-US<br/>
-**(v3.613, v3.618, v3.626, v3.632 and v3.660)** Translation completed and improved by [Yumu](https://github.com/yumunet)<br>Previously, the translation used vgperson and Sugy's translation. But because of Yumu's contribution, it is now something of its own.<br> Also I would like to thank him for helping me with the repository and give me suggestion!
+**(v3.613, v3.618, v3.626, v3.632 and v3.662)** Translation completed and improved by [Yumu](https://github.com/yumunet)<br>Previously, the translation used vgperson and Sugy's translation. But because of Yumu's contribution, it is now something of its own.<br> Also I would like to thank him for helping me with the repository and give me suggestion!
 
 **(v1.10, v1.20, v1.30, v1.31, v3.562, v3.566 and v3.574)** Used Vgperson and Surgy to translate, with the addition of Woditortrans2000 and Yumu. However, the translation is out of date, so it needs to be updated.
 
