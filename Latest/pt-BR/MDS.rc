@@ -388,8 +388,8 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Cancelar", 2, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE, 375, 381, 43, 17 
    CONTROL "", 1065, LISTBOX, LBS_STANDARD | LBS_NOINTEGRALHEIGHT | LBS_WANTKEYBOARDINPUT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 2, 11, 86, 110 
    CONTROL "", 1066, LISTBOX, LBS_NOTIFY | LBS_NOINTEGRALHEIGHT | LBS_WANTKEYBOARDINPUT | LBS_DISABLENOSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP, 98, 28, 119, 293 
-   CONTROL "Contagem de Dados", 1068, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE, 116, 333, 69, 16 
-   CONTROL "Contagem de Tipo", 1069, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE, 13, 147, 65, 13 
+   CONTROL "Quantidades de Dados", 1068, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE, 112, 333, 79, 16 
+   CONTROL "Quantidades de Tipo", 1069, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE, 11, 147, 69, 13
    CONTROL "", 1060, EDIT, ES_LEFT | ES_AUTOHSCROLL | ES_WANTRETURN | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 113, 11, 90, 12 
    CONTROL "ID", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 101, 13, 8, 9 
    CONTROL "Definir Tipo", 1074, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE, 8, 132, 74, 14 
@@ -686,7 +686,7 @@ LANGUAGE LANG_JAPANESE, 0x1
 FONT 9, "MS Shell Dlg"
 {
    CONTROL "", 1065, LISTBOX, LBS_NOTIFY | LBS_NOINTEGRALHEIGHT | LBS_WANTKEYBOARDINPUT | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_VSCROLL | WS_TABSTOP, 3, 2, 108, 237 
-   CONTROL "Definir contagem de dados", 1068, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 10, 242, 93, 13 
+   CONTROL "Definir quantidades de dados", 1068, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 10, 242, 93, 13 
    CONTROL "", 1060, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 140, 11, 71, 12 
    CONTROL "", 1125, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 130, 60, 74, 12 
    CONTROL "", 1126, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 130, 74, 74, 12 
@@ -697,10 +697,10 @@ FONT 9, "MS Shell Dlg"
    CONTROL "", 1131, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 130, 149, 74, 12 
    CONTROL "", 1132, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 130, 163, 74, 12 
    CONTROL "", 1124, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 121, 195, 83, 12 
-   CONTROL "Definir Pass\xE1vel", 1133, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | WS_CHILD | WS_VISIBLE, 135, 214, 83, 13 
-   CONTROL "Definir Dire\xE7\xE3o", 1134, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | WS_CHILD | WS_VISIBLE, 135, 227, 83, 13 
-   CONTROL "Definir como bancada", 1135, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | WS_CHILD | WS_VISIBLE, 135, 240, 83, 13 
-   CONTROL "Definir n\xFAmero de tag", 1136, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | WS_CHILD | WS_VISIBLE, 135, 253, 83, 13 
+   CONTROL "Passagem", 1133, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | WS_CHILD | WS_VISIBLE, 135, 214, 83, 13 
+   CONTROL "Dire\xE7\xE3o de passagem", 1134, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | WS_CHILD | WS_VISIBLE, 135, 227, 83, 13 
+   CONTROL "Bancada", 1135, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | WS_CHILD | WS_VISIBLE, 135, 240, 83, 13 
+   CONTROL "N\xFAmero de Tag", 1136, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | WS_CHILD | WS_VISIBLE, 135, 253, 83, 13 
    CONTROL "OK", 1, BUTTON, BS_DEFPUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 254, 332, 50, 18 
    CONTROL "Atualizar", 3, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 314, 332, 50, 17 
    CONTROL "Cancelar", 2, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 372, 331, 50, 18 
@@ -742,7 +742,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "↓/□", 1726, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_MULTILINE | WS_CHILD | WS_VISIBLE, 362, 10, 53, 18 
    CONTROL "Mostra o estado do clique", 1727, STATIC, SS_CENTER | WS_CHILD | WS_VISIBLE | WS_GROUP, 247, 29, 174, 10 , WS_EX_STATICEDGE
    CONTROL "[Dicas para configurar Tile]\r\n *Segure SHIFT para atribuir X/O em 1/4. \r\n *(★・▲・□) Segure Ctrl para atribuir ↓.  \r\n*(N\xFAmero de tag) Ctrl+Clique Direito: Copiar e Ctrl+Clique Esquerdo: Colar.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 3, 316, 223, 45 , WS_EX_ACCEPTFILES | WS_EX_STATICEDGE
-   CONTROL "Configurar Passagem", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 245, 1, 180, 9 
+   CONTROL "Configurar Atributo", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 245, 1, 180, 9 
    CONTROL "Exibir em 32px", 1729, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_GROUP, 297, 306, 56, 12 
    CONTROL "Exibir em 48px", 1730, BUTTON, BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_MULTILINE | WS_CHILD | WS_VISIBLE, 353, 306, 56, 12 
    CONTROL "Exportar para CSV", 1622, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 16, 295, 39, 18 
@@ -1704,7 +1704,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "", 1020, "msctls_updown32", UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_ARROWKEYS | UDS_NOTHOUSANDS | WS_CHILD | WS_VISIBLE, 204, 111, 9, 11 
    CONTROL "Inserir", 1068, BUTTON, BS_DEFPUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 173, 130, 49, 26 
    CONTROL "Valor manual", 1295, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 163, 91, 62, 10 
-   CONTROL "[!]注意", 1903, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 105, 44, 31, 12 
+   CONTROL "[!]", 1903, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 133, 44, 13, 12 
 }
 
 156 DIALOGEX 0, 0, 211, 144
@@ -2733,14 +2733,14 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Procurar comandos\r\n (Leva mais Tempo / Não pode ser substituido)", 1283, BUTTON, BS_AUTORADIOBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_GROUP, 6, 87, 163, 20 
    CONTROL "Procurar [String]", 1284, BUTTON, BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE, 6, 107, 163, 12 
    CONTROL "Procurar [Vari\xE1veis/Valores] nos comandos \r\n (*Instav\xE9l, procura interna)", 1285, BUTTON, BS_AUTORADIOBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE, 6, 119, 163, 20 
-   CONTROL "Procurar[Nomes de CommonEv]", 1286, BUTTON, BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE, 6, 139, 163, 10 
-   CONTROL "Raio de Procura", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 2, 157, 162, 36 
+   CONTROL "Procurar [Nomes de CommonEv]", 1286, BUTTON, BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE, 6, 139, 163, 10 
+   CONTROL "Tipo de procura", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 2, 157, 162, 36 
    CONTROL "Apenas os Eventos atuais", 1599, BUTTON, BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_GROUP, 8, 168, 153, 11 
    CONTROL "Todos Eventos (Procurar atrav\xE9s dos Eventos) ", 1598, BUTTON, BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE, 8, 179, 153, 11 
    CONTROL "Procurar por", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 5, 9, 33, 9 
    CONTROL "Informa\xE7\xE3o da vari\xE1vel \xE9 mostrado aqui", 1254, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 6, 198, 160, 30 , WS_EX_STATICEDGE
    CONTROL "*Especificar a var\xEDavel pela valor de refer\xEAncias.\r\n (Ex: 1600004 = Este CSelf4 do Evento)", 1602, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 7, 56, 165, 18 
-   CONTROL "Procurar Alvo", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 2, 76, 170, 76 
+   CONTROL "Procurar por...", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 2, 76, 170, 76 
 }
 
 188 DIALOGEX 0, 0, 545, 349
@@ -3115,7 +3115,7 @@ FONT 9, "MS Shell Dlg"
    CONTROL "Exportar \r\nMapas (Todos)", 1949, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 125, 297, 49, 21 
    CONTROL "Exportar\r\nDados b\xE1sicos", 1950, BUTTON, BS_PUSHBUTTON | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 125, 276, 49, 21 
    CONTROL "Uso de aba", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 462, 278, 117, 46 
-   CONTROL "Janela de evento do mapa", 1951, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 469, 288, 106, 10 
+   CONTROL "Janela de evento de mapa", 1951, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 469, 288, 106, 10 
    CONTROL "Janela de Commom Event", 1952, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 469, 300, 106, 10 
    CONTROL "Todas janelas de Database", 1953, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 469, 312, 106, 10 
    CONTROL "\xCDcone", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 466, 187, 19, 9 
@@ -3445,8 +3445,8 @@ LANGUAGE LANG_JAPANESE, 0x1
   169, 	"H%s/S%s/L%s  [%s]Frames"
   170, 	"Diferen\xE7a azul %s/Diferen\xE7a vermelha %s  (%s)Frames"
   171, 	"Quantidade %s  (%s)Frames"
-  172, 	"[Ligar m\xE1scara da imagem] => "
-  173, 	"[Desligar m\xE1scara da imagem] =>"
+  172, 	"[Ligar m\xE1scara (Imagem) ] => "
+  173, 	"[Desligar m\xE1scara (Imagem) ] =>"
   174, 	"[Preenche m\xE1scara para [Vis\xEDvel] inteira ]"
   175, 	"[Preenche m\xE1scara para [invis\xEDvel] inteira]"
 }
@@ -3464,10 +3464,10 @@ LANGUAGE LANG_JAPANESE, 0x1
   183, 	"Completo"
   184, 	"Confirmar"
   185, 	"N\xFAmero de Tileset do Mapa"
-  186, 	"[Ligar m\xE1scara do personagem] =>"
-  187, 	"[Desligar m\xE1scara do personagem] =>"
-  188, 	"[Ligar m\xE1scara do mapa]"
-  189, 	"[Desligar m\xE1scara do mapa]"
+  186, 	"[Ligar m\xE1scara (Personagem) ] =>"
+  187, 	"[Desligar m\xE1scara (Personagem) ] =>"
+  188, 	"[Ligar m\xE1scara (Mapa) ]"
+  189, 	"[Desligar m\xE1scara (Mapa) ]"
   190, 	"Come\xE7a com a op\xE7\xE3o -f mas a pasta \"%s\" n\xE3o existe\r\nInicializa\xE7\xE3o ser\xE1 interrompido"
   191, 	"Velho(%s at\xE9 %s) => Novo (%s at\xE9 %s)"
 }
@@ -3646,7 +3646,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   10071, 	"Salvar / Carregar"
   10072, 	"Common Event"
   10073, 	"Preto;Vermelho;Azul;Verde;Roxo;Amarelo;Cinza;Vermelho claro;Azul claro;Verde claro;Rosa;Laranja;"
-  10074, 	"Apenas Call;Automático;Processo Paralelo;Processo Paralelo(Sempre);"
+  10074, 	"Apenas Call;Automático;Processo Paralelo;Processo Paralelo (Sempre);"
   10075, 	"> (Maior que);≥ (Maior ou igual);= (Igual);≤ (Menor ou igual);< (Menor que);N\xE3o \xE9 igual;Bitwise AND;"
   10076, 	"Falha em criar evento inserir di\xE1logo\n"
   10077, 	"■ Inserir Comandos de CommonEvent"
@@ -3731,7 +3731,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   10136, 	"Um erro ocorreu durante o carregamento dos Tipos DB"
   10137, 	"◆"
   10138, 	"  <<■ [Selecionado] \r\n"
-  10139, 	"Contagem de Tipo"
+  10139, 	"Quantidades de Tipo"
   10140, 	"Deseja em substituir os Dados do %d at\xE9 %d ?"
   10141, 	"%s - Colado"
   10142, 	"%s - Falha em colar dados, copie primeiro"
@@ -3846,7 +3846,7 @@ LANGUAGE LANG_JAPANESE, 0x1
 STRINGTABLE
 LANGUAGE LANG_JAPANESE, 0x1
 {
-  10224, 	"Im\xF3vel;Custom;Aleat\xF3rio;Ir até ao Líder;"
+  10224, 	"Im\xF3vel;Customizar;Aleat\xF3rio;Ir até ao Líder;"
   10225, 	"0: Mais lento;1: Muito lento;2: Lento;3: M\xE9dio;4: R\xE1pido;5: Muito r\xE1pido;6: Mais r\xE1pido;"
   10226, 	"0: Instant\xE2neo;1: Muito r\xE1pido;2: R\xE1pido;3: M\xE9dio;4: Lento;5: Muito lento;6: Mais atrasado;"
   10227, 	"Tecla Enter;Automático;Processo Paralelo;Ao Tocar o Líder;Ao Tocar Evento;"
@@ -4163,9 +4163,9 @@ LANGUAGE LANG_JAPANESE, 0x1
 {
   10464, 	"Este CSelf%d: %s"
   10465, 	"=;+=;-=;*=;/=;%=;Limite Superior;Limite Inferior;Absoluto;"
-  10466, 	"Posição X (Padr\xE3o);Posição Y (Padr\xE3o);Posição X (Preciso);Posição Y (Preciso);Altura fora do ch\xE3o (pixels);Direcional (1-9, Teclas num\xE9ricas);Tela X;Tela Y;N\xFAmero de imagem da sombra;N\xFAmero da tag do tile;ID do Ev;Est\xE1 na tela? (1:SIM 0:NÃO);P\xE1gina ativa [Nenhum:0/P\xE1g n.\xBA:1+/Apagado:-1];Condi\xE7\xE3o atual(0:Tecla Enter - 4:Ao tocar o Evento);Exten\xE7\xE3o de raio X;Exten\xE7\xE3o de raio Ｙ;Padr\xE3o de anima\xE7\xE3o [0-9];Em movimento? [1:SIM 0:NÃO];Divis\xE3o H do chip;Divis\xE3o V do chip;Padr\xE3o total atual [1-12+];"
+  10466, 	"Posição X (Padr\xE3o);Posição Y (Padr\xE3o);Posição X (Preciso);Posição Y (Preciso);Altura fora do ch\xE3o (pixels);Direcional (1-9, Teclas num\xE9ricas);Tela X;Tela Y;N\xFAmero de sprite de sombra;N\xFAmero de tag do tile;ID do Ev;Est\xE1 na tela? (1:SIM 0:NÃO);P\xE1gina ativa [Nenhum:0/P\xE1g n.\xBA:1+/Apagado:-1];Condi\xE7\xE3o atual(0:Tecla Enter - 4:Ao tocar o Evento);Exten\xE7\xE3o de raio X;Exten\xE7\xE3o de raio Ｙ;Padr\xE3o de anima\xE7\xE3o [0-9];Em movimento? [1:SIM 0:NÃO];Divis\xE3o H do chip;Divis\xE3o V do chip;Padr\xE3o total atual [1-12+];"
   10467, 	"Tag da camada mais alta;ID do Evento (N/A: -1);Pass\xE1vel (Apenas Tile; 0:SIM, 1:NÃO);Pass\xE1vel (Tile + Evento);Chip superior n.\xBA (Limpo: 0/1-15: Auto/16-: etc);Camada chip 1 n.\xBA;Camada chip 2 n.\xBA;Camada chip 3 n.\xBA;Tag tile da camada 1;Tag tile da camada 2;Tag tile da camada 3;"
-  10468, 	"N\xFAmero atual XX de mapa;Reproduzir BGM n.\xBA (Apenas BGM acessado do SysDB);Reproduzir BGS n.\xBA (BGS acessado do SysDB);Posi\xE7\xE3o do BGM (ms \xE1cima at\xE9 o primeiro Loop / Ticks, para MIDI); Posi\xE7\xE3o do BGS (ms \xE1cima at\xE9 o primeiro Loop / Ticks, para MIDI);Dura\xE7\xE3o atual do BGM (ms/MIDI Tick);Dura\xE7\xE3o atual do BGS (ms);Clique  esquerdo do mouse (Normal:0, Segurar:1, Pressionar:2);Clique  direito do mouse (Normal:0, Segurar:1, Pressionar:2);Clique meio do mouse  (Normal:0, Segurar:1, Pressionar:2);Roda Delta do Mouse(Muda no ult\xEDmo frame);X Delta do Mouse(Muda no ult\xEDmo frame);Y Delta do Mouse(Muda no ult\xEDmo frame);Posi\xE7\xE3o do mouse no ID do Evento (Prioridade ao Menor ID, N/A: -1);ID desse Evento do Mapa (Em commom, ID do chamado);Tamanho do Mapa [Largura];Tamanho do Mapa [Altura];ID desse CommomEv (-1 para Commom do lado de fora);ID do Evento Ativo Auto/Toque/Confirmar[+500000 para Commom];Linha do Evento ativo [Eventos Auto/Toque/Confirmar];Mem\xF3ria usada [MB];Mem\xF3ria dispornivel [MB];"
+  10468, 	"N\xFAmero atual XX de mapa;Reproduzir BGM n.\xBA (Apenas BGM acessado do SysDB);Reproduzir BGS n.\xBA (BGS acessado do SysDB);Posi\xE7\xE3o do BGM (ms \xE1cima at\xE9 o primeiro Loop / Ticks, para MIDI); Posi\xE7\xE3o do BGS (ms \xE1cima at\xE9 o primeiro Loop / Ticks, para MIDI);Dura\xE7\xE3o atual do BGM (ms/MIDI Tick);Dura\xE7\xE3o atual do BGS (ms);Clique  esquerdo do mouse (Normal:0, Segurar:1, Pressionar:2);Clique  direito do mouse (Normal:0, Segurar:1, Pressionar:2);Clique meio do mouse  (Normal:0, Segurar:1, Pressionar:2);Roda Delta do Mouse(Muda no ult\xEDmo frame);X Delta do Mouse(Muda no ult\xEDmo frame);Y Delta do Mouse(Muda no ult\xEDmo frame);Posi\xE7\xE3o do mouse no ID do Evento (Prioridade ao Menor ID, N/A: -1);ID desse Evento de Mapa (Em commom, ID do chamado);Tamanho do Mapa [Largura];Tamanho do Mapa [Altura];ID desse CommomEv (-1 para Commom do lado de fora);ID do Evento Ativo Auto/Toque/Confirmar[+500000 para Commom];Linha do Evento ativo [Eventos Auto/Toque/Confirmar];Mem\xF3ria usada [MB];Mem\xF3ria dispornivel [MB];"
   10469, 	"Posi\xE7\xE3o X;Posi\xE7\xE3o Y;Tamanho da imagem (Largura);Tamanho da imagem (Altura);Padr\xE3o n.\xBA;Opacidade;\xC2ngulo;Zoom (Largura ou ao todo);Zoom (Altura);Cursor do Mouse em cima? (1:Sim, 0 apenas \xE2ngulo);imagem em uso? (1:Sim);String concluiu em mostrar? (1:Sim);"
   10470, 	"ID do Evento [N/A ou deletado: -1]"
   10471, 	"Caminh\xE1vel (✓:0,\xD7:1)"
@@ -4231,7 +4231,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   10516, 	"ID do evento na posi\xE7\xE3o do mouse(Priorizar o menor ID, Nenhum: -1)"
   10517, 	"Tamanho X do Mapa "
   10518, 	"Tamanho Y do Mapa "
-  10519, 	"Este ID de Evento do Mapa  (Ou o ID de Call se for Commom Ev) "
+  10519, 	"Este ID de Evento de Mapa  (Ou o ID de Call se for Commom Ev) "
   10520, 	"Este ID de Commom Ev  (-1 Se n\xE3o é Commom Ev) "
   10521, 	"ID Ev ativo Auto, Toque, Confirmar [Valor mais que 500000 s\xE3o commom Ev]"
   10522, 	"Linha sendo processado do Ev [Eventos de Auto, Toque, Confirmar];"
@@ -4250,7 +4250,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   10530, 	"Seguidor 4"
   10531, 	"Seguidor 5"
   10532, 	"Este Evento: Self%d"
-  10533, 	"Evento do Mapa chamado"
+  10533, 	"Evento de Mapa chamado"
   10534, 	"Este CommonEv: Self%d"
   10535, 	" [Caracteres v\xE1lidos]   Hiragana [, . ?], marcadores de acento [';+,](4 Tipos), \r\n  e s\xEDmbolo de acento-paragem [/] s\xE3o apenas os s\xEDmbolos v\xE1lidos. Sem Kanji\r\n"
   10536, 	"\r\n [Leitura de n\xFAmeros]   Ler por dig\xEDtos→ <NUMK VAL=15>  \r\n  Adicionar Counter→<NUMK VAL=16 COUNTER=ほん>\r\n   (Neste caso, l\xEA-se como 1 [pon] 2 [hon]......) \r\n"
@@ -4468,8 +4468,8 @@ LANGUAGE LANG_JAPANESE, 0x1
   10698, 	"Mapa atual foi alterado\r\nSalvar as altera\xE7\xF5es primeiro?"
   10699, 	"Salvo"
   10700, 	"[MPS] Arquivo de Mapa (*.mps)|*.mps|All files(*.*)|*.*||"
-  10701, 	"Contagem de Dados"
-  10702, 	" Configura\xE7\xE3o"
+  10701, 	"Quantidades de dados"
+  10702, 	" para configurar"
   10703, 	"Arquivo de mapa atual\r\n[%s] \r\nn\xE3o est\xE1 registrado no System Database.\r\nPortanto n\xE3o pode ser aberto."
 }
 
@@ -4921,10 +4921,10 @@ LANGUAGE LANG_JAPANESE, 0x1
   11041, 	"Direcional(1-9,Teclas num\xE9ricas)"
   11042, 	"Posição X da Tela (Centro do personagem)"
   11043, 	"Posição Y da Tela (Abaixo do personagem)"
-  11044, 	"N\xFAmero de imagem da sombra"
-  11045, 	"N\xFAmero da tag do tile"
+  11044, 	"N\xFAmero de sprite de sombra"
+  11045, 	"N\xFAmero de tag do tile"
   11046, 	"ID do Evento (*Retorna o ID mesmo deletado)"
-  11047, 	"Est\xE1 na tela?(1:SIM 0:N\xC2O)"
+  11047, 	"Est\xE1 na tela? (1:SIM 0:N\xC2O)"
   11048, 	"P\xE1gina ativo [0:Nenhum 1+:P\xE1gina atual -1:Apagado]"
   11049, 	"Condi\xE7\xE3o atual(0:Tecla Enter - 4:Ao tocar o Evento)"
   11050, 	"Exten\xE7\xE3o de raio X"
@@ -5600,11 +5600,11 @@ LANGUAGE LANG_JAPANESE, 0x1
   11560, 	"Diferen\xE7a Azul \xB1"
   11561, 	"Diferen\xE7a Vermelho\xB1"
   11562, 	"Quantidade 1-16"
-  11563, 	"(Parar) Resetar todas as m\xE1scaras"
-  11564, 	"Ligar m\xE1scara da imagem"
-  11565, 	"Desligar m\xE1scara da imagem"
-  11566, 	"(Mostrar) Preencher m\xE1scara na tela"
-  11567, 	"(Ocultar) Preencher m\xE1scara na tela"
+  11563, 	"Resetar todas as m\xE1scaras (Parar)"
+  11564, 	"Ligar m\xE1scara (Imagem)"
+  11565, 	"Desligar m\xE1scara (Imagem)"
+  11566, 	"Preencher m\xE1scara na tela (Mostrar)"
+  11567, 	"Preencher m\xE1scara na tela (Ocultar)"
 }
 
 STRINGTABLE
@@ -5652,10 +5652,10 @@ LANGUAGE LANG_JAPANESE, 0x1
 STRINGTABLE
 LANGUAGE LANG_JAPANESE, 0x1
 {
-  11600, 	"Ligar m\xE1scara para personagem"
-  11601, 	"Desligar m\xE1scara para personagem"
-  11602, 	"Ligar m\xE1scara para mapa"
-  11603, 	"Desligar m\xE1scara para mapa"
+  11600, 	"Ligar m\xE1scara (Personagem)"
+  11601, 	"Desligar m\xE1scara (Personagem)"
+  11602, 	"Ligar m\xE1scara (Mapa)"
+  11603, 	"Desligar m\xE1scara (Mapa)"
   11604, 	"Criptografia da v3.00+ posterior"
   11605, 	"Criptografia da v2.25-2.29"
   11606, 	"Use a criptografia recente"
@@ -6021,7 +6021,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   11881, 	"Pr\xF3ximo ID da Imagem [N\xE3o aceita:Igual]"
   11882, 	"[Processo] ID de Evento de mapa executado por Confirmar/Ao tocar no frame atual [Nenhum: -1]"
   11883, 	"[Mouse] Mouse sobre a tela? [1:SIM]"
-  11884, 	"Coordenadas na Tela"
+  11884, 	"Coordenadas na tela"
   11885, 	"Coordenadas (px) do ID do Evento + Raio de extens\xE3o (Adi\xE7\xE3o com Zoom do mapa)"
   11886, 	"[Mouse] Coordenadas do mouse de amplifica\xE7\xE3o do EvID [Prioriza o menor ID, -1 n\xE3o existe]"
   11887, 	"Execu\xE7\xE3o de c\xF3digo especial(Come\xE7a do <<)"
@@ -6063,7 +6063,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   11913, 	"Apenas XY"
   11914, 	" "
   11915, 	"Ligar [Como Imagem]"
-  11916, 	"■Game.exe v3.50\r\n● O tempo de exibi\xE7\xE3o dos caracteres especiais como p[?], [?], mg[?] foi melhorado. \r\n● Mais flexiblidade na convers\xE3o dos caracteres especial e o n\xFAmeros com o \"Gerenciar DB\" (Antes, causava um erro.) \r\n● N\xE3o \xE9 mais possivel obter a informa\xE7\xE3o da imagem pelo Definir Vari\xE1vel+, se deletar a imagem com dura\xE7\xE3o de 0 frame. (Antes, podia obter as informa\xE7\xF5es pelo Definir Vari\xE1vel+, se a imagem for deletado durante 0 frames.) \r\n● Corrigido onde todas a camadas eram eliminados, quando o Sprite de personagem \xE9 deletado pelo \"Trocar Sprite de personagem\" do comando \"Efeitos\". (Antes, eram deletados todas as apar\xEAncias das camadas, por\xEAm ainda ficavam internamente.) \r\n●A adi\xE7\xE3o de zoom [Mapa] do \"ID de Evento nas coordenadas de mouse\" de \"Outro\" do Definir Vari\xE1vel+ agora \xE9 levado em conta. (Antes, n\xE3o adicionava o zoom) \r\n● O evento ao tocar o h\xE9roi pelos comandos \"Aproximar da posi\xE7\xE3o\" ou \"Aproximar do evento\" do Mover rota, executa quando em \"Ao tocar o evento\" (Antes, este 2 comandos n\xE3o inicializava o evento.) \r\n● Agora \xE9 possivel iniciar com \"Ao tocar o jogador\" quando o her\xF3i toca um evento pelo Mover Rota usando \"Processo paralelo\". (Antes, n\xE3o inicializava com \"Ao tocar o jogador\" quando evento \xE9 tocado pelo Mover rota.) \r\n● Corrigido bug onde a posi\xE7\xE3o do curso vai fora da tela, quando define um valor grande no \"sys6: posi\xE7\xE3o do curso Y\" para o tamanho da tela 320\xD7240. (Antes, tirava da tela por ser grande demais o Sys6,) \r\n● Corrigido bug quando o evento de \"Ao Tocar Evento\" nas coordenadas (0.0). inicializava uma vez durante o carregamento ou depois de inicializar. \r\n● Corrigido bug quando n\xE3o exibia na posi\xE7\xE3o esperada ao fazer um loop na imagem com rolagem ligado. (Antes o bug voltar\xE1 reaparecer) \r\n● \"Efeitos\" → Agora altera o valor de padr\xE3o ao obter com \"Definir Vari\xE1vel+\" no mesmo frame ao substituir o padr\xE3o de imagem com \"Personagem\". (Antes, era atrasado por um frame.) \r\n● \"Efeitos\" → Pode alterar o chip do evento com Tile chip pelo \"Trocar Sprite de personagem\" (Antes, n\xE3o era possivel alterar eventos com Tile chip.) \r\n● Corrigido bug quando um estado de execu\xE7\xE3o ficava preso quando Eventos de \"Ao tocar/Ao confirmar\" e \"reservados\" era executado ao mesmo tempo. (Antes, ao ficavam preso durante a inicizaliza\xE7\xE3o e se iniciar ao mesmo tempo.) \r\n● Corrigido bug quando n\xE3o retornava a dire\xE7\xE3o, depois de salvar durante uma conversa com um Evento do Mapa.(Antes, carregava a dire\xE7\xE3o do save atual.) \r\n● Corrigido bug onde a largura do cursor de escolha \xE9 menor do que a largura do caracteres, ao fazer o espa\xE7amento de caracteres com \\[?] e etc. \r\n● Corrigido bug onde se uma imagem de cadeia era definido em uma cadeia vazia, o tamanho da imagem \xE9 retornado pelo Definir Vari\xE1vel+ com os valores anteriores. \r\n● Corrigido bug onde a detec\xE7\xE3o de colis\xE3o apenas batia a cabe\xE7a e n\xE3o o p\xE9, se \"passagem (Evento/Tiles)\" do Definir Vari\xE1vel+ era usado nos eventos 0.5x1. \r\n● Agora retorna para -1 se n\xE3o h\xE1 um nome espercificado, quando obter (N\xFAmero Tipos/Dados/Campos) do Gerenciar DB (Antes, eles retornava para 0 depois de erro.)\r\n  →  Para mudar como era antes, ajuste o comportamento para a vers\xE3o \"3.353\" ou anterior. (\" ser\xE1 salvo como est\xE1.)"
+  11916, 	"■Game.exe v3.50\r\n● O tempo de exibi\xE7\xE3o dos caracteres especiais como p[?], [?], mg[?] foi melhorado. \r\n● Mais flexiblidade na convers\xE3o dos caracteres especial e o n\xFAmeros com o \"Gerenciar DB\" (Antes, causava um erro.) \r\n● N\xE3o \xE9 mais possivel obter a informa\xE7\xE3o da imagem pelo Definir Vari\xE1vel+, se deletar a imagem com dura\xE7\xE3o de 0 frame. (Antes, podia obter as informa\xE7\xF5es pelo Definir Vari\xE1vel+, se a imagem for deletado durante 0 frames.) \r\n● Corrigido onde todas a camadas eram eliminados, quando o Sprite de personagem \xE9 deletado pelo \"Trocar Sprite de personagem\" do comando \"Efeitos\". (Antes, eram deletados todas as apar\xEAncias das camadas, por\xEAm ainda ficavam internamente.) \r\n●A adi\xE7\xE3o de zoom [Mapa] do \"ID de Evento nas coordenadas de mouse\" de \"Outro\" do Definir Vari\xE1vel+ agora \xE9 levado em conta. (Antes, n\xE3o adicionava o zoom) \r\n● O evento ao tocar o h\xE9roi pelos comandos \"Aproximar da posi\xE7\xE3o\" ou \"Aproximar do evento\" do Mover rota, executa quando em \"Ao tocar o evento\" (Antes, este 2 comandos n\xE3o inicializava o evento.) \r\n● Agora \xE9 possivel iniciar com \"Ao tocar o jogador\" quando o her\xF3i toca um evento pelo Mover Rota usando \"Processo paralelo\". (Antes, n\xE3o inicializava com \"Ao tocar o jogador\" quando evento \xE9 tocado pelo Mover rota.) \r\n● Corrigido bug onde a posi\xE7\xE3o do curso vai fora da tela, quando define um valor grande no \"sys6: posi\xE7\xE3o do curso Y\" para o tamanho da tela 320\xD7240. (Antes, tirava da tela por ser grande demais o Sys6,) \r\n● Corrigido bug quando o evento de \"Ao Tocar Evento\" nas coordenadas (0.0). inicializava uma vez durante o carregamento ou depois de inicializar. \r\n● Corrigido bug quando n\xE3o exibia na posi\xE7\xE3o esperada ao fazer um loop na imagem com rolagem ligado. (Antes o bug voltar\xE1 reaparecer) \r\n● \"Efeitos\" → Agora altera o valor de padr\xE3o ao obter com \"Definir Vari\xE1vel+\" no mesmo frame ao substituir o padr\xE3o de imagem com \"Personagem\". (Antes, era atrasado por um frame.) \r\n● \"Efeitos\" → Pode alterar o chip do evento com Tile chip pelo \"Trocar Sprite de personagem\" (Antes, n\xE3o era possivel alterar eventos com Tile chip.) \r\n● Corrigido bug quando um estado de execu\xE7\xE3o ficava preso quando Eventos de \"Ao tocar/Ao confirmar\" e \"reservados\" era executado ao mesmo tempo. (Antes, ao ficavam preso durante a inicizaliza\xE7\xE3o e se iniciar ao mesmo tempo.) \r\n● Corrigido bug quando n\xE3o retornava a dire\xE7\xE3o, depois de salvar durante uma conversa com um Evento de Mapa.(Antes, carregava a dire\xE7\xE3o do save atual.) \r\n● Corrigido bug onde a largura do cursor de escolha \xE9 menor do que a largura do caracteres, ao fazer o espa\xE7amento de caracteres com \\[?] e etc. \r\n● Corrigido bug onde se uma imagem de cadeia era definido em uma cadeia vazia, o tamanho da imagem \xE9 retornado pelo Definir Vari\xE1vel+ com os valores anteriores. \r\n● Corrigido bug onde a detec\xE7\xE3o de colis\xE3o apenas batia a cabe\xE7a e n\xE3o o p\xE9, se \"passagem (Evento/Tiles)\" do Definir Vari\xE1vel+ era usado nos eventos 0.5x1. \r\n● Agora retorna para -1 se n\xE3o h\xE1 um nome espercificado, quando obter (N\xFAmero Tipos/Dados/Campos) do Gerenciar DB (Antes, eles retornava para 0 depois de erro.)\r\n  →  Para mudar como era antes, ajuste o comportamento para a vers\xE3o \"3.353\" ou anterior. (\" ser\xE1 salvo como est\xE1.)"
   11917, 	"Abrir navegador na p\xE1gina sobre Teclados? [Lista de c\xF3digos de teclas] \r\n\r\nhttps://smokingwolf.github.io/tool_wolf_rpg_editor/help/04ev_keyinput.html#keycode"
   11918, 	"Na v<VER>, os formatos dos dados do arquivo principal foi alterado, \r\nforam feito backup na pasta \"AutoBackup_Before_Ver<VER>\" dentro da pasta BasicData. \r\n(Game.dat, CommonEvent.dat, Sistema DataBase, Tileset.dat)\r\n\r\nCaso queira restaurar o EXE velho,\r\n por favor substituia pelo backup os cont\xE9udos da pasta BasicData."
   11919, 	"Self vari\xE1vel X do Evento Y desse mapa /1000000+10*Y+X"
@@ -6072,7 +6072,7 @@ LANGUAGE LANG_JAPANESE, 0x1
 STRINGTABLE
 LANGUAGE LANG_JAPANESE, 0x1
 {
-  11920, 	"SelfVar X deste Evento do mapa /1100000+X"
+  11920, 	"SelfVar X deste Evento de mapa /1100000+X"
   11921, 	"Common Self X deste Common Event Y/15000000+100*Y+X"
   11922, 	"Common Self X deste Common Event /1600000+X"
   11923, 	"Vari\xE1vel Normal X /2000000+X"
@@ -6107,7 +6107,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   11947, 	"N\xFAmero de Tipo DB"
   11948, 	"N\xFAmero de Dado"
   11949, 	"N\xFAmero de Campo"
-  11950, 	"N\xFAm/Nome da Matriz"
+  11950, 	"N\xFAm/Nome de Matriz"
   11951, 	"Coluna X (Dados)"
 }
 
@@ -6269,10 +6269,10 @@ LANGUAGE LANG_JAPANESE, 0x1
   12069, 	"TXT inclue Tipos e DadosDB(*.txt)|*.txt|All files(*.*)|*.*||"
   12070, 	"Tipos(ComDados)_%.3i_%s_to_%.3i_%s"
   12071, 	"%s \xE9 um arquivos de configura\xE7\xE3o tipos com %d defini\xE7\xF5es de tipos e todos seus dados.\r\nDeseja em substituir todos os tipos e todos seus dados?"
-  12072, 	"[TXT] Arquivo de Evento do mapa (*.txt)|*.txt|All files(*.*)|*.*||"
-  12073, 	"Este n\xE3o \xE9 Arquivo de Evento do Mapa."
-  12074, 	"Simples arquivo de Evento do Mapa. \r\nDeseja em substituir o Evento do Mapa\r\n%d?"
-  12075, 	"M\xFAltiplos arquivo de Evento do Mapa. \r\nOs Eventos dos Mapas %d at\xE9 %d ser\xE3o substituidos\r\n Deseja prosseguir?"
+  12072, 	"[TXT] Arquivo de Evento de mapa (*.txt)|*.txt|All files(*.*)|*.*||"
+  12073, 	"Este n\xE3o \xE9 Arquivo de Evento de Mapa."
+  12074, 	"Simples arquivo de Evento de Mapa. \r\nDeseja em substituir o Evento de Mapa\r\n%d?"
+  12075, 	"M\xFAltiplos arquivo de Evento de Mapa. \r\nOs Eventos dos Mapas %d at\xE9 %d ser\xE3o substituidos\r\n Deseja prosseguir?"
   12076, 	"Este arquivo cont\xE9m um Mapa inteiro e m\xFAltiplos Eventos do Mapa. \r\nSer\xE3o substituidos o Mapa e os Eventos do mapa %d at\xE9 %d \r\n Deseja prosseguir?"
   12077, 	"Escolha o valor"
   12078, 	"Cont\xEAm [Tileset%.3i:%s] do\r\n [Tileset%.3i:%s] \r\nCopie %d Tileset."
@@ -6458,12 +6458,12 @@ LANGUAGE LANG_JAPANESE, 0x1
   12213, 	"[Erro!] Ítens de dados do comando insuficientes, código de evento invalido! Delete, se não pode ocorrer um crash ao editar."
   12214, 	"Imagem não foi localizado."
   12215, 	"[px]"
-  12216, 	"【XY配列の名前を削除したいときは】"
-  12217, 	"XY配列名を削除したいときは\r\nファイル「Editor_XY_array_Name.ini」から\r\n不要な名前の行を削除してください。\r\n（番号が飛んでも問題ありません）\r\n\r\nShiftを押しながらこの[?]ボタンを押すと\r\n「Editor_XY_array_Name.ini」を\r\n開くことができます。"
-  12218, 	"ファイルが見つかりませんでした。"
-  12219, 	"ファイルが開けませんでした。"
-  12220, 	"【注意！　セルフ変数使用時の注意点 ・ XY配列の読込はできません】"
-  12221, 	"・「各セーブデータの内容読み書き」でセルフ変数を読み書きする場合は、\r\n　1100000や1600000（このイベントのセルフ変数）ではなく\r\n　1000000や15000000（指定したイベントのセルフ変数）で設定してください。\r\n\r\n・「各セーブデータの内容読み書き」で「XY配列」を読み書きすることはできません。"
+  12216, 	"Como remover um nome de matriz XY"
+  12217, 	"Remova o nome na linha correspondente, no arquivo Editor_XY_array_Name.ini.\r\n(Não há problema em pular números)\r\n\r\nPode abrir o Editor_XY_array_Name.ini, ao apertar o botão \"?\" enquanto segura Shift."
+  12218, 	"Arquivo não foi localizado."
+  12219, 	"Arquivo não pode ser aberto."
+  12220, 	"Aviso! Uso de self-variável / Matriz XY não é suportada"
+  12221, 	"- Quando ler ou escrever uma self-variável com \"Ler/Escrever Dados de Save específico\",\r\nconfigure usando 1000000 ou 15000000 (Self-variável do evento especificado), não use 1100000 ou 1600000 (Self-variável deste evento).\r\n\r\n- Não é possível ler ou escrever a matriz XY com \"Ler/Escrever Dados de Save específico\"."
 }
 
 STRINGTABLE
@@ -6774,7 +6774,7 @@ LANGUAGE LANG_JAPANESE, 0x1
   61718, 	"Entre um inteiro entre 0 e 255."
   61719, 	"Entre um inteiro positivo."
   61720, 	"Entre uma data e/ou tempo."
-  61721, 	"Entre um divisa."
+  61721, 	"Entre uma divisa."
   61722, 	"Entre um GUID."
   61723, 	"Entre um tempo."
   61724, 	"Entre uma data."
