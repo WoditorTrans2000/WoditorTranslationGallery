@@ -44,7 +44,7 @@ If the authors don't want their translations here, please send an e-mail or open
 E-Mail: WoditorGameGallery@protonmail.com<br>I'm Brazilian! I can understand English, but not Japanese (Learning!)
 
 [Discord](
-https://discord.com/invite/c3F7fNyDKE) **WolfRPGEditor Hub** If you want to discuss about translations, please join the discord!
+https://discord.gg/bFp8kSQHa8) **WolfRPGEditor Hub** If you want to discuss about translations, please join the discord!
 
 ## Status
 
