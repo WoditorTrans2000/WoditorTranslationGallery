@@ -6464,7 +6464,6 @@ LANGUAGE LANG_JAPANESE, 0x1
   12219, 	"The file could not be opened."
   12220, 	"Caution: Self Variable Usage / XY-Arrays Not Supported"
   12221, 	"- When you read or write self variables in \"Read/Write Specific Save Data,\"\r\n  use 1000000 or 15000000 (self variable of the specified event)\r\n  instead of 1100000 or 1600000 (self variable of this event).\r\n\r\n- You cannot read or write XY-Arrays in \"Read/Write Specific Save Data.\""
-12222, 	"■Game.exe　Ver3.665\r\n●[システム変数]の「Sys104,105:X･Yスクロール値」に、ループありのマップだと不自然な範囲の値しか格納できなかった問題や、特定条件でマイナス値を返すバグを修正。今後は「ループ有り」のマップであれば、Sys104,105にどんな値を代入してもループ分を吸収したスクロール値が反映されます。\r\n●[特殊文字]\\ay[?]の直後に改行を入れると「改行の間隔」が0になってしまうバグを修正\r\n→　もしスクロール挙動や改行の間隔が意図通りでなくなってしまった場合は、バージョン調整を「旧Ver3.644時点の挙動」以前に戻してください。"
 }
 
 STRINGTABLE

@@ -6464,7 +6464,6 @@ LANGUAGE LANG_JAPANESE, 0x1
   12219, 	"Arquivo não pode ser aberto."
   12220, 	"Aviso! Uso de self-variável / Matriz XY não é suportada"
   12221, 	"- Quando ler ou escrever uma self-variável com \"Ler/Escrever Dados de Save específico\",\r\nconfigure usando 1000000 ou 15000000 (Self-variável do evento especificado), não use 1100000 ou 1600000 (Self-variável deste evento).\r\n\r\n- Não é possível ler ou escrever a matriz XY com \"Ler/Escrever Dados de Save específico\"."
-12222, 	"■Game.exe　Ver3.665\r\n●[システム変数]の「Sys104,105:X･Yスクロール値」に、ループありのマップだと不自然な範囲の値しか格納できなかった問題や、特定条件でマイナス値を返すバグを修正。今後は「ループ有り」のマップであれば、Sys104,105にどんな値を代入してもループ分を吸収したスクロール値が反映されます。\r\n●[特殊文字]\\ay[?]の直後に改行を入れると「改行の間隔」が0になってしまうバグを修正\r\n→　もしスクロール挙動や改行の間隔が意図通りでなくなってしまった場合は、バージョン調整を「旧Ver3.644時点の挙動」以前に戻してください。"
 }
 
 STRINGTABLE
