@@ -20,7 +20,7 @@ There is 2 goal of this repository:
 
 You won't find the program in the repository, only the resource files. But if you want to use the **translated Editor**, then check the [releases](https://github.com/WoditorTrans2000/WoditorTranslationGallery/releases).
 
-If you're interested in help us - [Translations instructions](https://github.com/WoditorTrans2000/WoditorTranslationGallery/TranslationInstruction.md)
+If you're interested in help us - [Translations instructions](https://github.com/WoditorTrans2000/WoditorTranslationGallery/blob/main/TranslationInstruction.md)
 
 Join the Discord for discussion, question or hang out with us!
 
