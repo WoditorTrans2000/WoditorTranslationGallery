@@ -1,14 +1,14 @@
 0: -----
-1:[L] Confimar (Teclas)
+1:[L] Confirmar (Teclas)
 2:[L] Cancelar (Teclas)
 3:[L] Sub key (Teclas)
-4:[L] Confimar (Pad)
-5:[L] Cancelar (Pad)
-6:[L] Sub key (Pad)
+4:[L] Confirmar (Botão)
+5:[L] Cancelar (Botão)
+6:[L] Sub key (Botão)
 7: -----
 8: -----
 9: -----
-10:Arquivo de Sprite (Lider)
+10:Arquivo de Sprite (Líder)
 11:Arquivo de Sprite (Seguidor 1)
 12:Arquivo de Sprite (Seguidor 2)
 13:Arquivo de Sprite (Seguidor 3)
@@ -58,18 +58,18 @@
 57:[P] Conteúdos na área de transferências
 58: -----
 59: -----
-60:[P] Título de barra subtituído
+60:[P] Título de barra substituído
 61: -----
 62:[P] Fonte Básica subtituído
-63:[P] Sub-fonte 1 subtituído
-64:[P] Sub-fonte 2 subtituído
-65:[P] Sub-fonte 3 subtituído
+63:[P] Subfonte 1 subtituído
+64:[P] Subfonte 2 subtituído
+65:[P] Subfonte 3 subtituído
 66: -----
 67:[P] Fontes para entradas de Teclados
 68:Texto atual da entradas de Teclados
 69: -----
-70:[L] Nome de dispositivo Gamepad
-71:[L] Tipo de dispositivo Gamepad
+70:[L] Nome de dispositivo (Controle)
+71:[L] Tipo de dispositivo (Controle)
 72: -----
 73:[L] Pasta do Basic Data 
 74:[P] Próxima Inic. da Pasta Basic Data
@@ -77,10 +77,10 @@
 76:[L] Idioma do OS
 77: -----
 78: -----
-79:[読]ゲーム名 メイン
-80:[読]ゲーム名 追記
+79:[L] Nome do Jogo (Principal)
+80:[L] Nome do Jogo (Sufixo)
 81: -----
-82:[読]ﾊﾟﾌｫｰﾏﾝｽﾓﾆﾀｰ最終出力文
+82:[L] Ultíma linha do monitor de perfomance
 83: -----
 84: -----
 85: -----

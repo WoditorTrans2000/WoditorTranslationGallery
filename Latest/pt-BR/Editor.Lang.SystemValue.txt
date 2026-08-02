@@ -33,10 +33,10 @@
 32:[L] FPS da Tela (Cada segundos)
 33:Frameskip (0 até 2)
 34:Correção Y (px) do personagem [-(Tile -1) até 0]
-35:[L]Lider em movi.? (1:Sim) *Entre as tiles?
-36:Sombra do Lider (Sys9)
+35:[L]Líder em movi.? (1:Sim) *Entre as tiles?
+36:Sombra do Líder (Sys9)
 37:Separação do grupo (Passos)
-38:Entrada durante Teclado [1:Mouse e Toque +2:Pad]
+38:Entrada durante Teclado [1:Mouse e Toque +2:Botão]
 39:[L]Entrada do Teclado (0:Entrado -1:Cancelado)
 40:Entrada do Teclado X
 41:Entrada do Teclado Y
@@ -53,9 +53,9 @@
 52:Confimar (Teclas)
 53:Cancelar (Teclas)
 54:Sub key (Teclas)
-55:Confirmar (Pad)
-56:Cancelar (Pad)
-57:Sub key (Pad)
+55:Confirmar (Botão)
+56:Cancelar (Botão)
+57:Sub key (Botão)
 58:◆[Fim] Configuração das teclas◆
 59:Repetir tecla confirmar? (1=ON)
 60:Repetir tecla cancelar? (1=ON)
@@ -85,11 +85,11 @@
 84:[L]Tamanho da tela (Para velho/0-2/-1:Outro)
 85:[L]Modo de renderização(0:3D/1:Software)
 86: -----
-87:Sombra do seguidor 1 (-1:Lider)
-88:Sombra do seguidor 2 (-1:Lider)
-89:Sombra do seguidor 3 (-1:Lider)
-90:Sombra do seguidor 4 (-1:Lider)
-91:Sombra do seguidor 5 (-1:Lider)
+87:Sombra do seguidor 1 (-1:Líder)
+88:Sombra do seguidor 2 (-1:Líder)
+89:Sombra do seguidor 3 (-1:Líder)
+90:Sombra do seguidor 4 (-1:Líder)
+91:Sombra do seguidor 5 (-1:Líder)
 92: -----
 93:Dist. do BGM tocado [±255]
 94:Dist. do BGS tocando  (Ch=Sys99) [±255]
@@ -106,11 +106,11 @@
 105:Rolagem Y
 106: -----
 107: -----
-108:[L]Comandos por frame
+108:[L]Comandos por frames
 109: -----
 110:Valor atual da Seed (Aleatório)
 111:[L] Janela ativa (1:Sim)
-112:[L] Test Play? (1:Sim)
+112:[L] Teste de jogo? (1:Sim)
 113: -----
 114:[L] Versão do Movimento (x100)
 115:[L] Versão do Game.exe (x100)
@@ -132,21 +132,21 @@
 131:[Lider] Correção Central X
 132:[Lider] Correção Central Y
 133: -----
-134:Entrada direcional com Pad direc.? (1:ON)
+134:Entrada direcional com botão direc.? (1:ON)
 135:Entrada direcional analógico esquerdo? (1:ON)
 136:Escala de Janela precisa (0.1%) (-1=Auto)
 137:Escala da Janela (%) (-1=Auto)
 138:Modo de tela (0:Janela/1;Virtual/2:Cheio)
-139:[P]Exibe o mapa inteiro quando desampliar? (1:ON)
+139:[P]Exibe o mapa inteiro quando reduzir? (1:ON)
 140:Modo de escala da Janela (0:Nítido/1:Suave)
 141:[P]Linguagem do Sistema (0:JA/1:EN)
 142: -----
-143:[L]Comando Pro dispornivel? (1:SIM)
+143:[L]Comando Pro disponível? (1:SIM)
 144: -----
 145: -----
 146:DirectInput pra PS/Switch? (Recomendado)
 147: -----
-148:[P]Proxima inic. de escala da Janela (0.1%)
+148:[P]Próxima inic. de escala da Janela (0.1%)
 149: -----
 150:Desligar conversão de car. especiais (1:ON)
 151: -----
@@ -158,7 +158,7 @@
 157:[L] Esp. Horz. das letras (px)
 158:[L] Quebra de linha (px)
 159:[L] Separação de escolha (px)
-160:[読]最大マップレイヤー数
+160:[L] Número Máximo de Camada
 161: -----
 162: -----
 163: -----
