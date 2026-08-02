@@ -30,17 +30,17 @@ Currently only pt-BR and en-US are the one I'm updating when is necessary.
 
 The version of the dll being translated and from the latest folder is 3.691.
 
-🇧🇷 pt-BR - 99% - Sendo feito por [Woditortrans2000](https://github.com/WoditorTrans2000).
+🇧🇷 pt-BR - 100% - Sendo feito por [Woditortrans2000](https://github.com/WoditorTrans2000).
 
 MENU - 100%
 
 DIALOG - 99%
 
-STRINGTABLE - 99%
+STRINGTABLE - 100%
 
-SystemString.txt - 99%
+SystemString.txt - 100%
 
-SystemValue.txt - 99%
+SystemValue.txt - 100%
 
 🇺🇸 en-US - 100% - Translation being done by [Yumu](https://github.com/yumunet) and Edited by [Anya and Lolo](https://github.com/Anya-and-Lolo).
 
