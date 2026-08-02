@@ -34,7 +34,7 @@ The version of the dll being translated and from the latest folder is 3.691.
 
 MENU - 100%
 
-DIALOG - 99%
+DIALOG - 100%
 
 STRINGTABLE - 100%
 
