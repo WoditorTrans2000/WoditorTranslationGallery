@@ -6840,7 +6840,9 @@ STRINGTABLE
 LANGUAGE LANG_JAPANESE, 0x1
 {
   14016, 	"Caution: Save Data 0 is treated as a temporary file. Do not use it."
-  14017, 	"■Game.exe v3.727\r\n●[Set Variable+/Picture] Fixed a bug where moving the text position upward in a string picture using special characters such as \"\\my[Y]\" and \"\\ay[Y]\" could cause \"Image Height\" to be smaller than expected. (This also affected picture hit detection.)\r\n→ If \"Image Height\" or hit detection for string pictures no longer works as intended, set \"Adjust Game.exe Version\" to \"Old Version 3.692\" or earlier."
+  14017, 	"■Game.exe v3.729\r\n●[Set Variable+/Picture] Fixed a bug where moving the text position upward in a string picture using special characters such as \"\\my[Y]\" and \"\\ay[Y]\" could cause \"Image Height\" to be smaller than expected. (This also affected picture hit detection.)\r\n●[Set Variable+/Map Event] Fixed a bug where \"Character Sprite Vertical Divisions\" for a map event using a character sprite file ending with \"$.png\" returned 4 instead of 1.\r\n→ If you're using any of these features and they no longer behave as intended, set \"Adjust Game.exe Version\" to \"Old Version 3.692\" or earlier."
+  14018, 	"Common Events have been changed.\r\nSave before closing?\r\n(If not, changes will be lost.)"
+  14019, 	"■Game.exe v3.730\r\n●[Set String] The special code \"FIND_PATH\" now supports looping maps. (By default, it returns a path that accounts for map looping. New options such as /LOOP_XY and /NO_LOOP were also added.)\r\n●[Move Route] \"Auto Move\" now supports looping maps.\r\n→ If you want to revert to the old behavior, set \"Adjust Game.exe Version\" to \"Old Version 3.729\" or earlier."
 }
 
 STRINGTABLE
