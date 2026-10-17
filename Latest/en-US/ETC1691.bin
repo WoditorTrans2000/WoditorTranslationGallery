@@ -1,0 +1,651 @@
+﻿TITLE:
+Getting Started
+COMMENT:
+  This is the Start Guide for new users!
+  Even if you close this window, you can open it again from the Help menu in the main window.
+  Just keep that in mind before you close it!
+
+  This guide covers the basics, along with a few useful tips and tricks.
+  Be sure to check it out when you have some free time!
+
+  By the way, I'm Wolfarl, your guide to Woditor!
+  I'll be helping you through this guide!
+  (Woditor is short for WOLF RPG Editor.)
+---
+TITLE:
+Creating a New Map (1)
+COMMENT:
+The Map Selection window is the starting point for creating maps!
+
+1. To create a new map, first open the Map Selection window from the View menu in the main window.
+   (If the Map Selection window is already open, you're all set!)
+
+2. In the tree view of the Map Selection window, select any item you like, then right-click it and choose "Create New Map" to create a child map under it!
+
+  However, you'll also need to configure the map's settings when you create it.
+  It's a good idea to read the next page as well.
+---
+TITLE:
+Creating a New Map (2)
+COMMENT:
+If you're new to this, you can keep the settings minimal!
+
+1. If you're not familiar with the settings yet, just set "Name" when creating a new map. You can leave all other settings at their default values.
+   Just keep these two things in mind!
+
+   - Save folder and file name: The defaults are fine, but changing them later can be a bit of a hassle. If needed, change them now.
+   - Register to System DB: You can leave "Slot" as it is. Just make sure to enter a name that's easy to recognize in the "Name" field.
+
+2. The following settings can be changed later.
+
+   - Map Size: By default, the map is one screen in size.
+   - Tileset: If you already know which tileset you'll use, select it now.
+   - BGM, BGS, and Background: These can be set later. If left blank, there will be no sound or background image.
+---
+TITLE:
+Changing Map Settings
+COMMENT:
+You can change map settings later!
+
+1. Map settings can be changed later.
+   Switch to the Event layer, then right-click anywhere on the map and select "Open Map Settings".
+   This lets you change the current map's settings.
+
+2. Map Size, Tileset, BGM, BGS, and Background can also be changed later from the Map Settings window.
+   So there's no need to rush and configure everything when creating a new map.
+---
+TITLE:
+Drawing Maps
+COMMENT:
+When drawing maps, pay attention to layers!
+
+1. To draw a map, first select one of the layer buttons labeled 1, 2, or 3 near the top left of the main window.
+   The Map Tile window should then appear.
+
+2. Start by selecting layer 1. Left-click a tile in the Map Tile window, then try drawing the ground or floor.
+   You can think of layer 1 as the base of the map!
+
+3. After that, use layers 2 and 3 to add walls, decorations, and other details as needed.
+   Think of layer 1 as the base, and layers 2 and 3 as the things you place on top.
+---
+TITLE:
+Map Creation Tips 1
+COMMENT:
+Useful techniques to make map drawing easier! Part 1!
+
+  When layer 1, 2, or 3 is selected:
+
+- Left-drag in the Map Tile window to select an area of tiles.
+
+- Right-click a tile in the main window to copy it.
+  Right-drag to copy an area of tiles.
+
+- Right-click an empty spot in the main window to switch to the eraser (tile 0).
+  The tile in the top-left corner of the Map Tile window is also the eraser.
+  The eraser is actually the Blank tile.
+  You can also erase tiles by pressing the X key in the main window.
+---
+TITLE:
+Map Creation Tips 2
+COMMENT:
+Useful techniques to make map drawing easier! Part 2!
+
+- In the main window or the Map Tile window, hold down the Space key or middle mouse button and drag to scroll the map or tiles.
+  It's very handy!
+  (This also works in the event command area and while editing tileset settings.)
+
+- In the main window:
+  - Use Ctrl+mouse wheel to zoom in or out.
+  - Use Ctrl+right-drag to copy all three layers.
+    Then use Ctrl+left-click to paste all three layers.
+---
+TITLE:
+Map Creation Shortcut Keys
+COMMENT:
+Learn the shortcut keys for map creation!
+
+- Number keys 1-4: Switch to the corresponding layer
+
+When drawing a map:
+- Double right-click: Switch to the next layer
+- Q: Pencil Tool
+- W: Fill Tool
+- E: Rectangle Fill Tool
+- X: Set the tile under the cursor to Blank (Eraser)
+- Ctrl+Z: Undo the last map edit
+---
+TITLE:
+Setting the Starting Position
+COMMENT:
+Choose where the Leader will start the game!
+
+1. The Leader's starting position is determined by the Game Start Position.
+
+2. To set the Game Start Position, first open the map where you want the game to begin, then switch to the Event layer.
+
+3. Right-click where you want the Leader to appear, then select "Set Game Start Position".
+   That's it! The game will now start from that position.
+---
+TITLE:
+Playtest
+COMMENT:
+Test things as soon as you make them! That's the key to getting better!
+
+1. After creating a map or event, try it in Playtest as soon as you can.
+   Testing after each small change makes it easier to tell what caused a problem than checking everything all at once later.
+
+2. To start Playtest, click the green arrow icon on the right side of the main window.
+   You can also start it by pressing Ctrl+T.
+   In some windows, F9 works too.
+---
+TITLE:
+Applying Changes During Playtest
+COMMENT:
+Changes are not applied automatically during Playtest!
+
+If you're editing the game while Playtest is running, changes you make in the editor won't be applied to the game automatically.
+To apply your changes to the game, do one of the following.
+
+- First, press F12 in the game to reset the game.
+  This is usually all you need to do.
+
+- Press F11 in the game to reload on the spot.
+  This lets you apply changes to maps, Common Events, the User Database, tileset settings, and more.
+  However, the Variable Database won't be reloaded.
+  Also, any event currently running will be stopped.
+
+- If you changed Screen Resolution or other settings in Basic Game Settings:
+  You'll need to close the game window, then start Playtest again.
+
+- If you only changed a map:
+  You can also reload the map simply by switching maps with a Transfer command.
+---
+TITLE:
+Placing Map Events
+COMMENT:
+Next, let's place Map Events! They're placed on the Event layer!
+
+1. When you want to place an event, first switch to the Event layer ("Ev" icon).
+
+2. Double-click an empty spot to place a new event there.
+   (You can also right-click and select "Create/Edit Event".)
+   You can use events to create many things that happen in the game, such as people to talk to, objects to inspect, treasure chests, and map transfers!
+
+3. To open an event that's already been placed, just double-click it on the Event layer!
+---
+TITLE:
+What Are Event Commands?
+COMMENT:
+Everything in WOLF RPG Editor runs on Event Commands!
+
+Things like displaying messages, playing sounds, transferring to another location, and changing variables are basically all done with Event Commands!
+In other words, Event Commands are the building blocks for creating a game.
+
+There are a lot of them, so they may seem difficult at first, but you don't need to learn them all right away.
+Just start with the commonly used ones and learn them little by little!
+
+In this guide, I'll introduce some commands that beginners often use: Show Message, Show Choices, Set Variable, Condition (Number), Picture, Sound, Transfer, and Common Event.
+---
+TITLE:
+Show Message Command
+COMMENT:
+This is the best command to try first!
+
+1. After creating an event, try adding a Show Message command to it first.
+   This is the simplest command and an easy way to check that the event is working properly!
+
+2. In the Map Event or Common Event window, click "■ Open Command Window ■".
+
+3. Select "Show Message" from the left side of the Command Window. (It's probably selected by default.)
+   Enter "Hello!" as the message and click "Insert". The message will appear when you interact with the event.
+
+4. Click "Save" or "Update" in the Map Event or Common Event window to save your changes.
+   (From here on, this guide won't explain the saving step again.)
+
+5. For your first practice, try making simple events like talking to a villager, reading a sign, or showing a short message before inspecting a treasure chest.
+---
+TITLE:
+Show Choices Command
+COMMENT:
+This command lets you ask the player, "Which one will you choose?"
+
+1. The Show Choices command lets you show several choices to the player and make different things happen depending on what they choose.
+
+2. For example, you can show these two choices:
+   - "Yes"
+   - "No"
+   Then you can make an event that moves things forward if "Yes" is chosen, and ends the conversation if "No" is chosen.
+
+3. It's very useful for RPG-style interactions, such as deciding whether to enter a shop, open a treasure chest, or accept a quest!
+
+4. It's a good idea to start with just two choices.
+   Even simply changing the message based on the player's choice can make your game feel much more interactive.
+---
+TITLE:
+Set Variable Command
+COMMENT:
+Variables are "boxes" that remember the state of the game!
+
+1. A variable is like a box that can store a number.
+   You can use variables to keep track of things like whether a treasure chest has been opened or how many times something has been done.
+   The initial value of a variable is 0.
+
+2. At first, you only need to know how to set a variable to 1 and add 1 to a variable!
+
+3. For example, you can leave a variable at 0 at first, then set it to 1 when a button is pressed.
+   You can then use that variable to check whether something has already happened.
+---
+TITLE:
+Condition (Number) Command
+COMMENT:
+Use conditions to make different things happen depending on the situation!
+
+1. The Condition (Number) command lets you make one thing happen if a variable has a certain value, and something else happen otherwise.
+
+2. For example, it's useful for making events like this:
+   - If the treasure chest hasn't been opened yet: Give the player an item
+   - If it has already been opened: Display "It's empty."
+
+3. It's especially powerful when combined with the Set Variable command.
+   For example, you can create an event that shows one conversation when a variable is 0, and a different one when it's 1 or higher!
+   This command is essential for changing conversations and creating one-time events.
+---
+TITLE:
+Picture Command
+COMMENT:
+Use this command to display images on the screen!
+
+1. The Picture command lets you display an image anywhere on the screen, move it, or remove it.
+
+2. For example, you can use it to:
+   - Show an image instead of a character portrait
+   - Show an illustration during a story scene
+   As you get more familiar with it, you can even create your own custom menus!
+
+3. It may look difficult at first, but just start with something simple:
+   - Display one image
+   - After a while, remove it
+   That's enough to start with!
+
+Once you get used to it, the Picture command becomes very important when using WOLF RPG Editor to make games other than RPGs.
+If you want more freedom in designing your screens, this command is definitely worth getting familiar with!
+---
+TITLE:
+Sound Command
+COMMENT:
+Adding sound instantly makes your game come alive!
+
+1. The Sound command lets you play BGM, BGS, and sound effects.
+   For example, you can easily do things like:
+   - Changing the BGM after a conversation
+   - Playing a sound when a treasure chest is opened
+   - Playing a beep when the player confirms an action
+
+2. For your first practice, try adding sound effects to a treasure chest or door.
+   It'll make an event with only images and text feel much more satisfying!
+
+Note: BGS stands for "background sound"!
+BGS loops automatically just like BGM, but there are two key differences:
+- Cannot play MIDI files; only OGG, MP3, and WAV files are supported
+- Can play any number of BGS channels at the same time
+It's usually used for sounds such as wind or waterfalls.
+---
+TITLE:
+Transfer Command
+COMMENT:
+Use this command to move the Leader to another map!
+
+1. The Transfer command lets you move the Leader to another map.
+   You can use it for things like entering a house in town or going to the next floor of a dungeon!
+
+2. Usually, you place an event where you want the transfer to happen, then run the Transfer command inside it.
+   It's perfect for doors, stairs, warp points, and more.
+
+3. You need to specify the destination map and coordinates, so creating the destination map first makes setting up the transfer easier and less confusing.
+---
+TITLE:
+Common Event Command
+COMMENT:
+Use the Common Event command to call shared processes!
+
+1. A Common Event is a shared process that can be called from different places.
+   The Common Event command lets you call it.
+
+2. For example, in the Base System, things like adding or removing items, changing the amount of money, and opening the menu are handled by Common Events.
+
+3. If you use the Base System, you'll probably use the Common Event command often.
+---
+TITLE:
+What Are Event Pages?
+COMMENT:
+Map Events have a feature called Event Pages!
+
+1. You can create multiple pages within a Map Event.
+   By setting a trigger condition for each page, you can make the event switch pages based on a variable's value!
+
+2. For example, you can divide a treasure chest into pages like this:
+   - Page 1: Not opened yet (Condition: Self0 Equal 0)
+   - Page 2: Empty after being opened (Condition: Self0 Equal 1)
+
+3. However, keep in mind that higher-numbered Event Pages take priority!
+---
+TITLE:
+Let's Make a Treasure Chest
+COMMENT:
+A treasure chest is packed with the basics of event creation!
+
+1. To make a treasure chest, first create an event on the Event layer where you want to place it.
+   To make it look like one, set its Sprite to a treasure chest.
+   (In the sample data, you can select one from "Tileset".)
+
+2. On Page 1, set it up to:
+   - Show a message
+   - Give the player an item (in the Base System, use the Common Event command)
+   - Use Set Variable to mark the chest as opened (for example, Self0 = 1)
+
+3. Next, create Page 2 for the chest after it has been opened.
+   Set its Sprite to an open treasure chest, and set its trigger condition to "Self0 Equal 1".
+   If you add a message such as "It's empty." on Page 2, the player can tell there's nothing left inside.
+
+4. A treasure chest is a great way to practice all of these things at once:
+   - Showing messages
+   - Giving the player an item
+   - Tracking whether the chest has been opened
+   - Switching between Event Pages
+   You can also make things like items on the ground in the same way.
+---
+TITLE:
+Trigger: Autorun
+COMMENT:
+Autorun events start on their own when you enter a map!
+
+1. If you set the Trigger to "Autorun", the event runs automatically as soon as its conditions are met.
+   Think of it as an event that starts without the player having to interact with it!
+
+2. Autorun events are useful for things like:
+   - An opening scene right after the game starts
+   - A conversation right after the player enters a map
+   - An event that starts automatically when certain conditions are met
+
+3. However, while an Autorun event is running, the Leader can't move, and other events can't start.
+   So make sure it won't run again after it finishes. Otherwise, it may keep repeating the same process forever.
+
+4. To start, try making a one-time Autorun event like this:
+   1. Show a message
+   2. Change a self variable's value
+   3. The event then switches to Page 2, which doesn't use Autorun, so it won't start again
+
+Note: Autorun events won't start while a Confirm Key, Player Touch, or Event Touch event is running. The reverse is also true.
+Unlike Parallel Process events, only one of these events can run at a time.
+---
+TITLE:
+Trigger: Parallel Process
+COMMENT:
+Parallel Process events keep running in the background!
+
+1. If you set the Trigger to "Parallel Process", the event keeps running alongside gameplay. Any number of Parallel Process events can run at the same time!
+
+2. Parallel Process events can run while the player is moving, or even while other events are running. This is useful for things like:
+   - Running a process at regular intervals
+   - Monitoring key input (this is also used when menus wait for key input!)
+   - Continuously displaying or updating something
+
+3. Parallel Process is very useful, but depending on how you set it up, it can increase processing load or cause confusion if you don't notice something running in the background. At first, it's fine to use it only when needed!
+
+4. When creating a Parallel Process event, adding waits and setting clear conditions can help keep it from running more than necessary and make its behavior more stable.
+
+Note: If the trigger condition for a Parallel Process event is no longer met, processing ends as soon as it reaches a wait or similar point, even partway through the event.
+Be careful when using Set Variable if changing the value will cause that condition to no longer be met.
+---
+TITLE:
+What Is a Variable Reference Value?
+COMMENT:
+Enter "2000000" in a numeric field to use a variable's value!
+
+1. In WOLF RPG Editor, in some fields where you enter numbers, you can use a special value called a Variable Reference Value instead of a fixed number. This lets you use the value stored in a variable!
+
+2. This is useful when you want to use a variable's value instead of a fixed value like "5".
+   For example, if you enter "2000000" in a numeric field, it automatically reads the value of Normal Variable 0 instead of using two million!
+   Variable Reference Values give you a lot more freedom when creating events.
+
+Tip: Right-click a numeric field to select an example Variable Reference Value from a list! It's very useful, so remember to right-click!
+
+3. In most fields in the Command Window, you can also select a variable from a drop-down menu, so you're usually fine without knowing this trick. However, you'll need it in some cases, such as when you want to use a variable with the Picture command.
+   Once you get used to it, you can do all kinds of things, such as transferring to a position stored in variables or using variables to set where a picture is displayed.
+---
+TITLE:
+What Are Special Characters?
+COMMENT:
+You can use things like \f[X] in Show Message and String Pictures!
+
+1. In WOLF RPG Editor, you can use special formatting in Show Message, String Pictures, and other text fields to change how text looks or what appears in it.
+   This is called "special characters"!
+
+2. For example:
+   - \f[size] changes the font size
+   - \c[color number] changes the font color
+     (Text colors must be entered in Type 12 of the System Database.)
+   - For variables, \v[12], \cself[0], and \sysS[0] insert their values into text
+   - For controlling message display, \m[10] changes the position of the next character
+   ...and more.
+
+Tip: Right-click a string field to select examples of special characters from a list! It's very useful, so remember to right-click!
+
+3. Special characters let you do more than just display text. You can make text easier to read or display variable values directly in it.
+
+4. You don't need to memorize them all at first!
+   Just knowing that you can change the text size and display variables in text will already be very useful.
+---
+TITLE:
+Event Editing Tip: F12
+COMMENT:
+F12 is really handy when editing events!
+
+There's a handy trick you can use in the Map Event and Common Event windows. That's the F12 key!
+
+- Select the Call Event command and press F12 to jump straight to the Common Event it calls!
+
+- Select the DB Management command and press F12 to jump straight to the Type and Data entry it refers to!
+
+Learn tricks like these to speed up your work!
+---
+TITLE:
+Event Order Within a Frame
+COMMENT:
+There's actually a specific order in which events run within each frame...
+
+Everything in the game is processed one frame at a time. One frame is about 0.0166 seconds (1/60 of a second), but that's not important right now!
+
+WOLF RPG Editor has events with various Triggers, and within each frame, they actually run in the following order:
+
+ Parallel Process Map Events
+ → Autorun, Player Touch, and Event Touch Map Events
+ → Autorun Common Events
+ → Parallel Process Common Events
+ → (If no event using Autorun, Confirm Key, Player Touch, or Event Touch is currently running)
+    Leader movement and trigger checks for Confirm Key, Player Touch, and Event Touch
+ → Frame complete
+
+Because processing within a frame happens in this order, some processing may be pushed to the next frame.
+This can cause things like the screen looking wrong for just one frame!
+
+This usually won't matter unless you're working with very timing-sensitive processing, but if you ever run into trouble with event execution order, I hope you'll remember this page!
+---
+TITLE:
+Tileset Settings
+COMMENT:
+Tileset Settings is where you set map tile graphics and passability!
+
+1. In Tileset Settings, you can choose the tile image used on the map and configure tile passability.
+   You can open it by selecting Tileset Settings from the View menu in the main window, or by clicking the green-and-water tileset icon.
+
+2. In Tileset Settings, you can configure things like:
+   - This floor can be walked on, but this wall can't
+   - This tile is always displayed above characters (★ tile)
+
+3. If something on a map looks like a wall but you can walk through it, or looks like a floor but you can't, checking Tileset Settings may help you find the cause.
+
+4. At first, it's best to use the existing tileset settings as they are and gradually change them as needed!
+---
+TITLE:
+Databases
+COMMENT:
+Databases let you manage all kinds of data used in your game!
+
+1. Databases let you manage the data your game needs, such as characters, items, and skills, all in one place.
+
+2. WOLF RPG Editor has three types of databases:
+
+   - User Database: Stores fixed values such as enemy stats and skill effects
+   - Variable Database: Handles values that change during gameplay, such as character levels and HP, ally and enemy stats during battle, and the items you currently have
+   - System Database: Stores settings for things like portraits, text colors, and transition images (screen transition effects)
+
+   You can use each database for different purposes.
+
+3. Databases may look complicated at first, but you can basically think of each one as a table where you can keep numbers, names, and other information together!
+
+4. If you're using the Base System, databases are also used extensively to configure things like allies, items, and skills.
+   They're essential for building your own system, and once you get used to them, they make it much easier to organize your entire game.
+---
+TITLE:
+What Are Basic Game Settings?
+COMMENT:
+Basic Game Settings is where you set the basic rules for your entire game!
+
+1. In Basic Game Settings, you can configure settings that affect the entire game, such as the screen resolution, leader sprite, and how text is displayed.
+
+2. At first, you don't need to fine-tune every setting.
+   However, checking things like these can help you get a better sense of your game's basic setup:
+   - Game Name
+   - Screen Resolution
+   - Character Settings (Animation Patterns, Default Hitbox)
+   - Font to Use
+
+3. Note that if you're using the Base System, some visual and initial settings are controlled by the databases rather than Basic Game Settings.
+   If you change Starting Leader Sprite and nothing happens, this may be why.
+
+   (For example, in the Sample Game or Empty Data with Base RPG System, you need to set the party in Type 6 and the character sprites in Type 0 of the Variable Database.)
+---
+TITLE:
+Changing the Leader's Appearance
+COMMENT:
+How you change the Leader's appearance depends on which data you're using!
+
+A. If you're using the Sample Game or Base System:
+Open the Variable Database. In Type 0 "Allies", you can change the character sprite for a specific character.
+To change the starting party members themselves, use Type 6 "Party" in the Variable Database.
+(When using the Base System, changing Starting Leader Sprite in Basic Game Settings won't change the sprite!)
+
+B. If you're not using the Sample Game or Base System:
+You can set the sprite using Starting Leader Sprite in Basic Game Settings.
+---
+TITLE:
+If the Editor Is Too Small
+COMMENT:
+If the Editor looks too small, try changing the settings!
+
+You can change the window scaling from Options > Editor Options!
+If things look too small, try setting Overall Scale to something like 125%.
+
+You can also make individual windows larger or smaller.
+---
+TITLE:
+Create Game Data
+COMMENT:
+Once you're done, use Create Game Data to prepare your game for distribution!
+
+1. When you want to package your game so others can play it, select File > Create Game Data in the main window.
+
+2. This outputs game data that you can distribute.
+   You can also encrypt the files to protect their contents.
+
+3. Before release, it's a good idea to launch the game once from the created game data and make sure it works properly, in addition to playtesting.
+
+Note: The Get File List function in Set String won't work inside encrypted folders.
+Keep this in mind if you use this function!
+---
+TITLE:
+Basic Characters in File Names
+COMMENT:
+Stick to basic characters in file names!
+
+When creating encrypted game data, some non-ASCII characters in file names may prevent files from being packed.
+
+To avoid problems, it's best to use only letters, numbers, and common symbols in file names.
+---
+TITLE:
+What Is the Base System?
+COMMENT:
+The Base System gives you a foundation for making a standard RPG!
+
+The Base System is a default system for making a standard RPG, built with Common Events and databases.
+
+It already includes much of what you need, such as a menu system, battle system, item and money handling, and stat changes, making it very convenient if you want to make an RPG!
+
+However, the system itself is fairly advanced, so you don't need to understand everything at first.
+Start by using it as is, and if you later need to customize it, look through its contents little by little.
+
+If you want to start making an RPG right away, choose the Base System.
+If you want to build everything yourself, choose Completely Empty Data.
+This is a simple way to decide which one to use.
+---
+TITLE:
+Starting from Empty Data
+COMMENT:
+If you want to build everything yourself, start with Completely Empty Data!
+
+Delete the "Data" folder and launch "Editor.exe" to open the window for creating empty data.
+If you no longer need the sample data, give this approach a try!
+
+Note: The Base System is fairly large, so at first, you don't need to force yourself to understand how it works. In some cases, starting from Completely Empty Data may be easier to understand!
+---
+TITLE:
+Building Your Own System
+COMMENT:
+How do you build your own system?
+
+When building your own system, you can basically make the parts that don't use map features or Map Events by repeating these three things:
+
+- Display images and text with the Picture command
+- Move the pictures or play sounds based on key input
+- Use variables and databases to store and change things like positions, parameters, and quantities
+
+A huge variety of things can be made this way!
+Menus, battles, and item handling all follow the same basic idea.
+
+So if you learn to use Event Commands effectively, you should be able to recreate the look of many 2D games.
+
+However, once you start involving maps and Map Events, you'll run into some quirks unique to WOLF RPG Editor.
+Getting used to those quirks just takes practice. Keep at it!
+---
+TITLE:
+Use the Task List
+COMMENT:
+Worried you'll forget what to do next? That's what the Task List is for!
+
+1. When you're making a game, you'll find more and more things you want to do later, such as:
+   "I want to fix this event later."
+   "I want to review this Common Event."
+
+2. That's where the Task List comes in handy!
+   You can write down tasks as soon as you think of them, so you're less likely to forget what you were planning to do.
+
+3. You can open the Task List from the View menu in the main window.
+   If you notice something while working, it's a good idea to write it down right away, even if it's just one line!
+
+4. If you add a Marker to a task using buttons such as "MapEv" or "Common", you can jump straight to that location just by double-clicking the task!
+   Markers can also work as bookmarks, so add them for any locations you want to remember!
+---
+TITLE:
+Want to Learn More...?
+COMMENT:
+The manual is full of features and tricks you haven't discovered yet!
+
+What I've covered here is only a small part of what you can do!
+There are plenty more features and tricks to discover in both the official manual and the editor itself.
+If you're interested, be sure to check out the manual too!
+
+Manual Page:
+https://smokingwolf.github.io/tool_wolf_rpg_editor/help/
+
+I hope you enjoy your game development journey!

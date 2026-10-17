@@ -6,7 +6,7 @@
 5:Message Continue Icon X (Add to Sys1)
 6:Message Continue Icon Y (Add to Sys2)
 7:Initial Choice (0,1,2...)
-8:Base Font Size
+8:Default Font Size
 9:Message Speed (X chars/s)
 10:Message Wait (X frames)
 11:Picture String Speed (X chars/s)
@@ -110,7 +110,7 @@
 109: -----
 110:Current Random Seed
 111:[RO] Window Active? (1:Yes)
-112:[RO] Test Play? (1:Yes)
+112:[RO] Playtest? (1:Yes)
 113: -----
 114:[RO] Adjusted Version (x100)
 115:[RO] Game.exe Version (x100)
@@ -161,7 +161,7 @@
 160:[RO] Max Map Layer Count
 161: -----
 162: -----
-163: -----
+163:Use Touch as Mouse? (1:ON)
 164: -----
 165: -----
 166: -----
