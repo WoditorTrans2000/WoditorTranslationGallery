@@ -24,21 +24,23 @@ Join the Discord for discussion, question or hang out with us!
 
 ## Status
 
-Currently only pt-BR and en-US are the one I'm updating when is necessary.
+Currently only pt-BR and en-US are the one being updating when is necessary.
 
-The version of the dll being translated and from the latest folder is 3.691.
+The version of the dll being translated and from the latest folder is **3.731**.
 
 🇧🇷 pt-BR - 100% - Sendo feito por [Woditortrans2000](https://github.com/WoditorTrans2000).
 
-MENU - 100%
+MENU - 99%
 
-DIALOG - 100%
+DIALOG - 98%
 
-STRINGTABLE - 100%
+STRINGTABLE - 95%
+
+Start Guide (ETC1691.bin) - 0%
 
 SystemString.txt - 100%
 
-SystemValue.txt - 100%
+SystemValue.txt - 99%
 
 🇺🇸 en-US - 100% - Translation being done by [Yumu](https://github.com/yumunet) and Edited by [Anya and Lolo](https://github.com/Anya-and-Lolo).
 
@@ -47,6 +49,8 @@ MENU - 100%
 DIALOG - 100%
 
 STRINGTABLE - 100%
+
+Start Guide (ETC1691.bin) - 100%
 
 SystemString.txt - 100%
 
@@ -78,12 +82,12 @@ He is the developer of WolfRPGEditor and I would like to thank him for putting t
 <br/>
 
 🇧🇷 pt-BR<br>
-**(v3.39, v3.562, v3.555, v3.574, v3.613, v3.618, v3.626, v3.632, v3.662, v3.665 and v3.691)** translations by [Woditortrans2000](https://github.com/WoditorTrans2000) (Owner of this repository).
+**(v3.39, v3.562, v3.555, v3.574, v3.613, v3.618, v3.626, v3.632, v3.662, v3.665, v3.691 and v3.731)** translations by [Woditortrans2000](https://github.com/WoditorTrans2000) (Owner of this repository).
 
 <br/>
 
 🇺🇸 en-US<br/>
-**(v3.613, v3.618, v3.626, v3.632, v3.662, v3.665 and v3.691)** Translations by [Yumu](https://github.com/yumunet), Edited by [Anya and Lolo](https://github.com/Anya-and-Lolo) <br>Previously, the translation used vgperson and Sugy's translation. But because of Yumu's contribution, it is now something of it's own.<br> Also I would like to thank him for helping me with the repository and give me suggestion!
+**(v3.613, v3.618, v3.626, v3.632, v3.662, v3.665, v3.691 and v3.731)** Translations by [Yumu](https://github.com/yumunet), Edited by [Anya and Lolo](https://github.com/Anya-and-Lolo) <br>Previously, the translation used vgperson and Sugy's translation. But because of Yumu's contribution, it is now something of it's own.<br> Also I would like to thank him for helping me with the repository and give me suggestion!
 
 **(v1.10, v1.20, v1.30, v1.31, v3.562, v3.566 and v3.574)** Used Vgperson and Surgy to translate, with the addition of Woditortrans2000 and Yumu. However, the translation is out of date, so it needs to be updated.
 
